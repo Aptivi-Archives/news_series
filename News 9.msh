@@ -1,0 +1,154 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Check=Check.acs
+Debbie=Debbie.acs
+Hanz=Hanz.acs
+Isabella=Isabella.acs
+James=James.acs
+Joe=Joe.acs
+Marge=Marge.acs
+Milton=Milton.acs
+Birdie=Birdie.acs
+Alien=Alien.acs
+Al=Al.acs
+Merlin=Merlin.acs
+Robby=Robby.acs
+Genie=Genie.acs
+Oscar=Oscar.acs
+Spaceman=Spaceman.acs
+
+[LanguageIDs]
+Check=&H409
+Debbie=&H409
+Hanz=&H409
+Isabella=&H409
+James=&H409
+Joe=&H409
+Marge=&H409
+Milton=&H409
+Birdie=&H409
+Alien=&H409
+Al=&H409
+Merlin=&H409
+Robby=&H409
+Genie=&H409
+Oscar=&H409
+Spaceman=&H409
+
+[Script]
+Check.MoveTo 1331, 741
+Check.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Check.Show()
+WaitFor Req
+Debbie.MoveTo 1223, 683
+Debbie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Debbie.Show()
+WaitFor Req
+Isabella.MoveTo 1127, 679
+Isabella.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Isabella.Show()
+WaitFor Req
+Hanz.MoveTo 1057, 772
+Hanz.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Hanz.Show()
+WaitFor Req
+James.MoveTo 939, 681
+James.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = James.Show()
+WaitFor Req
+Joe.MoveTo 851, 748
+Joe.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Joe.Show()
+WaitFor Req
+Marge.MoveTo 727, 720
+Marge.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Marge.Show()
+WaitFor Req
+Milton.MoveTo 624, 743
+Milton.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Milton.Show()
+WaitFor Req
+Birdie.MoveTo 1293, 63
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Birdie.Show()
+WaitFor Req
+Alien.MoveTo 545, 740
+Alien.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Alien.Show()
+WaitFor Req
+Al.MoveTo 460, 732
+Al.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Al.Show()
+WaitFor Req
+Merlin.MoveTo 375, 740
+Merlin.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Merlin.Show()
+WaitFor Req
+Robby.MoveTo 307, 738
+Robby.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273006}"
+Set Req = Robby.Show()
+WaitFor Req
+Genie.MoveTo 233, 740
+Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Genie.Show()
+WaitFor Req
+Set Req = James.Speak("Peedy in still not here?")
+WaitFor Req
+Set Req = Joe.Speak("Yes")
+WaitFor Req
+Alien.Speak "Yes"
+Set Req = Alien.Play("Sad")
+WaitFor Req
+Set Req = Robby.Speak("640 rounds.")
+WaitFor Req
+Set Req = Milton.Speak("OK, Please news begin.")
+WaitFor Req
+Oscar.MoveTo 171, 739
+Oscar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Oscar.Show()
+WaitFor Req
+Birdie.Speak "Let's talk about failures."
+Birdie.MoveTo 414, 352
+Birdie.Speak "His PC suddenly failed to start, It was stuck on the Windows Loading page for couple of minutes and then it restart itself and repeat."
+Birdie.Speak "Now he tried to install Windows 7 and it's really slow, It takes just 1 hour to see the start page and Ages to actually start the installation."
+Set Req = Birdie.Speak("When he tried to delete partitions it fails and He wonder if it can be something else than Hard Drive problem.")
+WaitFor Req
+Oscar.Speak "I'll be hide."
+Oscar.Hide
+Set Req = Oscar.Show()
+WaitFor Req
+Birdie.Speak "He are having problems with his computer."
+Birdie.Speak "His motherboard seems to be going bad."
+Birdie.Speak "After 1 or 2 hours of usage His computer seems to freeze up and just stays like that until he Hard Reboot."
+Birdie.Speak "Not only that but he had trouble starting his computer, As his motherboard fails Post and restarts."
+Birdie.Speak "He turn it on and it shuts off after 1 - 2 seconds, Turns back on and He get a message texted that it failed to Post attempt."
+Birdie.Speak "He are not sure whether it is the motherboard or the video card making his computer crash, But he are certain that it is between the two."
+Birdie.Speak "So his build is around 1 year old."
+Birdie.Speak "\Spd=103\Last news"
+Birdie.Speak "He had his build for a little over a month now but he had been really busy for the past week so He haven't turned on the PC or in a week."
+Birdie.Speak "Today he decided to finally hop back on and it would not even boot."
+Birdie.Speak "He opened up the case with wires to check for loose connections but there was none."
+Birdie.Speak "Then he basically just keeping turning on and off his PSU and continously trying the Power button."
+Birdie.Speak "The PC finally turned on but the CPU LED on his Asus M5A99X Motherboard was on and the CPU fan was not spinning and no video signal was being Output to his monitor."
+Birdie.Speak "His CPU is a FX-8350 and He had done a fair amount of gaming and video editing on it already so it was working perfectly fine But now it seems it has completely stopped working out of the blue."
+Set Req = Birdie.Speak("it couldn't have been a power surge because his PC is plugged into a surge protected power strip.")
+WaitFor Req
+Spaceman.MoveTo 93, 774
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Spaceman.Show
+Set Req = Spaceman.Speak("Exit News?")
+WaitFor Req
+Set Req = Genie.Speak("Yes")
+WaitFor Req
+Set Req = Alien.Speak("Yes")
+WaitFor Req
+Joe.Speak "Yes"
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

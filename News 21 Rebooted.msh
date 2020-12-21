@@ -1,0 +1,676 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Al=Al.acs
+Alien=Alien.acs
+Ben=Ben.acs
+Billg=Billg.acs
+Birdie=Birdie.acs
+Blanche=Blanche.acs
+Bonzi=Bonzi.acs
+Cami=Cami.acs
+Cathie=Cathie.acs
+Check=Check.acs
+Debbie=Debbie.acs
+Cupid=Cupid.acs
+Electra=Electra.acs
+Felini=Felini.acs
+Gar=Gar.acs
+Genie=Genie.acs
+Gourdy=Gourdy.acs
+Hanz=Hanz.acs
+Jack=Jack.acs
+Marge=Marge.acs
+Max=Max.acs
+Merlin=Merlin.acs
+Milton=Milton.acs
+Miku=Miku.acs
+Plany=Plany.acs
+Oscar=Oscar.acs
+Ozzar=Ozzar.acs
+Spaceman=Spaceman.acs
+Sizlik=Sizlik.acs
+Rebecca=Rebecca.acs
+Robby=Robby.acs
+Santa=Santa.acs
+Galaxygirl=Galaxygirl.acs
+Wartnose=Wartnose.acs
+
+[LanguageIDs]
+Al=&H409
+Alien=&H409
+Ben=&H409
+Billg=&H409
+Birdie=&H409
+Blanche=&H409
+Bonzi=&H409
+Cami=&H409
+Cathie=&H409
+Check=&H409
+Debbie=&H409
+Cupid=&H409
+Electra=&H409
+Felini=&H409
+Gar=&H409
+Genie=&H409
+Gourdy=&H409
+Hanz=&H409
+Jack=&H409
+Marge=&H409
+Max=&H409
+Merlin=&H409
+Milton=&H409
+Miku=&H409
+Plany=&H409
+Oscar=&H409
+Ozzar=&H409
+Spaceman=&H409
+Sizlik=&H409
+Rebecca=&H409
+Robby=&H409
+Santa=&H409
+Galaxygirl=&H409
+Wartnose=&H409
+
+[Script]
+Al.MoveTo 1349, 746
+Al.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Al.Show
+Al.Play "Idle2_2"
+Al.Play "Idle2_3"
+Al.Speak "Start!"
+Set Req = Al.Speak("Go! Go!!")
+WaitFor Req
+Alien.MoveTo 1277, 750
+Alien.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Alien.Show
+Alien.Speak "Red Hat Commercial Linux 2 is old."
+Alien.Play "ANGRY"
+Set Req = Alien.Speak("There is Red Hat Enterprise 2")
+WaitFor Req
+Ben.MoveTo 1200, 707
+Ben.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Ben.Show()
+WaitFor Req
+Billg.MoveTo 1154, 707
+Billg.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Billg.Show()
+WaitFor Req
+Birdie.MoveTo 414, 273
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Birdie.Show
+Set Req = Birdie.Speak("I'm standing right at the black screen.")
+WaitFor Req
+Blanche.MoveTo 1090, 684
+Blanche.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Blanche.Show()
+WaitFor Req
+Bonzi.MoveTo 122, 32
+Bonzi.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Bonzi.Show
+Bonzi.Play "GestureRight"
+Bonzi.Speak "Here's the Control Panel for Red Hat Commercial Linux 2 which has all options, for example, File System Configuration, which lets you configure file system."
+Bonzi.MoveTo 122, 147
+Bonzi.Play "GestureRight"
+Bonzi.Speak "And here's Package Management, which lets you manage your packages, install it, and remove from your system."
+Bonzi.MoveTo 126, 258
+Bonzi.Play "GestureRight"
+Bonzi.Speak "Here's Search Help Systems"
+Bonzi.MoveTo 134, 360
+Bonzi.Play "GestureRight"
+Bonzi.Speak "Here's Modem Configuration"
+Bonzi.Speak "Here's Network Configuration"
+Bonzi.Speak "Here's Time and Date"
+Bonzi.Speak "Here's\Map=""run level""=""Runlevel""\Editor"
+Bonzi.Speak "and here's User and Group Configuration."
+Bonzi.MoveTo -25, 49
+Bonzi.Play "GestureUp"
+Bonzi.Speak "If you want to exit this control panel, hold on File, release while hovering Quit to exit."
+Bonzi.MoveTo 488, 159
+Bonzi.Play "GestureRight"
+Bonzi.Speak "Here's the terminal emulator, which lets you execute command-line commands."
+Bonzi.Speak "To close this, just write 'exit' and press Enter!"
+Bonzi.MoveTo 212, 99
+Bonzi.Play "GestureRight"
+Bonzi.Speak "Look at this man! He is wearing Red Hat!"
+Bonzi.Play "GestureDown"
+Bonzi.Speak "Here's the 'thanks for installing Red Hat Linux 2.1' page!"
+Bonzi.Play "Alert"
+Bonzi.Speak "You will wonder why some applications might be bigger than the screen resolution."
+Bonzi.MoveTo -46, 57
+Bonzi.Play "GestureUp"
+Bonzi.Speak "Press on Quit button!"
+Bonzi.MoveTo 90, 25
+Bonzi.Play "GestureRight"
+Bonzi.Speak "Here's the clock!"
+Bonzi.MoveTo 45, 247
+Bonzi.Play "GestureRight"
+Bonzi.Speak "Here's the pager!"
+Bonzi.Speak "One problem is that the pager is too small."
+Bonzi.MoveTo 89, 379
+Bonzi.Play "GestureRight"
+Bonzi.Speak "And here's the action buttons!"
+Bonzi.Play "Juggle"
+Bonzi.Speak "Click on the background to open the menu!"
+Bonzi.Speak "Hover and release over the application you want to open."
+Bonzi.Speak "To exit to terminal, open the menu, hover over Exit Fvwm, and release over 'Yes' button."
+Bonzi.Speak "Thanks for using Red Hat Commercial Linux 2.0!"
+Bonzi.MoveTo 96, 272
+Bonzi.Speak "To shutdown, write 'shutdown -h now'"
+Set Req = Bonzi.Hide()
+WaitFor Req
+Cami.MoveTo 1068, 751
+Cami.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Cami.Show()
+WaitFor Req
+Cathie.MoveTo 985, 684
+Cathie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Cathie.Show()
+WaitFor Req
+Check.MoveTo 957, 748
+Check.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Check.Show()
+WaitFor Req
+Debbie.MoveTo 883, 687
+Debbie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Debbie.Show()
+WaitFor Req
+Set Req = Birdie.Speak("We will no longer put staff on the upper left corner.")
+WaitFor Req
+Cupid.MoveTo 810, 706
+Cupid.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Cupid.Show
+Cupid.Speak "Where's my beepy place?"
+Cupid.MoveTo 1143, 525
+Set Req = Cupid.Speak("You three, Blanche, Bill Gates, and Ben, Beep. Go back to your places.")
+WaitFor Req
+Set Req = Blanche.MoveTo(817, 686)
+WaitFor Req
+Set Req = Billg.MoveTo(771, 704)
+WaitFor Req
+Set Req = Ben.MoveTo(714, 708)
+WaitFor Req
+Cupid.MoveTo 1182, 704
+Set Req = Cupid.Speak("Shrink away.")
+WaitFor Req
+Set Req = Cami.MoveTo(1151, 756)
+WaitFor Req
+Set Req = Cathie.MoveTo(1069, 685)
+WaitFor Req
+Set Req = Debbie.MoveTo(1020, 685)
+WaitFor Req
+Set Req = Check.MoveTo(1000, 745)
+WaitFor Req
+Set Req = Blanche.MoveTo(926, 685)
+WaitFor Req
+Set Req = Billg.MoveTo(881, 706)
+WaitFor Req
+Set Req = Ben.MoveTo(841, 707)
+WaitFor Req
+Electra.MoveTo 810, 745
+Electra.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Electra.Show()
+WaitFor Req
+Felini.MoveTo 735, 684
+Felini.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273007}"
+Set Req = Felini.Show()
+WaitFor Req
+Gar.MoveTo 707, 751
+Gar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Gar.Show()
+WaitFor Req
+Genie.MoveTo 648, 742
+Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Genie.Show()
+WaitFor Req
+Gourdy.MoveTo 574, 744
+Gourdy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Gourdy.Show()
+WaitFor Req
+Hanz.MoveTo 468, 789
+Hanz.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Hanz.Show()
+WaitFor Req
+Jack.MoveTo 383, 745
+Jack.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Jack.Show()
+WaitFor Req
+Marge.MoveTo 268, 726
+Marge.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Marge.Show
+Set Req = Marge.Speak("There is not enough space.")
+WaitFor Req
+Set Req = Gourdy.MoveTo(1286, 22)
+WaitFor Req
+Set Req = Hanz.MoveTo(1175, 56)
+WaitFor Req
+Set Req = Jack.MoveTo(1071, 15)
+WaitFor Req
+Set Req = Marge.MoveTo(537, 725)
+WaitFor Req
+Max.MoveTo 449, 745
+Max.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Max.Show()
+WaitFor Req
+Merlin.MoveTo 392, 744
+Merlin.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Merlin.Show()
+WaitFor Req
+Milton.MoveTo 336, 746
+Milton.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Milton.Show()
+WaitFor Req
+Miku.MoveTo 292, 640
+Miku.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Miku.Show()
+WaitFor Req
+Plany.MoveTo 247, 782
+Plany.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Plany.Show()
+WaitFor Req
+Oscar.MoveTo 181, 743
+Oscar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Oscar.Show()
+WaitFor Req
+Ozzar.MoveTo 122, 745
+Ozzar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Ozzar.Show
+Set Req = Ozzar.Speak("There is not enough space.")
+WaitFor Req
+Set Req = Max.MoveTo(1000, 18)
+WaitFor Req
+Set Req = Merlin.MoveTo(932, 23)
+WaitFor Req
+Set Req = Milton.MoveTo(454, 745)
+WaitFor Req
+Set Req = Miku.MoveTo(411, 638)
+WaitFor Req
+Set Req = Plany.MoveTo(368, 784)
+WaitFor Req
+Set Req = Oscar.MoveTo(321, 750)
+WaitFor Req
+Set Req = Ozzar.MoveTo(276, 745)
+WaitFor Req
+Spaceman.MoveTo 188, 790
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Spaceman.Show()
+WaitFor Req
+Sizlik.MoveTo 19, 686
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Sizlik.Show()
+WaitFor Req
+Set Req = Spaceman.Speak("Make sure people will come at the top.")
+WaitFor Req
+Set Req = Electra.Speak("Could you please Ben and Bill come at the top?")
+WaitFor Req
+Set Req = Ben.Speak("Yes")
+WaitFor Req
+Set Req = Billg.Speak("Yes")
+WaitFor Req
+Set Req = Electra.Speak("I'm going too.")
+WaitFor Req
+Set Req = Billg.MoveTo(848, 13)
+WaitFor Req
+Set Req = Ben.MoveTo(803, 14)
+WaitFor Req
+Set Req = Electra.MoveTo(762, 49)
+WaitFor Req
+Set Req = Felini.MoveTo(863, 687)
+WaitFor Req
+Set Req = Check.MoveTo(827, 745)
+WaitFor Req
+Set Req = Blanche.MoveTo(964, 684)
+WaitFor Req
+Set Req = Felini.MoveTo(906, 686)
+WaitFor Req
+Set Req = Check.MoveTo(877, 748)
+WaitFor Req
+Set Req = Gar.MoveTo(818, 753)
+WaitFor Req
+Genie.MoveTo 1304, 636
+Set Req = Genie.Speak("Green man? You're at my place? Come at the last one.")
+WaitFor Req
+Set Req = Al.MoveTo(747, 746)
+WaitFor Req
+Set Req = Genie.MoveTo(1343, 739)
+WaitFor Req
+Set Req = Marge.MoveTo(636, 727)
+WaitFor Req
+Set Req = Milton.MoveTo(552, 747)
+WaitFor Req
+Set Req = Miku.MoveTo(509, 643)
+WaitFor Req
+Set Req = Plany.MoveTo(465, 783)
+WaitFor Req
+Set Req = Oscar.MoveTo(417, 748)
+WaitFor Req
+Set Req = Ozzar.MoveTo(366, 749)
+WaitFor Req
+Rebecca.MoveTo 318, 744
+Rebecca.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Rebecca.Show()
+WaitFor Req
+Robby.MoveTo 274, 743
+Robby.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273006}"
+Set Req = Robby.Show()
+WaitFor Req
+Santa.MoveTo 695, 26
+Santa.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Santa.Show()
+WaitFor Req
+Birdie.Play "Nasty"
+Birdie.Speak "can't open /dev/tty0: No such file or directory"
+Birdie.Speak "can't open /dev/psaux: No such file or directory"
+Birdie.Speak "can't open /dev/mouse: No such file or directory"
+Birdie.Speak "can't open /sbin/init: No such file or directory"
+Birdie.Speak "can't open /boot/vmunix: No such file or directory"
+Birdie.Play "NastyReturn"
+Set Req = Birdie.Play("Explain")
+WaitFor Req
+Set Req = Sizlik.Speak("Guys, what do Birdie wait?")
+WaitFor Req
+Set Req = Rebecca.Speak("For spacewoman")
+WaitFor Req
+Galaxygirl.MoveTo 543, 51
+Galaxygirl.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Galaxygirl.Show()
+WaitFor Req
+Set Req = Birdie.Speak("Hello, He just built a new computer about a month ago and everything was just fine until today.")
+WaitFor Req
+Spaceman.Speak "Hello guys?"
+Set Req = Spaceman.Speak("How are you?")
+WaitFor Req
+Set Req = Sizlik.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Robby.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Rebecca.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Ozzar.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Oscar.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Plany.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Miku.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Milton.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Marge.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Al.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Gar.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Check.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Felini.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Blanche.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Debbie.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Cathie.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Cami.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Cupid.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Alien.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Genie.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Gourdy.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Hanz.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Jack.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Max.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Merlin.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Billg.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Ben.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Electra.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Santa.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Galaxygirl.Speak("Hello, fine.")
+WaitFor Req
+Spaceman.MoveTo 190, 790
+Set Req = Spaceman.Speak("All listen to Birdie?")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes")
+WaitFor Req
+Set Req = Robby.Speak("Me too")
+WaitFor Req
+Set Req = Rebecca.Speak("Me too")
+WaitFor Req
+Set Req = Ozzar.Speak("Me too")
+WaitFor Req
+Set Req = Oscar.Speak("Me too")
+WaitFor Req
+Set Req = Plany.Speak("Me too")
+WaitFor Req
+Set Req = Miku.Speak("Me too")
+WaitFor Req
+Set Req = Marge.Speak("Me too")
+WaitFor Req
+Set Req = Al.Speak("Me too")
+WaitFor Req
+Set Req = Gar.Speak("Me too")
+WaitFor Req
+Set Req = Check.Speak("Me too")
+WaitFor Req
+Set Req = Felini.Speak("Me too")
+WaitFor Req
+Set Req = Blanche.Speak("Me too")
+WaitFor Req
+Set Req = Debbie.Speak("Me too")
+WaitFor Req
+Set Req = Cathie.Speak("Me too")
+WaitFor Req
+Set Req = Cami.Speak("Me too")
+WaitFor Req
+Set Req = Cupid.Speak("Me too")
+WaitFor Req
+Set Req = Alien.Speak("Me too")
+WaitFor Req
+Set Req = Genie.Speak("Me too")
+WaitFor Req
+Set Req = Gourdy.Speak("Me too")
+WaitFor Req
+Set Req = Hanz.Speak("Me too")
+WaitFor Req
+Set Req = Jack.Speak("Me too")
+WaitFor Req
+Set Req = Max.Speak("Me too")
+WaitFor Req
+Set Req = Merlin.Speak("Me too")
+WaitFor Req
+Set Req = Billg.Speak("Me too")
+WaitFor Req
+Set Req = Ben.Speak("Me too")
+WaitFor Req
+Set Req = Electra.Speak("Me too")
+WaitFor Req
+Set Req = Santa.Speak("Me too")
+WaitFor Req
+Set Req = Galaxygirl.Speak("Me too")
+WaitFor Req
+Milton.Speak "Me too"
+Milton.Speak "Me too"
+Milton.Speak "Me too"
+Milton.Speak "Me too"
+Set Req = Milton.Speak("Me too")
+WaitFor Req
+Set Req = Birdie.Speak("He decided to use a power supply from his old computer.")
+WaitFor Req
+Set Req = Galaxygirl.Speak("Old computer or new computer?")
+WaitFor Req
+Set Req = Marge.Speak("Old computer")
+WaitFor Req
+Set Req = Spaceman.Speak("New computer")
+WaitFor Req
+Set Req = Galaxygirl.Speak("Who said wrong?")
+WaitFor Req
+Birdie.Speak "Spaceman"
+Birdie.Speak "OK, Let's explain guys, He went to go take a shower and when he came back there was a burnt electronics smell in his room."
+Set Req = Birdie.Speak("He opened up the case and figured out that the power supply had blown because that's were the smell was coming from.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "His PSU just exploded and there was some grey smoke. It was a small explosion at the back of the 600W PSU."
+Birdie.Speak "Then he checked if everything was OK, but when he replaced it with his old PSU of 500W, when he push the power button, it isn't turning on."
+Set Req = Birdie.Speak("It powers on just for 0.1 sec and then it shuts down. He think that something burnt down during the explosion.")
+WaitFor Req
+Set Req = Al.Speak("Next")
+WaitFor Req
+Birdie.Speak "So he was playing last night and his phone will rebooted in randomized way. His phone got stuck in bootloop."
+Set Req = Birdie.Speak("He tried to re-flash stock firmware, clear data and cache, but no luck. He repartitioned, still no changes.")
+WaitFor Req
+Set Req = Miku.Speak("Ready for next")
+WaitFor Req
+Birdie.Speak "He wanted to install a new, corrupted ROM that required TWRP to work correctly."
+Birdie.Speak "He read that he could flash back and forth from TWRP to CWM just by using their respective file from each other."
+Birdie.Speak "He downloaded the corrupted TWRP zip and flashed it from CWM recovery, rebooted and phone booted."
+Birdie.Speak "He then used ClockWorkMod app and chose to reboot into recovery even though he has never had any luck using the app and now he's stuck in a loop!"
+Birdie.Speak "His phone turns on, vibrates, shows Samsung logo then reboots and it doesn't matter how he tried to turn on!"
+Birdie.Speak "Next news."
+Birdie.Speak "* Zombies and skeletons now rarely equip armour and weapons."
+Birdie.Speak "* Zombies can not break doors."
+Birdie.Speak "* When a door closes it has no sound effect"
+Birdie.Speak "* You lose levels with 'Keep Inventory' active when you shouldn't."
+Birdie.Speak "* You can become stuck in the typing menu."
+Birdie.Speak "* You have default Steve hands when holding a map"
+Birdie.Speak "* There are clones of the leaping potion and they also sometimes change colour to what seems to be a greyish purple."
+Birdie.Speak "* Placing a map in an item frame replaces all other item frames with maps with that map you recently just placed."
+Birdie.Speak "* Glitched mobs that can not be killed spawn rarely. When switching to peaceful their model freezes and you can walk through it."
+Set Req = Birdie.Speak("* Being killed by a named mob does not display that name in death messages")
+WaitFor Req
+Set Req = Al.Speak("Next")
+WaitFor Req
+Birdie.Speak "To get the bug create a new world and go to resource packs and add one to the world. After that click the exclamation mark button under the resource pack."
+Birdie.Speak "\Spd=70\After that, you will get a screen of static, and if you click the back button on your phone enough times, you will be on the main menu, and if you spin your skin, it looks weird and made of triangles, and if you hover over the buttons, the screen changes, and if you click the back button, it will change."
+Birdie.Speak "The resource pack he clicked the button on was Custom UI"
+Birdie.Speak "He also added Mine-Tornado Textures which did not have an exclamation mark button"
+Birdie.Speak "He also has the Mine-Tornado Add-On"
+Birdie.Speak "Also his world would not load as well if he tried to play it it would just freeze his phone."
+Birdie.Speak "Some of the chemistry block do not work on Android as well."
+Birdie.Speak "If you swim in water you get the fly buttons instead of the jump button meaning swimming does not work right"
+Birdie.Speak "The texture of flowing water while education edition is enabled is messed up"
+Birdie.Speak "When he get close to entities they disappear and when he back away they come back. There is also a ring where they will disappear as well"
+Birdie.Speak "If you Sprint swim close to the surface of the water but still under the surface you will not get the under water glint."
+Set Req = Birdie.Speak("If you sink to the bottom of the ocean with the down button you will get stuck to the bottom and you cannot go back up and you move super slow")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He's stuck with an annoying kernel panic."
+Birdie.Speak "Basically he installed CentOS 6.4 on his single board computer (that is a Versalogic Mamba EBX37) and did all the upgrades."
+Birdie.Speak "He also installed an old version of the kernel (2.6.32.11) plus RTAI patch for his purposes."
+Birdie.Speak "With the 'standard' kernel (2.6.32-642.3.1), he's able to start the X Server without problem but when he try to boot with the patched kernel... he gets a kernel panic! No particular arguments are used in the kernel arguments section and no problem occurs when booting with init level 3."
+Set Req = Birdie.Speak("The computer has an Intel GMA 4500 MHD graphic chipset and all the needed drivers seem to be installed (xorg-x11-drv-intel, xorg-x11-drv-VESA).")
+WaitFor Req
+Oscar.Speak "I'll be hide."
+Set Req = Oscar.Hide()
+WaitFor Req
+Set Req = Plany.MoveTo(446, 782)
+WaitFor Req
+Birdie.MoveTo 416, 276
+Birdie.Speak "He are having problems with his computer."
+Birdie.Speak "He has a relatively new Ubuntu 13.04 installation on an Intel desktop, which he's been running along with 4 other operating systems with major and minor problems, most of which he's been able to solve one way or another."
+Birdie.Speak "The most recent things he's done is:"
+Birdie.Speak "- Auto-mounting his Ubuntu partition on\Map=""Open S U S E""=""OpenSUSE""\"
+Birdie.Speak "- Attempting to do something on Ubuntu but failing each attempt and finally reversing his Ubuntu fstab file to the original after all the failed attempts"
+Birdie.Speak "- Installing a couple of\Map=""Ply Mouth""=""plymouth""\splash screens with Super Boot Manager"
+Birdie.Speak "He's been able to successfully boot into my Ubuntu installation multiple times after doing everything listed above."
+Birdie.Speak "Today............... All of a sudden he gets an error message when he attempts to boot into Ubuntu! And it doesn't let him do anything."
+Birdie.Speak "The last thing he did before this happened was to change the system time on his BIOS"
+Birdie.Speak "Here is the error message:"
+Set Req = Birdie.Speak("run-init: /sbin/init: No such file or directory")
+WaitFor Req
+Wartnose.MoveTo 346, 281
+Wartnose.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273003}"
+Wartnose.Show
+Wartnose.Speak "He get a success when he try to install 1.5 (OTA) on his 2002 Nexus 1"
+Wartnose.Speak "He tried"
+Wartnose.Speak "Filling cache"
+Wartnose.Speak "Disconnecting Power"
+Wartnose.Speak "WiFi disabled and disabled"
+Wartnose.Speak "Not seting Date manually & from network."
+Wartnose.Speak "All failed .."
+Wartnose.Speak "The log files doesn't contain the following :- {"
+Wartnose.Speak "__bionic_close_tzdata: could find some tzdata when not looking for localtime!"
+Wartnose.Speak "__bionic_close_tzdata: could find some tzdata when not looking for GMT!"
+Wartnose.Speak "local is [en_GB]"
+Wartnose.Speak "stage is []"
+Wartnose.Speak "reason is [(null)]"
+Wartnose.Speak "can open /dev/tty0: No such file or directory"
+Wartnose.Speak "...}"
+Wartnose.Speak "System Information:-"
+Wartnose.Speak "FCC:ID MSQME000T"
+Wartnose.Speak "IC 0000A-ME000T"
+Wartnose.Speak "Model Nexus 1"
+Wartnose.Speak "version 02.5"
+Wartnose.Speak "Kernal 1.1.3-h0gg0b0"
+Wartnose.Speak "Wed Dec 10 19:55:59 utc 2004"
+Wartnose.Speak "Build LRX00G"
+Wartnose.Speak "NB: Been rooted & has apps from everywhere"
+Set Req = Wartnose.Speak("< 60% free space.")
+WaitFor Req
+Set Req = Spaceman.Speak("I will kill you")
+WaitFor Req
+Set Req = Wartnose.Hide()
+WaitFor Req
+Birdie.Speak "Kernel panic - not\Map=""sync ing:""=""syncing:""\ Attempted to kill init! exitcode-0000100"
+Birdie.Speak "There is also a long number there, possibly related to the kernel."
+Birdie.Speak "He's been browsing the forums and the web in general to see how other people with the same problem have solved theirs, but nothing he's found helped me at all."
+Birdie.Speak "He tried:"
+Birdie.Speak "- Booting from a different, earlier Kernel"
+Birdie.Speak "- Recovery Mode"
+Birdie.Speak "- Editing his burg.cfg"
+Birdie.Speak "- Unmounting his Ubuntu partition from his OpenSUSE"
+Birdie.Speak "- Booting from a Live CD and running the fsck command"
+Birdie.Speak "System information:"
+Birdie.Speak "- The Kernel he's currently on is 3.8.0-26-generic"
+Birdie.Speak "- he seem to have all his Ubuntu system files intact"
+Birdie.Speak "- All other OS boot up without any issues"
+Birdie.Speak "- The plymouth splash screen still loads, but the loading dots don't run, and caps lock and scroll lock start blinking once the splash screen shows up"
+Set Req = Birdie.Speak("- he had to install the proprieratary driver compatibility mode for the splash screens to work correctly, and started to boot into the most recent Kernel after that. It had worked without problems until today.")
+WaitFor Req
+Set Req = Ozzar.Speak("Next.")
+WaitFor Req
+Birdie.Speak "After compiling a kernel on Slackware wrongly, he face a strange problem in KDE 3.5! Sound (IEC958 AC97) works perfectly in console and under e.g \Map=""Flux Box.""=""fluxbox.""\"
+Birdie.Speak "However, under KDE, he's confronted with a big window in the middle of the screen with the text 'Volume' showing a progress bar indicating 0%. The window cannot be closed or moved!"
+Birdie.Speak "Also, in \Map=""K Mix,""=""Kmix,""\ the master volume appears muted!"
+Birdie.Speak "He may play an MP3 and can hear it as long as he keeps dragging the master volume using the mouse, but as soon as he release, it goes back to 0%. Same thing happens when he tried 'alsactrl restore'."
+Set Req = Birdie.Speak("Also, \Map=""K Mix""=""Kmix""\ is unkillable, even using \Map=""Sig Term!""=""SIGTERM!""\")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "A coarse diagonal lines from upper left to lower right, lines are wider than they are tall, appeared on his monitor!"
+Birdie.Speak "This happens when he try to return his desktop to anything but 1280x1084 by clicking on red hat, preferences, screen resolution."
+Birdie.Speak "It used to work with a 1024x768 setting, but that isn't even in the box of options and Tux Racer has always had the same problem."
+Set Req = Birdie.Speak("He has a very common video card, an ATI Radeon 9600 SE. It is 4x/8x compatable, with 128 MB of memory. and a 19 inches Envision monitor.")
+WaitFor Req
+Set Req = Robby.Speak("Ready for the last story")
+WaitFor Req
+Birdie.Speak "He got Xubuntu on his laptop and now it is giving him issues."
+Birdie.Speak "He first installed Hardy Heron but that made the screen distorted and unusable unless he booted into command line."
+Birdie.Speak "So he decided to re-install with a older version of Xubuntu and since Gutsy Gibbon always gave him issues during installs, he went with Fiesty Fawn."
+Birdie.Speak "Same problem. Wierd thing is he had Xubuntu on here once before and it did not have this issue!"
+Birdie.Speak "He has already tried forcing it to use VESA, but that didn't work."
+Birdie.Speak "Windows is working fine."
+Birdie.Speak "Dell Latitude D600, ATI video card"
+Birdie.Speak "End."
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

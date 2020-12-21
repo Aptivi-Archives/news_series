@@ -1,0 +1,466 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Al=Al.acs
+Alien=Alien.acs
+Birdie=Birdie.acs
+Cami=Cami.acs
+Bonzi=Bonzi.acs
+Cathie=Cathie.acs
+Debbie=Debbie.acs
+Cupid=Cupid.acs
+Electra=Electra.acs
+Gar=Gar.acs
+Genie=Genie.acs
+Imp=Imp.acs
+Jack=Jack.acs
+James=James.acs
+Joe=Joe.acs
+Marge=Marge.acs
+Merlin=Merlin.acs
+Oscar=Oscar.acs
+Milton=Milton.acs
+Ozzar=Ozzar.acs
+Spaceman=Spaceman.acs
+Sizlik=Sizlik.acs
+Miku=Miku.acs
+Plany=Plany.acs
+Woodrow=Woodrow.acs
+
+[LanguageIDs]
+Al=&H409
+Alien=&H409
+Birdie=&H409
+Cami=&H409
+Bonzi=&H409
+Cathie=&H409
+Debbie=&H409
+Cupid=&H409
+Electra=&H409
+Gar=&H409
+Genie=&H409
+Imp=&H409
+Jack=&H409
+James=&H409
+Joe=&H409
+Marge=&H409
+Merlin=&H409
+Oscar=&H409
+Milton=&H409
+Ozzar=&H409
+Spaceman=&H409
+Sizlik=&H409
+Miku=&H409
+Plany=&H409
+Woodrow=&H409
+
+[Script]
+Al.MoveTo 651, 361
+Al.Balloon.Style = &H21C000F
+Al.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Al.Show
+Al.Speak "I am announcing something regarding the owner of us."
+Al.Speak "His computer failed to start because of a BSOD."
+Al.Speak "Upon further inspection, his HDD has failed and he must install Windows on the working one!"
+Al.Speak "Also, position is wrong."
+Set Req = Al.Hide()
+WaitFor Req
+Alien.MoveTo 1339, 749
+Alien.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Alien.Show()
+WaitFor Req
+Birdie.MoveTo 621, 210
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Birdie.Show()
+WaitFor Req
+Cami.MoveTo 1277, 752
+Cami.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Cami.Show()
+WaitFor Req
+Bonzi.MoveTo 1169, 722
+Bonzi.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Bonzi.Show()
+WaitFor Req
+Cathie.MoveTo 1123, 689
+Cathie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Cathie.Show()
+WaitFor Req
+Debbie.MoveTo 1071, 690
+Debbie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Debbie.Show()
+WaitFor Req
+Cupid.MoveTo 995, 706
+Cupid.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Cupid.Show
+Set Req = Cupid.Speak("Beep?")
+WaitFor Req
+Set Req = Bonzi.Speak("Yes.")
+WaitFor Req
+Electra.MoveTo 941, 746
+Electra.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Electra.Show()
+WaitFor Req
+Gar.MoveTo 879, 754
+Gar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Gar.Show()
+WaitFor Req
+Genie.MoveTo 816, 747
+Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Genie.Show()
+WaitFor Req
+Imp.MoveTo 768, 749
+Imp.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Imp.Show()
+WaitFor Req
+Jack.MoveTo 706, 746
+Jack.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Jack.Show()
+WaitFor Req
+James.MoveTo 643, 687
+James.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = James.Show()
+WaitFor Req
+Joe.MoveTo 576, 753
+Joe.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Joe.Show()
+WaitFor Req
+Marge.MoveTo 458, 728
+Marge.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Marge.Show()
+WaitFor Req
+Merlin.MoveTo 368, 750
+Merlin.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Merlin.Show()
+WaitFor Req
+Oscar.MoveTo 311, 747
+Oscar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Oscar.Show()
+WaitFor Req
+Milton.MoveTo 264, 749
+Milton.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Milton.Show()
+WaitFor Req
+Ozzar.MoveTo 204, 750
+Ozzar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Ozzar.Show()
+WaitFor Req
+Spaceman.MoveTo 117, 793
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Spaceman.Show
+Set Req = Spaceman.Speak("Shrink away for Sizlik.")
+WaitFor Req
+Set Req = Alien.MoveTo(1342, 749)
+WaitFor Req
+Set Req = Cami.MoveTo(1290, 754)
+WaitFor Req
+Set Req = Bonzi.MoveTo(1196, 722)
+WaitFor Req
+Set Req = Cathie.MoveTo(1161, 689)
+WaitFor Req
+Set Req = Debbie.MoveTo(1112, 692)
+WaitFor Req
+Set Req = Cupid.MoveTo(1054, 707)
+WaitFor Req
+Set Req = Electra.MoveTo(1020, 748)
+WaitFor Req
+Set Req = Gar.MoveTo(970, 755)
+WaitFor Req
+Set Req = Genie.MoveTo(913, 744)
+WaitFor Req
+Set Req = Imp.MoveTo(871, 747)
+WaitFor Req
+Set Req = Jack.MoveTo(827, 746)
+WaitFor Req
+Set Req = James.MoveTo(767, 686)
+WaitFor Req
+Set Req = Joe.MoveTo(706, 754)
+WaitFor Req
+Set Req = Marge.MoveTo(591, 729)
+WaitFor Req
+Set Req = Merlin.MoveTo(528, 716)
+WaitFor Req
+Set Req = Oscar.MoveTo(487, 746)
+WaitFor Req
+Set Req = Milton.MoveTo(442, 747)
+WaitFor Req
+Set Req = Ozzar.MoveTo(378, 748)
+WaitFor Req
+Set Req = Spaceman.MoveTo(202, 790)
+WaitFor Req
+Sizlik.MoveTo 22, 688
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Sizlik.Show()
+WaitFor Req
+Set Req = Spaceman.MoveTo(190, 790)
+WaitFor Req
+Miku.MoveTo 329, 643
+Miku.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Miku.Show()
+WaitFor Req
+Plany.MoveTo 249, 732
+Plany.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Plany.Show
+Set Req = Plany.Speak("I will be here")
+WaitFor Req
+Birdie.Speak "I will go down"
+Set Req = Birdie.MoveTo(655, 373)
+WaitFor Req
+Woodrow.MoveTo 278, 754
+Woodrow.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Woodrow.Show()
+WaitFor Req
+Plany.MoveTo 200, 723
+Set Req = Plany.Speak("Who are you?")
+WaitFor Req
+Set Req = Woodrow.Speak("I'm Woodrow, a pencil.")
+WaitFor Req
+Set Req = Milton.Speak("Let's see.")
+WaitFor Req
+Set Req = Birdie.Speak("Everyone say: haqa. haqa. haqa. haqa. haqa. haqa. haqa.")
+WaitFor Req
+Set Req = Sizlik.Speak("haqa. haqa. haqa. haqa. haqa. haqa. haqa.")
+WaitFor Req
+Set Req = Spaceman.Speak("haqa. haqa. haqa. haqa. haqa. haqa. haqa.")
+WaitFor Req
+Set Req = Plany.Speak("haqa. haqa. haqa. haqa. haqa. haqa. haqa.")
+WaitFor Req
+Set Req = Merlin.Speak("Wait. Are you reminding us of Wartnose?")
+WaitFor Req
+Set Req = Marge.Speak("Yes.")
+WaitFor Req
+Set Req = Oscar.Speak("haqa. haqa. haqa. haqa. haqa. haqa. haqa.")
+WaitFor Req
+Set Req = Birdie.Speak("Let's stop here.")
+WaitFor Req
+Set Req = Spaceman.Speak("Hello guys? How are you?")
+WaitFor Req
+Set Req = Sizlik.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Spaceman.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Plany.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Woodrow.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Miku.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Ozzar.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Milton.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Oscar.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Merlin.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Marge.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Joe.Speak("Hello, fine.")
+WaitFor Req
+Set Req = James.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Jack.Speak("Hello, fine.")
+WaitFor Req
+Imp.Speak "Hello, fine."
+Imp.Speak "I think I will exit, because annoying phone annoys me so much I will annoy and exit annoying."
+Imp.Play "Idle2_2"
+Imp.Speak "This is my annoying phone. I will buy a new, annoying phone and make my annoying phone stuck annoyingly for bootloop."
+Imp.Speak "annoying. exit. annoying!"
+Set Req = Imp.Hide()
+WaitFor Req
+Set Req = Jack.MoveTo(859, 746)
+WaitFor Req
+Set Req = James.MoveTo(799, 687)
+WaitFor Req
+Set Req = Joe.MoveTo(734, 753)
+WaitFor Req
+Set Req = Marge.MoveTo(617, 729)
+WaitFor Req
+Set Req = Merlin.MoveTo(533, 750)
+WaitFor Req
+Set Req = Marge.MoveTo(622, 729)
+WaitFor Req
+Set Req = Gar.Speak("Everyone said hello, and they are all fine, so they're all ready to listen to Birdie.")
+WaitFor Req
+Birdie.Speak "Start!!!"
+Birdie.Speak "He got called down to his boss's mother's office to find out why her printer wasn't being recognized because the ZIP drive that connects the Printer to the PC was powered off."
+Birdie.Speak "He checked to see if the drivers were still there, and then he re-seated the parallel cable when the ZIP drive is powered off."
+Birdie.Speak "He tipped the tower towards him and all of the sudden the PSU started popping and smoking!"
+Birdie.Speak "He froze and then immediately hit the power button. He wasn't about to reach for the power cord on the computer, and the plug in the wall wasn't immediately accesable."
+Set Req = Birdie.Speak("At any rate, he replaced the PSU with one out of his identical Dell machine, and luckily nothing else was fried, and all data appears to be there.")
+WaitFor Req
+Set Req = Plany.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "His most recent complaint is the fact that once again it shut down and would not start up."
+Birdie.Speak "He did the usual to restore his system yet again. This time it wouldn't come back."
+Birdie.Speak "He unplugged it and noticed that the power button was still flashing orange! Then he could smell something!"
+Birdie.Speak "So he proceeded to go closer to the back and smell out of the grate where the power supply is and could smell burning!"
+Birdie.Speak "He then moved his head back, and as soon as he did this, it exploded like a shotgun!"
+Birdie.Speak "A huge flame, along with flying sparks, etc."
+Birdie.Speak "He immediately ripped it away from any other cord that was plugged into it and stood by for further action. If this happened while he was sleeping, his house could have burnt down!"
+Birdie.Speak "Al will talk about News now. I will sit. going down."
+Birdie.MoveTo 734, 643
+Set Req = Birdie.Speak("Shrink away")
+WaitFor Req
+Set Req = James.Speak("We can't because there is not enough free space.")
+WaitFor Req
+Set Req = Birdie.Speak("I will sit here.")
+WaitFor Req
+Al.Show
+Set Req = Al.Speak("I will talk about these 2 news about the owner of us which has problems in the past few days.")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Al.Speak "He woke up, and pressed the power button of his computer and it booted fine. He opened Firefox, went to download manager, and downloaded, and he left it."
+Al.Speak "He played on his Android tablet, and saw that his tablet's connection is slow, so he made it fast by pausing the download. Under his rush, he went back to playing."
+Al.Speak "When he finished, he went back to his computer... The screen stayed like usual."
+Al.Speak "He saw that the hard drive light and the WiFi blue light stayed on!"
+Al.Speak "He tried to move his mouse but I can't! he tried to turn on/off the Locks on the keyboard, but they aren't turning on/off! It looks like his computer has frozen without his knowledge."
+Al.Speak "So he remembered the past days where his computer freezes and pressed the Reset button, all went as planned until he saw that Windows rebooted itself when booting instead of booting!"
+Al.Speak "Then, it told him about selections of Safe Mode, Networking, Commands prompt, Last Known Good Configuration, and Start Windows Normally. Every single selection of these leads to Windows rebooting itself."
+Al.Speak "He thought maybe Recovery Console would solve his problem, so he booted from Windows XP CD-ROM, and all went well. It told him options whether to exit, install, or fix."
+Al.Speak "he chose Fix, because he doesn't want to start over, and then, something odd happened. It won't even try to examine a disk! He waited until he got a prompt, which he got C:\> instead of choosing his damaged installation."
+Al.Speak "He pressed Enter, and it processed like usual. he wrote some random non-existent command for his fear, and it said that command is not found, like usual."
+Al.Speak "Whenever he tried dir, it first hung, then it showed 'Directory list for C:'."
+Set Req = Al.Speak("At the time it showed that phrase, he was afraid to continue, so he pressed reset button on the case.")
+WaitFor Req
+Set Req = Plany.Speak("Ready for next.")
+WaitFor Req
+Al.Speak "When he started using his computer after uninstalling Avira Antivirus because of its instability with non-SSE2 processors, the booting times is slow and takes minutes to go to Windows log-on screen. It took 2:09.13 minutes to boot to log-on screen."
+Al.Speak "He will write his password, then it logs-in, and loads Windows Sidebar and his gadgets in 1:04.61 minutes."
+Al.Speak "He will be doing some things, or leaving the computer idle, then he started to notice that HDD light is always red which indicates hard disk activity, and the noticeable clicking noise like the drive is restarting! When that happens, his system freezes until this clicking noise and an unusual HDD activity has stopped!"
+Al.Speak "It will continue doing this to his system until he is greeted with BSOD saying:"
+Al.Speak "Error: '*** STOP: 0x000000F4 (0x00000003, 0x89B04950, 0x89B04AC4, 0x805FB0E4)'"
+Al.Speak "Reason: 'A process or thread crucial to system operation has unexpectedly exited or been terminated.'"
+Set Req = Al.Speak("What's weird is that the HDD activity is continuing until the HDD light and noise has finally stopped while he is on the BSOD.")
+WaitFor Req
+Woodrow.Speak "You will exit."
+Set Req = Woodrow.Play("Read")
+WaitFor Req
+Set Req = Al.Hide()
+WaitFor Req
+Spaceman.Speak "Ready for next, I will hide."
+Set Req = Spaceman.Play("stargate")
+WaitFor Req
+Set Req = Plany.MoveTo(198, 785)
+WaitFor Req
+Set Req = Milton.Speak("Only at Spaceman goes to stargate.")
+WaitFor Req
+Woodrow.Speak "I will sharpen."
+Woodrow.Play "Idle3_1"
+Set Req = Woodrow.Speak("I am a sharp sharp-pen.")
+WaitFor Req
+Birdie.Speak "I am supported."
+Set Req = Birdie.MoveTo(634, 335)
+WaitFor Req
+Set Req = Oscar.Speak("I kept sneezing on the fort night.")
+WaitFor Req
+Set Req = Milton.Speak("You have just reminded us of a game.")
+WaitFor Req
+Set Req = Oscar.Speak("What game?")
+WaitFor Req
+Set Req = Joe.Speak("Fortnite.")
+WaitFor Req
+Set Req = Oscar.Play("Surprised")
+WaitFor Req
+Set Req = Ozzar.Speak("Fortnite only works on Windows 10.")
+WaitFor Req
+Set Req = Milton.Speak("And also News 15 and 5. Next.")
+WaitFor Req
+Birdie.Speak "Tried to flash corrupted kitkat rom downloaded from sammobile. now his note is stuck at boot with 'recovery booting' on left top."
+Set Req = Birdie.Speak("He cannot go in recovery and cannot go to download mode.")
+WaitFor Req
+Set Req = Milton.Speak("Last one.")
+WaitFor Req
+Birdie.Speak "He rooted his LG G2 successfully. He installed TWRP successfully. He booted to recovery, performed a backup and did a wipe successfully."
+Birdie.Speak "He downloaded the corrupted 2/1/2014 AOKP and the corresponding GAPPS. Copied the zips to his Downloads folder on the device, rebooted to recovery and flashed his device. That all went successful."
+Birdie.Speak "However on first boot he waited almost an hour, and the boot did not complete and he believes it's stuck in a boot loop."
+Birdie.Speak "He tried doing the physical hold volume down + power, then release power on LG screen and push power again to get into recovery and it seems to ignore this attempt and just keeps trying to boot."
+Set Req = Birdie.Speak("He doesn't seem to be able to even fully power off the device. When it does appear to power off while holding the power button it's like a restart.")
+WaitFor Req
+Set Req = Plany.Hide()
+WaitFor Req
+Spaceman.Show
+Spaceman.Speak "Exit News?"
+Set Req = Spaceman.Hide()
+WaitFor Req
+Set Req = Sizlik.MoveTo(142, 690)
+WaitFor Req
+Birdie.MoveTo 29, 735
+Set Req = Birdie.Speak("Yes.")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes.")
+WaitFor Req
+Set Req = Woodrow.Speak("Yes.")
+WaitFor Req
+Set Req = Miku.Speak("Yes.")
+WaitFor Req
+Set Req = Ozzar.Speak("Yes.")
+WaitFor Req
+Set Req = Milton.Speak("Yes.")
+WaitFor Req
+Set Req = Oscar.Speak("All Yes.")
+WaitFor Req
+Set Req = Sizlik.Hide()
+WaitFor Req
+Set Req = Woodrow.Hide()
+WaitFor Req
+Set Req = Miku.Hide()
+WaitFor Req
+Set Req = Ozzar.Hide()
+WaitFor Req
+Set Req = Milton.Hide()
+WaitFor Req
+Set Req = Oscar.Hide()
+WaitFor Req
+Set Req = Merlin.Hide()
+WaitFor Req
+Set Req = Marge.Hide()
+WaitFor Req
+Set Req = Joe.Hide()
+WaitFor Req
+Set Req = James.Hide()
+WaitFor Req
+Set Req = Jack.Hide()
+WaitFor Req
+Set Req = Genie.Hide()
+WaitFor Req
+Set Req = Gar.Hide()
+WaitFor Req
+Set Req = Electra.Hide()
+WaitFor Req
+Set Req = Cupid.Hide()
+WaitFor Req
+Set Req = Debbie.Hide()
+WaitFor Req
+Set Req = Cathie.Hide()
+WaitFor Req
+Set Req = Cami.Hide()
+WaitFor Req
+Set Req = Alien.Speak("Won't you exit?")
+WaitFor Req
+Set Req = Bonzi.Speak("Yes.")
+WaitFor Req
+Set Req = Alien.Hide()
+WaitFor Req
+Bonzi.MoveTo 567, 312
+Bonzi.Play "BlowKiss"
+Bonzi.Play "Banana"
+Bonzi.Play "BananaMiss"
+Bonzi.Speak "Power."
+Bonzi.Speak "Exit."
+Bonzi.Speak "end"
+Bonzi.Play "HideShow"
+Bonzi.Speak "I did not exit."
+Bonzi.Speak "I will tell you something."
+Bonzi.Speak "Next News will contain an exact representation of  News 25, but a different thing in war."
+Bonzi.Speak "The next thing will be Android."
+Bonzi.Speak "Exit."
+Bonzi.Hide
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

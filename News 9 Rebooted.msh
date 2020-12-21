@@ -1,0 +1,311 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Al=Al.acs
+Alien=Alien.acs
+Cami=Cami.acs
+Cathie=Cathie.acs
+Debbie=Debbie.acs
+Eman=Eman.acs
+Ewoman=Ewoman.acs
+Gar=Gar.acs
+Genie=Genie.acs
+Gourdy=Gourdy.acs
+Hanz=Hanz.acs
+James=James.acs
+Marge=Marge.acs
+Spaceman=Spaceman.acs
+Sizlik=Sizlik.acs
+Vrgirl=Vrgirl.acs
+Peedy=Peedy.acs
+Birdie=Birdie.acs
+
+[LanguageIDs]
+Al=&H409
+Alien=&H409
+Cami=&H409
+Cathie=&H409
+Debbie=&H409
+Eman=&H409
+Ewoman=&H409
+Gar=&H409
+Genie=&H409
+Gourdy=&H409
+Hanz=&H409
+James=&H409
+Marge=&H409
+Spaceman=&H409
+Sizlik=&H409
+Vrgirl=&H409
+Peedy=&H409
+Birdie=&H409
+
+[Script]
+Al.MoveTo 1344, 742
+Al.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Al.Show()
+WaitFor Req
+Alien.MoveTo 1266, 752
+Alien.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Alien.Show()
+WaitFor Req
+Cami.MoveTo 1195, 750
+Cami.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Cami.Show()
+WaitFor Req
+Cathie.MoveTo 1109, 684
+Cathie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Cathie.Show()
+WaitFor Req
+Debbie.MoveTo 1046, 686
+Debbie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Debbie.Show()
+WaitFor Req
+Eman.MoveTo 1011, 744
+Eman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Eman.Show
+Ewoman.MoveTo 958, 741
+Ewoman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Ewoman.Show()
+WaitFor Req
+Gar.MoveTo 903, 753
+Gar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Gar.Show()
+WaitFor Req
+Genie.MoveTo 837, 746
+Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Genie.Show()
+WaitFor Req
+Gourdy.MoveTo 758, 748
+Gourdy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Gourdy.Show()
+WaitFor Req
+Hanz.MoveTo 645, 786
+Hanz.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Hanz.Show()
+WaitFor Req
+James.MoveTo 540, 686
+James.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = James.Show()
+WaitFor Req
+Marge.MoveTo 423, 723
+Marge.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Marge.Show()
+WaitFor Req
+Spaceman.MoveTo 229, 786
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Spaceman.Show()
+WaitFor Req
+Sizlik.MoveTo 61, 685
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Sizlik.Show()
+WaitFor Req
+Vrgirl.MoveTo 340, 740
+Vrgirl.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Vrgirl.Show()
+WaitFor Req
+Peedy.MoveTo 278, 745
+Peedy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Peedy.Show
+Set Req = Peedy.Speak("Shrink away")
+WaitFor Req
+Set Req = Sizlik.MoveTo(38, 685)
+WaitFor Req
+Spaceman.MoveTo 201, 787
+Set Req = Spaceman.Speak("All listen to Birdie?")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes")
+WaitFor Req
+Set Req = Peedy.Speak("Yes")
+WaitFor Req
+Set Req = Vrgirl.Speak("Yes")
+WaitFor Req
+Set Req = Marge.Speak("Yes")
+WaitFor Req
+Set Req = James.Speak("Yes")
+WaitFor Req
+Set Req = Hanz.Speak("Yes")
+WaitFor Req
+Set Req = Gourdy.Speak("Yes")
+WaitFor Req
+Set Req = Genie.Speak("Yes")
+WaitFor Req
+Set Req = Gar.Speak("Yes")
+WaitFor Req
+Set Req = Ewoman.Speak("Yes")
+WaitFor Req
+Set Req = Eman.Speak("Yes")
+WaitFor Req
+Set Req = Debbie.Speak("Yes")
+WaitFor Req
+Set Req = Cathie.Speak("Yes")
+WaitFor Req
+Set Req = Cami.Speak("Yes")
+WaitFor Req
+Set Req = Alien.Speak("Yes")
+WaitFor Req
+Set Req = Al.Speak("Yes")
+WaitFor Req
+Birdie.MoveTo 659, 230
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Birdie.Show
+Birdie.Speak "He has recently been getting an error on his PC after the machine BSOD and then hung for an hour."
+Birdie.Speak "He decided that the PC was frozen and hit the restart button on his PC."
+Birdie.Speak "After the PC started to turn back on, he got this error:"
+Birdie.Speak "Your PC/Device need to be repaired"
+Birdie.Speak "The operating system couldn't be loaded because a critical system driver is missing or contains errors."
+Birdie.Speak "File: \WINDOWS\System32\drivers\EPMVolFlt.sys Error code: 0xc000007b"
+Birdie.Speak "You'll need to use recovery tools. If you don't have any installation media (like a disc or USB device), contact your PC administrator or PC/Device manufacturer."
+Set Req = Birdie.Speak("Press Enter to try again, Press F8 for Startup Settings")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "He's dual-booting Ubuntu 14.04 and Windows 10. He accidentally deleted the partition table for his main HDD, but was able to recover it."
+Birdie.Speak "Now, he can't boot Windows! Thankfully, it was easy to reinstall Grub and boot Ubuntu."
+Birdie.Speak "When trying to boot Windows, there is an error message on a bright blue screen:"
+Birdie.Speak "A required device isn't connected or can't be accessed."
+Birdie.Speak "Error code 0xc0000225"
+Birdie.Speak "He tried pressing F8 for Startup Settings, but got this error:"
+Birdie.Speak "The application or operating system couldn't be loaded because a required file is missing or contains errors."
+Birdie.Speak "File: /Windows/system32/winload.efi"
+Birdie.Speak "Error code: 0xc0000225"
+Birdie.Speak "He has already made a Windows install USB and tried using the recovery tools on it. Startup Repair didn't do anything at all. System Restore said to restart then select the OS but nothing happened after restart."
+Set Req = Birdie.Speak("Based on instructions here he went to CMD and ran bootrec /rebuildbcd, which found his Windows install, but when he confirmed to add it to the boot list, it said something like the drive was inaccessible.")
+WaitFor Req
+Set Req = Peedy.Speak("Next")
+WaitFor Req
+Birdie.Speak "His computer is Dell XPS 13 ultrabook shipped with Windows 7."
+Birdie.Speak "He thought of installing Ubuntu, so he unknowingly deleted recovery partition, formatted it and installed Ubuntu. Now Ubuntu is working fine."
+Birdie.Speak "But in grub, he's not able to see Windows so he followed this tutorial 'How to Manually Repair Windows 7 Boot Loader Problems - How-To Geek' to fix his Windows, But it didn't work"
+Birdie.Speak "In second screenshot, Windows 7 option didn't appear. He clicked next and did Startup repair which didn't help and then went to command prompt to execute the two commands"
+Birdie.Speak "bootrec /fixmbr"
+Birdie.Speak "bootrec /fixboot"
+Set Req = Birdie.Speak("The first command executed successfully but the second command gave him an error 'the volume does not contain a recognized file system'")
+WaitFor Req
+Set Req = Vrgirl.Speak("Next")
+WaitFor Req
+Birdie.Speak "So, when he plugged power cable into his PSU, it made bang and smoke came!"
+Birdie.Speak "He checked the PSU inside and found a screw from there, and burn marks under the screw."
+Set Req = Birdie.Speak("After he had taken screw out, he decided to see will it work, and it started up without problems.")
+WaitFor Req
+Set Req = Marge.Speak("Next")
+WaitFor Req
+Birdie.Speak "He was playing a game on his computer when suddenly, he heard a small spark noise that came from inside the monitor! The screen turned off completely but the power indicator light on the monitor was still on."
+Birdie.Speak "After shutting down the main outlet, a tiny smoke came out from the back of the monitor's vent."
+Set Req = Birdie.Speak("The following day, he plugged in an old spare monitor to check. The computer turned on and worked perfectly. It's just the monitor that's busted.")
+WaitFor Req
+James.Speak "Monitors can explode."
+Set Req = James.Speak("Next")
+WaitFor Req
+Birdie.Speak "He has recently assembled a new computer to serve as his NAS."
+Birdie.Speak "After he got the parts, he found that he had to upgrade his BIOS, in order for the Ivy Bridge CPU he has ordered to function."
+Birdie.Speak "So he head down to the local computer shop and get it flashed. All seems good."
+Birdie.Speak "When he come home, he put in his Ivy CPU, and he notice some thing is wrong right away, the CPU fan will not spin, allthough it tries to, and it ends up in a futile power on loop."
+Set Req = Birdie.Speak("He tried and plug in a VGA cable to see if he can at least get a POST, that was when the power supply of his monitor blew up, and he saw sparks around the VGA connector on his computer.")
+WaitFor Req
+Set Req = Hanz.Speak("Next")
+WaitFor Req
+Birdie.Speak "Last night there was a huge thunderstorm while his computer was on. A bolt of lightning struck nearby, the lights in the house flickered, modem reset, and there was a loud pop that came from his PC! Now his PC won't start."
+Birdie.Speak "His PSU still works, and he narrowed the problem down to his motherboard. He took it out to inspect it, and there is a small missing chunk from what he presume to be the Ethernet controller. Nothing else seems to be blown."
+Set Req = Birdie.Speak("The modem still works, and he was connected via Ethernet. Everything is connected to a surge protector, except of course the cable for his modem that goes into the wall.")
+WaitFor Req
+Set Req = Gourdy.Speak("Next")
+WaitFor Req
+Birdie.Speak "So he thinks his computer just blew up. Or, some of it. He was playing Heroes of the Storm and suddenly all of his monitors went black, and he could hear his PC turning off."
+Birdie.Speak "He thought that maybe he hit a cable with his foot or his screen driver crashed."
+Birdie.Speak "He looked down to the left under his table towards his PC and he can see that there's a small 'fireish' colour behind it! To be more precise, the fireish colour was directly behind my PSU, and he had a very small like explosion! Then it stopped and all of the lights in his room and the WiFi stopped working."
+Birdie.Speak "He thinks he overloaded his wall plug somehow."
+Birdie.Speak "He plugged his two screens of the extension chord and a small lamp. Then he was able to get the power back on in his room, but his PC can't boot."
+Birdie.Speak "There's no lights in his PC when there is power connected to it. He can't see on the PSU if something looks fried or not."
+Birdie.Speak "He bought a Corsair AX 860 today and installed it in his computer. He plugged his screen and PSU into a single wall plug, so he wouldn't run into any problems."
+Birdie.Speak "Once it was setup up, he powered up the PSU and all of the correct lights in the case lit up."
+Birdie.Speak "He turned on the computer and it turned on like nothing had happened! It only made to the Windows 8 loading screen when the screen began to go from a black screen to kind of like a grey screen very fast!"
+Birdie.Speak "He thought that maybe his OS had corrupted once the old PSU blew up. He then remembered that he forgot to install the SLI bridge, but that couldn't have an effect on that, but he tried anyways."
+Set Req = Birdie.Speak("He installed the bridge and then the computer turned on like nothing had happened! His computer detects both SSD's, both GPU's, CPU and Motherboard and all fans are spinning.")
+WaitFor Req
+Set Req = Genie.Speak("Ready for next")
+WaitFor Req
+Birdie.Speak "He recently had an Antec TPQ-1000watt PSU fry on him during a gaming session. It sizzled, sparks, popped! Then the system shut down."
+Birdie.Speak "So he got a new EVGA 1000watt Gold PSU, hooked it all up, system turns on, all fans, even GPU fans run, lights etc, but he gets no video signal at all, not even a monitor 'flash' or anything. He doesn't even get a POST beep."
+Birdie.Speak "It went out with a bang! Never seen that happen before and visually everything looks good, but nothing works."
+Birdie.Speak "He even took the PSU apart and doesn't see any blown capacitors."
+Set Req = Birdie.Speak("He did install a Corsair H80i liquid cpu cooler about 2 weeks prior to this, and the pump and fan power on the cooling unit run off SATA power connector, so he used a free end.")
+WaitFor Req
+Set Req = Gar.Speak("Next")
+WaitFor Req
+Birdie.Speak "After taking his computer outside and cleaning it out with a compressed air can, he took it back inside and turned it on."
+Birdie.Speak "When he pressed the on switch it instantly made a fairly loud bang or pop sound and smelt like burning although he did not see any smoke!"
+Birdie.Speak "When cleaning he used only short bursts and kept the can upright at all times so he doesn't think at least any liquid came out."
+Set Req = Birdie.Speak("He unplugged it and the smell was coming from the PSU which it was makes him suspect it. The dust build up was fairly a lot due to 3 years of no cleaning.")
+WaitFor Req
+Set Req = Ewoman.Speak("Next")
+WaitFor Req
+Birdie.Speak "His computer won't turn on when there is an audio USB interface plugged in (Presonus Audiobox)."
+Birdie.Speak "The PC just gives short noises but nothing happens. When he unplug the device it immediately turns on normally."
+Birdie.Speak "He can then plug the device in and everything works properly."
+Birdie.Speak "What is strange the computer did turn on with this device plugged in previously, Then after unplugging and plugging it in once again it suddenly stopped."
+Set Req = Birdie.Speak("He tried different USB ports but it is all the same.")
+WaitFor Req
+Set Req = Eman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He recently bought a new video card and had to uninstall the old graphic cards drivers so he could use the new one."
+Birdie.Speak "When he restarted his computer, his keyboard and mouse will not work. He is stuck at the log-in screen so he cannot enter into the desktop."
+Birdie.Speak "He went ahead and installed the new card and turned on his PC and still no luck. He couldn't install any new drivers or anything. He didn't bother to go into the BIOS since he figured it's no use."
+Set Req = Birdie.Speak("He also tried plugging the keyboard/mouse into every USB slot and no luck.")
+WaitFor Req
+Set Req = Debbie.Speak("Next")
+WaitFor Req
+Birdie.Speak "He put his computer into sleep mode and left for a couple hours. Upon returning, he tried to wake it up but it wouldn't start back up. He turned off the power supply and unplugged it and after plugging it back in and turning it back on, the computer still won't turn on."
+Birdie.Speak "He has checked all connections between the PSU and motherboard and all connections are fine and plugged in"
+Birdie.Speak "When attempting to turn the computer on, He saw no lights flash/turn on anywhere on the motherboard."
+Set Req = Birdie.Speak("He thinks his PSU happened to die")
+WaitFor Req
+Set Req = Cathie.Speak("Next")
+WaitFor Req
+Birdie.Speak "Recently after waking up his computer from sleep mode it blue screened. It never did this before. It wasn't doing anything special."
+Birdie.Speak "The night before, he was installing games from Steam, and watching Twitch streams. He remembers after the games finished downloading completely from Steam, he remembers getting sleepy and left the web browser on the Twitch stream and went to bed."
+Birdie.Speak "When he woke up, he pressed the keyboard to wake the computer up from sleep mode and that's when the computer has the BSOD."
+Set Req = Birdie.Speak("He then restarted it manually to get back into Windows")
+WaitFor Req
+Set Req = Cami.Speak("Next")
+WaitFor Req
+Birdie.Speak "So he was taking his PC apart for christmas to put in a new CPU and motherboard. However when he took the whole thing apart, he realized he got scammed for the CPU."
+Birdie.Speak "He started to put his PC back together and wait for a refund to get a new CPU. He put it back together and upon starting up it was extremely slow, like took 5-10 mins just to switch. Then when it came on, it would work for a few minutes then Windows would crash and his screen would freeze."
+Birdie.Speak "He switched off his PC and checked all the connections weren't loose then tried again but it kept happening. He eventually got a message upon start up saying disk read error occurred, so he took out his hard drives and put them back in"
+Birdie.Speak "This time it started but Windows crashed again. He tried one more time but left the side panel off and watched it as it switched on."
+Set Req = Birdie.Speak("While starting there was a burning smell coming from the PC! When he looked at it a puff of smoke came from around the RAM!")
+WaitFor Req
+Set Req = Alien.Speak("Ready for the next story guys?")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes")
+WaitFor Req
+Set Req = Spaceman.Speak("Yes")
+WaitFor Req
+Set Req = Peedy.Speak("Yes")
+WaitFor Req
+Set Req = Vrgirl.Speak("Yes")
+WaitFor Req
+Set Req = Marge.Speak("Yes")
+WaitFor Req
+Set Req = James.Speak("All yes.")
+WaitFor Req
+Birdie.Speak "He pressed the sleep button on keyboard by mistake and now he's getting nothing apart from normal sound from tower ie. fans running etc."
+Set Req = Birdie.Speak("He is unable to do anything because his keyboard mouse and monitor are all non-responsive")
+WaitFor Req
+Set Req = Al.Speak("Last one")
+WaitFor Req
+Birdie.Speak "So he got a non-working, out of warranty laptop to play with. It was really old and dusty so he decided to disassemble it and clean out the dust out of the fan and heat sink. It also came without a battery."
+Birdie.Speak "So after assembling it back, everything looked pretty good except the fact that a few screws were left unused."
+Birdie.Speak "He plugged in the charger and the power LED turned on. When he tried to boot it, the fan started spinning and everything seemed normal but then his socket started crackling!"
+Birdie.Speak "He has seen this before and he knows that it is about to blow up when this noise starts, but he managed to plug it out quickly."
+Set Req = Birdie.Hide()
+WaitFor Req
+Spaceman.Speak "Exit now."
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

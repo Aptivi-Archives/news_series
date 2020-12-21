@@ -1,0 +1,505 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Al=Al.acs
+Blanche=Blanche.acs
+Cathie=Cathie.acs
+Debbie=Debbie.acs
+Cupid=Cupid.acs
+Electra=Electra.acs
+Genie=Genie.acs
+Merlin=Merlin.acs
+Plany=Plany.acs
+Peedy=Peedy.acs
+Robby=Robby.acs
+Sizlik=Sizlik.acs
+Spaceman=Spaceman.acs
+Santa=Santa.acs
+Reaper=Reaper.acs
+Oscar=Oscar.acs
+Milton=Milton.acs
+Miku=Miku.acs
+Joe=Joe.acs
+Ozzar=Ozzar.acs
+Gourdy=Gourdy.acs
+Birdie=Birdie.acs
+
+[LanguageIDs]
+Al=&H409
+Blanche=&H409
+Cathie=&H409
+Debbie=&H409
+Cupid=&H409
+Electra=&H409
+Genie=&H409
+Merlin=&H409
+Plany=&H409
+Peedy=&H409
+Robby=&H409
+Sizlik=&H409
+Spaceman=&H409
+Santa=&H409
+Reaper=&H409
+Oscar=&H409
+Milton=&H409
+Miku=&H409
+Joe=&H409
+Ozzar=&H409
+Gourdy=&H409
+Birdie=&H409
+
+[Script]
+Al.MoveTo 1339, 744
+Al.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Al.Show()
+WaitFor Req
+Blanche.MoveTo 1242, 683
+Blanche.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Blanche.Show()
+WaitFor Req
+Cathie.MoveTo 1189, 681
+Cathie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Cathie.Show()
+WaitFor Req
+Debbie.MoveTo 1136, 684
+Debbie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Debbie.Show()
+WaitFor Req
+Cupid.MoveTo 1042, 704
+Cupid.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Cupid.Show()
+WaitFor Req
+Electra.MoveTo 977, 744
+Electra.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Electra.Show()
+WaitFor Req
+Genie.MoveTo 902, 743
+Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Genie.Show()
+WaitFor Req
+Merlin.MoveTo 835, 748
+Merlin.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Merlin.Show()
+WaitFor Req
+Plany.MoveTo 742, 782
+Plany.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Plany.Show()
+WaitFor Req
+Peedy.MoveTo 633, 748
+Peedy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Peedy.Show()
+WaitFor Req
+Robby.MoveTo 581, 744
+Robby.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273006}"
+Set Req = Robby.Show()
+WaitFor Req
+Sizlik.MoveTo 11, 687
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Sizlik.Show()
+WaitFor Req
+Spaceman.MoveTo 172, 787
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Spaceman.Show()
+WaitFor Req
+Santa.MoveTo 246, 729
+Santa.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Santa.Show()
+WaitFor Req
+Reaper.MoveTo 480, 691
+Reaper.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273007}"
+Set Req = Reaper.Show()
+WaitFor Req
+Oscar.MoveTo 445, 745
+Oscar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Oscar.Show()
+WaitFor Req
+Milton.MoveTo 396, 747
+Milton.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Milton.Show()
+WaitFor Req
+Miku.MoveTo 349, 641
+Miku.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Miku.Show()
+WaitFor Req
+Joe.MoveTo 288, 754
+Joe.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Joe.Show
+Set Req = Joe.Speak("Someone shrink away")
+WaitFor Req
+Set Req = Al.MoveTo(1353, 745)
+WaitFor Req
+Set Req = Blanche.MoveTo(1264, 683)
+WaitFor Req
+Set Req = Cathie.MoveTo(1211, 682)
+WaitFor Req
+Set Req = Debbie.MoveTo(1162, 684)
+WaitFor Req
+Set Req = Cupid.MoveTo(1093, 702)
+WaitFor Req
+Set Req = Electra.MoveTo(1058, 745)
+WaitFor Req
+Set Req = Genie.MoveTo(1003, 743)
+WaitFor Req
+Set Req = Merlin.MoveTo(941, 748)
+WaitFor Req
+Set Req = Plany.MoveTo(885, 784)
+WaitFor Req
+Set Req = Peedy.MoveTo(809, 745)
+WaitFor Req
+Set Req = Robby.MoveTo(769, 744)
+WaitFor Req
+Set Req = Reaper.MoveTo(670, 694)
+WaitFor Req
+Set Req = Oscar.MoveTo(635, 747)
+WaitFor Req
+Set Req = Milton.MoveTo(587, 747)
+WaitFor Req
+Set Req = Miku.MoveTo(539, 641)
+WaitFor Req
+Set Req = Joe.MoveTo(463, 752)
+WaitFor Req
+Ozzar.MoveTo 396, 744
+Ozzar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Ozzar.Show()
+WaitFor Req
+Gourdy.MoveTo 324, 744
+Gourdy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Gourdy.Show()
+WaitFor Req
+Set Req = Milton.Speak("What about E-man and E-woman?")
+WaitFor Req
+Robby.Play "Process"
+Set Req = Robby.Speak("They can't come.")
+WaitFor Req
+Set Req = Milton.Speak("Why?")
+WaitFor Req
+Set Req = Robby.Speak("Because they are very busy.")
+WaitFor Req
+Set Req = Cupid.Speak("Beep?")
+WaitFor Req
+Set Req = Debbie.Speak("Yes")
+WaitFor Req
+Set Req = Cupid.Speak("Beep?")
+WaitFor Req
+Set Req = Electra.Speak("Yes")
+WaitFor Req
+Set Req = Cupid.Speak("Beep?")
+WaitFor Req
+Set Req = Milton.Speak("All yes")
+WaitFor Req
+Set Req = Sizlik.Speak("Where's Birdie?")
+WaitFor Req
+Set Req = Miku.Speak("Coming soon.")
+WaitFor Req
+Set Req = Santa.Speak("Guys, what do all of us wait?")
+WaitFor Req
+Joe.Play "Licking"
+Set Req = Joe.Speak("for Birdie.")
+WaitFor Req
+Birdie.MoveTo 676, 175
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Birdie.Show
+Birdie.Speak "He had a 580w PSU in his PC because since he bought it he has been having restarts during high-load moments in games."
+Birdie.Speak "He replaced it with a Silverstone 1000W ST-G, which should be a very good product."
+Birdie.Speak "So he turn it on when it's finally all hooked up and it turns on/off/on/off. Also it whines rather loudly when it turns on, but he has never heard the 135MM fan in this PSU before so that didn't scare him, but every 2 secs, on/off."
+Set Req = Birdie.Speak("The other thing, it didn't just turn on and off, rather, umprompted. It turned on 2 seconds, off 2 seconds, on 2 seconds, off, until he unplugged it.")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "This evening he was playing a game and his PC abruptly restarted on its own."
+Birdie.Speak "As it restarted, it shut off again. He powered it down and let it sit for a bit, and then when he started it up again, everything seemed fine."
+Birdie.Speak "He checked event viewer to see if there was any indication as to why it randomly shut off and didn't see anything. Went to check temperatures and suddenly it shut off again. He let it sit for a while longer..."
+Birdie.Speak "When he tried to turn it back on, he hears a single click from the power supply!"
+Set Req = Birdie.Speak("The light on his disc drive comes on, and his touch screen fan controller powers up. Everything else remains totally lifeless.")
+WaitFor Req
+Set Req = Joe.Speak("Ready for next")
+WaitFor Req
+Birdie.Speak "There has been a strong burning smell coming from his PC, which he is pretty sure was the PSU!"
+Birdie.Speak "He has bought and installed a new PSU. However, the PC now boots for 20 seconds, with nothing coming up on the monitor and then turns off. The fans all come on, however the GPU fan spins for a few seconds before stopping."
+Set Req = Birdie.Speak("The green reset light on the motherboard turns off when the PC turns itself off. There is also a white light at the back of the case at the top that turns off.")
+WaitFor Req
+Set Req = Oscar.Speak("Next")
+WaitFor Req
+Birdie.Speak "He assembled the motherboard, CPU, cooler, RAM, and graphics card on the motherboard box."
+Birdie.Speak "When he turned it on, he got a message that it couldn't find anything to boot from."
+Birdie.Speak "He wanted to go into BIOS, but he has to click OK and he doesn't have a mouse in so he took this as POST."
+Birdie.Speak "He then assembled everything into the case and now when he press the power button, the cooler fan, case fans, graphics card fan, and the graphics card LED turn on."
+Birdie.Speak "He hears a whine that he thinks is the hard drive spinning up and then everything turns back off!"
+Set Req = Birdie.Speak("This will happen repeatedly if he doesn't cut the power, even if it hold down or press the power button again to turn it off.")
+WaitFor Req
+Set Req = Santa.Speak("Next.")
+WaitFor Req
+Birdie.Speak "He has been having this problem for a while now. A few months ago he decided to upgrade his Palit GTX 450 for a Powercolor HD 6870."
+Birdie.Speak "Ever since, he has been having random crashes in his games, even those with very low graphic intensity."
+Set Req = Birdie.Speak("He was running a stock Xion 700W, and he tried to replace it with a Corsair HX850 but same problem.")
+WaitFor Req
+Set Req = Cupid.Speak("Next")
+WaitFor Req
+Birdie.Speak "During the overclock which did reach 4.05 on air unstable, he was very careful not to reach above 1.53v although reported voltage for this CPU he believes is higher and the temperature didn't jump above 64 under full load."
+Birdie.Speak "He overvolted the chipset from 1.4 to 1.5 and was setting a fsb:dram of 780:720 for the overclock, then monitor display went crazy and nothing."
+Birdie.Speak "Now he has a problem with the ATI card with a poor display that was solved after a sleepless night and hard disk reformatting and reinstallation of Windows simply by changing the PCIe slot."
+Birdie.Speak "So he thought that this time it was again the graphic card, changing its place, moving it in its slot but didn't solve the problem this time."
+Set Req = Birdie.Speak("Before, he noticed that the LED next to the reset button stayed on. Now as soon as the system is powered on it disappears but the fans are spinning and the motherboard LED's are on.")
+WaitFor Req
+Set Req = Reaper.Speak("Ready for next")
+WaitFor Req
+Set Req = Birdie.Speak("Basically, he can be playing any game and have over 100 FPS and everything will be fine. Then, at some random time, his screen will go black for 3 seconds, and then when the picture returns, his FPS is between 15-20 for the rest of the game. Then, more and more black screens will appear more frequently until either his game crashes or he quits out of frustration.")
+WaitFor Req
+Set Req = Joe.Speak("Ready for next")
+WaitFor Req
+Birdie.Speak "He is experiencing problems with his computer."
+Birdie.Speak "He's building a new rig, but have not got it finished yet, so he's trying to use his Compaq Presario until he has the final pieces to his new rig."
+Birdie.Speak "He popped in his GPU and tried to boot into Windows 7 one day, after having used Ubuntu for three weeks straight, now he gets a blue screen at start up when he has the GPU in that says he should try to reset the device display."
+Set Req = Birdie.Speak("Safe mode works, but he has no internet connection to be able to download anything that he might need. He also checked the device manager through Safe Mode and his GPU is up to date.")
+WaitFor Req
+Set Req = Gourdy.Speak("Next news")
+WaitFor Req
+Birdie.Speak "His Sapphire 6870 w/ Dual fans (DiRT 3 edition) might stress again that it is has dual fans, is overheating."
+Birdie.Speak "He pushed his OC back to stock, he even replaced the thermal paste with Arctic Silver 5, two times because he thought he might have added too much the first time. His temps when running Furmark or OCCT are easily 82C and this is at a stock overclock of 900mhz core and 1050mhz memory clock."
+Birdie.Speak "When he plays Just Cause 2, his temps are around 65C - 70C which are generally low compared to his stability testing temps yet they are still pretty high considering that the GPU is dual fan and the game isn't even that graphic intensive as opposed to BF3 or any of the latest games."
+Birdie.Speak "When he plays Witcher 2 however, my temps are between 70C and 75C. Now obviously this is not even close to normal as other people are getting between 50*C -70*C max even when stress testing."
+Set Req = Birdie.Speak("When his card idles it is at 33C as soon as the system boots up. After about 10-20 min of idling it is at 37C-45C.")
+WaitFor Req
+Set Req = Spaceman.Speak("List of problems")
+WaitFor Req
+Birdie.Speak "1. The screen goes black. The power button on the screen flashes orange when this happens, exactly like it does when the computer isn't turned on and the screen isn't getting a signal."
+Birdie.Speak "2. Sometimes the audio starts playing the same half-second of a sound over and over, sometimes the audio just turns off."
+Birdie.Speak "3. The computer won't respond to anything but a hard reset or holding down the power button to turn it off."
+Set Req = Birdie.Speak("4. Sometimes just goes blue and says he has a virus but he scanned his whole computer and found nothing.")
+WaitFor Req
+Set Req = Joe.Speak("Second list")
+WaitFor Req
+Birdie.Speak "The first problem he has been having is that there's no 'beep.'"
+Birdie.Speak "The second problem he has been having is a bit more serious. When he starts up his computer, sometimes all of the fans turn on, the optical drive spins a bit and he can hear the hard drive activity, but the computer never actually boots."
+Birdie.Speak "The lights on his mouse and keyboard don't turn on either. Since he can't hear any beep code, then his computer can't tell him why it won't boot."
+Birdie.Speak "Nothing is displayed from the VGA output directly connected to the mobo, or the graphics card. He also gets 'IRQL_NOT_LESS_OR_EQUAL' blue screens sometimes, but they're kind of random. They mostly occur when he leaves his computer idle for a while and don't do anything on it."
+Set Req = Birdie.Speak("When he leaves his computer idle to download games from Steam, update windows, etc., sometimes he comes back and the fans are running but the computer isn't on, and the same problem happens all over again.")
+WaitFor Req
+Set Req = Merlin.Speak("Next")
+WaitFor Req
+Birdie.Speak "Problem 1: Computer won't always start. He tried holding down power to turn it off, then turn it back on. It reads the CPU running 2.14."
+Birdie.Speak "Problem 2: Computer won't always start. After restarting the computer he goes back in to the BIOS, where the OC settings are saved. He saves and exits, and everything works fine."
+Birdie.Speak "Problem 3: He has 3DMark05 and 06. Both say that his system doesn't support OpenGL 2.0 shaders and that he should run an older 3DMark."
+Birdie.Speak "He can run test, but i can't run the demo because it tells him to run an older program."
+Birdie.Speak "He have uninstalled and reinstalled his video drivers, but at the same time, Unreal Tournament 3 stopped working and it would crash."
+Birdie.Speak "Aquamark would never work."
+Birdie.Speak "When he plays Galactic Civilization 2, none of the planets and ships appear."
+Set Req = Birdie.Speak("In Crysis, he has a lot of flickering in spots, mostly foliage and mountains in the distance.")
+WaitFor Req
+Set Req = Ozzar.Speak("What is Unreal Tournament?")
+WaitFor Req
+Set Req = Miku.Speak("It is a shooting game.")
+WaitFor Req
+Set Req = Milton.Speak("It is made by Unreal engine")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for unreal list")
+WaitFor Req
+Birdie.Speak "He is currently having problems with his computer and he doesn't know which forum this belongs in to be honest."
+Birdie.Speak "When he first starts his computer up, it is fully functional. After 30 minutes, he can not open any programs or CTRL+Alt+Del."
+Birdie.Speak "When he tries to press ctrl alt delete the system hangs and says that the computer could not display security or shut down options. Also, when he first starts up the computer and its functional. He open up the task manager and notice 50% of his ram is being used mostly by svchost.exe."
+Set Req = Birdie.Speak("Yesterday he got a message from AVG saying it blocked a malicious thing coming from svchost.exe")
+WaitFor Req
+Set Req = Miku.Speak("Next list")
+WaitFor Req
+Birdie.Speak "A couple of weeks ago he decided to burn something with his as of yet, unused DVD burner (PLEXTOR 16X DVD±R DVD Burner Black IDE Model PX-740A-BP-BL)."
+Birdie.Speak "System has to restart after install and when it does, nothing happens and a lot of beeping. It's a set of 3 beeps, then a pause then 3 beeps and it repeats like that. So, he turn it off and reboot and it boots fine!"
+Birdie.Speak "So he continue like this for a couple of weeks: Every once and a while he get this error on boot."
+Birdie.Speak "so that day comes.. He put a CD in the drive, and the whole system crashes with a blue screen of death and all, So he decided to uninstall the software that seemlingly caused the problem, but he still gets the error"
+Birdie.Speak "He starts to think it must be the burner so he looked around for driver updates. And now his sound card doesn't work and his computer still has the initial error!"
+Birdie.Speak "So he decided to use some software he found at the Plexor website (PConpoint) to clean up his computer incase there are fragments from the uninstalled software"
+Birdie.Speak "And now when he boots up, he gets a Windows error saying that Hal.dll is missing or corrupt and it needs to be reinstalled. He does that, and Windows boots again, but still no sound."
+Set Req = Birdie.Speak("He tried to flash the BIOS with the latest version, but now, he gets as far as the Windows boot screen and it crashes and reboots.")
+WaitFor Req
+Set Req = Oscar.Speak("Next list")
+WaitFor Req
+Birdie.Speak "1. Programs take very long to open and sometimes they don't even open, they just freeze."
+Birdie.Speak "2. Windows Explorer stops working."
+Birdie.Speak "3. Took him 3 times to open chrome, when open, it doesnt even load a page even the internet is connected."
+Birdie.Speak "4. Display settings keep getting reverted when opening games."
+Birdie.Speak "5. First hard drive has 18GB left."
+Birdie.Speak "6. His hard drive keeps filling itself up when he's not even installing anything."
+Set Req = Birdie.Speak("7. RAM is always 70% used up even when no programs are running.")
+WaitFor Req
+Set Req = Peedy.Speak("Next")
+WaitFor Req
+Set Req = Birdie.Speak("Today he noticed that his computer was making a weird laughing noise at random times. He even had somebody else here and they noticed it too. He also saw it on an audio monitor, so he's not just hearing things but it also seems to change a little bit every once in awhile. I don't currently have an anti-virus.")
+WaitFor Req
+Set Req = Robby.Speak("The list has ended. More stories.")
+WaitFor Req
+Set Req = Merlin.Speak("Ready for next")
+WaitFor Req
+Birdie.Speak "He has fixed his processor and fixed his PSU and got a new Graphics card and everything, but he's still having PC Problems."
+Birdie.Speak "When playing a game, it will randomly shut off for no reason, nothing overheating. He booted it up after it did that and one time it shut off twice in a row during the boot up."
+Birdie.Speak "Next News."
+Birdie.Speak "OK, soon he was playing a game of Counter Strike and his computer decided to Alt+Tab and go into a web page that opened up 2 adfly pages! He was looking up some guitar tabs and a YouTube video opened up and started playing!"
+Set Req = Birdie.Speak("It was a video tutorial on how to get unbanned from Minecraft.")
+WaitFor Req
+Set Req = Miku.Speak("This is a virus.")
+WaitFor Req
+Birdie.Speak "Today he looked in his Task Manager to find a lot of really odd looking things! There was alot of svchosts!"
+Birdie.Speak "He decided to get Malwarebytes, he downloaded the installer but it wouldn't run because it said resource is being used."
+Birdie.Speak "So after several tries and several different anti-virus programs, none would work so he decided to start clean. Whenever he reset his laptop, it won't work."
+Birdie.Speak "The button to delete all files and restart with a fresh Windows 10 installation didn't work so he made a USB Windows 10 installer and plugged it in, and went to get to his BIOS...... He couldn't get to it! It's like the BIOS is gone or something!"
+Birdie.Speak "He has tried the keys booting up, He has tried holding shift during restart, He has tried everything but nothing works."
+Set Req = Birdie.Speak("He's now in a command safe mode. So it boots up to the login screen where he put in his password, then he put it in and it goes straight to a full screen command prompt in system32. He wants to format his laptop now and it doesn't work. He can't even delete system32.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He was reading comics and decided to play Minecraft. He use MultiMC which asked for an update...... The update and revert both failed! So he went to download a new one. Opened it immediately but couldn't copy the insides because it said the file was missing."
+Birdie.Speak "It was, downloaded a new one while the folder it was going to was open. There it was, 3 seconds later it was gone."
+Birdie.Speak "Went to Google Chrome, but it wouldn't load. Tabs that were open would go forward and back by links. Ran virus scan, it hit 99% and stalled."
+Set Req = Birdie.Speak("Then he tried Firefox, it was minimized but wouldn't maximize. Then, Windows has stopped responding! He was forced to shut it down and now the computer is a brick.")
+WaitFor Req
+Set Req = Joe.Speak("Next")
+WaitFor Req
+Birdie.Speak "A few minutes into doing anything that outputs sound such as a video or playing a game the sound starts to go slow motion and it becomes choppy and almost a static noise, and it brings down his FPS. As for videos they slow down."
+Birdie.Speak "He has also noticed that if he ignore it for a while the sound mutes itself. when he tried to unmute it, he hears a second of noise then it mutes itself again."
+Birdie.Speak "He has speedfan and his CPU is at 50C, and he bought McAfee to see if it would fix the problem but nothing has changed."
+Set Req = Birdie.Speak("He even experience an issue when he types too fast, letters don't show up and spaces take their place.")
+WaitFor Req
+Set Req = Ozzar.Speak("Next")
+WaitFor Req
+Birdie.Speak "Last night, he shut off his PC and turned off his power supply because he was moving it to a different place in his room."
+Birdie.Speak "Today, he plug it all back in and turn it on and now it gets to the ASUS screen which is the first screen and it freezes."
+Set Req = Birdie.Speak("He can't get into BIOS or nothing. He tried replacing the little battery on the motherboard but still nothing.")
+WaitFor Req
+Set Req = Miku.Speak("Next")
+WaitFor Req
+Birdie.Speak "Last night, it randomly crashed from Dota 2 and gave him the blue screen 'Your PC ran into a problem...' and then turned off. When it rebooted back, it said 'Problem with your PC, you need to repair it'."
+Birdie.Speak "He just forced it off by holding power button and turned it back on, worked fine and he played another game without any problems."
+Birdie.Speak "Now, it keeps on crashing after games like maybe an hour or two, without much heat or anything."
+Birdie.Speak "But he feels like it gets worse everytime, because now when it happens and it turns off it turns on for maybe a second, give or take a half, and the keyboard backlight turns on as does the power button light, and he can hear a small 'de de' kind of noise then it turns back off."
+Birdie.Speak "Eventually it turns back on and works fine, but he feels like it takes more tries everytime now and this last time it only turned on for about 2 minutes, enough for him to open Chrome and try to search what was wrong, But then blue error and it's off."
+Set Req = Birdie.Speak("Right now it's not turning back on.")
+WaitFor Req
+Set Req = Cupid.Speak("Ready for next")
+WaitFor Req
+Birdie.Speak "He has a nasty bit of malware on his computer a few days ago that made CMD open up his File Explorer and whenever he tried to play a game that needed CMD, it just opened up file explorer."
+Birdie.Speak "He downloaded malwarebytes and fixed it but now whenever he boot up, explorer.exe doesn't launch on its own."
+Birdie.Speak "He has to go to the task manager and launch it via that and he thinks there might still be a problem because it also boots up CMD and he played a game yesterday that didn't launch and only thing he saw on the task manager was console window host"
+Birdie.Speak "He tried fixing it with sfc scannow but that didn't work, it found nothing"
+Birdie.Speak "Next issue."
+Birdie.Speak "He has done something which he wanted to do forever which was buy an old PC and upgrade."
+Birdie.Speak "Things were going great, it had Windows XP, he then upgraded to Windows 7 then to Windows 10 after upgrading the CPU, adding a cheap graphics card, and a couple more GB of RAM"
+Set Req = Birdie.Speak("Then he deleted the windows.old folder and also cleaned old Windows install files through disc clean up and has now been on the black Windows 10 boot screen with circle dotted line for nearly 2 hours")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He downloaded a game called Path of Exile to play with his brother. He always tries to push the boundaries and so he downloaded a bot to mod the game. On the same night, he realized his computer is too old and slow to run Path of Exile, so he deleted it."
+Birdie.Speak "The next morning, he was on playing a game called TTR and it worked fine but when he was done, he restarted his computer because it said it had updates."
+Birdie.Speak "Once it was done, he couldn't open anything!! He restarted his computer multiple times and it still wouldn't work! So he plugged computer into lab cable and put in safety mode and turned off the internet conection and then restarted computer again. Now all my applications connect and open perfectly fine! However nothing loads well."
+Birdie.Speak "He first realized there was a problem when google chrome opened and no site was loading but his internet connection was fine."
+Birdie.Speak "After further inspection, he realized his internet says 'limited access' and his computer profile says he's connected to the modem but the modem doesn't have internet access."
+Set Req = Birdie.Speak("The cable wasn't working either, it still said it wasn't connected. After another restart, his internet is working fine and says he has connection but now none of his applications open.")
+WaitFor Req
+Set Req = Plany.Speak("Ready for hacked Steam profile")
+WaitFor Req
+Birdie.Speak "He looks at his Steam profile...... It is highlighted with a lot of green and one of his badges is a weapon from the game Counter Strike Global Offensive, and one of his recently played games is also a weapon from the game!"
+Birdie.Speak "The only things he has downloaded in the past weeks were 2 zombie maps for call of duty world at war and mods for another game off the Steam Workshop."
+Birdie.Speak "Both of the zombie maps had very good ratings, lots of downloads, and were from a trusted website."
+Set Req = Birdie.Speak("The only thing he can think of that could have given him a virus was when he accidentally clicked on an ad and a new window on Google Chrome popped up with a bunch of text that looked like binary code but he exited out of it.")
+WaitFor Req
+Set Req = Debbie.Speak("Next")
+WaitFor Req
+Birdie.Speak "He recently built his first computer and he did well and got so happy that he forgot to install any anti-virus software! He started Internet and started surfing and downloading from unknown websites!"
+Birdie.Speak "His PC gets a lot of pop-ups and he can't even hide them. He got rid of all other pop-ups but there is one pop-up that doesn't close........."
+Set Req = Birdie.Speak("It's some Chinese pop-up with blue shield like logo, It also has its internet speed showing meter and it shows all wrong internet speeds.")
+WaitFor Req
+Set Req = Sizlik.Speak("Next")
+WaitFor Req
+Birdie.Speak "He was having issues with his printer... and he called the random support line scammer!"
+Birdie.Speak "The technician had the innocent allow him to remote in, which is fine, and the technician took control. The technician checked through basic settings and what not, then told him that everything was fine, so there must have been some error with the computer communicating with the printer."
+Birdie.Speak "So the technician showed him the event viewer, which was full of events (about 13000) and the technician told him this is bad. the technician then opened the command prompt and wrote the 'tree' command and ran it."
+Birdie.Speak "the technician told him that command was scanning his computer, but from what he knows that command just lists all the files on his hard drive into, well, a tree diagram."
+Birdie.Speak "Then, after that finished, the technician ran tree again but it only ran for about a second... Then, it displayed 'Zeus Trojan Horse Detected' on the screen!!!"
+Birdie.Speak "the technician told him that his entire network was infected, and that it would cost him $100 to fix it."
+Set Req = Birdie.Speak("He hung up because the technician was being super rude!")
+WaitFor Req
+Set Req = Genie.Speak("Next")
+WaitFor Req
+Set Req = Birdie.Speak("He has a RCA Viking Pro android tablet that just gave pop up that warns on screen - coming from Google with logo - but the address bar had another address name that stated: 'your RCA phone has 2 viruses' ..and 'To fix it you need to download this update or will shut down in 24 hours'. He did not click update Button.")
+WaitFor Req
+Set Req = Reaper.Speak("Next")
+WaitFor Req
+Birdie.Speak "He clicked on one thread. The second he clicked it, he had popups telling him that his computer was infected, a rogue malware program named 'AntiVir Pro' had installed itself and he could no longer open any programs or visit any webpages."
+Birdie.Speak "He rebooted and managed to run SpyBot before the process for AntiVir Pro could kick in. He let it run and removed 3 entries with names like 'Fraud' and 'Malware'. He removed the entries and the virus seemed to get shut down."
+Birdie.Speak "Next news."
+Birdie.Speak "He can't even get into BIOS to flash, because it boots up, loads the American Megatrends screen, and gives me the following message."
+Birdie.Speak "'Please enter setup to recover BIOS setting."
+Birdie.Speak "The data in the EC or EC Flash might be corrupted."
+Birdie.Speak "Please contact ASUS technical support for help."
+Birdie.Speak "System will shut down after 15 seconds.'"
+Birdie.Speak "He has the new BIOS rom on a flash drive, ready to go, but he can't get into BIOS because the motherboard gets to here, and then shuts off."
+Set Req = Birdie.Speak("He tried checking his connections, RAM seating, removing the CMOS battery, and clearing CMOS via the jumpers.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He wanted to change some settings in the BIOS, but he have never used BIOS before, so he decided to install Touch BIOS, since it seemed more beginner friendly. So after installing it with @BIOS, it prompted him to restart."
+Birdie.Speak "While it restarted, he held down Delete to bring up the BIOS, but it was the plain, non-GUI BIOS that was installed before. So he exited, expecting the install to finalize after booting. Then the screen that said Touch BIOS and all the keys to press for different boot options flashed on the screen, but it then continued to boot into Windows."
+Set Req = Birdie.Speak("Then, as the animation with the four orbs that join to form the Windows logo started, a blue screen appeared with an error message that Windows couldn't boot.")
+WaitFor Req
+Set Req = Miku.Speak("Next")
+WaitFor Req
+Birdie.Speak "He was getting frequent startup blue screens, but was still able to boot and run fine after."
+Birdie.Speak "He read that resetting CMOS would help this, so he did, but when he turned it on, his comp fans whirred, his monitor even recognized that the computer was on, but all he got was a black screen."
+Set Req = Birdie.Speak("He took out all but 1 memory stick, reseated CPU, and still nothing.")
+WaitFor Req
+Set Req = Ozzar.Speak("How much stories is going to take?")
+WaitFor Req
+Set Req = Spaceman.Speak("Only 2.")
+WaitFor Req
+Birdie.Speak "He was trying to update his Gigabyte GA-K8NF-9 board with up-to-date drivers and BIOS. He's primarily a gamer, and he's had some issues with low FPS in WoW as of late, and he thought updating everything might help."
+Birdie.Speak "He downloaded all of the updated motherboard drivers and installed them without a hitch. Then he realized that he was using the F2 BIOS, which is significantly out of date. He downloaded F4, F8 and F12, version by version."
+Birdie.Speak "He tried to flash the BIOS using the Q-Flash utility. It would start to read the new BIOS file, but then just stop and revert to the Q-Flash screen. He would restart the computer, but the BIOS was not flashing... He then decided to try Gigabyte's @Bios utility."
+Birdie.Speak "He unzipped the appropriate files and tried to update using @BIOS. The file would get to 50%, then he would get a BIOS Flash failed message. He attempted this with both the F4 and F8 BIOS, which both failed."
+Birdie.Speak "By this time, he had decided maybe updating the BIOS wasn't such a good idea so he decided to do a restart and see if he would get any improvement just with the updated drivers."
+Birdie.Speak "His computer posted, ran the drive check... and gave me the following message: CMOS Checksum Error - Defaults Loaded!"
+Birdie.Speak "He then noticed that the BIOS version up at the top of the screen was showing F8 despite getting the BIOS flash failed message from the @BIOS utility which is strange."
+Birdie.Speak "He hits delete to enter BIOS setup, but the screen goes blank and he has a cursor flashing in the upper left hand corner. No combination of key presses gets him into the CMOS or BIOS setup screens."
+Set Req = Birdie.Speak("He has taken the CMOS battery out several times and shutted the CMOS clear jumper. Every restart follows the same pattern. He still receives the CMOS Checksum error and he's unable to enter the BIOS setup screen. He gets sent to a black screen with flashing cursor in the upper left hand corner.")
+WaitFor Req
+Set Req = Spaceman.Speak("Are you ready for the last stories? Are you tired?")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes, No")
+WaitFor Req
+Set Req = Ozzar.Speak("Yes, No")
+WaitFor Req
+Set Req = Reaper.Speak("Yes, No")
+WaitFor Req
+Set Req = Genie.Speak("All yes, and all no")
+WaitFor Req
+Birdie.Speak "He thought that for convenience he would do the flash from within the Nvidia Control Panel, since the option was available."
+Birdie.Speak "He gets a black screen, no beeps, no method of resetting CMOS or anything will bring it back to life."
+Birdie.Speak "He had a Checksum error and a 'Flash Failed' Message, then after his next reboot... "
+Birdie.Speak "\Spd=70\He got a black screen of lifelessness"
+Set Req = Birdie.Hide()
+WaitFor Req
+Spaceman.Speak "So heads up, stay away from Flashing using Nvidia Control Panel because it can do bad things while flashing... Also, don't update BIOS unless you have to, or you will get a black screen of lifelessness."
+Set Req = Spaceman.Speak("So, exit news?")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes")
+WaitFor Req
+Set Req = Miku.Speak("Yes")
+WaitFor Req
+Set Req = Peedy.Speak("Yes")
+WaitFor Req
+Set Req = Joe.Speak("What a long news!")
+WaitFor Req
+Set Req = Peedy.Speak("Yes, it was long.")
+WaitFor Req
+Set Req = Milton.Speak("I remember that when looking at Genie, it reminds me of 'Bootmgr is missing'")
+WaitFor Req
+Set Req = Genie.Speak("He compressed his C drive on which he has his Windows XP OS. Now, all he is getting is 'Bootmgr is compressed press Alt+Ctrl+Del to restart'. he can't use his CD ROM on the desktop because it is broken but he did copy and paste the XP OS files from CD on to his external HD using his laptop. After copying the XP files on to his external HD, He have connected the external HD to his affected desktop via USB port and changed the first booting device to USB drive in the BIOS set-up but still getting the same 'Bootmgr is compressed press Alt+Ctrl+Del to restart' message.")
+WaitFor Req
+Joe.Play "Assimilate"
+Set Req = Joe.Speak("Exit news now.")
+WaitFor Req
+Milton.Speak "So let's exit."
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

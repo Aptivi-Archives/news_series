@@ -1,0 +1,226 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Al=Al.acs
+Blanche=Blanche.acs
+Genie=Genie.acs
+Isabella=Isabella.acs
+James=James.acs
+Marge=Marge.acs
+Milton=Milton.acs
+Hanz=Hanz.acs
+Cupid=Cupid.acs
+Plany=Plany.acs
+Ozzar=Ozzar.acs
+Santa=Santa.acs
+Spaceman=Spaceman.acs
+Sizlik=Sizlik.acs
+Birdie=Birdie.acs
+Merlin=Merlin.acs
+Peedy=Peedy.acs
+Robby=Robby.acs
+Oscar=Oscar.acs
+
+[LanguageIDs]
+Al=&H409
+Blanche=&H409
+Genie=&H409
+Isabella=&H409
+James=&H409
+Marge=&H409
+Milton=&H409
+Hanz=&H409
+Cupid=&H409
+Plany=&H409
+Ozzar=&H409
+Santa=&H409
+Spaceman=&H409
+Sizlik=&H409
+Birdie=&H409
+Merlin=&H409
+Peedy=&H409
+Robby=&H409
+Oscar=&H409
+
+[Script]
+Al.MoveTo 1325, 744
+Al.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Al.Show()
+WaitFor Req
+Blanche.MoveTo 1209, 685
+Blanche.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Blanche.Show()
+WaitFor Req
+Genie.MoveTo 1147, 746
+Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Genie.Show
+Genie.Speak "Green Man? You're at my place? Come on the last one."
+Set Req = Genie.MoveTo(1321, 585)
+WaitFor Req
+Set Req = Al.MoveTo(1140, 748)
+WaitFor Req
+Set Req = Genie.MoveTo(1318, 747)
+WaitFor Req
+Isabella.MoveTo 1034, 683
+Isabella.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Isabella.Show()
+WaitFor Req
+James.MoveTo 972, 686
+James.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = James.Show()
+WaitFor Req
+Marge.MoveTo 835, 724
+Marge.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Marge.Show()
+WaitFor Req
+Milton.MoveTo 731, 747
+Milton.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Milton.Show()
+WaitFor Req
+Hanz.MoveTo 632, 791
+Hanz.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Hanz.Show()
+WaitFor Req
+Cupid.MoveTo 494, 704
+Cupid.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Cupid.Show()
+WaitFor Req
+Plany.MoveTo 436, 781
+Plany.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Plany.Show()
+WaitFor Req
+Ozzar.MoveTo 340, 744
+Ozzar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Ozzar.Show()
+WaitFor Req
+Santa.MoveTo 256, 729
+Santa.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Santa.Show()
+WaitFor Req
+Spaceman.MoveTo 167, 791
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Spaceman.Show()
+WaitFor Req
+Sizlik.MoveTo -9, 686
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Sizlik.Show()
+WaitFor Req
+Birdie.MoveTo 1303, 48
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Birdie.Show()
+WaitFor Req
+Merlin.MoveTo 1226, 63
+Merlin.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Merlin.Show()
+WaitFor Req
+Peedy.MoveTo 1134, 60
+Peedy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Peedy.Show()
+WaitFor Req
+Robby.MoveTo 1067, 58
+Robby.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273006}"
+Set Req = Robby.Show()
+WaitFor Req
+Set Req = Peedy.Speak("Only 3 stories.")
+WaitFor Req
+Set Req = Santa.Speak("Your cursor is very big and pixelated?")
+WaitFor Req
+Set Req = Spaceman.Speak("Yes")
+WaitFor Req
+Set Req = Plany.Speak("Flying things, Why Oscar not here to sneeze?")
+WaitFor Req
+Set Req = James.Speak("Coming soon.")
+WaitFor Req
+Oscar.MoveTo 990, 60
+Oscar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Oscar.Show()
+WaitFor Req
+Set Req = Birdie.MoveTo(610, 89)
+WaitFor Req
+Set Req = Marge.Speak("What do Birdie to get ready?")
+WaitFor Req
+Milton.Speak "3 stories only Birdie."
+Set Req = Milton.Speak("OK, Please news begin.")
+WaitFor Req
+Birdie.Speak "When he plug in the laptop (Acer TravelMate 5330), It doesn't charge the battery, He hide and he see that's not charging the battery now, BIOS is now detecting the battery that is under warranty and still not under warranty, and the charger won't charge the battery."
+Birdie.Speak "He bang his head because of charging doesn't respong it, He see that Windows 7 doesn't charge in four reasons."
+Birdie.Speak "Four reasons are:"
+Birdie.Speak "Plugged in and not charging"
+Birdie.Speak "No battery is detected"
+Birdie.Speak "0% Plugged in (charging), and then not charging"
+Birdie.Speak "75% Plugged in (Charging)"
+Birdie.Speak "Plugged in and not charging: When he start the laptop, It seems to be not charging when plugged in and -% Plugged in and not charging, It doesn't charge it stays to sudden charge very late time to 100% and it's not charging all the way."
+Birdie.Speak "No Battery is detected: When he checked for battery to make sure that is detected to turn on the laptop on the back side, But it seems to Windows 7 to be the not charging operating system, It goes to No battery is detected and the battery is still detected on the back side."
+Birdie.Speak "0% Plugged in (Charging) then to Not charging: When he make sure that the laptop is re-configurable for battery settings, it seems to be OK and it will not charge to 100%, Instead of charging, stays at 0% (Charging) then after 5 or 6 hours it seemed to Not charging and the battery is now not rechargeable."
+Birdie.Speak "What do he do:"
+Birdie.Speak "He do fix the battery, He see the Unlock and the removable battery, He turned on the laptop with no battery in 30 secs to acquire charging the battery, Instead of it, it resets CMOS Settings, and he plugged the battery back in, Locked the laptop, open the lid, turn it on, waiting for Windows, and it doesn't seem to be charging and fourth reason are still persists."
+Birdie.Speak "He view and read the battery, but it says Under Warranty."
+Birdie.Speak "It will turn off after charging to 100% (not the sudden) when it discharges to 0%, 0% battery means sudden shutdown."
+Birdie.Speak "Mostly He did play the game and downloaded a game called the playing Chess, Spider Solitaire, etc."
+Set Req = Birdie.Speak("and downloaded the game called GTA: Vice City, He don't have the Play CD so he uninstalled GTA: Vice City that he need it, and it seriously it will not charge battery.")
+WaitFor Req
+Set Req = Plany.Speak("Very long story.")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Birdie.MoveTo 306, 358
+Birdie.Speak "His Acer AO725 was upgraded to Windows 8 2 weeks."
+Set Req = Birdie.Speak("He open his laptop this morning and the error found was BAD_SYSTEM_CONFIG_INFO.")
+WaitFor Req
+Set Req = Cupid.Speak("Last one.")
+WaitFor Req
+Birdie.MoveTo 253, 300
+Birdie.Speak "He woke up and he pressed the power button to his computer a few times and it didn't turn it on or do anything."
+Birdie.Speak "So he checked to see if it was plugged it in all the way, and it was a little more then half way in, So he pushed it in all the way."
+Birdie.Speak "He tried to turn it on again, and it didn't turn it on."
+Set Req = Birdie.Speak("He finally turned off the PSU switch and turned it back on, press the Power button, and it all worked normal.")
+WaitFor Req
+Set Req = Milton.Speak("There's additional story, but it was the two Birdie.")
+WaitFor Req
+Birdie.MoveTo 356, 361
+Birdie.Speak "He had delete his installed Google Chrome from Installation Setup of Gogle Chrome by removing the Google Chrome's installation folder from Program Files, and his system drive."
+Set Req = Birdie.Speak("When he reinstalled it to Program Files and it created the folder Google Chrome on Program Files, it won't start the application Google Chrome Browser at all.")
+WaitFor Req
+Set Req = Al.Speak("Last from Milton one.")
+WaitFor Req
+Birdie.MoveTo 385, 329
+Birdie.Speak "He try and open Google Chrome Browser, He get the message which is Google Chrome has performed an illegal operation and it will be shut down."
+Birdie.Speak "A problem caused the program to stop working correctly."
+Set Req = Birdie.Speak("Windows will close Google Chrome and notify him if a solution is available, so he start to shit himself and worry.")
+WaitFor Req
+Set Req = Genie.Speak("From me, Additional story given to you but one Birdie.")
+WaitFor Req
+Birdie.MoveTo 367, 261
+Birdie.Speak "He had a Fujitsu Siemens V5505, Inside it there was non-compressed drive on Windows 7 Laptop, When he did the System Drive Compression Accidently, His laptop will shut down because the battery is now discharged fully."
+Birdie.Speak "He open it and get the message that BootMGR is compressed, On next line Press Control+Alt+DeleteFile to restart."
+Birdie.Speak "His problem is he can't access the BIOIS Setup Boot to change priorities."
+Set Req = Birdie.Speak("He tried to insert the Windows 7 DVD and it didn't run from it, So he tried everything he took the hard disk off he changed the RAM place, but still can't access the BIOS Boot.")
+WaitFor Req
+Set Req = Marge.Speak("From me, 1 story Birdie.")
+WaitFor Req
+Birdie.Speak "He compressed his C Drive on which has on Windows XP OS, He accidently compressed BootMGR and when he restart his laptop, He get is BootMGR is compressed, On Next Line Press Control+Alt+DeleteFile to restart, he can't use his CD-ROM because CD Drive is broken completely."
+Birdie.Speak "He did copy and paste the XP OS files from CD onto External Hard Drive using his laptop."
+Birdie.Speak "After copying the XP files to external hard disk, He ad to connect the External HD to his affected desktop  via USB port and changed the first booting device to USB drive in BIOS Set-up."
+Set Req = Birdie.Speak("He get the same BootMGR is compressed Press Control+Alt+DeleteFile to restart message.")
+WaitFor Req
+Set Req = Spaceman.Speak("Last from me, 1 story.")
+WaitFor Req
+Birdie.MoveTo 374, 246
+Birdie.Speak "After restarting his computer with XP, the BootMGR is deleted."
+Birdie.Speak "CD is broken; Can't use repair disk."
+Birdie.Speak "What else can he do to resolve this?"
+Set Req = Birdie.Speak("He had Media Card and USB Flashdrive to download and reinstall whatever he need, But he don't know how to download it.")
+WaitFor Req
+Set Req = Genie.Speak("Exit.")
+WaitFor Req
+Set Req = Spaceman.Speak("Exit News.")
+WaitFor Req
+Genie.Speak "Yes."
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

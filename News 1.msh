@@ -1,0 +1,149 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Robby=Robby.acs
+Sharky=Sharky.acs
+Sizlik=Sizlik.acs
+Vrgirl=Vrgirl.acs
+Merlin=Merlin.acs
+
+[LanguageIDs]
+Robby=&H409
+Sharky=&H409
+Sizlik=&H409
+Vrgirl=&H409
+Merlin=&H409
+
+[Script]
+Robby.MoveTo 1207, 740
+Robby.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273006}"
+Robby.Show
+Robby.Speak "Hello and Welcome to Microsoft Windows XP"
+Robby.Speak "There's the taskbar (ground) and here's the icon (rock)."
+Robby.Speak "That will let you go to cave"
+Robby.Speak "But you must first accept our terms."
+Robby.Speak "First term: Connect to Internet"
+Robby.Speak "Second Term: Avoid slowdowns"
+Set Req = Robby.Speak("If you haven't accepted these terms, You'll be prompted about illegal operation of Windows XP.")
+WaitFor Req
+Sizlik.MoveTo 977, 679
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Sizlik.Show
+Set Req = Sizlik.Speak("And it will be shut down.")
+WaitFor Req
+Set Req = Robby.Speak("Who are you?")
+WaitFor Req
+Set Req = Sizlik.Speak("My name is Sizlik, I'm talking around computer huge bang or pop")
+WaitFor Req
+Set Req = Robby.Speak("Huge Bang or Pop?")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes")
+WaitFor Req
+Set Req = Robby.Speak("Could you give other's a website?")
+WaitFor Req
+Set Req = Sizlik.Speak("Yeah!! Yes")
+WaitFor Req
+Set Req = Robby.Speak("Where's sharky to get the website?")
+WaitFor Req
+Set Req = Sizlik.Speak("In the top")
+WaitFor Req
+Sharky.MoveTo 1097, 607
+Sharky.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Sharky.Show
+Set Req = Sharky.Speak("Welcome guys?")
+WaitFor Req
+Robby.MoveTo 1344, 739
+Set Req = Robby.Speak("Welcome, How are you?")
+WaitFor Req
+Set Req = Sizlik.Speak("Welcome, How are you?")
+WaitFor Req
+Set Req = Sharky.Speak("Fine, But How are you?")
+WaitFor Req
+Set Req = Sizlik.Speak("I'll be fine")
+WaitFor Req
+Set Req = Robby.Speak("Me too")
+WaitFor Req
+Set Req = Sharky.Speak("What you're talking about?")
+WaitFor Req
+Set Req = Robby.Speak("I'm talking about Windows XP.")
+WaitFor Req
+Set Req = Sizlik.Speak("I'm talking about Computer Explosions.")
+WaitFor Req
+Sharky.Speak "OK, OK, I'll be exit."
+Set Req = Sharky.Play("Shutdown")
+WaitFor Req
+Vrgirl.MoveTo 943, 98
+Vrgirl.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Vrgirl.Show
+Set Req = Vrgirl.Speak("What, A Google Chrome Browser?")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes, But it is Torch Browser")
+WaitFor Req
+Set Req = Robby.Speak("Torch browser")
+WaitFor Req
+Vrgirl.Speak "OK, Here are important news for you."
+Set Req = Vrgirl.MoveTo(1283, 98)
+WaitFor Req
+Set Req = Sizlik.MoveTo(1058, 675)
+WaitFor Req
+Merlin.MoveTo 229, 542
+Merlin.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Merlin.Show
+Merlin.Play "Explain"
+Set Req = Merlin.Speak("Jijimalibu put it all together, hook it up, turn it on, watch the screen display that contains list of the components he're using, After 10 more seconds, Later there was the gigantic pop (like pop with very long volume) or bang and his PC will shut down.")
+WaitFor Req
+Set Req = Sizlik.Speak("OUF, There are very long explosions and 10 seconds for preparing huge pop, WOOOW.")
+WaitFor Req
+Set Req = Robby.Speak("You're talking like Atlas Systems.")
+WaitFor Req
+Set Req = Vrgirl.Speak("There was another here.")
+WaitFor Req
+Merlin.MoveTo 450, 274
+Merlin.MoveTo 456, 359
+Set Req = Merlin.Speak("I respect was the news here, Yousef's PC wasn't booting up Windows XP and going to Troubleshoot Mode, He tried to go to safe mode, Restore and all other options but still failed, So in a space of 20.1 minutes PC will booted up like 20 times.")
+WaitFor Req
+Set Req = Vrgirl.Speak("Page 2 Merlin.")
+WaitFor Req
+Set Req = Merlin.Speak("Yousef unplugged the computer and after a few hours replug it and try booting again but it still failed. it wasn't even Going On, so He fiddled some wires from the back.")
+WaitFor Req
+Sizlik.Speak "I don't understand what is the word fiddled"
+Set Req = Sizlik.Speak("Marlin")
+WaitFor Req
+Set Req = Vrgirl.Speak("Page 3 Marlin")
+WaitFor Req
+Merlin.Speak "Yousef's computer will exploded sudden and the smoke will start downloading and coming out."
+Merlin.Speak "He's wondering that he need to buy a new computer."
+Merlin.MoveTo 444, 241
+Merlin.Speak "Jfreeizme bought a new computer (custom built) and he plugged in all the parts completely in Motherboard"
+Merlin.Speak "He suddenly exploded PSU into sparks"
+Set Req = Merlin.Speak("So that's a question.")
+WaitFor Req
+Set Req = Sizlik.Speak("I don't understand what the meaning of word Sparks")
+WaitFor Req
+Set Req = Robby.Speak("Last one")
+WaitFor Req
+Merlin.Speak "Hello and thanks for taking time to read this."
+Merlin.Speak "he posted a thread on Tom's Hardware about explosive of PSU because he charged 230v to 115v."
+Set Req = Merlin.Speak("He made a mistake")
+WaitFor Req
+Set Req = Vrgirl.Speak("Page 2, Merlin")
+WaitFor Req
+Merlin.Speak "He thought when he change it his computer will receive (retreive) lower voltage than usual"
+Merlin.Speak "He using Dell OptiPlex 745 Mini Tower."
+Set Req = Merlin.Speak("and yet after his PSU exploded he become panic and turn it back to 230v and switch on and it blown again.")
+WaitFor Req
+Set Req = Vrgirl.Speak("Page 3, Marlin")
+WaitFor Req
+Merlin.Speak "He was very scared because the computer is a gift from his mother."
+Merlin.Speak "After a while, He buy a new PSU and replace it."
+Set Req = Merlin.Speak("Now when He switch on, his PC nothing happens only blinking orange light on the tower.")
+WaitFor Req
+Vrgirl.Speak "Goodbye news"
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

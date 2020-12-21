@@ -1,0 +1,628 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Robby=Robby.acs
+Sizlik=Sizlik.acs
+Spaceman=Spaceman.acs
+Wabbit=Wabbit.acs
+Genie=Genie.acs
+Wartnose=Wartnose.acs
+Birdie=Birdie.acs
+Cathie=Cathie.acs
+Debbie=Debbie.acs
+Cupid=Cupid.acs
+Claude=Claude.acs
+Charlie=Charlie.acs
+James=James.acs
+Joe=Joe.acs
+Miku=Miku.acs
+Oscar=Oscar.acs
+Eman=Eman.acs
+Ewoman=Ewoman.acs
+Isabella=Isabella.acs
+Milton=Milton.acs
+Ozzar=Ozzar.acs
+
+[LanguageIDs]
+Robby=&H409
+Sizlik=&H409
+Spaceman=&H409
+Wabbit=&H409
+Genie=&H409
+Wartnose=&H409
+Birdie=&H409
+Cathie=&H409
+Debbie=&H409
+Cupid=&H409
+Claude=&H409
+Charlie=&H409
+James=&H409
+Joe=&H409
+Miku=&H409
+Oscar=&H409
+Eman=&H409
+Ewoman=&H409
+Isabella=&H409
+Milton=&H409
+Ozzar=&H409
+
+[Script]
+Robby.MoveTo 1207, 740
+Robby.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273006}"
+Robby.Show
+Robby.Speak "Hello and Welcome to Microsoft Windows XP"
+Robby.Speak "Windows Vista support has ended and Windows 7 support will end"
+Set Req = Robby.Speak("Characters will come in")
+WaitFor Req
+Sizlik.MoveTo 1, 685
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Sizlik.Show
+Set Req = Sizlik.Speak("PSU explosions will come in")
+WaitFor Req
+Set Req = Robby.Speak("There is still more about PSU.")
+WaitFor Req
+Spaceman.MoveTo 171, 788
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Spaceman.Show()
+WaitFor Req
+Wabbit.MoveTo 1284, 685
+Wabbit.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Wabbit.Show()
+WaitFor Req
+Genie.MoveTo 262, 741
+Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Genie.Show()
+WaitFor Req
+Wartnose.MoveTo 326, 744
+Wartnose.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273003}"
+Set Req = Wartnose.Show()
+WaitFor Req
+Birdie.MoveTo 669, 230
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Birdie.Show
+Set Req = Birdie.Speak("There is new characters incoming meeting each other. You will be surprised.")
+WaitFor Req
+Set Req = Sizlik.Speak("Who are they?")
+WaitFor Req
+Set Req = Genie.Speak("Who are they?")
+WaitFor Req
+Set Req = Wartnose.Speak("Who are they?")
+WaitFor Req
+Set Req = Spaceman.Speak("Who are they?")
+WaitFor Req
+Set Req = Robby.Speak("Who are they?")
+WaitFor Req
+Set Req = Wabbit.Speak("Who are they?")
+WaitFor Req
+Set Req = Robby.Play("Idle2_2")
+WaitFor Req
+Birdie.Speak "You will see by yourself."
+Set Req = Birdie.Speak("Let's add more characters and leave space for new characters.")
+WaitFor Req
+Cathie.MoveTo 1107, 681
+Cathie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Cathie.Show()
+WaitFor Req
+Debbie.MoveTo 1049, 685
+Debbie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Debbie.Show()
+WaitFor Req
+Cupid.MoveTo 961, 703
+Cupid.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Cupid.Show()
+WaitFor Req
+Claude.MoveTo 906, 736
+Claude.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Claude.Show()
+WaitFor Req
+Charlie.MoveTo 792, 709
+Charlie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Charlie.Show()
+WaitFor Req
+James.MoveTo 689, 685
+James.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = James.Show()
+WaitFor Req
+Joe.MoveTo 619, 752
+Joe.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Joe.Show()
+WaitFor Req
+Miku.MoveTo 567, 641
+Miku.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Miku.Show()
+WaitFor Req
+Oscar.MoveTo 398, 745
+Oscar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Oscar.Show()
+WaitFor Req
+Set Req = Robby.MoveTo(1237, 740)
+WaitFor Req
+Set Req = Cathie.MoveTo(1148, 683)
+WaitFor Req
+Set Req = Debbie.MoveTo(1096, 686)
+WaitFor Req
+Set Req = Cupid.MoveTo(1017, 703)
+WaitFor Req
+Set Req = Claude.MoveTo(972, 736)
+WaitFor Req
+Set Req = Charlie.MoveTo(854, 710)
+WaitFor Req
+Set Req = James.MoveTo(757, 686)
+WaitFor Req
+Set Req = Joe.MoveTo(685, 749)
+WaitFor Req
+Set Req = Miku.MoveTo(634, 640)
+WaitFor Req
+Claude.Play "GestureRight"
+Set Req = Claude.Play("Blink")
+WaitFor Req
+Charlie.Play "LookRight"
+Set Req = Charlie.Speak("Did you point at me?")
+WaitFor Req
+Set Req = Claude.Speak("My fault.")
+WaitFor Req
+Set Req = Charlie.Speak("OK.")
+WaitFor Req
+Spaceman.Speak "Hello guys?"
+Set Req = Spaceman.Speak("How are you?")
+WaitFor Req
+Set Req = Sizlik.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Genie.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Wartnose.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Oscar.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Miku.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Joe.Speak("Hello, fine.")
+WaitFor Req
+Set Req = James.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Charlie.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Claude.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Cupid.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Debbie.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Cathie.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Robby.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Wabbit.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for new characters?")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes")
+WaitFor Req
+Set Req = Genie.Speak("Yes")
+WaitFor Req
+Set Req = Wartnose.Speak("Yes")
+WaitFor Req
+Set Req = Oscar.Speak("Yes")
+WaitFor Req
+Set Req = Miku.Speak("Yes")
+WaitFor Req
+Set Req = Joe.Speak("Yes")
+WaitFor Req
+Set Req = James.Speak("Yes")
+WaitFor Req
+Set Req = Charlie.Speak("Yes")
+WaitFor Req
+Set Req = Claude.Speak("Yes")
+WaitFor Req
+Set Req = Cupid.Speak("Yes")
+WaitFor Req
+Set Req = Debbie.Speak("Yes")
+WaitFor Req
+Set Req = Cathie.Speak("Yes")
+WaitFor Req
+Set Req = Robby.Speak("Yes")
+WaitFor Req
+Set Req = Wabbit.Speak("Yes")
+WaitFor Req
+Set Req = Birdie.Speak("It may take some time for them to come")
+WaitFor Req
+Set Req = Sizlik.Play("Smile")
+WaitFor Req
+Spaceman.Think "I will hide from new characters"
+Set Req = Spaceman.Play("Majik")
+WaitFor Req
+Genie.Play "Congratulate"
+Set Req = Genie.Speak("Congratulations for new characters, Birdie.")
+WaitFor Req
+Birdie.MoveTo 670, 228
+Set Req = Birdie.Speak("Thanks")
+WaitFor Req
+Set Req = Wartnose.Play("Idle1_5")
+WaitFor Req
+Set Req = Oscar.Play("Idle2_1")
+WaitFor Req
+Robby.Play "DoMagic1"
+Set Req = Robby.Play("DoMagic2")
+WaitFor Req
+Set Req = Cathie.Speak("What is this, Robby?")
+WaitFor Req
+Robby.MoveTo 1237, 738
+Set Req = Robby.Speak("Some magic.")
+WaitFor Req
+Set Req = Birdie.Speak("They will come shortly.")
+WaitFor Req
+Set Req = Robby.Play("Idle2_2")
+WaitFor Req
+Set Req = Joe.Play("Assimilate")
+WaitFor Req
+Set Req = Birdie.Speak("They are coming in 5 seconds countdown.")
+WaitFor Req
+Genie.Speak "5"
+Genie.Speak "4"
+Genie.Speak "3"
+Genie.Speak "2"
+Set Req = Genie.Speak("1")
+WaitFor Req
+Birdie.Speak "\emp\Introducing the characters meeting each other......."
+Set Req = Birdie.Speak("\Spd=45\E-Man! E-Woman!")
+WaitFor Req
+Eman.MoveTo 759, 237
+Eman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Eman.Show
+Set Req = Eman.Speak("Hello")
+WaitFor Req
+Birdie.Speak "Hello, E-Man!"
+Set Req = Birdie.Speak("Sit at empty place")
+WaitFor Req
+Set Req = Eman.MoveTo(460, 743)
+WaitFor Req
+Ewoman.MoveTo 755, 237
+Ewoman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Ewoman.Show
+Set Req = Ewoman.Speak("Hello!")
+WaitFor Req
+Set Req = Birdie.Speak("Hello, E-Woman!")
+WaitFor Req
+Set Req = Ewoman.Speak("Who are you?")
+WaitFor Req
+Set Req = Birdie.Speak("Birdie.")
+WaitFor Req
+Set Req = Ewoman.MoveTo(520, 743)
+WaitFor Req
+Set Req = Miku.Speak("Hello, E-Man and E-Woman")
+WaitFor Req
+Set Req = Eman.Speak("Hello")
+WaitFor Req
+Set Req = Ewoman.Speak("Hello")
+WaitFor Req
+Set Req = Spaceman.Play "MajikReturn"
+WaitFor Req
+Set Req = Spaceman.Speak("Hello you two!")
+WaitFor Req
+Set Req = Eman.Speak("Hello Spaceman")
+WaitFor Req
+Set Req = Ewoman.Speak("Hello Spaceman")
+WaitFor Req
+Set Req = Spaceman.Speak("Introduce yourselves.")
+WaitFor Req
+Set Req = Eman.MoveTo(624, 415)
+WaitFor Req
+Set Req = Ewoman.MoveTo(691, 412)
+WaitFor Req
+Eman.Speak "I am E-Man, the E-Mail man!"
+Eman.Play "4DEV_bigface"
+Eman.Play "4DEV_Alert"
+Set Req = Eman.Play("4DEV_wave")
+WaitFor Req
+Ewoman.Speak "I am an E-mail girl, E-Woman!"
+Ewoman.Play "4DEV_Electric"
+Ewoman.Play "4DEV_EmailAlert"
+Ewoman.Play "4DEV_Flattened"
+Set Req = Ewoman.Play("4DEV_Kick")
+WaitFor Req
+Set Req = Eman.Speak("You kicked me jokingly.")
+WaitFor Req
+Ewoman.Speak "I can kick like Isabella the Kicker, but I am E-Woman the Kicker. If we meet each other, we will be a Kickers team."
+Ewoman.Play "4DEV_MorphEman"
+Ewoman.Speak "I can disguise as you, E-man."
+Ewoman.Play "4DEV_MuscleFlex1"
+Ewoman.Play "4DEV_Punch"
+Ewoman.Play "4DEV_Somersault"
+Ewoman.Play "4DEV_Surprise"
+Ewoman.Play "4DEV_ZapLeft"
+Set Req = Ewoman.Play("4DEV_ZapRight")
+WaitFor Req
+Set Req = Eman.Speak("I felt a zap.")
+WaitFor Req
+Set Req = Ewoman.Speak("I am electronic, that's why.")
+WaitFor Req
+Eman.MoveTo 453, 743
+Ewoman.MoveTo 504, 744
+Set Req = Ewoman.Speak("Bring me Isabella the Kicker, Spaceman.")
+WaitFor Req
+Set Req = Spaceman.Play("Communicate")
+WaitFor Req
+Isabella.MoveTo 543, 684
+Isabella.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Isabella.Show()
+WaitFor Req
+Set Req = Ewoman.MoveTo(512, 742)
+WaitFor Req
+Set Req = Isabella.Speak("I don't know 2 of you.")
+WaitFor Req
+Set Req = Eman.Speak("I am E-man, and here's my sister, E-Woman.")
+WaitFor Req
+Isabella.Speak "Nice. Can she kick?"
+Set Req = Isabella.Play("Kick")
+WaitFor Req
+Set Req = Eman.Speak("Yes.")
+WaitFor Req
+Set Req = Ewoman.Speak("Let's kick at the same time.")
+WaitFor Req
+Set Req = Isabella.Play("Kick")
+WaitFor Req
+Set Req = Ewoman.Play("4DEV_Kick")
+WaitFor Req
+Isabella.Play "Kick"
+Set Req = Ewoman.Play("4DEV_Kick")
+WaitFor Req
+Eman.Speak "Nice."
+Set Req = Eman.Play("4DEV_Eat_Mail")
+WaitFor Req
+Wartnose.MoveTo 339, 744
+Wartnose.Play "Surprised"
+Set Req = Wartnose.Speak("He can eat e-mails?")
+WaitFor Req
+Eman.Speak "Yes, I can. See."
+Set Req = Eman.Play("4DEV_Eat_Mail")
+WaitFor Req
+Set Req = Wartnose.Speak("You are super.")
+WaitFor Req
+Set Req = Spaceman.Speak("Are you ready to listen to birdie?")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes")
+WaitFor Req
+Set Req = Eman.Speak("Yes")
+WaitFor Req
+Ewoman.Speak "All yes."
+Ewoman.Play "4DEV_Kick"
+Ewoman.Play "4DEV_Excited"
+Ewoman.Play "4DEV_Flattened"
+Set Req = Ewoman.Speak("Who is the news teller?")
+WaitFor Req
+Set Req = Eman.Speak("Birdie.")
+WaitFor Req
+Set Req = Birdie.Speak("How did you know that?")
+WaitFor Req
+Eman.Speak "I saw some advertiser."
+Eman.Play "4DEV_EnvelopeBounce"
+Eman.Speak "The advertising e-mail looked like this."
+Set Req = Eman.Speak("I gave it to you.")
+WaitFor Req
+Birdie.Play "Read"
+Birdie.Speak "Interesting."
+Birdie.Speak "It says Birdie is the news teller."
+Set Req = Birdie.Speak("Let's begin.")
+WaitFor Req
+Set Req = Ewoman.Play("Idle3_1")
+WaitFor Req
+Birdie.Speak "Even if his PC is protected by UPS and outlet protector, the storm managed to fry something"
+Birdie.Speak "He was using his PC during storm when something exploded loudly in his PC, and after like 3 seconds it shut down."
+Birdie.Speak "He first thought it was a power supply, but then when he connected it to other PC, it worked fine."
+Birdie.Speak "So he took his motherboard out, checked CPU if its fried, checked ram modules and graphics card and everything seems just fine."
+Birdie.Speak "Now when he tries to power it on, it lasts for 3-10 seconds and then dies out."
+Birdie.Speak "So he guess its either the power supply has something damaged and can't support the watts needed and dies out, or something in motherboard is fried or some component fails to work."
+Set Req = Birdie.Speak("His power supply is Corsair 750W and motherboard is MSI P45 Platinum.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "After gaming for about 30 minutes he gets a black screen with no sound and the fans keep spinning normally"
+Birdie.Speak "So it's not a total shut down of the system it's just a 'No sound or display state' that the system goes through and would sit there like this endlessly if he doesn't reset it."
+Birdie.Speak "His system is overclocked but he took his time testing its stability very well so he is very sure it's not an overclock stability issue"
+Birdie.Speak "He doesn't get any BSOD(s) or display driver is not responding etcetera as last year or the year before when he was still through the process of overclocking it and testing it's stability back then."
+Set Req = Birdie.Speak("He tried reducing his GPU overclock, but it hasn't fixed anything.")
+WaitFor Req
+Set Req = Ewoman.Speak("Next story.")
+WaitFor Req
+Birdie.Speak "A couple of nights ago, he turned his computer on to be greeted by a big bang and a blue spark out the back!"
+Birdie.Speak "After this, the fuse had blown in the plug and the computer would no longer turn on."
+Birdie.Speak "So he went and bought a new power supply and sent the old one back."
+Birdie.Speak "Now he has installed the new power supply but here are his problems."
+Birdie.Speak "1. The computer will not start when the SATA power is connected to the Hard drives"
+Birdie.Speak "2. It will start up when the Hard drives are unplugged, but nothing happens, and nothing shows on the monitor. He gets one long beep, and he can't count, two or three short beeps from the motherboard. But nothing really happens after that."
+Birdie.Speak "He has checked the video card and the fan is working on it and has a small green light lit at the end of the board and the PCI-E Power supply connector."
+Set Req = Birdie.Speak("He has tried a couple of power supplies and all of them do the same thing when he connects the SATA power to the Hard drives.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He was playing crysis 2 and it was heating his pc like crazy."
+Birdie.Speak "He then realized that his overclocking settings were way too high so he turned them down and continued playing."
+Birdie.Speak "His PC shuts off like someone unplugged the cable, the PSU was unusually hot and the inside smelled like burning dust!"
+Birdie.Speak "Everything was hot as usual but PSU was super hot."
+Birdie.Speak "This happened about 20 minutes ago and he tried to press the power button."
+Birdie.Speak "The PC wouldn't turn on!"
+Set Req = Birdie.Speak("Also tried paper clip trick several times and PSU didn't respond")
+WaitFor Req
+Set Req = Eman.Speak("Next")
+WaitFor Req
+Birdie.Speak "Yesterday his PC wouldn't boot, so he thought that he'd take out his video card and put it in a different PC. But because that other PC didn't have a power supply with a molex cable to attach my PCI to Molex adapter, he installed the power supply from the PC that wouldn't boot."
+Birdie.Speak "So he installed it and all was good, it seemed."
+Birdie.Speak "He booted it up, and a few minutes later smoke started to come from the SATA cables and from the molex cable that was attached to the adapter!"
+Set Req = Birdie.Speak("He pulled open the case and there was 2 cables melting and the serial ATA plug on his HDD was melted!")
+WaitFor Req
+Set Req = Eman.Speak("Ready for next")
+WaitFor Req
+Birdie.Speak "His computer acted up when he turned on the surge protector"
+Birdie.Speak "The computer kept turning itself on and off and he keeps hearing a click sound but he didn't even press the power button"
+Set Req = Birdie.Speak("However, when he turned off the surge protector and the power supply and just turned it on again, then the problem stopped.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "Power went out the other day and after it came back his PC wouldn't start up."
+Birdie.Speak "It was plugged into a surge protector."
+Birdie.Speak "So he's scared that his whole rig is fried but he's hoping maybe his PSU saved the rest of his PC."
+Set Req = Birdie.Speak("Its a Kingwin 850W.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "Last Monday, his computer's power supply failed. He had to shut it down the night before and the next morning it was dead"
+Birdie.Speak "He took it to a local computer shop and they tested his power supply and they confirmed his fears."
+Birdie.Speak "Then he ordered a new PSU and sent his old one in under warranty. On Friday, he installed the new PSU and it worked fine for one day and now it is dead as well."
+Set Req = Birdie.Speak("His computer was running fine and then it just quit. The surge protector is fine and his back up computer works fine with it.")
+WaitFor Req
+Set Req = Genie.Speak("Ready for next, this time, a user with a higher PSU.")
+WaitFor Req
+Set Req = Birdie.Speak("He has a surge protector with many plugs plugged into it and his computer uses a 1200W PSU!!!!")
+WaitFor Req
+Set Req = Genie.Speak("I didn't expect that PSU can be 1200W.")
+WaitFor Req
+Birdie.Speak "Recently he left his computer on for a while, it was downloading something, and when he went back to check on it, it had shut down. He went to sleep."
+Birdie.Speak "Later his wife told him that all the power in the computer room only, power in the rest of the house was fine, had gone out."
+Birdie.Speak "She checked the circuit box and said the switch for the computer room was in a strange position and she reset it."
+Birdie.Speak "The power is now working in his computer room but nothing happens when he switch on the computer."
+Birdie.Speak "He tried different outlets on the wall and different power cords."
+Set Req = Birdie.Speak("He now need to try switching in his old power supply but will have to wait till later to find it. But the thing is that the off/on switch on the power supply lights up depending on if the switch is on or off so maybe its not the power supply.")
+WaitFor Req
+Set Req = Genie.Speak("Next")
+WaitFor Req
+Birdie.Speak "Today his new components arrived, so he installed the PSU and started using nothing that is too heavy."
+Birdie.Speak "All of a sudden he heard a medium noise and a considerable amount of smoke!"
+Birdie.Speak "He immediately removed the energy cable of the wall. Now he doesn't know what to do."
+Birdie.Speak "He used the PC for about 1 hour"
+Set Req = Birdie.Speak("The PSU itself does not look any different from before, but the cable he connected does look bad.")
+WaitFor Req
+Set Req = Oscar.Speak("Next")
+WaitFor Req
+Birdie.Speak "He has a computer that has a power surge melt down"
+Birdie.Speak "His PC start to reboot and turn off randomly, first he thought on the PSU a cooler master 650w"
+Birdie.Speak "He bought a corsair 850w profesional series but after that he discovered the real problem."
+Birdie.Speak "The power surge was melting! (the fuse on it, He can't even replace it because it has meltdown with the plastic and cant be removed)!"
+Set Req = Birdie.Speak("He first thought it was the PSU a Cooler Master 650w and replaced by a Corsair 850 professional series")
+WaitFor Req
+Set Req = Miku.Speak("Next.")
+WaitFor Req
+Birdie.Speak "They had a storm here in Chicago and though he has a surge protector."
+Set Req = Birdie.Speak("The computer turns on, but he has a black screen. The fans work and the CD drive can open and close, but the screen is black and no lights on the keyboard come on.")
+WaitFor Req
+Set Req = Genie.Speak("Next")
+WaitFor Req
+Set Req = Birdie.Speak("In their home, there is a mechanic who often use a welding plant!")
+WaitFor Req
+Set Req = Sizlik.Speak("I don't understand what is the meaning of the word Welding plant.")
+WaitFor Req
+Set Req = Spaceman.Speak("Welding plant means it makes a welding thing.")
+WaitFor Req
+Birdie.Speak "When he uses the welding plant, he thinks they get a power surge."
+Set Req = Birdie.Speak("His UPS ticks madly. Sometimes, he even lose power to the keyboard. When typing, some keys get missing.")
+WaitFor Req
+Set Req = Claude.Speak("Next")
+WaitFor Req
+Birdie.Speak "Today the lights dimmed momentarily and then the power went out for a couple of minutes."
+Birdie.Speak "When it returned his PC was dead."
+Birdie.Speak "It was running just fine before the outtage."
+Birdie.Speak "Nothing happens when he hits the power button, the motherboard has a power switch and it also does nothing."
+Birdie.Speak "He disconnected the PSU (OCZ 700W), grounded out the 24 pin connector and turned on the PSU and the fans started."
+Birdie.Speak "He put a multimeter on the rails and all of them read fine except the 12v's all read 11.3v."
+Birdie.Speak "Next news."
+Birdie.Speak "OK, Soon he will work on his computer and there was a thunderstorm the other day and the power flickered on and off. He was on his computer, which was plugged into a surge protector, and it wouldn't start back up."
+Birdie.Speak "His other computer and devices that were also plugged into the surge protector all rebooted fine. But there was this smell like something had burnt that he and his family had noticed."
+Birdie.Speak "He assumed it had fried his power supply since the burnt smell seemed to come from it, but after leaving it alone for a while, the computer booted up. The problem is his monitor shows that there is no HDMI input."
+Birdie.Speak "So he figured it was something to do with his graphics card. Thinking so, he tried his other HDMI cable that was working on his other computer, but no input again."
+Birdie.Speak "He tried a DVI cable, yet again no input for DVI either. He swapped his other computer graphics card into it, again nothing."
+Birdie.Speak "He turn it on, and then fans (CPU, PSU, GFX Card, 3 Case) work and all of the LEDs light up on the board."
+Birdie.Speak "There is a faint, high-pitched noise that emits from the PSU, but it dies out quickly."
+Birdie.Speak "No beeps come from the motherboard."
+Birdie.Speak "He has connected his back-lit keyboard and it does light up."
+Birdie.Speak "He can hear the HDD work/spin."
+Birdie.Speak "His disc drive can open and close."
+Birdie.Speak "The light behind where you plug in an ethernet cable flashes as it normally does."
+Set Req = Birdie.Speak("No input displayed on the monitor.")
+WaitFor Req
+Set Req = Genie.Speak("Next")
+WaitFor Req
+Birdie.Speak "He just accidentally spilled some water on his brand new PC that he built for himself."
+Birdie.Speak "It's really devastating especially since he has had a lot of trouble with broken hardware and set-up and glitches with it, and it has been working well for only maybe 2 weeks."
+Birdie.Speak "He spilled some water on the side and a tiny bit on the top. He saw some droplets on the Hyper 212 + heatsink installed in the system but only a small amount and no water was near the motherboard or RAM."
+Birdie.Speak "There was however some water on the shroud of the GPU and a few droplets on the back of it as well."
+Birdie.Speak "The thing that worries him the most is that there were a bunch of droplets on the PSU fan that he thinks were still there when the fan was spinning, maybe pushing the droplets into the PSU itself."
+Birdie.Speak "The worst is that the system was on when it was exposed to the water. It continued running normally for the 30 seconds it was on before he manually shut it down in Windows."
+Birdie.Speak "He thoroughly inspected the case and the components, dried them carefully, and did some final inspection just to see how terrible the damage was."
+Birdie.Speak "I booted up the system again. The system booted normally but after maybe 2 minutes of being on it just shut off!"
+Birdie.Speak "He took it apart again removed the video card checked the PCIe slot for water, double checked all the components, triple checked the video card, dried off some more, and reinserted the card."
+Set Req = Birdie.Speak("The system booted normally and then shut off a few minutes into being on.")
+WaitFor Req
+Set Req = James.Speak("Last story. Joe probably has 1 story for Android.")
+WaitFor Req
+Birdie.Speak "He was trying to grab a water cup that had approximately 5-10 oz of water in it, or for you metrics out there that's 150-300mL."
+Birdie.Speak "A little bit of it came out into the case and down the side panel. The PC was on at the time."
+Birdie.Speak "Immediately after he spilled the water, he lost his video!"
+Birdie.Speak "At that point, he immediately powered off and unplugged the PC, and just to be safe, he switched off the PSU."
+Birdie.Speak "After inspection, he did not seem to have any water inside his CPU, Motherboard, RAM, PSU, or Hard Drive."
+Birdie.Speak "His graphics card looks like it caught a few drops and that's probably why his video dropped."
+Birdie.Speak "There was about 3 seconds between when he lost video and the PC was off."
+Set Req = Birdie.Speak("He did not hear any sizzling or smell anything burning. The water was on the back of his GPU's PCB.")
+WaitFor Req
+Set Req = Joe.Speak("Only 1 story from me. But short story.")
+WaitFor Req
+Birdie.Speak "The phone was working fine and had just kept it in the pocket for a second."
+Birdie.Speak "Upon removing it the phone seemed switched off. He tried turning it on, but had no respite, even when kept for charging it doesn't show the charging animation."
+Birdie.Speak "He was on a Remix 2.5 with Hells kernel"
+Set Req = Birdie.Hide()
+WaitFor Req
+Set Req = Eman.Speak("I am going to our house. E-Woman? do you want to go to our house?")
+WaitFor Req
+Set Req = Ewoman.Speak("Yes")
+WaitFor Req
+Eman.Hide
+Set Req = Ewoman.Hide()
+WaitFor Req
+Set Req = Spaceman.Speak("Exit news?")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes")
+WaitFor Req
+Milton.MoveTo 513, 747
+Milton.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Milton.Show()
+WaitFor Req
+Ozzar.MoveTo 451, 744
+Ozzar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Ozzar.Show()
+WaitFor Req
+Set Req = Spaceman.Speak("Multicolored unreadeable, like (Milton Say it.)")
+WaitFor Req
+Set Req = Milton.Speak("Wow, Looks like Fgtklsblader, Mujvspdbmnr, Midgpwwfh Foakds, Yuptdff and Fswd Lpwm!")
+WaitFor Req
+Set Req = Spaceman.Speak("Mojang AB, Do not Distribute like Fucusgshdjshdsjdhsjdhsjdhsjdhsjdhsjhdjshd.")
+WaitFor Req
+Birdie.Show
+Birdie.Speak "Jumped to Menu and looked like: (He has the Lililff Minfc, Text is idojfgercnecfmejfcckejkhvjkremfkejfkl and the texture and background were messed up.)"
+Set Req = Birdie.Hide()
+WaitFor Req
+Set Req = Milton.Speak("Wow, looks like Pyret Enetr ot too$ ot Ginwods HX Ophsaltig Sy^t#m!.")
+WaitFor Req
+Set Req = Ozzar.Speak("Yes")
+WaitFor Req
+Set Req = James.Speak("Desktop, looks like Ym Retupmoc, Rjckpsr Bni or Hy Gneteofl Panse!.")
+WaitFor Req
+Oscar.Speak "Yes"
+Set Req = Oscar.Play("Surprised")
+WaitFor Req
+Set Req = Spaceman.Speak("Exit news now?")
+WaitFor Req
+Set Req = Genie.Speak("Yes.")
+WaitFor Req
+Set Req = Spaceman.Play("stargate")
+WaitFor Req
+Set Req = Sizlik.MoveTo(123, 687)
+WaitFor Req
+Set Req = Milton.Speak("This news is interesting. So let's exit.")
+WaitFor Req
+Sizlik.MoveTo 38, 637
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

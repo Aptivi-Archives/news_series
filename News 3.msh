@@ -1,0 +1,191 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Alien=Alien.acs
+Birdie=Birdie.acs
+Check=Check.acs
+Debbie=Debbie.acs
+Gourdy=Gourdy.acs
+Isabella=Isabella.acs
+Joe=Joe.acs
+
+[LanguageIDs]
+Alien=&H409
+Birdie=&H409
+Check=&H409
+Debbie=&H409
+Gourdy=&H409
+Isabella=&H409
+Joe=&H409
+
+[Script]
+Alien.MoveTo 313, 469
+Alien.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Alien.Show()
+WaitFor Req
+Birdie.MoveTo 971, 111
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Birdie.Show()
+WaitFor Req
+Check.MoveTo 346, 741
+Check.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Check.Show()
+WaitFor Req
+Debbie.MoveTo 463, 683
+Debbie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Debbie.Show()
+WaitFor Req
+Gourdy.MoveTo 625, 736
+Gourdy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Gourdy.Show()
+WaitFor Req
+Isabella.MoveTo 738, 659
+Isabella.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Isabella.Show
+Isabella.MoveTo 722, 677
+Set Req = Isabella.MoveTo(737, 679)
+WaitFor Req
+Joe.MoveTo 864, 746
+Joe.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Joe.Show()
+WaitFor Req
+Set Req = Gourdy.Speak("Third news?")
+WaitFor Req
+Set Req = Joe.Speak("Yes, Yes, Yes, Yes, Yes!!")
+WaitFor Req
+Set Req = Check.Speak("I am the checkmate.")
+WaitFor Req
+Alien.Speak "I am the Alien"
+Alien.Play "ANGEL"
+Set Req = Alien.Speak("Could you please Birdie check your third news?")
+WaitFor Req
+Set Req = Birdie.Speak("Yes (recommend that)")
+WaitFor Req
+Set Req = Joe.Speak("Say")
+WaitFor Req
+Set Req = Isabella.Speak("Say Birdie")
+WaitFor Req
+Set Req = Gourdy.Speak("Say Birdie")
+WaitFor Req
+Set Req = Debbie.Speak("Say Birdie")
+WaitFor Req
+Set Req = Check.Speak("Say Birdie or it will be shut down")
+WaitFor Req
+Set Req = Alien.Speak("Say Birdie")
+WaitFor Req
+Birdie.Speak "OK, Let me move and speak"
+Birdie.MoveTo 1323, 108
+Set Req = Birdie.Speak("We will wait for browser to load Google.com")
+WaitFor Req
+Set Req = Joe.Speak("Yes, Yeah!!")
+WaitFor Req
+Set Req = Debbie.Speak("Can you find Tom's Hardware?")
+WaitFor Req
+Set Req = Birdie.Speak("Yes, I can")
+WaitFor Req
+Set Req = Isabella.Speak("Can we see the Youtube part of Explosion, If so, Move to me Alien.")
+WaitFor Req
+Set Req = Alien.MoveTo(843, 675)
+WaitFor Req
+Set Req = Check.Speak("Can we share it?")
+WaitFor Req
+Set Req = Alien.Speak("No.")
+WaitFor Req
+Set Req = Joe.Speak("All listen to Birdie.")
+WaitFor Req
+Birdie.MoveTo 357, 320
+Birdie.Speak "Hi News Members."
+Set Req = Birdie.Speak("His build finished 4 weeks ago and it had the power supply explode.")
+WaitFor Req
+Set Req = Joe.Speak("Ouf, Power supplies can explode.")
+WaitFor Req
+Set Req = Birdie.MoveTo(405, 261)
+WaitFor Req
+Set Req = Debbie.Speak("Only explosions, Not explosions and dies.")
+WaitFor Req
+Birdie.MoveTo 413, 376
+Set Req = Birdie.Speak("Explosions, I love explosions of PSU")
+WaitFor Req
+Set Req = Alien.Speak("Me too")
+WaitFor Req
+Set Req = Joe.Speak("Me too")
+WaitFor Req
+Set Req = Isabella.Speak("Me too")
+WaitFor Req
+Gourdy.MoveTo 625, 734
+Set Req = Gourdy.Speak("Me too")
+WaitFor Req
+Debbie.MoveTo 466, 681
+Set Req = Debbie.Speak("Me too")
+WaitFor Req
+Set Req = Check.Speak("Me too")
+WaitFor Req
+Set Req = Gourdy.Speak("I'm talking like Atlas Systems")
+WaitFor Req
+Birdie.Speak "It's already been 3 months since his PC broke but still he just to know, which one is faulty."
+Set Req = Birdie.Speak("His computer still working at the night, But then in morning, He just switch on his UPS then turn on his PC immediately then suddenly his PSU explode by twice.")
+WaitFor Req
+Set Req = Isabella.Speak("Like (Ta-Ta!! Ta!! or Boom-Boom!! Boom!!)")
+WaitFor Req
+Set Req = Gourdy.Speak("Yes")
+WaitFor Req
+Birdie.MoveTo 420, 177
+Birdie.Speak "The the UPS green light is not working and noisy beep sounds but when he remove the cord from the power outlet and turn on the UPS, it looks like working fine."
+Birdie.Speak "cause He tried his speaker if it still working and his speaker works."
+Birdie.Speak "Not sure what's the real problem cause this is the 3rd time his PSU explode the first 2 PSU was GX 750 Cooler Master 80 Plus Gold and the last one that kills his UPS or probably his PC is iMaster Jumbo 5000, 500w."
+Birdie.Speak "It has 80 plus probably standard or generic not branded for sure althought he still have his Seasonic 760W 80plus Gold."
+Birdie.Speak "He just want to know which one is culprit, his power outlet, his PSU or his UPS He still have another PC but He can't risk that PC cause his brother really needs that PC, If only if that PC was his's, He are gonna risk it."
+Set Req = Birdie.Speak("Should repair it?")
+WaitFor Req
+Set Req = Joe.Speak("Yes")
+WaitFor Req
+Set Req = Gourdy.Speak("Yes")
+WaitFor Req
+Set Req = Alien.Speak("Yes")
+WaitFor Req
+Set Req = Isabella.Speak("Yes")
+WaitFor Req
+Set Req = Debbie.Speak("Yes")
+WaitFor Req
+Check.MoveTo 346, 739
+Set Req = Check.Speak("Yes")
+WaitFor Req
+Set Req = Birdie.Speak("OK.")
+WaitFor Req
+Set Req = Gourdy.Speak("It is under warranty if PSU exploded.")
+WaitFor Req
+Birdie.MoveTo 436, 260
+Birdie.MoveTo 436, 350
+Birdie.Speak "OK, Let's explain it."
+Birdie.Speak "As he was installing the motherboard into the case He dropped 3 screws accidentally while wearing a ESD wriststrap and trying to avoid touch the motherboard he picked them all up safely."
+Birdie.Speak "He has a 550w PSU that will power up everything."
+Birdie.Speak "As for his first boot He did not have a RAM nor GPU installed but the CPU has a integrated video card with it."
+Birdie.Speak "He turned it on then Boom!! Loud noise and sparks coming from the PSU."
+Set Req = Birdie.Speak("What happened?")
+WaitFor Req
+Debbie.MoveTo 1064, 685
+Birdie.Speak "He asked his next door neighbor because his an IT expert and he told him that the front panel won't harm the motherboard if installed wrong because it's just 12 volts."
+Birdie.Speak "But the screws however he said it will get shorted it it touches specific parts of the motherboard."
+Birdie.Speak "When he went back to his local IT shop, they tested it."
+Birdie.Speak "They told him Your PSU is dead and your motherboard was fried."
+Set Req = Birdie.Speak("When he got it replaced they told him Always have a RAM installed otherwise it'll damage the motherboard.")
+WaitFor Req
+Set Req = Check.MoveTo(1162, 741)
+WaitFor Req
+Set Req = Alien.MoveTo(1004, 742)
+WaitFor Req
+Birdie.MoveTo 437, 368
+Birdie.Speak "So what do I think people? What caused his PSU to explode like that? His specs are Celeron G1620, No RAM yet, no HDD yet, basically it xD."
+Birdie.Speak "Best Regards, Birdie"
+Birdie.Speak "I miss 1 thing."
+Set Req = Birdie.Speak("no GPU installed.")
+WaitFor Req
+Joe.Speak "Wow, Your news very good."
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

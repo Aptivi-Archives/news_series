@@ -1,0 +1,196 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Cupid=Cupid.acs
+Genie=Genie.acs
+Gourdy=Gourdy.acs
+Isabella=Isabella.acs
+Joe=Joe.acs
+Alien=Alien.acs
+Check=Check.acs
+Debbie=Debbie.acs
+Cathie=Cathie.acs
+Charlie=Charlie.acs
+Al=Al.acs
+Marge=Marge.acs
+Milton=Milton.acs
+Sizlik=Sizlik.acs
+Spaceman=Spaceman.acs
+Merlin=Merlin.acs
+Peedy=Peedy.acs
+Robby=Robby.acs
+Birdie=Birdie.acs
+Vrgirl=Vrgirl.acs
+Miku=Miku.acs
+
+[LanguageIDs]
+Cupid=&H409
+Genie=&H409
+Gourdy=&H409
+Isabella=&H409
+Joe=&H409
+Alien=&H409
+Check=&H409
+Debbie=&H409
+Cathie=&H409
+Charlie=&H409
+Al=&H409
+Marge=&H409
+Milton=&H409
+Sizlik=&H409
+Spaceman=&H409
+Merlin=&H409
+Peedy=&H409
+Robby=&H409
+Birdie=&H409
+Vrgirl=&H409
+Miku=&H409
+
+[Script]
+Cupid.MoveTo 1200, 711
+Cupid.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Cupid.Show()
+WaitFor Req
+Genie.MoveTo 1328, 745
+Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Genie.Show()
+WaitFor Req
+Gourdy.MoveTo 1134, 744
+Gourdy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Gourdy.Show()
+WaitFor Req
+Isabella.MoveTo 1023, 683
+Isabella.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Isabella.Show()
+WaitFor Req
+Joe.MoveTo 954, 751
+Joe.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Joe.Show()
+WaitFor Req
+Alien.MoveTo 880, 754
+Alien.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Alien.Show()
+WaitFor Req
+Check.MoveTo 804, 747
+Check.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Check.Show()
+WaitFor Req
+Debbie.MoveTo 712, 688
+Debbie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Debbie.Show()
+WaitFor Req
+Cathie.MoveTo 659, 685
+Cathie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Cathie.Show()
+WaitFor Req
+Charlie.MoveTo 569, 711
+Charlie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Charlie.Show()
+WaitFor Req
+Al.MoveTo 475, 746
+Al.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Al.Show()
+WaitFor Req
+Marge.MoveTo 338, 727
+Marge.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Marge.Show()
+WaitFor Req
+Milton.MoveTo 242, 749
+Milton.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Milton.Show()
+WaitFor Req
+Sizlik.MoveTo -6, 683
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Sizlik.Show()
+WaitFor Req
+Spaceman.MoveTo 151, 790
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Spaceman.Show()
+WaitFor Req
+Merlin.MoveTo 1332, 63
+Merlin.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Merlin.Show()
+WaitFor Req
+Peedy.MoveTo 1237, 64
+Peedy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Peedy.Show()
+WaitFor Req
+Robby.MoveTo 1183, 60
+Robby.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273006}"
+Set Req = Robby.Show()
+WaitFor Req
+Birdie.MoveTo 1089, 51
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Birdie.Show()
+WaitFor Req
+Vrgirl.MoveTo 1043, 60
+Vrgirl.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Vrgirl.Show
+Set Req = Vrgirl.Speak("What, A Google Chrome Browser?")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes.")
+WaitFor Req
+Set Req = Robby.Speak("Yes.")
+WaitFor Req
+Set Req = Vrgirl.Speak("It's News 18, so Genie will be exit like News 13 said.")
+WaitFor Req
+Set Req = Genie.Hide()
+WaitFor Req
+Miku.MoveTo 1330, 641
+Miku.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Miku.Show()
+WaitFor Req
+Set Req = Vrgirl.Hide()
+WaitFor Req
+Birdie.MoveTo 534, 96
+Birdie.Speak "He just working on PowerPoint 2010, After the app, His screen starts to change color and graphics andf fonts is *MESS*, He tried the next:"
+Birdie.Speak "First he tried to change theme, change color depth and restart, and check the cable to no luck."
+Birdie.Speak "He use TuneUp Ultilities that labels Repair the Icons Cache and Display"
+Birdie.Speak "Next, He used his PC with no Video Card which uses DVI to VGA Adapter"
+Birdie.Speak "He used another monitor, it's exactly the same."
+Birdie.Speak "He linked to two displays but both are equally messed."
+Set Req = Birdie.Speak("Reinstalled the GPU Drivers.")
+WaitFor Req
+Set Req = Cupid.Speak("Ready for next.")
+WaitFor Req
+Set Req = Isabella.Speak("Yes.")
+WaitFor Req
+Set Req = Cupid.Speak("Beep?")
+WaitFor Req
+Set Req = Miku.Speak("Yes.")
+WaitFor Req
+Birdie.MoveTo 499, 177
+Birdie.Speak "He upgrade his PC and installed an ATI Radeon HD 4650 onto his AGP slot..."
+Set Req = Birdie.Speak("If it is the time, and Aero was enabled, Aero starting to pixelate, distort, namely on Minimize, Maximize, Close buttons, and on any flash screens for programs starting...")
+WaitFor Req
+Set Req = Al.Speak("Third one.")
+WaitFor Req
+Birdie.MoveTo 529, 190
+Birdie.Speak "Aero Theme has display issues with the background picture appearing lot of lines after he install Windows 7, Display of app is also get messed up."
+Set Req = Birdie.MoveTo(535, 147)
+WaitFor Req
+Set Req = Debbie.Speak("Next")
+WaitFor Req
+Birdie.Speak "Calculator doesn't render correctly and Windows Photo Viewer refuses to view PNGs saying the file appears to be damaged, corrupt or too large."
+Set Req = Birdie.Speak("He tried uninstalling and reinstalling graphics card devices, including old version, to no available.")
+WaitFor Req
+Set Req = Check.Speak("Next with Aero Distorted")
+WaitFor Req
+Birdie.Speak "His screen started going crazy."
+Birdie.Speak "he had install Win 7 Again and again, but the problems seems to be continues."
+Birdie.Speak "He had updated his GPU drivers but the problem continues."
+Set Req = Birdie.Speak("Starting Windows in Safe Mode fix the problem.")
+WaitFor Req
+Miku.Speak "Exit."
+Set Req = Spaceman.Speak("Exit News?")
+WaitFor Req
+Joe.Speak "Yes."
+Joe.Play "Assimilate"
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

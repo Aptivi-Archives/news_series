@@ -1,0 +1,258 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Blanche=Blanche.acs
+Genie=Genie.acs
+Gourdy=Gourdy.acs
+Joe=Joe.acs
+James=James.acs
+Check=Check.acs
+Electra=Electra.acs
+Felini=Felini.acs
+Gar=Gar.acs
+Claude=Claude.acs
+Oscar=Oscar.acs
+Milton=Milton.acs
+Plany=Plany.acs
+Marge=Marge.acs
+Spaceman=Spaceman.acs
+Sizlik=Sizlik.acs
+Birdie=Birdie.acs
+Wabbit=Wabbit.acs
+Wartnose=Wartnose.acs
+
+[LanguageIDs]
+Blanche=&H409
+Genie=&H409
+Gourdy=&H409
+Joe=&H409
+James=&H409
+Check=&H409
+Electra=&H409
+Felini=&H409
+Gar=&H409
+Claude=&H409
+Oscar=&H409
+Milton=&H409
+Plany=&H409
+Marge=&H409
+Spaceman=&H409
+Sizlik=&H409
+Birdie=&H409
+Wabbit=&H409
+Wartnose=&H409
+
+[Script]
+Blanche.MoveTo 1228, 686
+Blanche.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Blanche.Show()
+WaitFor Req
+Genie.MoveTo 1326, 742
+Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Genie.Show()
+WaitFor Req
+Gourdy.MoveTo 1154, 742
+Gourdy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Gourdy.Show()
+WaitFor Req
+Joe.MoveTo 1039, 750
+Joe.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Joe.Show()
+WaitFor Req
+James.MoveTo 955, 687
+James.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = James.Show()
+WaitFor Req
+Check.MoveTo 897, 745
+Check.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Check.Show()
+WaitFor Req
+Electra.MoveTo 822, 746
+Electra.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Electra.Show()
+WaitFor Req
+Felini.MoveTo 726, 685
+Felini.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273007}"
+Set Req = Felini.Show()
+WaitFor Req
+Gar.MoveTo 684, 752
+Gar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Gar.Show()
+WaitFor Req
+Claude.MoveTo 609, 739
+Claude.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Claude.Show()
+WaitFor Req
+Oscar.MoveTo 562, 748
+Oscar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Oscar.Show()
+WaitFor Req
+Milton.MoveTo 508, 747
+Milton.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Milton.Show()
+WaitFor Req
+Plany.MoveTo 419, 782
+Plany.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Plany.Show()
+WaitFor Req
+Marge.MoveTo 267, 724
+Marge.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Marge.Show()
+WaitFor Req
+Spaceman.MoveTo 145, 789
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Spaceman.Show()
+WaitFor Req
+Sizlik.MoveTo -18, 686
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Sizlik.Show()
+WaitFor Req
+Birdie.MoveTo 1102, 48
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Birdie.Show()
+WaitFor Req
+Wabbit.MoveTo 1286, -3
+Wabbit.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Wabbit.Show()
+WaitFor Req
+Wartnose.MoveTo 1208, 61
+Wartnose.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273003}"
+Wartnose.Show
+Set Req = Wartnose.Speak("At crack.")
+WaitFor Req
+Set Req = Birdie.Speak("Hello Guys.")
+WaitFor Req
+Spaceman.Speak "Hello Guys?"
+Set Req = Spaceman.Speak("How are you?")
+WaitFor Req
+Set Req = Sizlik.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Marge.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Plany.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Milton.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Oscar.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Claude.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Gar.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Felini.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Electra.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Check.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = James.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Joe.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Gourdy.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Blanche.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Genie.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Wabbit.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Wartnose.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Claude.Speak("Begin News.")
+WaitFor Req
+Set Req = Milton.Speak("OK, Please news begin.")
+WaitFor Req
+Birdie.MoveTo 306, 175
+Birdie.Speak "Recently a friend of his's randomly found that the bottom half of his screen doesn't work!"
+Birdie.Speak "There is a crack from one side of the device to the other!"
+Birdie.Speak "Above the crack, screen works and responds to touch controls, below the crack, it doesn't, no matter how to touch it, doesn't respond!"
+Birdie.Speak "His guess is the crack doesn't allow the scren to pass the touch signal through, the phone is unusable now, He can't input the SIM card because the numbers that they're working which is 2, 3, 6 and 9, other are below the crack and unresponsive."
+Birdie.Speak "If he take out the SIM card and go into anything or apps, his phone doesn't go to Home because Home, Menu and Back button is unresponsive."
+Set Req = Birdie.Speak("The Device is a Sony ZR.")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Birdie.MoveTo 298, 343
+Birdie.Speak "He dropped his laptop! and cracked the screen."
+Birdie.Speak "He only need to get info and pics off the cracked PC herein lies his problem."
+Set Req = Birdie.Speak("He had been told that he could hook up his PC to his TV and load all onto a flash drive.")
+WaitFor Req
+Set Req = Electra.Speak("I believe that my friends is getting the warnings and no breaks and activities in my school.")
+WaitFor Req
+Set Req = Felini.Speak("Me too.")
+WaitFor Req
+Set Req = Gar.Speak("Me too.")
+WaitFor Req
+Set Req = Gourdy.Speak("Me too.")
+WaitFor Req
+Set Req = Genie.Speak("Me too.")
+WaitFor Req
+Set Req = Wabbit.Speak("Me too.")
+WaitFor Req
+Set Req = Wartnose.Speak("Me too.")
+WaitFor Req
+Set Req = Plany.Speak("Me too.")
+WaitFor Req
+Set Req = Claude.Speak("Me too.")
+WaitFor Req
+Set Req = Oscar.Speak("Me too.")
+WaitFor Req
+Set Req = Milton.Speak("Me too.")
+WaitFor Req
+Set Req = Spaceman.Speak("Last one.")
+WaitFor Req
+Birdie.MoveTo 296, 373
+Birdie.Speak "We have updated."
+Set Req = Birdie.Speak("He let the laptop for a while and when he do open all tabs in Google Chrome, it beeped out from Laptop/Battery then it display fourth reason.")
+WaitFor Req
+Set Req = Joe.Speak("Still Last one.")
+WaitFor Req
+Birdie.MoveTo 321, 343
+Birdie.Speak "In MSConfig He selected in Safe Mode Option in boots Tab and restarted the computer."
+Birdie.Speak "One major problem is he had the broken laptop and the only was he had been using the laptop is via HDMI."
+Birdie.Speak "Well he think you know what sticky situation he are in as HDMI doesn't work and he can't navigate to MSConfig to deselect the Safe Mode option."
+Set Req = Birdie.Speak("He tried F8 and no luck.")
+WaitFor Req
+Claude.Speak "Only 2 stories from me."
+Set Req = Claude.Speak("But short story.")
+WaitFor Req
+Set Req = Oscar.Speak("Google Chrome is sneezing and sneezing at me.")
+WaitFor Req
+Birdie.MoveTo 427, 376
+Birdie.Speak "He today he are gunna to close Google Chrome and try to open it again but it couldn't."
+Birdie.Speak "So he reinstalled Google Chrome couple of times, and deleted it's Application Data folders to make things run smoothly."
+Set Req = Birdie.Speak("He turned off the FW and Antivirus software.")
+WaitFor Req
+Set Req = Milton.Speak("Last one.")
+WaitFor Req
+Birdie.Speak "He built the computer for his girlfriend wrongly before Christmas time, and last night it sounded like the computer just going Zap!"
+Birdie.Speak "Then it doesn't do anything."
+Set Req = Birdie.Speak("Girlfriend's computer parts are completely dead except for the PSU.")
+WaitFor Req
+Set Req = Wartnose.Speak("Last one from Zap.")
+WaitFor Req
+Set Req = Felini.Speak("OK, OK, I love Zap!")
+WaitFor Req
+Birdie.MoveTo 385, 344
+Birdie.Speak "He went into his computer to change his top fan, and by accident he touched the yellow part of the 8 pin connector and it gave him a Zap! or a Shock."
+Birdie.Speak "He had always heard when that happens, it usually kills his system in a way."
+Set Req = Birdie.Speak("He had since, turned on the computer and done a couple of benchmarks to check if it damaged the PSU or any other component.")
+WaitFor Req
+Set Req = Joe.Speak("Longer story?")
+WaitFor Req
+Set Req = Check.Speak("Yes!")
+WaitFor Req
+Birdie.MoveTo 385, 377
+Birdie.Speak "His city was flooded about 3 weeks, today he got back home, power to his building came day before, he turned on his PC, work fine, later he turned off, after that it turned on back by itself (it does that because his mouse bugs and wakes it.) and he flipped the switch on the back to turn it off."
+Birdie.Speak "Later when tried to turn it back on, PSU make Zap! when he press the power button, LED light around the button was flashing and PC didn't start, He unplug, later when he tried it, as soon as he flip the switch on the PSU to turn it on, it zaps and it doesn't give him the action by pressing the Power button."
+Birdie.Speak "His PC suddenly died and motherboard was fried, but it wasn't the PSU making the Zap and sounds come from PSU."
+Birdie.Speak "Exit now."
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

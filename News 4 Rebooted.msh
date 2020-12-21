@@ -1,0 +1,418 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Al=Al.acs
+Cami=Cami.acs
+Check=Check.acs
+Cupid=Cupid.acs
+Electra=Electra.acs
+Charlie=Charlie.acs
+Gar=Gar.acs
+Gourdy=Gourdy.acs
+Joe=Joe.acs
+Milton=Milton.acs
+Oscar=Oscar.acs
+Ozzar=Ozzar.acs
+Plany=Plany.acs
+Spaceman=Spaceman.acs
+Wartnose=Wartnose.acs
+Sizlik=Sizlik.acs
+Totem=Totem.acs
+Vrgirl=Vrgirl.acs
+Birdie=Birdie.acs
+
+[LanguageIDs]
+Al=&H409
+Cami=&H409
+Check=&H409
+Cupid=&H409
+Electra=&H409
+Charlie=&H409
+Gar=&H409
+Gourdy=&H409
+Joe=&H409
+Milton=&H409
+Oscar=&H409
+Ozzar=&H409
+Plany=&H409
+Spaceman=&H409
+Wartnose=&H409
+Sizlik=&H409
+Totem=&H409
+Vrgirl=&H409
+Birdie=&H409
+
+[Script]
+Al.MoveTo 1313, 738
+Al.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Al.Show()
+WaitFor Req
+Cami.MoveTo 1226, 750
+Cami.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Cami.Show()
+WaitFor Req
+Check.MoveTo 1156, 741
+Check.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Check.Show()
+WaitFor Req
+Cupid.MoveTo 1046, 708
+Cupid.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Cupid.Show
+Set Req = Cupid.Speak("Beep?")
+WaitFor Req
+Set Req = Check.Speak("Yes")
+WaitFor Req
+Electra.MoveTo 982, 744
+Electra.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Electra.Show()
+WaitFor Req
+Charlie.MoveTo 853, 709
+Charlie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Charlie.Show()
+WaitFor Req
+Gar.MoveTo 751, 752
+Gar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Gar.Show()
+WaitFor Req
+Gourdy.MoveTo 655, 748
+Gourdy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Gourdy.Show()
+WaitFor Req
+Joe.MoveTo 542, 755
+Joe.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Joe.Show()
+WaitFor Req
+Milton.MoveTo 479, 746
+Milton.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Milton.Show()
+WaitFor Req
+Oscar.MoveTo 424, 746
+Oscar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Oscar.Show()
+WaitFor Req
+Ozzar.MoveTo 369, 747
+Ozzar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Ozzar.Show()
+WaitFor Req
+Plany.MoveTo 291, 784
+Plany.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Plany.Show()
+WaitFor Req
+Spaceman.MoveTo 171, 787
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Spaceman.Show()
+WaitFor Req
+Wartnose.MoveTo 75, 742
+Wartnose.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273003}"
+Set Req = Wartnose.Show()
+WaitFor Req
+Sizlik.MoveTo 6, 553
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Sizlik.Show
+Set Req = Sizlik.Speak("Wartnose? You're at my place? Come on the first one.")
+WaitFor Req
+Set Req = Al.MoveTo(1283, 746)
+WaitFor Req
+Set Req = Wartnose.MoveTo(1348, 742)
+WaitFor Req
+Set Req = Sizlik.MoveTo(9, 688)
+WaitFor Req
+Charlie.Speak "I am going to the upper left corner."
+Set Req = Charlie.MoveTo(24, 14)
+WaitFor Req
+Totem.MoveTo 857, 732
+Totem.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273003}"
+Set Req = Totem.Show()
+WaitFor Req
+Set Req = Gar.MoveTo(807, 756)
+WaitFor Req
+Set Req = Gourdy.MoveTo(719, 749)
+WaitFor Req
+Set Req = Joe.MoveTo(608, 759)
+WaitFor Req
+Set Req = Milton.MoveTo(540, 746)
+WaitFor Req
+Set Req = Oscar.MoveTo(482, 748)
+WaitFor Req
+Set Req = Ozzar.MoveTo(422, 745)
+WaitFor Req
+Set Req = Plany.MoveTo(339, 784)
+WaitFor Req
+Vrgirl.MoveTo 257, 744
+Vrgirl.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Vrgirl.Show()
+WaitFor Req
+Birdie.MoveTo 717, 278
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Birdie.Show
+Birdie.Speak "Hello guys."
+Set Req = Birdie.Speak("Genie is absent in this serie.")
+WaitFor Req
+Set Req = Wartnose.Speak("I was about to ask Genie and Wabbit a question about why they are changing the places. I still have Windows XP to be killed.")
+WaitFor Req
+Set Req = Joe.Speak("Leave them alone (Birdie, Wabbit, Genie), You don't have Windows XP to be killed.")
+WaitFor Req
+Wartnose.Speak "OK, Let's joke it."
+Wartnose.Speak "As he was uninstalling the motherboard from the case he remain 5 chips accidentally while damaging the ESD wriststrap and trying to avoid releasing the motherboard he pulled all down safely."
+Wartnose.Speak "He has the 90w PSU that will power up something."
+Wartnose.Speak "As for his first fireboot he did not have the ZAM nor PGU installed but the CCU has integrated video card with it."
+Wartnose.Speak "He turned it on then Boom! Loud fires and sparks coming from PSWU."
+Set Req = Wartnose.Speak("What happened?")
+WaitFor Req
+Set Req = Spaceman.Speak("You will be punished.")
+WaitFor Req
+Set Req = Cupid.Speak("Beep Wartnose.")
+WaitFor Req
+Set Req = Wartnose.Hide()
+WaitFor Req
+Set Req = Al.MoveTo(1349, 746)
+WaitFor Req
+Set Req = Cami.MoveTo(1293, 753)
+WaitFor Req
+Set Req = Check.MoveTo(1232, 750)
+WaitFor Req
+Set Req = Cupid.MoveTo(1126, 707)
+WaitFor Req
+Set Req = Electra.MoveTo(1074, 745)
+WaitFor Req
+Set Req = Totem.MoveTo(961, 736)
+WaitFor Req
+Set Req = Gar.MoveTo(915, 751)
+WaitFor Req
+Set Req = Gourdy.MoveTo(821, 746)
+WaitFor Req
+Set Req = Joe.MoveTo(714, 752)
+WaitFor Req
+Set Req = Milton.MoveTo(654, 747)
+WaitFor Req
+Set Req = Oscar.MoveTo(607, 746)
+WaitFor Req
+Set Req = Ozzar.MoveTo(553, 746)
+WaitFor Req
+Set Req = Plany.MoveTo(482, 789)
+WaitFor Req
+Charlie.MoveTo 330, 710
+Set Req = Charlie.Speak("Now, they shrank away for me to sit at the bottom.")
+WaitFor Req
+Spaceman.Play "Dropit"
+Spaceman.Play "Hover"
+Spaceman.Play "Park"
+Spaceman.Play "Still"
+Set Req = Spaceman.Speak("Hello guys? How are you?")
+WaitFor Req
+Set Req = Sizlik.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Vrgirl.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Charlie.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Plany.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Ozzar.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Oscar.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Milton.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Joe.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Gourdy.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Gar.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Totem.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Electra.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Cupid.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Check.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Cami.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Al.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Birdie.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Spaceman.Speak("All listen to Birdie?")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes")
+WaitFor Req
+Set Req = Vrgirl.Speak("Yes")
+WaitFor Req
+Set Req = Charlie.Speak("Yes")
+WaitFor Req
+Set Req = Plany.Speak("Yes")
+WaitFor Req
+Set Req = Ozzar.Speak("Yes")
+WaitFor Req
+Set Req = Oscar.Speak("Yes")
+WaitFor Req
+Set Req = Milton.Speak("Yes")
+WaitFor Req
+Set Req = Joe.Speak("Yes")
+WaitFor Req
+Set Req = Gourdy.Speak("Yes")
+WaitFor Req
+Set Req = Gar.Speak("Yes")
+WaitFor Req
+Set Req = Totem.Speak("Yes")
+WaitFor Req
+Set Req = Electra.Speak("Yes")
+WaitFor Req
+Set Req = Cupid.Speak("Yes")
+WaitFor Req
+Set Req = Check.Speak("Yes")
+WaitFor Req
+Set Req = Cami.Speak("Yes")
+WaitFor Req
+Set Req = Al.Speak("Yes")
+WaitFor Req
+Birdie.Speak "Let's talk about a funny story and then News will actually begin with 4 stories."
+Birdie.Speak "OK, Let's joke it."
+Birdie.Speak "As he was uninstalling the motherboard from the case he remain 5 chips accidentally while damaging the ESD wriststrap and trying to avoid releasing the motherboard he pulled all down safely."
+Birdie.Speak "He has the 90w PSU that will power up something."
+Birdie.Speak "As for his first fireboot he did not have the ZAM nor PGU installed but the CCU has integrated video card with it."
+Birdie.Speak "He turned it on then Boom! Loud fires and sparks coming from PSWU."
+Birdie.Speak "What happened?"
+Birdie.Speak "He asked his next door neighbor because he's an IT rookie and he told him that the back panel won't harm the motherboard if uninstalled wrong because it's just 2 volts."
+Birdie.Speak "But the chips however he said it will get shorted if it didn't touch specific parts of the motherboard."
+Birdie.Speak "When he went back to his local IT shop, they tested it."
+Birdie.Speak "They told him 'Your PSWU is alive and your motherboard was dried.'"
+Birdie.Speak "When he got it damaged they told him 'Always have a ZAM uninstalled otherwise it'll un-damage the motherboard.'"
+Birdie.Speak "So what do I think people? What caused his PSWU to implode like that? His specs are Zyllyrojn G0261, No ZAM yet, No EDD yet, No PGU Yet, basically it Dx."
+Set Req = Birdie.Speak("Worst regards, Wartnose.")
+WaitFor Req
+Spaceman.Speak "So that's Wartnose have to say all of this? This is completely wrong!"
+Set Req = Spaceman.Speak("When Wartnose comes, I will have my shield.")
+WaitFor Req
+Joe.Play "Assimilate"
+Joe.Speak "I am distorted now."
+Joe.Speak "I can undistort."
+Joe.Play "IdlingLevel2"
+Set Req = Joe.Speak("Did Wartnose just say all of this?")
+WaitFor Req
+Set Req = Birdie.Speak("Yes")
+WaitFor Req
+Set Req = Charlie.Speak("Now, let's begin.")
+WaitFor Req
+Set Req = Spaceman.Speak("All listen to Birdie?")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes")
+WaitFor Req
+Set Req = Vrgirl.Speak("Yes")
+WaitFor Req
+Set Req = Charlie.Speak("Yes")
+WaitFor Req
+Set Req = Plany.Speak("Yes")
+WaitFor Req
+Set Req = Ozzar.Speak("Yes")
+WaitFor Req
+Set Req = Oscar.Speak("Yes")
+WaitFor Req
+Set Req = Milton.Speak("Yes")
+WaitFor Req
+Set Req = Joe.Speak("Yes")
+WaitFor Req
+Set Req = Gourdy.Speak("Yes")
+WaitFor Req
+Set Req = Gar.Speak("Yes")
+WaitFor Req
+Set Req = Totem.Speak("Yes")
+WaitFor Req
+Set Req = Electra.Speak("Yes")
+WaitFor Req
+Set Req = Cupid.Speak("Yes")
+WaitFor Req
+Set Req = Check.Speak("Yes")
+WaitFor Req
+Set Req = Cami.Speak("Yes")
+WaitFor Req
+Set Req = Al.Speak("Yes")
+WaitFor Req
+Totem.Play "gratte"
+Totem.Play "cogne"
+Set Req = Totem.Speak("Let's start.")
+WaitFor Req
+Birdie.MoveTo 402, 308
+Birdie.Speak "He doesn't know exactly when it started not working properly as it isn't his PC."
+Birdie.Speak "No hardware was recently installed inside the case but it started not working. He was told that the screen went blue and it turned off! Then it wouldn't turn back on."
+Birdie.Speak "She tried again the next day and it turned on, booted up and started Windows normally..."
+Birdie.Speak "After a couple minutes the monitor went dark and couldn't do anything but hold the power button down to shut it off."
+Birdie.Speak "She started it up and it did the same thing one more time. Now when he turn it on it won't display anything."
+Birdie.Speak "He has tried starting it up normally, reseating components/cables inside case, cleaning dust out from inside case and he found a lot of dust around CPU."
+Birdie.Speak "He turned the computer on with case open to see what was working."
+Birdie.Speak "The case fan, CPU fan, PSU fan all working, he hears the hard drive spinning and the DVD drive opens and closes."
+Birdie.Speak "He has worked through a couple different strategies people suggested to troubleshoot similar problems."
+Birdie.Speak "Clearing CMOS, swapping memory bars, using 1 stick instead of both, disconnected everything except CPU, CPU fan, PSU, and 1 stick."
+Birdie.Speak "He even tried without any memory sticks just to try to hear a beep."
+Birdie.Speak "Tried a similar 250w PSU from an older working computer."
+Birdie.Speak "He even tried to take everything out of the case and set it on a piece of plywood."
+Set Req = Birdie.Speak("He still have not heard a beep with any of his tests.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "Had his new system up and running for a whole day."
+Birdie.Speak "In the process of installing a led strip he accidentally plugged one end of the strip into a molex adapter and the other into his motherboard's ROG Ext."
+Birdie.Speak "Started the system, heard a zap, promptly turned system off."
+Birdie.Speak "The result is a system that now shows q code: 00 and won't boot."
+Birdie.Speak "CPU fan, CPU opt, and pump header are still working."
+Birdie.Speak "No case fan headers are working."
+Birdie.Speak "No power to USB ports, though he's still able to blind flash his BIOS for some odd reason."
+Birdie.Speak "All motherboard lights are working."
+Birdie.Speak "CPU watercooler pump starts fine."
+Birdie.Speak "At this point he assumed he had fried his motherboard."
+Birdie.Speak "He went out and acquired another board of the same type, but the problem still persists."
+Set Req = Birdie.Speak("He have come to the conclusion that his CPU is in fact dead, although no burn marks are visible on the CPU or any pins.")
+WaitFor Req
+Set Req = Plany.Speak("Ready for the third story.")
+WaitFor Req
+Birdie.Speak "He connected everything up and turned on the computer"
+Birdie.Speak "After a few seconds there was a burning smell, and nothing displaying on the screen!"
+Birdie.Speak "He quickly plugged it out"
+Birdie.Speak "He knows what he has done wrong now. He had connected a 4-pin floppy power cable into a 3-pin fan connector on the motherboard for the case fan"
+Birdie.Speak "He thought the cable was for a 4-pin fan. The cable he connected has 2 black wires, a red wire and a yellow wire."
+Birdie.Speak "He left the yellow wire disconnected"
+Birdie.Speak "He believe this is what caused the burning. He now knows that he needs a molex to 3-pin adaptor to connect his case fan."
+Birdie.Speak "He wanted to see if the computer was OK after this happened so he took out the floppy cable from the motherboard and just connected the case fan to the PSU, with no connection to the motherboard"
+Birdie.Speak "He turned on the computer again, it will not boot, no beep signal, nothing on screen."
+Set Req = Birdie.Speak("He thinks his motherboard is dead and possibly the PSU, and he will RMA these back to the retailer, but he doesn't know if his CPU is fried or not")
+WaitFor Req
+Set Req = Ozzar.Speak("Last story")
+WaitFor Req
+Birdie.Speak "He has a Dell XPS/Dimension 400/9150 with the original power supply."
+Birdie.Speak "Last night, lightning struck their house!"
+Birdie.Speak "The main breakers where the power comes into the house were both tripped, several of the smaller breakers in the junction box inside the house tripped, some exterior lights exploded and the switch attached to those lights has a brown, burned look to it!"
+Birdie.Speak "His computer was attached to his television, the wireless router and the cable modem."
+Birdie.Speak "After the strike, neither the computer, modem or router will turn on!"
+Birdie.Speak "He has tried switching cables, using different plugins, everything."
+Birdie.Speak "As far as the computer goes, when he plug it in, the green LED on the motherboard lights up but nothing happens when he pushes the power button"
+Set Req = Birdie.Speak("He tried cycling the red 110/220 slider switch on the back of the power supply too with no luck.")
+WaitFor Req
+Set Req = Spaceman.Speak("Exit news?")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes")
+WaitFor Req
+Set Req = Plany.Speak("Yes")
+WaitFor Req
+Set Req = Totem.Speak("Yes")
+WaitFor Req
+Set Req = Milton.Speak("Yes")
+WaitFor Req
+Birdie.Speak "His PC is protected by UPS."
+Birdie.Speak "He was using his PC during storm when something exploded loudly in his PC, and after like 3 seconds it shut down."
+Set Req = Birdie.Speak("He first thought it was a power supply, but then when he connected it to other PC, it worked fine. Later we will talk about this.")
+WaitFor Req
+Set Req = Spaceman.Speak("Exit now.")
+WaitFor Req
+Set Req = Birdie.Hide()
+WaitFor Req
+Oscar.Play "Idle1_2"
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

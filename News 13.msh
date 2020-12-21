@@ -1,0 +1,468 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Plany=Plany.acs
+Wartnose=Wartnose.acs
+Birdie=Birdie.acs
+Miku=Miku.acs
+Blanche=Blanche.acs
+Cami=Cami.acs
+Charlie=Charlie.acs
+Check=Check.acs
+Cupid=Cupid.acs
+Al=Al.acs
+Alien=Alien.acs
+Joe=Joe.acs
+Marge=Marge.acs
+Oscar=Oscar.acs
+Ozzar=Ozzar.acs
+Santa=Santa.acs
+Genie=Genie.acs
+Peedy=Peedy.acs
+Robby=Robby.acs
+Merlin=Merlin.acs
+Spaceman=Spaceman.acs
+Sizlik=Sizlik.acs
+Milton=Milton.acs
+
+[LanguageIDs]
+Plany=&H409
+Wartnose=&H409
+Birdie=&H409
+Miku=&H409
+Blanche=&H409
+Cami=&H409
+Charlie=&H409
+Check=&H409
+Cupid=&H409
+Al=&H409
+Alien=&H409
+Joe=&H409
+Marge=&H409
+Oscar=&H409
+Ozzar=&H409
+Santa=&H409
+Genie=&H409
+Peedy=&H409
+Robby=&H409
+Merlin=&H409
+Spaceman=&H409
+Sizlik=&H409
+Milton=&H409
+
+[Script]
+Plany.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Plany.Show
+Plany.MoveTo 1303, 651
+Plany.Speak "I can fly."
+Plany.MoveTo 393, 93
+Plany.Speak "My pilot is here."
+Plany.MoveTo 389, 637
+Set Req = Plany.Speak("Where's Birdie.")
+WaitFor Req
+Wartnose.MoveTo 1200, 618
+Wartnose.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273003}"
+Wartnose.Show
+Wartnose.Speak "A monster for me is arrived."
+Set Req = Wartnose.Play("Fart")
+WaitFor Req
+Plany.Speak "What? Is, a, monster?"
+Set Req = Plany.Play("Decline")
+WaitFor Req
+Wartnose.Speak "Yes."
+Wartnose.Play "Search"
+Set Req = Wartnose.MoveTo(488, 619)
+WaitFor Req
+Birdie.MoveTo 604, 183
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Birdie.Show
+Set Req = Birdie.Speak("Wow, A monster!")
+WaitFor Req
+Set Req = Wartnose.Speak("Birdie, RMA me.")
+WaitFor Req
+Set Req = Birdie.Speak("I don't RMA you, i'll stay you, When I talking news about your Explode.")
+WaitFor Req
+Set Req = Plany.Speak("Wow!")
+WaitFor Req
+Miku.MoveTo 298, 517
+Miku.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Miku.Show()
+WaitFor Req
+Set Req = Plany.Speak("Miku.")
+WaitFor Req
+Set Req = Miku.Speak("Yes, Plany.")
+WaitFor Req
+Set Req = Plany.Speak("Are your text like Birdie?")
+WaitFor Req
+Set Req = Miku.Speak("Yes.")
+WaitFor Req
+Birdie.MoveTo 208, 612
+Birdie.Speak "You're a girl."
+Set Req = Birdie.Speak("But I'm coming soon as News 13 is ready.")
+WaitFor Req
+Set Req = Wartnose.Play("Uncertain")
+WaitFor Req
+Plany.Speak "So, I'll coming back soon."
+Set Req = Plany.Hide()
+WaitFor Req
+Set Req = Wartnose.Speak("Where's Plany?")
+WaitFor Req
+Set Req = Miku.Speak("Coming soon.")
+WaitFor Req
+Set Req = Birdie.Speak("Where's Genie?")
+WaitFor Req
+Set Req = Miku.Speak("Coming soon.")
+WaitFor Req
+Set Req = Wartnose.MoveTo(828, 743)
+WaitFor Req
+Set Req = Miku.MoveTo(711, 640)
+WaitFor Req
+Set Req = Birdie.MoveTo(675, 40)
+WaitFor Req
+Blanche.MoveTo 1308, 685
+Blanche.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Blanche.Show()
+WaitFor Req
+Cami.MoveTo 1255, 752
+Cami.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Cami.Show()
+WaitFor Req
+Charlie.MoveTo 1118, 708
+Charlie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Charlie.Show()
+WaitFor Req
+Check.MoveTo 1022, 744
+Check.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Check.Show()
+WaitFor Req
+Cupid.MoveTo 903, 707
+Cupid.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Cupid.Show()
+WaitFor Req
+Al.MoveTo 757, 745
+Al.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Al.Show()
+WaitFor Req
+Set Req = Miku.MoveTo(682, 643)
+WaitFor Req
+Alien.MoveTo 612, 752
+Alien.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Alien.Show()
+WaitFor Req
+Joe.MoveTo 519, 748
+Joe.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Joe.Show()
+WaitFor Req
+Marge.MoveTo 391, 725
+Marge.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Marge.Show()
+WaitFor Req
+Oscar.MoveTo 294, 743
+Oscar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Oscar.Show()
+WaitFor Req
+Ozzar.MoveTo 233, 746
+Ozzar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Ozzar.Show()
+WaitFor Req
+Plany.Show
+Plany.Speak "My place is here? I'm changing my place."
+Set Req = Plany.MoveTo(152, 785)
+WaitFor Req
+Oscar.Speak "Sneezing."
+Set Req = Oscar.Speak("Talk about news Birdie.")
+WaitFor Req
+Set Req = Birdie.Speak("Let's add more people.")
+WaitFor Req
+Santa.MoveTo 61, 729
+Santa.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Santa.Show()
+WaitFor Req
+Genie.MoveTo 1253, 609
+Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Genie.Show
+Set Req = Genie.Speak("Blanche? You're at my place? Come at the last one.")
+WaitFor Req
+Set Req = Blanche.MoveTo(64, 643)
+WaitFor Req
+Set Req = Genie.MoveTo(1322, 742)
+WaitFor Req
+Set Req = Al.Speak("Where's Robby?")
+WaitFor Req
+Set Req = Joe.Speak("Coming at the top soon.")
+WaitFor Req
+Peedy.MoveTo 750, 38
+Peedy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Peedy.Show()
+WaitFor Req
+Birdie.MoveTo 822, 25
+Set Req = Birdie.Speak("Does my behavior looks good? Look is good?")
+WaitFor Req
+Set Req = Peedy.Speak("Yes, I see.")
+WaitFor Req
+Robby.MoveTo 912, 33
+Robby.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273006}"
+Set Req = Robby.Show()
+WaitFor Req
+Set Req = Birdie.Speak("Guys, Let's add more people from Microsoft Corporation, then Spaceman and Sizlik.")
+WaitFor Req
+Merlin.MoveTo 982, 35
+Merlin.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Merlin.Show()
+WaitFor Req
+Set Req = Birdie.Speak("Microsoft Corporation People, Come here.")
+WaitFor Req
+Set Req = Genie.MoveTo(1337, 35)
+WaitFor Req
+Set Req = Merlin.MoveTo(1264, 35)
+WaitFor Req
+Set Req = Robby.MoveTo(1179, 33)
+WaitFor Req
+Set Req = Peedy.MoveTo(1086, 36)
+WaitFor Req
+Set Req = Birdie.Speak("Spaceman and Sizlik.")
+WaitFor Req
+Spaceman.MoveTo 1341, 787
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Spaceman.Show
+Set Req = Spaceman.Speak("There are 4 peoples from Microsoft Corporation.")
+WaitFor Req
+Sizlik.MoveTo 944, -22
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Sizlik.Show()
+WaitFor Req
+Merlin.Speak "First, News 14 is releasing more time."
+Set Req = Merlin.Speak("Second, News 15 is releasing after News 14, but it will take more, more time.")
+WaitFor Req
+Set Req = Genie.Speak("Yes, I'm all of News 14 and 15, But News 18 I'll be absent.")
+WaitFor Req
+Set Req = Robby.Speak("Genie, Where's Plany?")
+WaitFor Req
+Set Req = Genie.Speak("Bottom of News and next and back to Santa and Ozzar.")
+WaitFor Req
+Set Req = Plany.Speak("Can I see my behavior?")
+WaitFor Req
+Peedy.Speak "Yes."
+Set Req = Peedy.Speak("I'm member of behavior and look.")
+WaitFor Req
+Set Req = Sizlik.MoveTo(742, 5)
+WaitFor Req
+Set Req = Oscar.Speak("I'm sneezing.")
+WaitFor Req
+Set Req = Genie.Speak("For those who are sneezing, we will exit.")
+WaitFor Req
+Oscar.Speak "I'll be exit."
+Set Req = Oscar.Hide()
+WaitFor Req
+Set Req = Cupid.Speak("News 13.")
+WaitFor Req
+Sizlik.MoveTo 937, -24
+Set Req = Sizlik.Speak("Now News 13.")
+WaitFor Req
+Set Req = Plany.MoveTo(1043, -11)
+WaitFor Req
+Peedy.Speak "Your look is good."
+Set Req = Peedy.Speak("Your behavior is good.")
+WaitFor Req
+Set Req = Plany.MoveTo(156, 781)
+WaitFor Req
+Sizlik.MoveTo 124, 562
+Set Req = Sizlik.Speak("Could you please Santa, Ozzar and Plany come at the top?")
+WaitFor Req
+Set Req = Santa.Speak("Yes.")
+WaitFor Req
+Set Req = Plany.Speak("Yes.")
+WaitFor Req
+Set Req = Ozzar.Speak("Yes.")
+WaitFor Req
+Set Req = Santa.MoveTo(880, 15)
+WaitFor Req
+Set Req = Ozzar.MoveTo(1037, 33)
+WaitFor Req
+Set Req = Plany.MoveTo(954, 78)
+WaitFor Req
+Set Req = Sizlik.MoveTo(83, 686)
+WaitFor Req
+Genie.MoveTo 1331, 661
+Set Req = Genie.Speak("Spaceman, You're at my place?")
+WaitFor Req
+Set Req = Spaceman.Speak("Yes.")
+WaitFor Req
+Set Req = Genie.Speak("Sit next to Sizlik.")
+WaitFor Req
+Set Req = Spaceman.MoveTo(261, 788)
+WaitFor Req
+Set Req = Genie.MoveTo(1330, 746)
+WaitFor Req
+Set Req = Birdie.Speak("Where's Genie?")
+WaitFor Req
+Set Req = Ozzar.Speak("At his place.")
+WaitFor Req
+Set Req = Spaceman.Speak("Sizlik?")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes, Spaceman, What do you want from me?")
+WaitFor Req
+Set Req = Spaceman.Speak("I want you to sit at Genie's place.")
+WaitFor Req
+Set Req = Genie.Speak("No, Sizlik, Don't change from yours to mines place, Otherwise, News 13 will be exit.")
+WaitFor Req
+Set Req = Birdie.Speak("Let's take Spaceman to Stargate.")
+WaitFor Req
+Set Req = Spaceman.Play("stargate")
+WaitFor Req
+Set Req = Wartnose.Speak("Begin.")
+WaitFor Req
+Set Req = Birdie.MoveTo(257, 151)
+WaitFor Req
+Set Req = Robby.Speak("Internet Problem?")
+WaitFor Req
+Birdie.MoveTo 342, 344
+Birdie.Speak "He has a Seagate Portable 500GB Hard drive, and yesterday He plugged it in, and it started beeping at him for about a minute or two minutes."
+Birdie.Speak "The drive don't sound like it's working, normally you can feel it's working, there's nothing."
+Birdie.Speak "He had tried a different USB cable, and have tried other computers."
+Birdie.Speak "It's not being recognized at his computer, or under disk management."
+Birdie.Speak "The HDD is only a couple of months old, yet he had been told Seagate will charge him in the region of 3000$ to recover the data, If he go local, (He are in the United Kingdom) He can get it done for around 70 euros, But the warranty is void."
+Birdie.MoveTo 324, 31
+Birdie.Speak "Got all of his parts completely in Motherboard."
+Birdie.Speak "He turned it on then Boom!"
+Birdie.Speak "He saw a light colored blue ball with a sound of Boom over the CPU! and the smoke coming from the HSF."
+Birdie.Speak "Everything (except for GPU) became very quiet."
+Birdie.Speak "All his power sockets of his house die."
+Birdie.Speak "After he fix the main power for sockets of his house, Took out the HSF and CPU, No sign of burnt and no smell."
+Birdie.Speak "Reinstalled both HSF and CPU together."
+Birdie.Speak "When he turned his computer on, the case lights didn't came on, fans not kicked in and the PSU went (Boom!)."
+Birdie.Speak "Looks like the explosion with the blue light ball coming from the PSU."
+Birdie.Speak "Fixed the power sockets of his house again."
+Birdie.Speak "Unplugged all parts and wires in the case, whenever he turned his PSU on, Got the third (Boom!) from the PSU fan."
+Birdie.Speak "At the end, Only connect the PSU itself to the socket on the wall, Turned it on, nothing happen."
+Set Req = Birdie.Speak("Lights came on and the PSU fan is not spinning.")
+WaitFor Req
+Set Req = Genie.Speak("Computer is complicated with Google Chrome, Google Chrome is the most, most speed.")
+WaitFor Req
+Set Req = Marge.Speak("So the second one.")
+WaitFor Req
+Set Req = Check.Speak("Start")
+WaitFor Req
+Birdie.MoveTo 290, 311
+Birdie.Speak "Whenever Google Chrome is opened, The computer freeze."
+Birdie.Speak "He can move the mouse, When clicking on it and the computer doesn't happen anything when clicked."
+Birdie.Speak "Turned off and on manually and avoid the explosion of PSU."
+Birdie.Speak "He open it up Chrome and freeze in about 3-4 seconds."
+Set Req = Birdie.Speak("He delete some ad apps that was auto installed and kept bugging him for months by deleting it on Chrome Settings, Section Extensions.")
+WaitFor Req
+Set Req = Peedy.Speak("Birdie.")
+WaitFor Req
+Set Req = Birdie.Speak("Yes, Peedy, What do you want from me?")
+WaitFor Req
+Set Req = Peedy.Speak("I let you speak anything, But you must speak at long stories only.")
+WaitFor Req
+Set Req = Blanche.MoveTo(112, 634)
+WaitFor Req
+Set Req = Sizlik.Speak("Preoperations is none.")
+WaitFor Req
+Set Req = Spaceman.Speak("At Windows 7 Forums.")
+WaitFor Req
+Set Req = Sizlik.Speak("No.")
+WaitFor Req
+Set Req = Plany.Speak("I love long stories.")
+WaitFor Req
+Set Req = Cupid.Speak("Beep?")
+WaitFor Req
+Set Req = Al.Speak("Yes.")
+WaitFor Req
+Set Req = Wartnose.Speak("Birdie, Speak at 1 long and 3 short beeps.")
+WaitFor Req
+Set Req = Marge.Speak("Boot it up and nothing on my computer.")
+WaitFor Req
+Birdie.MoveTo 293, 339
+Birdie.Speak "When he try to turn on his computer, He get the following beeps:"
+Birdie.Speak "1 long and 3 short beeps and nothing shows up the monitor."
+Birdie.Speak "This beep that indicated that the RAM that you can replace it."
+Birdie.Speak "Removed RAM, Moved it on another slot and nothing happens."
+Birdie.Speak "Everything was fine until today, It worked maybe 1 week ago, Today it won't boot."
+Birdie.Speak "He can't get to BIOS since he didn't get anything on his monitor."
+Set Req = Birdie.Speak("Do he need to replace the motherboard? For what should he do...")
+WaitFor Req
+Set Req = Miku.Speak("Are your text like me?")
+WaitFor Req
+Set Req = Birdie.Speak("Yes.")
+WaitFor Req
+Set Req = Wartnose.Speak("I'm a monster.")
+WaitFor Req
+Set Req = Marge.Speak("Where's Milton?")
+WaitFor Req
+Set Req = Spaceman.Speak("Now coming soon.")
+WaitFor Req
+Milton.MoveTo 324, 715
+Milton.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Milton.Show()
+WaitFor Req
+Set Req = Sizlik.MoveTo(62, 686)
+WaitFor Req
+Set Req = Spaceman.MoveTo(234, 789)
+WaitFor Req
+Set Req = Milton.MoveTo(311, 745)
+WaitFor Req
+Set Req = Cami.MoveTo(1275, 752)
+WaitFor Req
+Set Req = Charlie.MoveTo(1143, 709)
+WaitFor Req
+Set Req = Check.MoveTo(1046, 744)
+WaitFor Req
+Set Req = Cupid.MoveTo(937, 707)
+WaitFor Req
+Set Req = Wartnose.MoveTo(893, 743)
+WaitFor Req
+Set Req = Al.MoveTo(822, 747)
+WaitFor Req
+Set Req = Miku.MoveTo(760, 644)
+WaitFor Req
+Set Req = Alien.MoveTo(701, 746)
+WaitFor Req
+Set Req = Joe.MoveTo(621, 748)
+WaitFor Req
+Set Req = Marge.MoveTo(504, 729)
+WaitFor Req
+Set Req = Milton.MoveTo(404, 742)
+WaitFor Req
+Set Req = Spaceman.MoveTo(308, 784)
+WaitFor Req
+Set Req = Sizlik.MoveTo(147, 680)
+WaitFor Req
+Set Req = Blanche.MoveTo(36, 683)
+WaitFor Req
+Set Req = Plany.MoveTo(-7, 782)
+WaitFor Req
+Set Req = Santa.Speak("Under warranty from News 2 is that PSU exploded.")
+WaitFor Req
+Set Req = Merlin.MoveTo(1350, 35)
+WaitFor Req
+Set Req = Robby.MoveTo(1272, 32)
+WaitFor Req
+Set Req = Peedy.MoveTo(1181, 35)
+WaitFor Req
+Set Req = Ozzar.MoveTo(1123, 33)
+WaitFor Req
+Set Req = Santa.MoveTo(1036, 20)
+WaitFor Req
+Set Req = Birdie.MoveTo(942, 27)
+WaitFor Req
+Set Req = Sizlik.Speak("News 13 is end.")
+WaitFor Req
+Set Req = Spaceman.Speak("Exit news?")
+WaitFor Req
+Set Req = Alien.Speak("Yes.")
+WaitFor Req
+Set Req = Charlie.Speak("Yes.")
+WaitFor Req
+Set Req = Genie.Speak("Yes.")
+WaitFor Req
+Milton.Think "I think that the Hard drive is making the noise."
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

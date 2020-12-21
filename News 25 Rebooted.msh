@@ -1,0 +1,827 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Genie=Genie.acs
+Birdie=Birdie.acs
+Cami=Cami.acs
+Spaceman=Spaceman.acs
+Sizlik=Sizlik.acs
+Vrgirl=Vrgirl.acs
+Claude=Claude.acs
+Electra=Electra.acs
+Felini=Felini.acs
+Gar=Gar.acs
+Gourdy=Gourdy.acs
+Hanz=Hanz.acs
+Isabella=Isabella.acs
+James=James.acs
+Milton=Milton.acs
+Peedy=Peedy.acs
+Plany=Plany.acs
+Miku=Miku.acs
+Robby=Robby.acs
+Wabbit=Wabbit.acs
+Galaxygirl=Galaxygirl.acs
+Merlin=Merlin.acs
+Sharky=Sharky.acs
+
+[LanguageIDs]
+Genie=&H409
+Birdie=&H409
+Cami=&H409
+Spaceman=&H409
+Sizlik=&H409
+Vrgirl=&H409
+Claude=&H409
+Electra=&H409
+Felini=&H409
+Gar=&H409
+Gourdy=&H409
+Hanz=&H409
+Isabella=&H409
+James=&H409
+Milton=&H409
+Peedy=&H409
+Plany=&H409
+Miku=&H409
+Robby=&H409
+Wabbit=&H409
+Galaxygirl=&H409
+Merlin=&H409
+Sharky=&H409
+
+[Script]
+Genie.MoveTo 1337, 739
+Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Genie.Show
+Set Req = Genie.Speak("New Update. Additional Stories.")
+WaitFor Req
+Birdie.MoveTo 711, 224
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Birdie.Show
+Birdie.Play "Alert"
+Birdie.Speak "OK, Android is in war!"
+Set Req = Birdie.MoveTo(1261, 4)
+WaitFor Req
+Cami.MoveTo 1266, 753
+Cami.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Cami.Show
+Cami.Speak "I'm scaring!"
+Cami.Speak "from bootloop!"
+Cami.Speak "on Android!"
+Set Req = Cami.Play("Surprised")
+WaitFor Req
+Spaceman.MoveTo 162, 789
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Spaceman.Show
+Set Req = Spaceman.Speak("This bootloop is scary!")
+WaitFor Req
+Sizlik.MoveTo 2, 687
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Sizlik.Show
+Sizlik.Speak "What is that bootloop?"
+Set Req = Sizlik.Speak("I'm scaring!")
+WaitFor Req
+Set Req = Spaceman.Speak("Bootloop Scare from Corruptions!")
+WaitFor Req
+Set Req = Birdie.Speak("He compressed his C drive on which he has his Windows XP OS. Now, all he is getting is 'BootMGR is compressed, on next line press Control + Alt + DeleteFile to restart'. he can't use his CD ROM on the desktop because it is broken. but he did copy and paste the XP OS files from CD on to his external Hard drive using his laptop. After copying the XP files on to his external hard drive, He have connected the external hard drive to his affected desktop via USB port. Changed the first booting device to USB drive in the BIOS setup. He get the same 'BootMGR is compressed, on next line press Control + Alt + DeleteFile to restart message.")
+WaitFor Req
+Birdie.Play "Angry"
+Set Req = Birdie.Speak("Oh my god... What a mess!")
+WaitFor Req
+Set Req = Spaceman.Speak("Messing bootloop!")
+WaitFor Req
+Vrgirl.MoveTo 1203, 745
+Vrgirl.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Vrgirl.Show
+Set Req = Vrgirl.Speak("What about the bootloop!?")
+WaitFor Req
+Set Req = Cami.Speak("Scare it!")
+WaitFor Req
+Claude.MoveTo 1143, 741
+Claude.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Claude.Show()
+WaitFor Req
+Electra.MoveTo 1084, 742
+Electra.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Electra.Show
+Set Req = Electra.Speak("Nothing scares!")
+WaitFor Req
+Felini.MoveTo 998, 685
+Felini.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273007}"
+Set Req = Felini.Show()
+WaitFor Req
+Gar.MoveTo 945, 743
+Gar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Gar.Show
+Set Req = Gar.Speak("Maybe made from bedrock or so.")
+WaitFor Req
+Gourdy.MoveTo 860, 738
+Gourdy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Gourdy.Show
+Set Req = Gourdy.Speak("What about the messed bootloop!")
+WaitFor Req
+Set Req = Genie.Speak("He compressed his C drive on which he has his Windows XP OS. Now, all he is getting is 'Bootmgr is compressed press Alt+Ctrl+Del to restart'. he can't use his CD ROM on the desktop because it is broken but he did copy and paste the XP OS files from CD on to his external HD using his laptop. After copying the XP files on to his external HD, He have connected the external HD to his affected desktop via USB port and changed the first booting device to USB drive in the BIOS set-up but still getting the same 'Bootmgr is compressed press Alt+Ctrl+Del to restart' message.")
+WaitFor Req
+Hanz.MoveTo 753, 797
+Hanz.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Hanz.Show
+Set Req = Hanz.Speak("This contained that messing boot and bootloop.")
+WaitFor Req
+Set Req = Gourdy.Speak("Hanz is talking like Sizlik.")
+WaitFor Req
+Isabella.MoveTo 641, 682
+Isabella.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Isabella.Show
+Isabella.Speak "All messed up!"
+Isabella.Play "Kick"
+Set Req = Isabella.Speak("I kicked the messing bootloop and boot so.")
+WaitFor Req
+James.MoveTo 598, 686
+James.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+James.Show
+Birdie.Play "Protest"
+Set Req = James.Speak("I'm ignoring the mess.")
+WaitFor Req
+Milton.MoveTo 545, 746
+Milton.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Milton.Show
+Set Req = Milton.Speak("I don't love that mess.")
+WaitFor Req
+Peedy.MoveTo 460, 747
+Peedy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Peedy.Show
+Set Req = Peedy.Speak("I love this mess.")
+WaitFor Req
+Plany.MoveTo 403, 781
+Plany.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Plany.Show
+Set Req = Plany.Speak("Android Messed and Miku!")
+WaitFor Req
+Miku.MoveTo 330, 643
+Miku.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Miku.Show
+Set Req = Miku.Speak("Plany?")
+WaitFor Req
+Set Req = Plany.Speak("This mess is Messed, We will attack them by talking about News!")
+WaitFor Req
+Robby.MoveTo 266, 745
+Robby.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273006}"
+Robby.Show
+Set Req = Robby.Speak("What about this mess!")
+WaitFor Req
+Milton.Speak "Messy Android."
+Milton.Speak "OK, please speak Genie."
+Set Req = Milton.Speak("OK, Please News Begin.")
+WaitFor Req
+Set Req = Genie.Speak("He compressed his C drive on which he has his Windows XP OS. Now, all he is getting is 'Bootmgr is compressed press Alt+Ctrl+Del to restart'. he can't use his CD ROM on the desktop because it is broken but he did copy and paste the XP OS files from CD on to his external HD using his laptop. After copying the XP files on to his external HD, He have connected the external HD to his affected desktop via USB port and changed the first booting device to USB drive in the BIOS set-up but still getting the same 'Bootmgr is compressed press Alt+Ctrl+Del to restart' message.")
+WaitFor Req
+Set Req = Gourdy.Speak("What are Birdie to get ready?")
+WaitFor Req
+Set Req = James.Speak("The more stories!")
+WaitFor Req
+Set Req = Miku.Speak("Website was down.")
+WaitFor Req
+Robby.Speak "You can reload this webpage later."
+Robby.Speak "Check your Internet and Restart router."
+Robby.Speak "Check your DNS Settings."
+Robby.Speak "Add GC as the permitted program."
+Set Req = Robby.Speak("Disable network Precition.")
+WaitFor Req
+Set Req = Miku.Speak("I'm joking.")
+WaitFor Req
+Set Req = Birdie.Speak("Ohh, Mess back!")
+WaitFor Req
+Set Req = James.Speak("I have told you that we have more stories to kill the glitch of booting in Android, So please more stories.")
+WaitFor Req
+Set Req = Peedy.Speak("I'm Peedy.")
+WaitFor Req
+Birdie.MoveTo 370, 403
+Birdie.Speak "He re-formatted his computer and now the shift keys won't type the @ sign in his email address as this is a laptop."
+Birdie.Speak "It is not as simple as just going getting a new keyboard."
+Set Req = Birdie.Speak("The shift key works for the other keys so it can't be broken.")
+WaitFor Req
+Spaceman.Speak "Ready for next."
+Spaceman.Speak "Solved this!"
+Set Req = Spaceman.Speak("Robby? Birdie speak problem and Robby speak solution.")
+WaitFor Req
+Birdie.MoveTo 312, 94
+Birdie.Speak "The 'Fn' key makes him type numbers and symbols instead of letters, However, it looks as if the 'Fn' key was stuck."
+Birdie.Speak "He can't type the 'i', 'u', 'o', and 'p'. All he gets are numbers and symbols."
+Set Req = Birdie.Speak("He have tried restarting the laptop with no avail.")
+WaitFor Req
+Robby.MoveTo 255, 115
+Robby.Speak "I have the solution Birdie."
+Set Req = Robby.Speak("He will try FN + NumLock.")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for third story.")
+WaitFor Req
+Set Req = Gourdy.Speak("We will talk about PSU! Yeahhhhh!")
+WaitFor Req
+Set Req = Birdie.Speak("He accidentally switched his PSU to 115v and plugged it to a 220v socket and it sparks!")
+WaitFor Req
+Set Req = Robby.Speak("the PSU is toast, other then looking for burn marks and blown capacitors on the on your hardware")
+WaitFor Req
+Set Req = Birdie.Play("LookDown")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "After installing a new motherboard, CPU, and RAM, his PC no longer starts when the power button is pressed. The lights for the motherboard come on when the power is switched on but nothing starts up when he press the power button."
+Birdie.Speak "He has tried the following..."
+Birdie.Speak "1) Rechecking all cables(and parts) to make sure they are installed correctly."
+Birdie.Speak "2) Switching the Power SW and the Reset SW cables."
+Birdie.Speak "3) Starting the computer with only one RAM installed instead of two."
+Set Req = Birdie.Speak("None of these solutions have worked so far.")
+WaitFor Req
+Spaceman.Speak "Elicity of PSU is PSU."
+Set Req = Spaceman.Speak("So Ready for next.")
+WaitFor Req
+Birdie.Speak "He just got his Z370 PC PRO Motherboard."
+Birdie.Speak "Somehow he turned on his PC by plugging 4+4 psu cables to motherboard 8 pin and it started."
+Birdie.Speak "He unplugged everything, installed CPU cooler 212 EVO on i5 8400 and now the PC doesn't even turn on!"
+Birdie.Speak "Next News."
+Set Req = Birdie.Speak("OK, soon he will play Minecraft, the screen flashes randomly and he's been researching some ways to fix this but none of them work.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He reinstalled his graphics card drivers because his Minecraft was constantly crashing!"
+Birdie.Speak "Now it doesn't crash anymore but he gets black mobs, black signs, black fists, and so on!"
+Set Req = Birdie.Speak("The chest and the sign were also flickering black and notice the weird potion texture!")
+WaitFor Req
+Set Req = Robby.Speak("Acer TravelMate 5330 runs Minecraft finely.")
+WaitFor Req
+Set Req = Birdie.Speak("For some reason in minecraft 1.7.2 when he logged on, every block had a blue and purple outline diagonal to the block.")
+WaitFor Req
+Set Req = Spaceman.Speak("Additional Forums!")
+WaitFor Req
+Set Req = Genie.Speak("He compressed his C drive on which he has his Windows XP OS. Now, all he is getting is 'Bootmgr is compressed press Alt+Ctrl+Del to restart'. he can't use his CD ROM on the desktop because it is broken but he did copy and paste the XP OS files from CD on to his external HD using his laptop. After copying the XP files on to his external HD, He have connected the external HD to his affected desktop via USB port and changed the first booting device to USB drive in the BIOS set-up but still getting the same 'Bootmgr is compressed press Alt+Ctrl+Del to restart' message.")
+WaitFor Req
+Birdie.MoveTo 370, 283
+Set Req = Birdie.Speak("His Note 2014 is stuck in a bootloop after he used the Resolution Changer app to lower his resolution for something.")
+WaitFor Req
+Set Req = Sizlik.Speak("I do not understand what's the meaning of word Bootloop")
+WaitFor Req
+Set Req = Spaceman.Speak("Bootloop means the stuck at booting...then restarts...then stuck...then restarts.")
+WaitFor Req
+Birdie.MoveTo 423, 80
+Birdie.Speak "He tried to install a corrupted ROM but it got stuck on the white screen with the HTC logo."
+Birdie.Speak "He tried to do a factory reset, but it gets stuck again. He doesn't have ClockWorkMod recovery, and he rooted his phone using adb and ace recovery, which is not on his phone."
+Birdie.Speak "He only temporarily used it to flash his corrupted ROM."
+Set Req = Birdie.Speak("When he connect his phone to the PC it is not being recognized. He tried putting the PD98IMG.zip file on his SD card but it just says that it the image is incorrect.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Set Req = Birdie.Speak("After flashing his corrupted Android Revolution High Definition, it said 'flashed successfully please perform a full system reboot.' When he performed a reboot, it's stuck in bootloop!")
+WaitFor Req
+Set Req = Spaceman.Speak("Next, Android.")
+WaitFor Req
+Set Req = Peedy.Speak("Android.")
+WaitFor Req
+Set Req = Felini.Speak("Android.")
+WaitFor Req
+Set Req = Claude.Speak("Android.")
+WaitFor Req
+Set Req = Gourdy.Speak("We will talk about Android!")
+WaitFor Req
+Birdie.MoveTo 453, 275
+Birdie.Speak "In the other night, he rooted his EVO with Unrevoked. That same night he flashed Baked Snack 1.9 using ROM Manager. Prior to the flash, he backed up his phone using ROM Manager."
+Birdie.Speak "It was fast and everything but he decided he wanted Gingerbread."
+Birdie.Speak "He backed up his phone in a similar fashion, and flashed the ROM once using ROM Manager."
+Birdie.Speak "When rebooting, his phone caught in a bootloop!"
+Birdie.Speak "After searching through Google for a few minutes, he learned that he simply needed to clear his cache and his dalvik cache."
+Birdie.Speak "After clearing cache, flashing, and attempting to boot several times, he decided to restore to his second ROM Manager backup - that of Baked Snack, but he got an error message saying 'No files found.' He tried his previous backup, but same message."
+Birdie.Speak "Looking back on that, he chose 'install zip from sdcard' instead of 'nandroid' so he decided to re-use Unrevoked."
+Birdie.Speak "Everything went fine on the PC end, but the only thing that changed on his phone, is that when it boots, it gets stuck on 'HTC EVO' in the white screen. That and ClockWorkMod is now teal."
+Birdie.Speak "He discovered the nandroid option on the recovery menu so he navigated to that, then to restore, then to his Baked Snack backup."
+Birdie.Speak "This gave him the message 'Error while flashing boot image'."
+Set Req = Birdie.Speak("He tried it one more time, except instead of picking recover, he accidentally picked backup. It failed and said 'Can't mount /data'.")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for then.")
+WaitFor Req
+Birdie.MoveTo 450, 140
+Set Req = Birdie.Speak("His Stock rooted Xperia M has stuck in boot loop after he tried to install\Map=""Exposed""=""Xposed""\framework.")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next on Android Forums.")
+WaitFor Req
+Birdie.MoveTo 403, 24
+Birdie.Speak "The other day when turning it on it it just gets as far as the first screen with the white text 'Samsung galaxy S3 GTi9300'. It gets no further and remains on that screen until the battery is pulled. If the power button is held it simply powers off and then immediately back on again."
+Birdie.Speak "Whilst she has dropped the phone in the past it has only suffered cosmetic damage and the occasional non requested power off and on. However, no further falls/water damage etc was experienced by the phone when the problem above occurred."
+Birdie.Speak "In an attempt to fix it, he was able to get the phone into recovery mode."
+Set Req = Birdie.Speak("They tried wiping the cache and when that was unsuccessful at completing, tried a factory reset, it is also unsuccessful")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "It all started when he began to get the 'process android.process.media has stopped' message."
+Birdie.Speak "He went onto the forums and they recommended that he clear the Media Cache. The only thing was that when he went to settings > apps, he would get the 'Google Settings has Stopped' error."
+Birdie.Speak "The 'processs android.process.media has stopped' message started to pop up frequently so he decided to opt for a factory reset. That's what started the boot loop."
+Birdie.Speak "When it started to boot loop, he once again consulted the forums and used the Power + Volume Down to get the recovery screen."
+Birdie.Speak "When he chose Recovery Mode, he gets the prone android with the red exclamation point and 'No Command' below."
+Birdie.Speak "By hitting power + volume up, he gets the Android System Recovery <3e> screen."
+Birdie.Speak "When he selects wipe data/factory reset, he gets the 'Erasing...' screen and then he's bounced back to the Android System Recovery screen."
+Set Req = Birdie.Speak("When he then select 'reboot system now', he gets the Google Logo and the bouncing balls boot loop again.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Birdie.Speak "He rooted his Nexus 10 a while back, maybe two years ago. Haven't made any ROM changes since."
+Birdie.Speak "He decided to do the OTA upgrade to 5.0."
+Birdie.Speak "He was concerned something would go wrong unless he went to stock first, but he read that the only thing that would happen is root would be removed."
+Birdie.Speak "The tablet appears stuck while booting. He see the Google screen first with the unlocked indicator on the bottom. A few seconds later is the Android logo on its back, a red triangle over it with an exclamation point and 'no command' written below'."
+Birdie.Speak "It stays that way for a minute or so, tries to reboot and goes back to the no command screen. he can't even power off, when he try to do so it just powers back on by itself and ends up at the no command screen again."
+Set Req = Birdie.Speak("He tried booting into recovery, but it goes to a screen that shows the Android logo on its back again, but this time is says 'Downloading...'. Underneath that it says 'Do not turn off target.'")
+WaitFor Req
+Set Req = Spaceman.Speak("Next on HTC.")
+WaitFor Req
+Birdie.Speak "HTC!"
+Set Req = Birdie.Speak("His HTC M8 is stuck at bootloop. He tried hard reset factory but still stuck at bootloop.")
+WaitFor Req
+Set Req = Spaceman.Speak("Bootloader, S-On and HTC, Ready for Next for HTC.")
+WaitFor Req
+Birdie.MoveTo 423, 237
+Birdie.Speak "He are having problems with his phone."
+Birdie.Speak "One day, it just gets stuck at bootscreen!"
+Birdie.Speak "He rebooted his phone with power button and volume plus/minus, Then he used HBOOT to factory reset the phone and it worked."
+Birdie.Speak "His phone starts normally and he sets basic settings."
+Birdie.Speak "After reboot, he gets another bootloop/stuck at boot screen!"
+Birdie.Speak "The phone has locked Bootloader and is S-On."
+Birdie.MoveTo 425, 196
+Set Req = Birdie.Speak("He wanted to root his M9 and now he's stuck with the 3 modes and with an everlasting bootscreen when trying to boot the system.")
+WaitFor Req
+Set Req = Spaceman.Speak("HTC, then Minecraft, So ready for Next.")
+WaitFor Req
+Birdie.MoveTo 403, 212
+Set Req = Birdie.Speak("The problem he's having is after putting his new, corrupted ROM, the phone just stays stuck on the HTC One and keeps resetting itself")
+WaitFor Req
+Set Req = Cami.Speak("Minecraft, then back to Android. and more stories.")
+WaitFor Req
+Birdie.Speak "He has an issue regarding his kids' Kindles in that they will be running about in the game without issue then suddenly they lose all the graphics because it doesn't have enough RAM for infinite worlds. They at this point lose the ability to play."
+Birdie.Speak "They log out, then back in without issue for about 5 minutes and this repeats."
+Birdie.Speak "He is using the latest Minecraft PE update 0.9.4"
+Set Req = Birdie.Speak("He has tried toggling the fancy graphics on or off")
+WaitFor Req
+Set Req = Spaceman.Speak("Takes a long time.")
+WaitFor Req
+Set Req = Miku.Speak("Website was down.")
+WaitFor Req
+Robby.Speak "You can reload this webpage later."
+Robby.Speak "Check your Internet and Restart router."
+Robby.Speak "Check your DNS Settings."
+Robby.Speak "Add GC as the permitted program."
+Set Req = Robby.Speak("Disable network Precition.")
+WaitFor Req
+Miku.Speak "Long time to open.."
+Miku.Speak "Internet issue."
+Set Req = Miku.Speak("I'm joking.")
+WaitFor Req
+Birdie.MoveTo 337, 201
+Set Req = Birdie.Speak("Apps randomly show up to main screens, he deleted 5 of them.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Set Req = Robby.MoveTo(278, 207)
+WaitFor Req
+Birdie.Speak "The first picture with flash worked fine. But as soon as he takes the 2nd or 3rd, the flash goes on and the phone turns off!"
+Birdie.Speak "\Spd=103\More News"
+Birdie.Speak "He has the Nexus 5 and Nexus 7 and both received the new Lollipop update around the same time."
+Birdie.Speak "Since the update, he's experienced almost the exact same issues with both devices."
+Birdie.Speak "\Spd=70\He's having problems connecting to public WiFi accounts, crashing apps and devices entirely shutting off, slower speeds and lag."
+Birdie.Speak "\Spd=103\Your own Story!"
+Birdie.Speak "\Spd=103\More stories"
+Birdie.Speak "When playing Minecraft, He get the screen."
+Birdie.Speak "\Spd=70\Background is all purple, Minecraft Title is fine, But the texture is messed on buttons, The yellow text is on the bottom, but very scary font, like jfdiuhdiufynvfifhvuifhne, as Nitrome Font."
+Birdie.Speak "\Spd=70\More stories, We don't finish, it is still at 75% completion of News."
+Birdie.Speak "He has a Samsung Galaxy S5 and today it complained about not having sufficient memory left for messages or pretty much anything else."
+Birdie.Speak "What seems to be taking all the storage here is the 'miscellaneous files' section."
+Set Req = Birdie.Speak("It takes about 7.8GB in size and when he taps it to see the details, he only see a few items there totalling less than 300MB.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Birdie.Speak "Everytime he tries to download the 5.1 OTA update, it says 'error download' when he taps the download button."
+Set Req = Birdie.Speak("He has gone as far as factory resetting the drive, and it still says error download. The device is connected to his home WiFi and its line is fine.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Set Req = Sizlik.Speak("I don't understand what's the meaning of word Nexus")
+WaitFor Req
+Birdie.MoveTo 407, 201
+Set Req = Birdie.Speak("On his Nexus 7, every time he's browsing on Google Chrome, after around 15 min, the browser will open a new tab with an advanced adult content site, and it starts downloading an APK that has such things.")
+WaitFor Req
+Robby.MoveTo 353, 205
+Robby.Speak "He will try Clean Master Security."
+Set Req = Robby.Speak("After installing, Click Scan and clicking Resolve All.")
+WaitFor Req
+Birdie.Speak "His Nexus 7 has not been charging correctly recently, using the charger it came with."
+Set Req = Birdie.Speak("He used that charger for his Droid X and it charges the phone, but the tablet doesn't charge at all.")
+WaitFor Req
+Set Req = Spaceman.Speak("next.")
+WaitFor Req
+Set Req = Birdie.MoveTo(452, 281)
+WaitFor Req
+Set Req = Robby.MoveTo(384, 289)
+WaitFor Req
+Set Req = Birdie.Speak("The notification bar keeps lagging every time he slides it down.")
+WaitFor Req
+Robby.Speak "Hardware issue."
+Set Req = Robby.MoveTo(322, 208)
+WaitFor Req
+Birdie.MoveTo 381, 198
+Birdie.Speak "He has noticed an unknown icon in the notification bar."
+Birdie.Speak "It's a circle with a line through it, and when he pulls the notification bar down, he see 'searching for service'."
+Birdie.Speak "This is towards the top of the screen, but the actual circle with the line through it does not show up when he pull down the notification bar, it still stays at the top on the right."
+Set Req = Birdie.Speak("As a result, his battery has gone from 100% to 75% in fifteen minutes")
+WaitFor Req
+Robby.Play "Process"
+Robby.Play "Search"
+Set Req = Robby.Play("Suggest")
+WaitFor Req
+Birdie.Play "Read"
+Birdie.Play "Protest"
+Birdie.Speak "He received his replacement phone today to correct the random shutdown issue."
+Birdie.Speak "On the locked screen, in the upper right hand corner."
+Set Req = Birdie.Speak("They are @@@^oe@@")
+WaitFor Req
+Set Req = Sizlik.Speak("I don't understand @@@^oe@@")
+WaitFor Req
+Set Req = Spaceman.Speak("@@@^oe@@ is the symbol of @@@^oe@@  @@@^oe@@  @@@^oe@@  @@@^oe@@ @@@^oe@@ @@@^oe@@  @@@^oe@@ @@@^oe@@")
+WaitFor Req
+Birdie.Play "ProtestReturn"
+Birdie.Speak "If he uses speakerphone, he can make and receive calls. He presumes if he uses a Bluetooth device, it would be much the same."
+Set Req = Birdie.Speak("But if he try to dial or receive a call using the internal speaker, he can't hear anything and the people on the other end can't hear anything no matter what the volume settings, etc.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Birdie.Speak "The past week it has shutdown, on a several occasions, unexpectedly."
+Birdie.Speak "He haven't seen it shudown unprompted, but have noticed that it won't 'wake' from sleep when he touch the screen."
+Set Req = Birdie.Speak("To turn the device on, he has to hold the power for a long time, longer than when you usually turn it on.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He has rooted Samsung Galaxy S4 on sprint, and it's been working fine."
+Birdie.Speak "It started acting weird and basically just turning off out of nowhere."
+Birdie.Speak "If he took out the battery, the second he put it back in, it would boot right back up, but then immediately shut off, and he wouldn't be unable to do anything."
+Birdie.Speak "He currently uses an Otterbox case, and he has a feeling the case screwed up his power button, by making it permanently 'pushed in'."
+Set Req = Birdie.Speak("He took his phone to sprint store, and they took it apart and said there was no hardware issues, but they couldn't run diagnostic tests because the phone is rooted, and would need it to be un-rooted in order to run a test.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Set Req = Birdie.Speak("He bought nexus 5 on 12 december 2013, and now starting from yesterday it has been randomly restarting itself in between gameplays, calls and meetings.")
+WaitFor Req
+Set Req = Spaceman.Speak("An extra story.")
+WaitFor Req
+Birdie.Speak "the power button on his Galaxy S4 is broken - mostly unresponsive, but sometimes when he bumps it lightly, it will open the power menu."
+Birdie.Speak "He can't get it to turn on or off by holding the button, or lock the screen."
+Birdie.Speak "Usually when it shuts off, he can get it back on by repeatedly trying to boot it in recovery mode or the custom OS thing by taking out the battery, unplugging the charger, plugging in the charger, holding the volume down and home buttons, and putting the battery back in, or any random combination of these steps."
+Set Req = Birdie.Speak("but this takes him about 20 minutes usually because once he get it to begin to download the custom OS or boot in recovery mode it will just shut off after a second.")
+WaitFor Req
+Set Req = Spaceman.Speak("Other devices are not having problems.")
+WaitFor Req
+Birdie.Speak "He accidentally got some water on his phone."
+Birdie.Speak "It seemed to still work fine, but it seems after a few hours, the power button is unresponsive."
+Birdie.Speak "It will let him use the device, but after a while, maybe an hour, it will go blank, show a lock screen, or the screen to power off the device."
+Birdie.Speak "It will continue to do this until you choose to turn it off. When it's off, it will not go on again until he plugs the power chord in, and it wakes from being off."
+Birdie.Speak "He doesn't know if he should just open the thing and see if something's still damp inside. He tried later with some rice but it seemed to not help it."
+Set Req = Birdie.Speak("He dunked his phone power button end down in enough water to cause issues with the power button, so now he can't put his phone in sleep mode or take it out of it.")
+WaitFor Req
+Set Req = Spaceman.Speak("Minecraft.")
+WaitFor Req
+Set Req = Peedy.Speak("Sometimes, When trying to get an HTC Hero, the phone turns on automatically, When it is turned on, It will turn off after getting into games or watching a video, Also when playing Minecraft, The textures stretches for a second then the phone (HTC Hero) is turned off, He tried installing CyanogenMod but no luck.")
+WaitFor Req
+Birdie.Speak "He just updated Java to 64-bit mainly to run minecraft on far render distance. But now he's getting graphical glitches."
+Set Req = Birdie.MoveTo(1017, 33)
+WaitFor Req
+Set Req = Robby.MoveTo(271, 745)
+WaitFor Req
+Peedy.MoveTo 392, 235
+Set Req = Peedy.Speak("When he tried to play a Windows 95 game on Windows XP, the actual screen on the game is only about 1/3 of my screen, and the actual game screen looks like it has duplicated itself about 80 times.")
+WaitFor Req
+Set Req = Genie.Speak("Only birds, me 1")
+WaitFor Req
+Peedy.Speak "Yes, you can talk."
+Set Req = Peedy.MoveTo(459, 741)
+WaitFor Req
+Set Req = Genie.Speak("Yeahhhhh!")
+WaitFor Req
+Set Req = Spaceman.Speak("Genie, Birdie speak problem, You are not having the permissions, Genie.")
+WaitFor Req
+Set Req = Peedy.Speak("Galaxy Girl has been released.")
+WaitFor Req
+Set Req = Cami.MoveTo(1286, 758)
+WaitFor Req
+Set Req = Vrgirl.MoveTo(1235, 746)
+WaitFor Req
+Set Req = Claude.MoveTo(1189, 739)
+WaitFor Req
+Set Req = Electra.MoveTo(1138, 749)
+WaitFor Req
+Set Req = Felini.MoveTo(1065, 686)
+WaitFor Req
+Set Req = Gar.MoveTo(1036, 752)
+WaitFor Req
+Set Req = Gourdy.MoveTo(942, 743)
+WaitFor Req
+Set Req = Hanz.MoveTo(847, 787)
+WaitFor Req
+Set Req = Isabella.MoveTo(763, 683)
+WaitFor Req
+Set Req = James.MoveTo(726, 686)
+WaitFor Req
+Set Req = Milton.MoveTo(683, 749)
+WaitFor Req
+Set Req = Peedy.MoveTo(615, 749)
+WaitFor Req
+Set Req = Plany.MoveTo(566, 784)
+WaitFor Req
+Set Req = Miku.MoveTo(512, 642)
+WaitFor Req
+Robby.MoveTo 465, 746
+Set Req = Robby.Speak("Add more characters.")
+WaitFor Req
+Wabbit.MoveTo 348, 687
+Wabbit.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Wabbit.Show()
+WaitFor Req
+Galaxygirl.MoveTo 251, 757
+Galaxygirl.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Galaxygirl.Show()
+WaitFor Req
+Set Req = Spaceman.Speak("There is not enough space, so enough characters.")
+WaitFor Req
+Set Req = Genie.MoveTo(449, 315)
+WaitFor Req
+Set Req = Birdie.MoveTo(1340, 736)
+WaitFor Req
+Set Req = Galaxygirl.Speak("Tahh. Play? Mooo, Ovie! tshh. haqa. nanj.")
+WaitFor Req
+Set Req = Gar.Play("About")
+WaitFor Req
+Set Req = Felini.Speak("Wow!")
+WaitFor Req
+Set Req = Genie.Speak("Don't speak.")
+WaitFor Req
+Set Req = Galaxygirl.Speak("Tahh. Play? Mooo, Ovie! tshh. haqa. nanj.")
+WaitFor Req
+Set Req = Galaxygirl.Speak("Tahh. Play? Mooo, Ovie! tshh. haqa. nanj.")
+WaitFor Req
+Set Req = Galaxygirl.Speak("Tahh. Play? Mooo, Ovie! tshh. haqa. nanj.")
+WaitFor Req
+Set Req = Galaxygirl.Speak("haqa. haqa. haqa. haqa. haqa. haqa. haqa.")
+WaitFor Req
+Genie.Speak "Don't speak."
+Genie.Speak "Don't speak."
+Genie.Speak "Don't speak."
+Genie.MoveTo 424, 295
+Set Req = Genie.Speak("He compressed his C drive on which he has his Windows XP OS. Now, all he is getting is 'Bootmgr is compressed press Alt+Ctrl+Del to restart'. he can't use his CD ROM on the desktop because it is broken but he did copy and paste the XP OS files from CD on to his external HD using his laptop. After copying the XP files on to his external HD, He have connected the external HD to his affected desktop via USB port and changed the first booting device to USB drive in the BIOS set-up but still getting the same 'Bootmgr is compressed press Alt+Ctrl+Del to restart' message.")
+WaitFor Req
+Set Req = Birdie.MoveTo(591, 150)
+WaitFor Req
+Set Req = Genie.MoveTo(1337, 742)
+WaitFor Req
+Set Req = Birdie.MoveTo(424, 328)
+WaitFor Req
+Set Req = Spaceman.Speak("We are all tired!")
+WaitFor Req
+Set Req = Sizlik.Play("Exit")
+WaitFor Req
+Set Req = Spaceman.Hide()
+WaitFor Req
+Set Req = Sizlik.Play("Intro")
+WaitFor Req
+Set Req = Galaxygirl.Hide()
+WaitFor Req
+Wabbit.MoveTo 348, 685
+Set Req = Wabbit.Hide()
+WaitFor Req
+Set Req = Miku.Play("Hiding")
+WaitFor Req
+Set Req = Plany.Hide()
+WaitFor Req
+Set Req = Peedy.Hide()
+WaitFor Req
+Set Req = Milton.Hide()
+WaitFor Req
+Set Req = James.Hide()
+WaitFor Req
+Isabella.Play "Copyright"
+Isabella.MoveTo 7, -9
+Set Req = Isabella.Play("Copyright")
+WaitFor Req
+Set Req = Hanz.Hide()
+WaitFor Req
+Set Req = Gourdy.Hide()
+WaitFor Req
+Set Req = Gar.Hide()
+WaitFor Req
+Set Req = Miku.Play("Hiding")
+WaitFor Req
+Set Req = Felini.MoveTo(76, -8)
+WaitFor Req
+Set Req = Electra.Hide()
+WaitFor Req
+Set Req = Claude.Hide()
+WaitFor Req
+Set Req = Vrgirl.Hide()
+WaitFor Req
+Set Req = Cami.Hide()
+WaitFor Req
+Genie.Hide
+Genie.Show
+Set Req = Genie.Play("Search")
+WaitFor Req
+Miku.MoveTo 243, -28
+Set Req = Miku.MoveTo(177, -51)
+WaitFor Req
+Set Req = Robby.MoveTo(1013, 745)
+WaitFor Req
+Set Req = Sizlik.MoveTo(1154, 688)
+WaitFor Req
+Birdie.MoveTo 1084, 592
+Set Req = Birdie.Speak("Minecraft is got now saved.")
+WaitFor Req
+Set Req = Robby.Speak("Yeahhhhh!")
+WaitFor Req
+Set Req = Sizlik.Speak("Yeahhhhh!")
+WaitFor Req
+Set Req = Genie.Speak("Yeahhhhh!")
+WaitFor Req
+Set Req = Isabella.Speak("We are remaining")
+WaitFor Req
+Felini.MoveTo 79, -12
+Set Req = Felini.Speak("We are remaining")
+WaitFor Req
+Miku.MoveTo 182, -56
+Set Req = Miku.Speak("We are remaining")
+WaitFor Req
+Set Req = Robby.Speak("Internet Connections.")
+WaitFor Req
+Birdie.Speak "Forgot to pull the plug during the thunderstorm and Windows XP won't start."
+Birdie.Speak "The lights in the room briefly flickered off and on, and the CRT monitor went dark!"
+Birdie.Speak "He was performing his operations on 7-Zip. Later we will talk about this."
+Birdie.Speak "Exit now, Android saved."
+Set Req = Birdie.Speak("We have saved our world! Coming soon at News 30 Rebooted!")
+WaitFor Req
+Set Req = Miku.Hide()
+WaitFor Req
+Set Req = Isabella.Hide()
+WaitFor Req
+Set Req = Felini.Hide()
+WaitFor Req
+Set Req = Genie.Hide()
+WaitFor Req
+Set Req = Sizlik.Hide()
+WaitFor Req
+Set Req = Robby.Hide()
+WaitFor Req
+Set Req = Birdie.Speak("Marlin can come here.")
+WaitFor Req
+Merlin.MoveTo 1024, 604
+Merlin.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Merlin.Show
+Set Req = Merlin.Speak("I saw a new game.")
+WaitFor Req
+Set Req = Birdie.Speak("What is it.")
+WaitFor Req
+Merlin.Speak "Fortnite"
+Set Req = Merlin.Hide()
+WaitFor Req
+Birdie.Speak "So News 1 will come soon."
+Birdie.Speak "I will be exit."
+Birdie.Speak "Goodbye, guys."
+Birdie.Speak "Coming soon at News 26!"
+Set Req = Birdie.Hide()
+WaitFor Req
+Robby.MoveTo 1207, 740
+Robby.Show
+Robby.Speak "Hello and Welcome to Microsoft Windows XP"
+Robby.Speak "There's the taskbar (ground) and here's the icon (rock)."
+Robby.Speak "That will let you go to cave"
+Robby.Speak "But you must first accept our terms."
+Robby.Speak "First term: Connect to Internet"
+Robby.Speak "Second Term: Avoid slowdowns"
+Set Req = Robby.Speak("If you haven't accepted these terms, You'll be prompted about illegal operation of Windows XP.")
+WaitFor Req
+Sizlik.MoveTo 977, 679
+Sizlik.Show
+Set Req = Sizlik.Speak("And it will be shut down.")
+WaitFor Req
+Set Req = Robby.Speak("Who are you?")
+WaitFor Req
+Set Req = Sizlik.Speak("My name is Sizlik, I'm talking around computer huge bang or pop")
+WaitFor Req
+Set Req = Robby.Speak("Huge Bang or Pop?")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes")
+WaitFor Req
+Set Req = Robby.Speak("Could you give other's a website?")
+WaitFor Req
+Set Req = Sizlik.Speak("Yeah!! Yes")
+WaitFor Req
+Set Req = Robby.Speak("Where's sharky to get the website?")
+WaitFor Req
+Set Req = Sizlik.Speak("In the top")
+WaitFor Req
+Sharky.MoveTo 1097, 607
+Sharky.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Sharky.Show
+Set Req = Sharky.Speak("Welcome guys?")
+WaitFor Req
+Robby.MoveTo 1344, 739
+Set Req = Robby.Speak("Welcome, How are you?")
+WaitFor Req
+Set Req = Sizlik.Speak("Welcome, How are you?")
+WaitFor Req
+Set Req = Sharky.Speak("Fine, But How are you?")
+WaitFor Req
+Set Req = Sizlik.Speak("I'll be fine")
+WaitFor Req
+Set Req = Robby.Speak("Me too")
+WaitFor Req
+Set Req = Sharky.Speak("What you're talking about?")
+WaitFor Req
+Set Req = Robby.Speak("I'm talking about Windows XP.")
+WaitFor Req
+Set Req = Sizlik.Speak("I'm talking about Computer Explosions.")
+WaitFor Req
+Sharky.Speak "OK, OK, I'll be exit."
+Set Req = Sharky.Hide()
+WaitFor Req
+Vrgirl.MoveTo 943, 98
+Vrgirl.Show
+Set Req = Vrgirl.Speak("What, A Google Chrome Browser?")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes, But it is Torch Browser")
+WaitFor Req
+Set Req = Robby.Speak("Torch browser")
+WaitFor Req
+Vrgirl.Speak "OK, Here are important news for you."
+Set Req = Vrgirl.MoveTo(1283, 98)
+WaitFor Req
+Set Req = Sizlik.MoveTo(1058, 675)
+WaitFor Req
+Merlin.MoveTo 229, 542
+Merlin.Show
+Merlin.Play "Explain"
+Set Req = Merlin.Speak("Jijimalibu put it all together, hook it up, turn it on, watch the screen display that contains list of the components he're using, After 10 more seconds, Later there was the gigantic pop (like pop with very long volume) or bang and his PC will shut down.")
+WaitFor Req
+Set Req = Sizlik.Speak("OUF, There are very long explosions and 10 seconds for preparing huge pop, WOOOW.")
+WaitFor Req
+Set Req = Robby.Speak("You're talking like Atlas Systems.")
+WaitFor Req
+Set Req = Vrgirl.Speak("There was another here.")
+WaitFor Req
+Merlin.MoveTo 450, 274
+Merlin.MoveTo 456, 359
+Set Req = Merlin.Speak("I respect was the news here, Yousef's PC wasn't booting up Windows XP and going to Troubleshoot Mode, He tried to go to safe mode, Restore and all other options but still failed, So in a space of 20.1 minutes PC will booted up like 20 times.")
+WaitFor Req
+Set Req = Vrgirl.Speak("Page 2 Merlin.")
+WaitFor Req
+Set Req = Merlin.Speak("Yousef unplugged the computer and after a few hours replug it and try booting again but it still failed. it wasn't even Going On, so He fiddled some wires from the back.")
+WaitFor Req
+Sizlik.Speak "I don't understand what is the word fiddled"
+Set Req = Sizlik.Speak("Marlin")
+WaitFor Req
+Set Req = Vrgirl.Speak("Page 3 Marlin")
+WaitFor Req
+Merlin.Speak "Yousef's computer will exploded sudden and the smoke will start downloading and coming out."
+Merlin.Speak "He's wondering that he need to buy a new computer."
+Merlin.MoveTo 444, 241
+Merlin.Speak "Jfreeizme bought a new computer (custom built) and he plugged in all the parts completely in Motherboard"
+Merlin.Speak "He suddenly exploded PSU into sparks"
+Set Req = Merlin.Speak("So that's a question.")
+WaitFor Req
+Set Req = Sizlik.Speak("I don't understand what the meaning of word Sparks")
+WaitFor Req
+Set Req = Robby.Speak("Last one")
+WaitFor Req
+Merlin.Speak "Hello and thanks for taking time to read this."
+Merlin.Speak "he posted a thread on Tom's Hardware about explosive of PSU because he charged 230v to 115v."
+Set Req = Merlin.Speak("He made a mistake")
+WaitFor Req
+Set Req = Vrgirl.Speak("Page 2, Merlin")
+WaitFor Req
+Merlin.Speak "He thought when he change it his computer will receive (retreive) lower voltage than usual"
+Merlin.Speak "He using Dell OptiPlex 745 Mini Tower."
+Set Req = Merlin.Speak("and yet after his PSU exploded he become panic and turn it back to 230v and switch on and it blown again.")
+WaitFor Req
+Set Req = Vrgirl.Speak("Page 3, Marlin")
+WaitFor Req
+Merlin.Speak "He was very scared because the computer is a gift from his mother."
+Merlin.Speak "After a while, He buy a new PSU and replace it."
+Set Req = Merlin.Speak("Now when He switch on, his PC nothing happens only blinking orange light on the tower.")
+WaitFor Req
+Set Req = Vrgirl.Speak("Goodbye news")
+WaitFor Req
+Set Req = Vrgirl.Hide()
+WaitFor Req
+Set Req = Sizlik.Hide()
+WaitFor Req
+Set Req = Robby.Hide()
+WaitFor Req
+Merlin.Speak "Goodbye guys."
+Merlin.Hide
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

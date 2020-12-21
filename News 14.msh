@@ -1,0 +1,278 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Genie=Genie.acs
+Gourdy=Gourdy.acs
+Hanz=Hanz.acs
+Isabella=Isabella.acs
+James=James.acs
+Alien=Alien.acs
+Gar=Gar.acs
+Joe=Joe.acs
+Milton=Milton.acs
+Check=Check.acs
+Marge=Marge.acs
+Sizlik=Sizlik.acs
+Spaceman=Spaceman.acs
+Wabbit=Wabbit.acs
+Woo=Woo.acs
+Totem=Totem.acs
+Reaper=Reaper.acs
+Plany=Plany.acs
+Birdie=Birdie.acs
+Claude=Claude.acs
+Miku=Miku.acs
+Cupid=Cupid.acs
+
+[LanguageIDs]
+Genie=&H409
+Gourdy=&H409
+Hanz=&H409
+Isabella=&H409
+James=&H409
+Alien=&H409
+Gar=&H409
+Joe=&H409
+Milton=&H409
+Check=&H409
+Marge=&H409
+Sizlik=&H409
+Spaceman=&H409
+Wabbit=&H409
+Woo=&H409
+Totem=&H409
+Reaper=&H409
+Plany=&H409
+Birdie=&H409
+Claude=&H409
+Miku=&H409
+Cupid=&H409
+
+[Script]
+Genie.MoveTo 1341, 742
+Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Genie.Show
+Set Req = Genie.Speak("We were in News 14.")
+WaitFor Req
+Gourdy.MoveTo 1254, 742
+Gourdy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Gourdy.Show
+Set Req = Gourdy.Speak("Did you talk like Atlas systems?")
+WaitFor Req
+Set Req = Genie.Speak("Yes, But my pitch is Genie.")
+WaitFor Req
+Hanz.MoveTo 1129, 789
+Hanz.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Hanz.Show()
+WaitFor Req
+Isabella.MoveTo 1002, 682
+Isabella.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Isabella.Show()
+WaitFor Req
+James.MoveTo 940, 685
+James.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = James.Show()
+WaitFor Req
+Alien.MoveTo 862, 746
+Alien.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Alien.Show()
+WaitFor Req
+Gar.MoveTo 774, 750
+Gar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Gar.Show()
+WaitFor Req
+Joe.MoveTo 666, 751
+Joe.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Joe.Show()
+WaitFor Req
+Milton.MoveTo 597, 748
+Milton.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Milton.Show()
+WaitFor Req
+Check.MoveTo 511, 746
+Check.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Check.Show()
+WaitFor Req
+Marge.MoveTo 376, 726
+Marge.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Marge.Show()
+WaitFor Req
+Sizlik.MoveTo 205, 683
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Sizlik.Show()
+WaitFor Req
+Spaceman.MoveTo 82, 789
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Spaceman.Show()
+WaitFor Req
+Wabbit.MoveTo 1263, -2
+Wabbit.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Wabbit.Show
+Wabbit.Play "DoMagic1"
+Set Req = Wabbit.Play("DoMagic3")
+WaitFor Req
+Woo.MoveTo 1158, 1
+Woo.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Woo.Show()
+WaitFor Req
+Totem.MoveTo 971, 33
+Totem.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273003}"
+Set Req = Totem.Show()
+WaitFor Req
+Reaper.MoveTo 1077, -1
+Reaper.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273007}"
+Set Req = Reaper.Show()
+WaitFor Req
+Set Req = Totem.MoveTo(913, 33)
+WaitFor Req
+Plany.MoveTo 824, 97
+Plany.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Plany.Show()
+WaitFor Req
+Birdie.MoveTo 389, 40
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Birdie.Show()
+WaitFor Req
+Claude.MoveTo -28, 739
+Claude.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Claude.Show()
+WaitFor Req
+Miku.MoveTo 736, -43
+Miku.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Miku.Show()
+WaitFor Req
+Cupid.MoveTo 1126, 611
+Cupid.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Cupid.Show
+Set Req = Cupid.Speak("Go away.")
+WaitFor Req
+Set Req = Hanz.MoveTo(1097, 790)
+WaitFor Req
+Set Req = Cupid.MoveTo(1137, 704)
+WaitFor Req
+Set Req = Plany.Speak("Are Birdie is good?")
+WaitFor Req
+Set Req = Miku.Speak("Yes")
+WaitFor Req
+Set Req = Marge.Speak("I ever, ever heard that my PSU exploded.")
+WaitFor Req
+Set Req = Gar.Speak("Hey Spaceman!")
+WaitFor Req
+Set Req = Spaceman.Speak("What do you want Gar?")
+WaitFor Req
+Set Req = Gar.Speak("Sit at Genie's place.")
+WaitFor Req
+Set Req = Alien.Speak("No Gar.")
+WaitFor Req
+Set Req = Joe.Speak("No Gar.")
+WaitFor Req
+Isabella.Play "Kick"
+Set Req = Isabella.Speak("I kicked so.")
+WaitFor Req
+Joe.Play "Assimilate"
+Set Req = Joe.Speak("I assimilated.")
+WaitFor Req
+Set Req = Milton.Speak("Only at Spaceman going to other place by animation.")
+WaitFor Req
+Set Req = Claude.Speak("Let's go.")
+WaitFor Req
+Spaceman.Speak "Too much."
+Spaceman.Play "Dropit"
+Set Req = Spaceman.Play("stargate")
+WaitFor Req
+Set Req = Isabella.Speak("Only 2 stories.")
+WaitFor Req
+Set Req = Milton.Speak("OK, Please news begin.")
+WaitFor Req
+Set Req = Miku.Speak("Detected the Spaceman in Stargate.")
+WaitFor Req
+Set Req = Alien.Speak("Begin at News 14.")
+WaitFor Req
+Set Req = Plany.Speak("If it's detected a problem, We might damage Spaceman by hiding.")
+WaitFor Req
+Set Req = Woo.Speak("Spaceman has a problem with Stargate.")
+WaitFor Req
+Set Req = Spaceman.Show()
+WaitFor Req
+Set Req = Miku.Speak("Are Internet Explorer problems with objects?")
+WaitFor Req
+Set Req = James.Speak("Yes.")
+WaitFor Req
+Genie.Speak "Go!"
+Set Req = Genie.Speak("We'll arrive Google.com")
+WaitFor Req
+Set Req = Joe.Speak("Yes, Yeah!")
+WaitFor Req
+Set Req = Marge.Speak("If you see that unexpected shut down, You replace your motherboard.")
+WaitFor Req
+Set Req = Milton.Speak("Don't say his specification.")
+WaitFor Req
+Birdie.MoveTo 322, 234
+Birdie.Speak "If he turned on his computer, Boots up to Intel Logo, Goes to BIOS if he want sometimes even tries to load his OS.. After few seconds it shut down."
+Birdie.Speak "Once he had let it boot for few times, No POST, No screen, No Intel logo, Nothing at all."
+Birdie.Speak "If he wait another few hours and then try again, He get the display on screen."
+Birdie.Speak "He tried each RAM stick by stick, Tried another PSU, Refitted the CPU Fan, Managed to get into BIOS and checked temperatures, nothing was worrying, all under 50 degrees."
+Set Req = Birdie.Speak("He could check onlyfor a minute or two before it shut down automatically.")
+WaitFor Req
+Spaceman.Speak "Ready for next."
+Set Req = Spaceman.Speak("Only 1 paragraph.")
+WaitFor Req
+Birdie.MoveTo 337, 167
+Birdie.Speak "He borrowed ASUS P4V8X-MX from his friend and was about to install Windows XP SP3 from Microsoft on his Solid State Drive."
+Birdie.Speak "He managed to check his BIOS, Applied settings and restarted several times."
+Birdie.Speak "upon selecting the Solid State Drive and install Windows XP, It shut down unexpectedly."
+Birdie.Speak "He checked the CPU for any chance of dried up thermal grease, Reapply a new layer."
+Birdie.Speak "He replaced the PSU and gives the same result: With the AC Power Chord Connected, Green LED on Motherboard that indicated that the Motherboard if being fed."
+Set Req = Birdie.Speak("Whenever he turned his computer on, Fans kicked in, They has the little jolt and then nothing.")
+WaitFor Req
+Set Req = Totem.Speak("Restore Problem?")
+WaitFor Req
+Set Req = Check.Speak("Yes.")
+WaitFor Req
+Set Req = Marge.Speak("Fixed.")
+WaitFor Req
+Birdie.MoveTo 332, 301
+Birdie.Speak "He finished his cousin's computer build and was setting up on cousin's desk."
+Birdie.Speak "He started bootup to start installing Windows, It started the horrible sound (like shouting people)."
+Birdie.Speak "He checked each fan and eventually reaced it to the PSU."
+Birdie.Speak "He noticed when he put the computer in a horizontal position, The noise stops."
+Set Req = Birdie.Speak("As soon as he start to stand the computer up in a vertical position, the PSU started to make the shouting sound again.")
+WaitFor Req
+Set Req = Genie.Speak("Last one.")
+WaitFor Req
+Birdie.MoveTo 326, 330
+Set Req = Birdie.Speak("As soon as he opened the game only certain games, His PSU maked the odd buzzing sound like Bees, Then as soon as he alt+tabbed out of the game and it suddenly stops..")
+WaitFor Req
+Set Req = Sizlik.Speak("Last more one?")
+WaitFor Req
+Set Req = Marge.Speak("Yes.")
+WaitFor Req
+Set Req = Joe.Speak("Think about it.")
+WaitFor Req
+Birdie.MoveTo 327, 365
+Birdie.Speak "His Cooler Master V450S PSU started strange noise a week, Something like a tzk for a moment."
+Birdie.Speak "It can make it several times in 2-3 minutes or once every hour."
+Birdie.Speak "He turned on then noise is started."
+Set Req = Birdie.Speak("Rebuilt the PC again he had connected wrongly, He switched the power cable, He plugged his PC in the wall socket, still nothing.")
+WaitFor Req
+Set Req = Miku.Speak("We will end News 14.")
+WaitFor Req
+Set Req = Check.Speak("News 14 is end.")
+WaitFor Req
+Set Req = Spaceman.Speak("So, Exit news?")
+WaitFor Req
+Set Req = Cupid.Speak("Beep?")
+WaitFor Req
+Set Req = Genie.Speak("Yes.")
+WaitFor Req
+Set Req = Cupid.Speak("Beep?")
+WaitFor Req
+Isabella.Speak "Yes."
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

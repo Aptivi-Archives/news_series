@@ -1,0 +1,268 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Alien=Alien.acs
+Birdie=Birdie.acs
+Al=Al.acs
+Charlie=Charlie.acs
+Electra=Electra.acs
+Gar=Gar.acs
+Genie=Genie.acs
+James=James.acs
+Santa=Santa.acs
+Totem=Totem.acs
+Vrgirl=Vrgirl.acs
+Woo=Woo.acs
+Ozzar=Ozzar.acs
+Oscar=Oscar.acs
+Milton=Milton.acs
+Marge=Marge.acs
+Spaceman=Spaceman.acs
+Sizlik=Sizlik.acs
+
+[LanguageIDs]
+Alien=&H409
+Birdie=&H409
+Al=&H409
+Charlie=&H409
+Electra=&H409
+Gar=&H409
+Genie=&H409
+James=&H409
+Santa=&H409
+Totem=&H409
+Vrgirl=&H409
+Woo=&H409
+Ozzar=&H409
+Oscar=&H409
+Milton=&H409
+Marge=&H409
+Spaceman=&H409
+Sizlik=&H409
+
+[Script]
+Alien.MoveTo 1333, 745
+Alien.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Alien.Show()
+WaitFor Req
+Birdie.MoveTo 1163, 11
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Birdie.Show()
+WaitFor Req
+Al.MoveTo 1232, 749
+Al.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Al.Show()
+WaitFor Req
+Charlie.MoveTo 1087, 711
+Charlie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Charlie.Show()
+WaitFor Req
+Electra.MoveTo 978, 743
+Electra.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Electra.Show()
+WaitFor Req
+Gar.MoveTo 907, 744
+Gar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Gar.Show()
+WaitFor Req
+Genie.MoveTo 834, 742
+Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Genie.Show()
+WaitFor Req
+James.MoveTo 765, 684
+James.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = James.Show()
+WaitFor Req
+Santa.MoveTo 688, 727
+Santa.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Santa.Show()
+WaitFor Req
+Totem.MoveTo 567, 719
+Totem.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273003}"
+Set Req = Totem.Show()
+WaitFor Req
+Vrgirl.MoveTo 516, 748
+Vrgirl.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Vrgirl.Show()
+WaitFor Req
+Woo.MoveTo 433, 687
+Woo.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Woo.Show()
+WaitFor Req
+Set Req = Santa.Show()
+WaitFor Req
+Ozzar.MoveTo 375, 740
+Ozzar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Ozzar.Show()
+WaitFor Req
+Oscar.MoveTo 307, 745
+Oscar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Oscar.Show()
+WaitFor Req
+Milton.MoveTo 254, 749
+Milton.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Milton.Show()
+WaitFor Req
+Marge.MoveTo 136, 728
+Marge.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Marge.Show()
+WaitFor Req
+Set Req = Genie.Speak("What is beep?")
+WaitFor Req
+Set Req = Santa.Speak("Nothing")
+WaitFor Req
+Set Req = Totem.Speak("PSU then?")
+WaitFor Req
+Set Req = Electra.Speak("Yes")
+WaitFor Req
+Set Req = Milton.Speak("The sound think is relationship than graphics card relationship?")
+WaitFor Req
+Set Req = Marge.Speak("Relationships, Yes.")
+WaitFor Req
+Set Req = Santa.Speak("Under warranty from News 1, is that PSU Exploded.")
+WaitFor Req
+Set Req = Gar.Speak("Hey Spaceman, Come here.")
+WaitFor Req
+Spaceman.MoveTo 8, 782
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Spaceman.Show
+Set Req = Spaceman.Speak("and Sizlik")
+WaitFor Req
+Sizlik.MoveTo -2, 614
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Sizlik.Show
+Set Req = Sizlik.Speak("What is skateboard on PSU?")
+WaitFor Req
+Spaceman.Speak "No"
+Set Req = Spaceman.Speak("They want to prize you James.")
+WaitFor Req
+Set Req = James.Speak("Surprise, What are Birdie to get ready in News 10?")
+WaitFor Req
+Set Req = Electra.Speak("in Tom's Hardware")
+WaitFor Req
+Birdie.MoveTo 326, 224
+Birdie.Speak "Hi guys."
+Birdie.Speak "He keep running to BSOD when playing Higher End Games (like IGI 2), His system has able to handle them really, Have underclocked his Graphics Card cause it was running very hot and thought that was causing the problems, but he can't seem to create a stable platform."
+Set Req = Birdie.Speak("Running Windows 7 Home Premium, AMD Plenom II X4 975, 8GB RAM and Nvidia GeForce GTX 550 Ti.")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Sizlik.Speak "OK."
+Set Req = Sizlik.MoveTo(1249, 568)
+WaitFor Req
+Birdie.MoveTo 339, 128
+Birdie.Speak "I can't read because very long stories."
+Birdie.Speak "So his PSU exploded with blue sparks and a little bang."
+Birdie.Speak "He really don't care about the PSU as it is an old one, However he had only the motherboard, CPU and RAM for 2 days!!"
+Birdie.Speak "He will be devasted if the PSU has caused damage to any of those components as he had to save to buy them a new one!."
+Birdie.Speak "System has be running absolutely fine for two days with no high temperatures and no Bluescreens / restarts, etc."
+Birdie.Speak "The obvious reason is the PSU being only 400 Watts, He didn't have the enough Wattage to power on the system."
+Birdie.Speak "The only component he was able to test which is still working is the Wireless Keyboard..So that's at least is a glimmer of hope if the USB sockets weren't fried..will be getting another PSU tomorrow to test and he want to report back."
+Birdie.Speak "He did, However have the really old 350 Watt Power Supply but it didn't have full 28 pins (or is it 24) so didn't power the motherboard on at All."
+Birdie.MoveTo 409, 229
+Birdie.Speak "Hello, well the possible has happened, His gaming rig - has blown up, within 6 months of having it, But he are unsure to what the problem may have been."
+Birdie.Speak "Like he know the answer that it comes down to is that it could almost be any part he are assuming."
+Birdie.Speak "When he turned his computer on, the case lights came on, the fan kicked in, after maybe 2-3 it shut down, and other days it'll turn off, But this Overnight that actually woke him up lastnight - It sounded like a Huge Bang like a quick snap of power just going Zap!"
+Set Req = Birdie.Speak("Then everything stopped.")
+WaitFor Req
+Set Req = Marge.Speak("There's the fostile of This news that you'll talk yourself an new by creating the new yourself.")
+WaitFor Req
+Birdie.Speak "He's playing the games, After the game, His sound volume changed to 100% and distorted, PSU going to be overheated, After like 5 minutes, It just do exit the game and trying to open the game again, Very hot and when he close the game, the CMOS give the command for PSU section explode and the PSU exploded."
+Set Req = Birdie.Speak("3 bangs that sounded like Shotgun and the computer end with the Sparks and Loud Beep Noise coming from the PSU, When he turn on his PC when PSU exploded, Shutting down for 1 sec and then back on after 1 sec and the computer exploded.")
+WaitFor Req
+Santa.Speak "Good news."
+Santa.Speak "Birdie."
+Set Req = Santa.Play("Congratulate")
+WaitFor Req
+Set Req = Marge.Play("Connect")
+WaitFor Req
+Set Req = Spaceman.Play("Park")
+WaitFor Req
+Set Req = Electra.Speak("What you're parking?")
+WaitFor Req
+Charlie.Speak "Nothing."
+Set Req = Charlie.Hide()
+WaitFor Req
+Set Req = Al.Speak("Hid?")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes")
+WaitFor Req
+Birdie.MoveTo 444, 264
+Birdie.Speak "His PC suddenly hang and he had also a blue screen also."
+Birdie.Speak "Searched for solutions and one of the solution is to look for blown up capacitors in video card and motherboard."
+Birdie.Speak "He are using P7P55DE-PRO motherboard and Radeon HD 5770 Graphics Card and all capacitors are those metal capacitors type, and it looks like all his capacitors are normal."
+Birdie.MoveTo 438, 228
+Birdie.Speak "He turned his computer on this morning and the system font (XP) seems to have gone crazy."
+Birdie.Speak "Even the Welcome screen is garbled with weird characters, It boots up right up to the desktop but nothing is readable, so he can't make any changes in Windows."
+Set Req = Birdie.Speak("The same thing happens in Safe Mode.")
+WaitFor Req
+Set Req = Milton.Speak("Wow, looks like Pyret Enetr ot too$ ot Ginwods HX Ophsaltig Sy^t#m!.")
+WaitFor Req
+Set Req = Ozzar.Speak("Yes.")
+WaitFor Req
+Set Req = James.Speak("Desktop, looks like Ym Retupmoc, Rjckpsr Bni or Hy Gneteofl Panse!.")
+WaitFor Req
+Set Req = Electra.Speak("Yes")
+WaitFor Req
+Oscar.Speak "Yes"
+Set Req = Oscar.Play("Surprised")
+WaitFor Req
+Set Req = Al.Speak("Can we see the image part of Windows Crazy Characters, if so, Move to me Sizlik.")
+WaitFor Req
+Set Req = Sizlik.MoveTo(1066, 683)
+WaitFor Req
+Set Req = James.Speak("There's no image.")
+WaitFor Req
+Set Req = Spaceman.Speak("Exit News?")
+WaitFor Req
+Set Req = Genie.Speak("Yes")
+WaitFor Req
+Set Req = Oscar.Speak("Will be wrong.")
+WaitFor Req
+Set Req = Milton.Speak("No, will be correct.")
+WaitFor Req
+Birdie.Speak "More than Marlin? I'm explaining my second own news."
+Set Req = Birdie.Speak("First when he boot Windows XP.")
+WaitFor Req
+Set Req = Electra.Speak("What happened?")
+WaitFor Req
+Set Req = Alien.Hide()
+WaitFor Req
+Set Req = Al.Hide()
+WaitFor Req
+Set Req = Electra.Hide()
+WaitFor Req
+Set Req = Gar.Hide()
+WaitFor Req
+Set Req = Genie.Play("Hide")
+WaitFor Req
+Set Req = James.Hide()
+WaitFor Req
+Set Req = Genie.Hide()
+WaitFor Req
+Set Req = Santa.Hide()
+WaitFor Req
+Set Req = Totem.Play("disappear")
+WaitFor Req
+Set Req = Vrgirl.Hide()
+WaitFor Req
+Set Req = Ozzar.Hide()
+WaitFor Req
+Set Req = Oscar.Hide()
+WaitFor Req
+Set Req = Woo.MoveTo(291, 689)
+WaitFor Req
+Set Req = Totem.MoveTo(362, 720)
+WaitFor Req
+Set Req = Sizlik.MoveTo(504, 691)
+WaitFor Req
+Birdie.Speak "The MS-DOS for Windows XP shows as wrong characters and unreadable things."
+Birdie.Speak "Exit now."
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

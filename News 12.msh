@@ -1,0 +1,304 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Genie=Genie.acs
+James=James.acs
+Hanz=Hanz.acs
+Isabella=Isabella.acs
+Alien=Alien.acs
+Joe=Joe.acs
+Check=Check.acs
+Max=Max.acs
+Peedy=Peedy.acs
+Reaper=Reaper.acs
+Sizlik=Sizlik.acs
+Spaceman=Spaceman.acs
+Wabbit=Wabbit.acs
+Debbie=Debbie.acs
+Merlin=Merlin.acs
+
+[LanguageIDs]
+Genie=&H409
+James=&H409
+Hanz=&H409
+Isabella=&H409
+Alien=&H409
+Joe=&H409
+Check=&H409
+Max=&H409
+Peedy=&H409
+Reaper=&H409
+Sizlik=&H409
+Spaceman=&H409
+Wabbit=&H409
+Debbie=&H409
+Merlin=&H409
+
+[Script]
+Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Genie.Show
+Genie.Speak "Welcome to News 12."
+Genie.Speak "And I'm Genie."
+Genie.MoveTo 1113, 402
+Genie.Speak "I'm talking like Atlas Systems."
+Genie.MoveTo 368, 42
+Genie.Speak "Windows 7 Help Forums, Antivirus then Tom's Hardware."
+Genie.MoveTo 1333, 745
+Set Req = Genie.Speak("Go!!!")
+WaitFor Req
+James.MoveTo 1261, 685
+James.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = James.Show()
+WaitFor Req
+Hanz.MoveTo 1190, 781
+Hanz.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Hanz.Show()
+WaitFor Req
+Isabella.MoveTo 1078, 684
+Isabella.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Isabella.Show()
+WaitFor Req
+Alien.MoveTo 1025, 751
+Alien.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Alien.Show()
+WaitFor Req
+Joe.MoveTo 930, 750
+Joe.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Joe.Show()
+WaitFor Req
+Check.MoveTo 864, 747
+Check.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Check.Show()
+WaitFor Req
+Set Req = Genie.Speak("More! More!!")
+WaitFor Req
+Max.MoveTo 789, 744
+Max.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Max.Show()
+WaitFor Req
+Peedy.MoveTo 703, 748
+Peedy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Peedy.Show()
+WaitFor Req
+Reaper.MoveTo 618, 687
+Reaper.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273007}"
+Set Req = Reaper.Show()
+WaitFor Req
+Sizlik.MoveTo 483, 688
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Sizlik.Show()
+WaitFor Req
+Spaceman.MoveTo 364, 787
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Spaceman.Show()
+WaitFor Req
+Wabbit.MoveTo 220, 682
+Wabbit.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Wabbit.Show()
+WaitFor Req
+Debbie.MoveTo 156, 687
+Debbie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Debbie.Show()
+WaitFor Req
+Merlin.MoveTo 516, 24
+Merlin.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Merlin.Show()
+WaitFor Req
+Set Req = Genie.Speak("That's it!")
+WaitFor Req
+Set Req = Merlin.Speak("In News 11, Birdie said I'm coming in this new and Birdie will be absent in News 12.")
+WaitFor Req
+Peedy.Speak "Why Marlin?"
+Set Req = Peedy.Play("Confused")
+WaitFor Req
+Set Req = Merlin.Speak("Because it's very interesting, So News 13 will get Birdie with Peedy.")
+WaitFor Req
+Set Req = Alien.Play("Confused")
+WaitFor Req
+Set Req = Spaceman.Speak("How do I RMA it?")
+WaitFor Req
+Set Req = Sizlik.Speak("Nothing")
+WaitFor Req
+Merlin.MoveTo 56, 285
+Merlin.MoveTo 66, 145
+Set Req = Merlin.Speak("Hello Guys.")
+WaitFor Req
+Spaceman.Speak "Hello Guys?"
+Set Req = Spaceman.Speak("How are you?")
+WaitFor Req
+Set Req = Debbie.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Wabbit.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Sizlik.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Reaper.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Peedy.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Max.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Check.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Joe.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Alien.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Isabella.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Hanz.Speak("Hello, Fine")
+WaitFor Req
+Set Req = James.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Genie.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Spaceman.Speak("All listen to Marlin?")
+WaitFor Req
+Set Req = Debbie.Speak("Yes")
+WaitFor Req
+Set Req = Wabbit.Speak("Yes")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes")
+WaitFor Req
+Set Req = Reaper.Speak("Yes")
+WaitFor Req
+Set Req = Peedy.Speak("Yes")
+WaitFor Req
+Set Req = Max.Speak("Yes")
+WaitFor Req
+Set Req = Check.Speak("Yes")
+WaitFor Req
+Set Req = Joe.Speak("Yes")
+WaitFor Req
+Set Req = Alien.Speak("Yes")
+WaitFor Req
+Set Req = Isabella.Speak("Yes")
+WaitFor Req
+Set Req = Hanz.Speak("Yes")
+WaitFor Req
+Set Req = James.Speak("Yes")
+WaitFor Req
+Set Req = Genie.Speak("Yes")
+WaitFor Req
+Merlin.Speak "Jacknicholson's computer won't start up properly."
+Merlin.Speak "His running Windows 7 Starter on Asus EEE 1005PE netbook."
+Merlin.Speak "He had no hardware or BIOS changes since purchase."
+Merlin.Speak "The only peripherals he has used is USB Mouse (currently unplug)."
+Merlin.MoveTo 67, 225
+Merlin.Speak "The events so far, After a short inactivity period, His computer seems to be freeze on Desktop."
+Merlin.Speak "No apps running; Neither the mouse nor keyboard were responsive."
+Set Req = Merlin.Speak("After a shord period of waiting, He did a Hardest shut down (Hold the Power Button to hard shut down).")
+WaitFor Req
+Set Req = Sizlik.Speak("I don't understand what the meaning of word Hard Shutdown.")
+WaitFor Req
+Set Req = Peedy.Speak("Hard Shutdown means you're holding a Power Button for 5 seconds.")
+WaitFor Req
+Merlin.MoveTo 68, 313
+Merlin.Speak "The next parts are hazy, As he had manually powered off and on a few times over the past hours."
+Set Req = Merlin.Speak("He have also unplugged the battery and attempt to flash his BIOS by holding the power button while the netbook is unplugged, as well as letting the netbook rest with no the battery and unplug.")
+WaitFor Req
+Genie.Speak "Also."
+Set Req = Genie.Speak("Funny things.")
+WaitFor Req
+Set Req = Merlin.Speak("Upon powering on the netbook, the netbook will run into a couple of different scenarios.")
+WaitFor Req
+Set Req = Sizlik.Speak("I don't understand what a meaning of word scenario.")
+WaitFor Req
+Set Req = Spaceman.Speak("I have Armored Warfare on Spaceman's netbook.")
+WaitFor Req
+Merlin.MoveTo 76, 431
+Merlin.Speak "Typically, He will run into grey Asus EEE 1005PE Netbook Screen."
+Merlin.Speak "Gave him options, F2 Setup, TAB BIOS POST Message."
+Merlin.Speak "Hitting either F2 and TAB provide no response."
+Merlin.Speak "Either 1 or 2 events will transpire from here:"
+Merlin.Speak "1. Nothing at All."
+Set Req = Merlin.Speak("2. After a few minutes of waiting, He will move on to a black screen which allows him to either Windows Start Normally or Startup Repair, Both lead nowhere.")
+WaitFor Req
+Set Req = Sizlik.Speak("I don't understand what the meaning of word at all.")
+WaitFor Req
+Set Req = Peedy.Speak("At all means don't do anything all the time.")
+WaitFor Req
+Merlin.Speak "He will hang indefinitely on Microsoft Corporation loading screen and Loading Bar green coloured, or have the screen black, Indefinately."
+Merlin.MoveTo 114, 446
+Merlin.Play "DoMagic1"
+Merlin.Play "DoMagic2"
+Merlin.Speak "Other times, He run into American Megatrends screen, Which seems to list a few of his System specs."
+Merlin.Speak "He know the ram is OK and no BAD, However, It does state Boot booster doesn't work at this time at the bottom."
+Merlin.Speak "This screen leads nowhere."
+Set Req = Merlin.Speak("He was able to load the BIOS Once; Not sure how.")
+WaitFor Req
+Set Req = Spaceman.Speak("Like some computers installed this BIOS?")
+WaitFor Req
+Set Req = Wabbit.Speak("Yes.")
+WaitFor Req
+Merlin.MoveTo 98, 512
+Set Req = Merlin.Speak("He want to go to safe mode and when he try to press F8, No menu appear.")
+WaitFor Req
+Hanz.Speak "About me."
+Set Req = Hanz.Play("About")
+WaitFor Req
+Set Req = Isabella.Speak("Your name is here, Hanz?")
+WaitFor Req
+Hanz.Speak "Yes."
+Set Req = Hanz.Play("AboutReturn")
+WaitFor Req
+Merlin.MoveTo 84, 250
+Merlin.Speak "He think that he ran into some serious problems with OS, Get a bluescreen error already about week ago but was able to repair using Windows 8 recovery screen and previous restore point."
+Merlin.Speak "Today when he come to PC which should normally run non-stop it was turned off."
+Merlin.Speak "After turning on he got the boot BSOD with the big bad smiley and error ID from subject, Then collecting neccassery data to 100% then freeze."
+Set Req = Merlin.Speak("No restore points.")
+WaitFor Req
+Set Req = Sizlik.Speak("I don't understand what the meaning of word collecting")
+WaitFor Req
+Set Req = Peedy.Speak("Last one.")
+WaitFor Req
+Merlin.MoveTo 379, 339
+Merlin.Speak "So his computer crashes while he's playing the games or watching a video."
+Merlin.Speak "The screen goes black and the fans start going at 100% on GPU, The first few seconds after the crash he hear the sound from what he was doing prior to the crash."
+Set Req = Merlin.Speak("After that the sound gets laggy and he want to restart his computer manually.")
+WaitFor Req
+Peedy.Speak "Resistors."
+Peedy.Speak "At this point, News 12 gone end."
+Set Req = Peedy.Speak("The end.")
+WaitFor Req
+Spaceman.Play "Communicate"
+Spaceman.Speak "Exit News?"
+Set Req = Spaceman.Play("stargate")
+WaitFor Req
+Set Req = Genie.Speak("Yes.")
+WaitFor Req
+Peedy.Think "I think that Computer can crash."
+Set Req = Peedy.Speak("\Chr=""Whisper""\Exit Now.")
+WaitFor Req
+Set Req = Max.Speak("\Chr=""Whisper""\Yes.")
+WaitFor Req
+Set Req = Reaper.Speak("\Chr=""Whisper""\The End.")
+WaitFor Req
+Joe.MoveTo 928, 751
+Set Req = Joe.Speak("Can I test my whisper with Checkmate and Alien?")
+WaitFor Req
+Spaceman.Speak "Yes, You can and then will be"
+Set Req = Spaceman.Speak("\Chr=""Whisper""\exit.")
+WaitFor Req
+Set Req = Joe.Speak("\Chr=""Whisper""\Computer can crash.")
+WaitFor Req
+Set Req = Check.Speak("\Chr=""Whisper""\PSU can explode.")
+WaitFor Req
+Set Req = Alien.Speak("\Chr=""Whisper""\USBs can plug and unplug.")
+WaitFor Req
+Spaceman.Speak "Exit Now."
+Set Req = Spaceman.Play("stargate")
+WaitFor Req
+Set Req = Wabbit.MoveTo(327, 679)
+WaitFor Req
+Set Req = Debbie.MoveTo(244, 687)
+WaitFor Req
+Merlin.MoveTo 879, 175
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

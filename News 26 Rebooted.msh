@@ -1,0 +1,918 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Genie=Genie.acs
+Al=Al.acs
+Alien=Alien.acs
+Audie=Audie.acs
+Ben=Ben.acs
+Billg=Billg.acs
+Blanche=Blanche.acs
+Cami=Cami.acs
+Cathie=Cathie.acs
+Claude=Claude.acs
+Debbie=Debbie.acs
+Cupid=Cupid.acs
+Gar=Gar.acs
+Isabella=Isabella.acs
+James=James.acs
+Joe=Joe.acs
+Marge=Marge.acs
+Oscar=Oscar.acs
+Ozzar=Ozzar.acs
+Spaceman=Spaceman.acs
+Sizlik=Sizlik.acs
+Robby=Robby.acs
+Felini=Felini.acs
+Milton=Milton.acs
+Wabbit=Wabbit.acs
+Wartnose=Wartnose.acs
+Birdie=Birdie.acs
+Merlin=Merlin.acs
+
+[LanguageIDs]
+Genie=&H409
+Al=&H409
+Alien=&H409
+Audie=&H409
+Ben=&H409
+Billg=&H409
+Blanche=&H409
+Cami=&H409
+Cathie=&H409
+Claude=&H409
+Debbie=&H409
+Cupid=&H409
+Gar=&H409
+Isabella=&H409
+James=&H409
+Joe=&H409
+Marge=&H409
+Oscar=&H409
+Ozzar=&H409
+Spaceman=&H409
+Sizlik=&H409
+Robby=&H409
+Felini=&H409
+Milton=&H409
+Wabbit=&H409
+Wartnose=&H409
+Birdie=&H409
+Merlin=&H409
+
+[Script]
+Genie.MoveTo 1327, 742
+Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Genie.Show
+Genie.Speak "We are at News 26 rebooted!"
+Genie.Speak "We recently got a report that our owner's laptop that is mentioned in News 15 in 2014 has been upgraded to Windows 10."
+Set Req = Genie.Speak("Go! Go!")
+WaitFor Req
+Al.MoveTo 1251, 748
+Al.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Al.Show
+Set Req = Al.Speak("Did you hear that our owner's laptop has been upgraded?")
+WaitFor Req
+Set Req = Genie.Speak("Yes.")
+WaitFor Req
+Set Req = Al.Speak("We will have 3 Windows 10 stories, 5 PSU explosion, and some other random news.")
+WaitFor Req
+Alien.MoveTo 1178, 753
+Alien.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Alien.Show
+Set Req = Alien.Speak("You will not believe this!")
+WaitFor Req
+Audie.MoveTo 1106, 750
+Audie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Audie.Show
+Set Req = Audie.Speak("We'll see, Genie.")
+WaitFor Req
+Genie.Speak "You didn't even see me yet, Audie."
+Set Req = Genie.Speak("Also, our owner's laptop has been upgraded to Windows 10. Let Birdie know about this. And Marlin, too. And our people, too.")
+WaitFor Req
+Audie.Play "Surprised"
+Set Req = Audie.Speak("So I will be jealous now...")
+WaitFor Req
+Set Req = Al.Speak("Also, our owner's signature says that he will get the Dell Optiplex 7050.")
+WaitFor Req
+Set Req = Genie.Speak("From where did you get this information?")
+WaitFor Req
+Set Req = Alien.Speak("Al got it from a forum.")
+WaitFor Req
+Set Req = Genie.Speak("Let's summon our people.")
+WaitFor Req
+Set Req = Audie.Speak("OK. Enough talking.")
+WaitFor Req
+Ben.MoveTo 1018, 706
+Ben.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Ben.Show
+Set Req = Ben.Speak("Hello. Let Bill sit next to me.")
+WaitFor Req
+Billg.MoveTo 975, 707
+Billg.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Billg.Show()
+WaitFor Req
+Set Req = Ben.Speak("Hello, Bill")
+WaitFor Req
+Billg.Speak "Hello."
+Set Req = Billg.Speak("We got a Windows 10 user.")
+WaitFor Req
+Set Req = Ben.Speak("Yes. And that's the owner of us.")
+WaitFor Req
+Set Req = Billg.Speak("First he used our oldest Windows 10 build, then he got version 1803, and in 9:22 AM, the October update reached 15%.")
+WaitFor Req
+Set Req = Ben.Speak("In which date did he install October update?")
+WaitFor Req
+Set Req = Billg.Speak("It's 12/14. Earlier, his laptop froze internally while installing it. We hope that his laptop doesn't freeze internally.")
+WaitFor Req
+Set Req = Audie.Speak("What do you mean by freezing internally?")
+WaitFor Req
+Set Req = Billg.Speak("Means that the laptop will never respond to anything except holding the power button.")
+WaitFor Req
+Blanche.MoveTo 917, 686
+Blanche.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Blanche.Show
+Blanche.Play "Surprised"
+Set Req = Blanche.Speak("I see you're talking about Windows 10.")
+WaitFor Req
+Cami.MoveTo 891, 754
+Cami.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Cami.Show
+Set Req = Cami.Speak("It seems that Bonzi doesn't want to come today.")
+WaitFor Req
+Set Req = Blanche.Speak("Does anybody know why?")
+WaitFor Req
+Set Req = Cami.Speak("Because of Windows 10")
+WaitFor Req
+Set Req = Blanche.Speak("Explain.")
+WaitFor Req
+Set Req = Cami.Speak("The owner of us got Windows 10!")
+WaitFor Req
+Set Req = Blanche.Speak("So he's jealous.")
+WaitFor Req
+Cathie.MoveTo 812, 684
+Cathie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Cathie.Show()
+WaitFor Req
+Claude.MoveTo 778, 740
+Claude.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Claude.Show()
+WaitFor Req
+Set Req = Cathie.Speak("Get out.")
+WaitFor Req
+Set Req = Claude.MoveTo(667, 738)
+WaitFor Req
+Debbie.MoveTo 760, 688
+Debbie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Debbie.Show()
+WaitFor Req
+Cupid.MoveTo 677, 591
+Cupid.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Cupid.Show
+Set Req = Cupid.Speak("Get out of my place.")
+WaitFor Req
+Set Req = Claude.MoveTo(613, 739)
+WaitFor Req
+Set Req = Cupid.MoveTo(684, 708)
+WaitFor Req
+Set Req = Claude.MoveTo(643, 743)
+WaitFor Req
+Set Req = Cupid.Speak("I heard that Windows 10 is installed on our owner's laptop. Beep?")
+WaitFor Req
+Set Req = Debbie.Speak("Yes")
+WaitFor Req
+Set Req = Cupid.Speak("Beep?")
+WaitFor Req
+Set Req = Cathie.Speak("Yes")
+WaitFor Req
+Set Req = Cupid.Speak("Beep? Beep? Beeep? Beeeeeeeep? Beeeeeeeeeeeeeeeeeeeeeeep?")
+WaitFor Req
+Set Req = Claude.Speak("Yes.")
+WaitFor Req
+Gar.MoveTo 596, 755
+Gar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Gar.Show
+Set Req = Gar.Speak("Let Spaceman know about this")
+WaitFor Req
+Isabella.MoveTo 520, 684
+Isabella.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Isabella.Show
+Isabella.Play "Angry"
+Isabella.Speak "Everything because of Windows 10!"
+Set Req = Isabella.Play("Kick")
+WaitFor Req
+Set Req = Gar.Speak("Are you jealous?")
+WaitFor Req
+Set Req = Isabella.Speak("Yes.")
+WaitFor Req
+James.MoveTo 491, 686
+James.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = James.Show()
+WaitFor Req
+Joe.MoveTo 430, 754
+Joe.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Joe.Show
+Set Req = Joe.Play("Assimilate")
+WaitFor Req
+Set Req = James.Speak("Why did you assimilate?")
+WaitFor Req
+Set Req = Joe.Speak("Because of Windows 10.")
+WaitFor Req
+Marge.MoveTo 312, 727
+Marge.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Marge.Show()
+WaitFor Req
+Oscar.MoveTo 226, 746
+Oscar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Oscar.Show()
+WaitFor Req
+Ozzar.MoveTo 176, 747
+Ozzar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Ozzar.Show()
+WaitFor Req
+Set Req = Marge.Speak("Don't occupy space for Spaceman and Sizlik.")
+WaitFor Req
+Spaceman.MoveTo 144, 659
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Spaceman.Show()
+WaitFor Req
+Sizlik.MoveTo 2, 687
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Sizlik.Show()
+WaitFor Req
+Set Req = Spaceman.Speak("Get out or I will kill you.")
+WaitFor Req
+Set Req = Ozzar.Speak("Stop threatening.")
+WaitFor Req
+Set Req = Spaceman.Speak("You can't tell me to stop because of you.")
+WaitFor Req
+Ozzar.Speak "Fine."
+Ozzar.Play "Announce"
+Set Req = Ozzar.Speak("Shrink away everyone.")
+WaitFor Req
+Set Req = Genie.MoveTo(1344, 743)
+WaitFor Req
+Set Req = Al.MoveTo(1290, 749)
+WaitFor Req
+Set Req = Alien.MoveTo(1238, 754)
+WaitFor Req
+Set Req = Audie.MoveTo(1169, 751)
+WaitFor Req
+Set Req = Ben.MoveTo(1089, 708)
+WaitFor Req
+Set Req = Billg.MoveTo(1055, 708)
+WaitFor Req
+Set Req = Blanche.MoveTo(1002, 685)
+WaitFor Req
+Set Req = Cami.MoveTo(981, 754)
+WaitFor Req
+Set Req = Cathie.MoveTo(902, 684)
+WaitFor Req
+Set Req = Debbie.MoveTo(850, 688)
+WaitFor Req
+Set Req = Cupid.MoveTo(787, 707)
+WaitFor Req
+Set Req = Claude.MoveTo(756, 739)
+WaitFor Req
+Set Req = Gar.MoveTo(701, 752)
+WaitFor Req
+Set Req = Isabella.MoveTo(623, 685)
+WaitFor Req
+Set Req = James.MoveTo(590, 689)
+WaitFor Req
+Set Req = Joe.MoveTo(529, 753)
+WaitFor Req
+Set Req = Marge.MoveTo(416, 728)
+WaitFor Req
+Set Req = Oscar.MoveTo(331, 747)
+WaitFor Req
+Set Req = Ozzar.MoveTo(282, 748)
+WaitFor Req
+Set Req = Spaceman.MoveTo(159, 790)
+WaitFor Req
+Set Req = Ozzar.Speak("That's a good shrink.")
+WaitFor Req
+Robby.MoveTo 215, 692
+Robby.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273006}"
+Robby.Show
+Set Req = Robby.Speak("Has everyone heard that our owner's laptop got improved and upgraded to Windows 10, although nobody has ever tried it and when everyone searched for Windows 10 Acer TravelMate 5330 the drivers will appear?")
+WaitFor Req
+Set Req = Spaceman.Speak("Yes.")
+WaitFor Req
+Sizlik.Speak "Yes."
+Sizlik.Play "Smile"
+Set Req = Sizlik.Speak("Also, Windows 10 is the last OS made by Microsoft, and then it will get updates through versions of Windows 10 like 1809 which is released.")
+WaitFor Req
+Set Req = Oscar.Speak("What happened with 1809?")
+WaitFor Req
+Set Req = Genie.Speak("Windows 10 Early October 2018 version 1809 deleted files and documents, and it's fixed now after being offline for a month.")
+WaitFor Req
+Set Req = Cathie.Speak("So everything is what's supposed to be.")
+WaitFor Req
+Set Req = Isabella.Speak("Yes. I agree.")
+WaitFor Req
+Set Req = Oscar.Speak("Me too.")
+WaitFor Req
+Set Req = Ozzar.Speak("Me too.")
+WaitFor Req
+Set Req = Robby.Speak("Me too.")
+WaitFor Req
+Set Req = Marge.Speak("Me too.")
+WaitFor Req
+Set Req = Al.Speak("Me too.")
+WaitFor Req
+Set Req = Genie.Speak("I can't agree. There is a bug in the fixed October update.")
+WaitFor Req
+Set Req = Isabella.Speak("What happened?")
+WaitFor Req
+Set Req = Genie.Speak("There's a conflict in a software.")
+WaitFor Req
+Set Req = Marge.Speak("OK. Let's summon more people.")
+WaitFor Req
+Felini.MoveTo 1143, 568
+Felini.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273007}"
+Set Req = Felini.Show()
+WaitFor Req
+Audie.Speak "Also, I'm leaving."
+Set Req = Audie.Hide()
+WaitFor Req
+Felini.MoveTo 1144, 686
+Set Req = Felini.Speak("I heard that.")
+WaitFor Req
+Set Req = James.Speak("Our owner's laptop got Windows 10!")
+WaitFor Req
+Milton.MoveTo 369, 715
+Milton.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Milton.Show()
+WaitFor Req
+Set Req = Cami.MoveTo(745, 549)
+WaitFor Req
+Set Req = Cathie.MoveTo(947, 684)
+WaitFor Req
+Set Req = Debbie.MoveTo(899, 691)
+WaitFor Req
+Set Req = Cupid.MoveTo(837, 707)
+WaitFor Req
+Set Req = Claude.MoveTo(799, 742)
+WaitFor Req
+Set Req = Gar.MoveTo(756, 757)
+WaitFor Req
+Set Req = Cami.MoveTo(783, 637)
+WaitFor Req
+Set Req = Isabella.MoveTo(672, 688)
+WaitFor Req
+Set Req = James.MoveTo(639, 688)
+WaitFor Req
+Set Req = Joe.MoveTo(574, 753)
+WaitFor Req
+Set Req = Marge.MoveTo(459, 729)
+WaitFor Req
+Milton.MoveTo 380, 751
+Set Req = Milton.Speak("Our owner's laptop got Windows 10.")
+WaitFor Req
+Wabbit.MoveTo 1285, -15
+Wabbit.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Wabbit.Show()
+WaitFor Req
+Cupid.Speak "I'm sitting next to Wabbit. I'm sorry."
+Cupid.MoveTo 1185, 4
+Cupid.Speak "Because we're now trackers."
+Set Req = Cupid.Speak("Beep?")
+WaitFor Req
+Set Req = Joe.Speak("Yes.")
+WaitFor Req
+Set Req = Claude.MoveTo(871, 745)
+WaitFor Req
+Set Req = Gar.MoveTo(818, 754)
+WaitFor Req
+Set Req = Cami.MoveTo(758, 753)
+WaitFor Req
+Wartnose.MoveTo 585, 657
+Wartnose.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273003}"
+Set Req = Wartnose.Show()
+WaitFor Req
+Set Req = Cupid.Speak("Wartnose, you're not supposed to be here.")
+WaitFor Req
+Set Req = Wartnose.Speak("I have made the install process go into Initializing process...")
+WaitFor Req
+Set Req = Cupid.Speak("Get out.")
+WaitFor Req
+Set Req = Wartnose.Hide()
+WaitFor Req
+Set Req = Sizlik.Speak("Guys, when does Birdie come?")
+WaitFor Req
+Milton.Speak "He's coming. Everyone be quiet."
+Milton.Play "Announce"
+Set Req = Milton.Play("AnnounceReturn")
+WaitFor Req
+Birdie.MoveTo 671, 271
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Birdie.Show
+Set Req = Birdie.Speak("Marlin, come here.")
+WaitFor Req
+Merlin.MoveTo 611, 284
+Merlin.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Merlin.Show
+Set Req = Merlin.Speak("Our owner's laptop got Windows 10.")
+WaitFor Req
+Set Req = Birdie.Speak("I've been informed by someone that our owner's laptop has been upgraded to Windows 10, although nobody ever tried it on their Acer TravelMate 5330.")
+WaitFor Req
+Set Req = Oscar.Speak("So everybody knew now.")
+WaitFor Req
+Set Req = Merlin.Speak("Let's start now.")
+WaitFor Req
+Set Req = Birdie.Speak("Hello guys")
+WaitFor Req
+Set Req = Spaceman.Speak("Hello guys? How are you?")
+WaitFor Req
+Set Req = Sizlik.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Robby.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Ozzar.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Oscar.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Milton.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Marge.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Joe.Speak("Hello, fine.")
+WaitFor Req
+Set Req = James.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Isabella.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Cami.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Gar.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Claude.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Debbie.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Cathie.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Blanche.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Billg.Speak("Hello, fine.")
+WaitFor Req
+Ben.Speak "Hello, fine."
+Set Req = Ben.MoveTo(1101, 708)
+WaitFor Req
+Set Req = Felini.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Alien.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Al.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Genie.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Wabbit.MoveTo(1270, 10)
+WaitFor Req
+Set Req = Cupid.MoveTo(1169, 30)
+WaitFor Req
+Set Req = Wabbit.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Cupid.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Merlin.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Birdie.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Spaceman.Speak("All listen to Birdie now?")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes.")
+WaitFor Req
+Set Req = Robby.Speak("Me too")
+WaitFor Req
+Set Req = Ozzar.Speak("Me too")
+WaitFor Req
+Set Req = Oscar.Speak("Me too")
+WaitFor Req
+Set Req = Marge.Speak("Me too")
+WaitFor Req
+Set Req = Joe.Speak("Me too")
+WaitFor Req
+Set Req = James.Speak("Me too")
+WaitFor Req
+Set Req = Isabella.Speak("Me too")
+WaitFor Req
+Set Req = Cami.Speak("Me too")
+WaitFor Req
+Set Req = Gar.Speak("Me too")
+WaitFor Req
+Set Req = Claude.Speak("Me too")
+WaitFor Req
+Set Req = Debbie.Speak("Me too")
+WaitFor Req
+Set Req = Cathie.Speak("Me too")
+WaitFor Req
+Set Req = Blanche.Speak("Me too")
+WaitFor Req
+Set Req = Billg.Speak("Me too")
+WaitFor Req
+Set Req = Ben.Speak("Me too")
+WaitFor Req
+Set Req = Felini.Speak("Me too")
+WaitFor Req
+Set Req = Alien.Speak("Me too")
+WaitFor Req
+Set Req = Al.Speak("Me too")
+WaitFor Req
+Set Req = Genie.Speak("Me too")
+WaitFor Req
+Set Req = Wabbit.Speak("Me too")
+WaitFor Req
+Set Req = Cupid.Speak("Me too")
+WaitFor Req
+Set Req = Merlin.Speak("Me too")
+WaitFor Req
+Set Req = Birdie.Speak("Me too")
+WaitFor Req
+Set Req = Milton.Speak("Me too")
+WaitFor Req
+Set Req = Genie.Speak("Debian got Firefox Quantum ESR working on non-SSE2 processors.")
+WaitFor Req
+Set Req = Isabella.Speak("It seems that every application is switching to SSE2 instructions")
+WaitFor Req
+Birdie.Speak "Although that, we'll use Firefox 48."
+Birdie.Speak "Firefox 49 now requires SSE2, although it runs fine on Linux."
+Set Req = Birdie.Speak("Firefox 52 now requires SSE2 on all systems unless Debian or someone else has managed to get it working.")
+WaitFor Req
+Set Req = Cupid.Speak("So SSE2 is popular.")
+WaitFor Req
+Set Req = Spaceman.Speak("Are everyone's computers have SSE2?")
+WaitFor Req
+Set Req = Sizlik.Speak("All yes.")
+WaitFor Req
+Set Req = Birdie.Speak("It's because Windows 7 couldn't be run on 7th gen of Intel Core i7.")
+WaitFor Req
+Set Req = Milton.Speak("OK, please news begin.")
+WaitFor Req
+Genie.Speak "We will wait for opening the website."
+Set Req = Genie.Speak("Can I search it?")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes")
+WaitFor Req
+Set Req = Merlin.Speak("So we have our new News system. 3 stories is for Birdie, 3 for Marlin, 3 for Birdie, and so on.")
+WaitFor Req
+Set Req = Birdie.Speak("Yes, we would like to announce this system and use it temporarily.")
+WaitFor Req
+Set Req = Merlin.Speak("And now, according to the time, the Feature update for Windows 10, version 1809, it's 11% downloaded.")
+WaitFor Req
+Set Req = Cami.Speak("Yes, because Windows Update is corrupted.")
+WaitFor Req
+Genie.Speak "I'm opening the website."
+Set Req = Genie.Speak("Can I search it?")
+WaitFor Req
+Set Req = Robby.Speak("Yes")
+WaitFor Req
+Set Req = Sizlik.Speak("Guys, what do Birdie wait?")
+WaitFor Req
+Set Req = Spaceman.Speak("For the website.")
+WaitFor Req
+Set Req = Birdie.Speak("We will begin by PSU explosion.")
+WaitFor Req
+Genie.MoveTo 683, 15
+Genie.Play "GestureRight"
+Set Req = Genie.Speak("We will wait.")
+WaitFor Req
+Set Req = Milton.Speak("It's loaded.")
+WaitFor Req
+Set Req = Sizlik.Speak("Windows 10 begins now.")
+WaitFor Req
+Set Req = Spaceman.Speak("No.")
+WaitFor Req
+Birdie.Speak "He's going to buy a new rig, so he cleans up his old rig to put in his sister's room for her to use."
+Birdie.Speak "After moving rig, PC turns on, games and everything all running okay for few days."
+Birdie.Speak "Suddenly one day he turned it off overnight, and he tried to turn it back on, but he can't."
+Birdie.Speak "When the power button is pressed, there will be a faint click sound coming from the PSU. Nothing powers on. Fans do not spin, no beep, nothing. Tried removing, reseating rams, permutations of unplugging wires, unplug everything except motherboard and PSU but to no avail. However, motherboard's green power button lights up and GPU power indicator also lights up, but nothing spins or works."
+Birdie.Speak "So he left it overnight, next morning he plugged back in socket."
+Set Req = Birdie.Speak("He turned on the socket and there goes a pretty loud pop sound. Everything looks okay in the case except from a faint burnt plastic smell coming from the PSU.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "Earlier today his computer exploded. (he's using one of his roommates right now)"
+Set Req = Birdie.Speak("Okay so his computer didn't blow up into millions of little pieces, but it shot out some sparks and possibly short circuited. Now it will not turn on.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Set Req = Genie.MoveTo(1345, 745)
+WaitFor Req
+Birdie.Speak "He unfortunately had his TX650W explode this morning after just turning it on at the wall."
+Birdie.Speak "There was a loud bang, a flash from within the PSU and sparks. No smoke nor any burning smell though. It did however manage to trip the electricity on the house's fuse box."
+Birdie.Speak "He has had a smaller bang like this before but it didn't cause the electricity in the house to trip nor did it worry him that it may have been a faulty PSU."
+Birdie.Speak "He only bought it last November as a replacement for his Tagan 600W Dual-Engine that was struggling to power his system (since it has 4x 12V rails at 20A each and not one single strong rail). Ever since having it, he has noticed a high pitched noise emitting from the PSU on a cold boot. After half an hour it would disappear, so he thought this was normal."
+Set Req = Birdie.Speak("He has taken the PSU out and put his Tagan 600W back in for now as he will simply not touch this PSU any longer. Thankfully it didn't cause any damage to his hardware and the Tagan PSU is running smoothly.")
+WaitFor Req
+Set Req = Milton.Speak("There are 2 stories remaining, so speak next Birdie.")
+WaitFor Req
+Birdie.Speak "A few months ago, he had the proudest moment of his life when he built his own PC. It's been working perfectly, until a few nights ago when the Power supply failed with a strong smell of burning (actually set off a smoke alarm)."
+Birdie.Speak "He has just got a replacement and connected it up, and the PC is still dead."
+Set Req = Birdie.Speak("When he turned his computer on, the case lights came on, the fan kicked in, but all this happens for only about half a second, and then everything goes totally dead again. None of this last long enough for anything to appear on the monitor, and there are no POST beeps.")
+WaitFor Req
+Set Req = Oscar.Speak("We are at the last story.")
+WaitFor Req
+Set Req = Cupid.Speak("Beep?")
+WaitFor Req
+Merlin.Speak "Yes."
+Merlin.Speak "His mate's chieftech power supply went off with a bang and a little puff of smoke a few days ago. He wasn't there so he doesn't know how it happened. He has an ASUS A7N8X Deluxe with a 2500+ Barton and 512MB Crucial PC2700."
+Merlin.Speak "He just fitted a new power supply for him to replace the dead one and Windows XP came up first time for about 30 secs, then the machine died, screen went blank, etc."
+Merlin.Speak "Now when he turns the power on, nothing happens, no motherboard beeps, nothing and the machine does not attempt to boot anything. He has tested the hard drives in another system, they're OK but not been able to test CPU, RAM, GFX card which is Leadtek GF4 4200 yet."
+Set Req = Merlin.Speak("His suspicion is that the motherboard got killed, because if it was anything else, he'd get mobo beep codes telling him about CPU problems or whatever else.")
+WaitFor Req
+Set Req = Genie.Speak("We will go to Windows 10 stories, and then some random ones.")
+WaitFor Req
+Merlin.Speak "He has had his HP Pavilion Power for around 6 months. Starting yesterday, his laptop won't boot past the manufacturer's logo, displaying the error 'Boot device not found' and emitting LED sequences using the caps-lock key (it will blink 5 long times and 4 short times)"
+Merlin.Speak "This started happening directly after a BSOD (unexpected store exception). Before that the laptop was running perfectly fine."
+Merlin.Speak "He's unable to perform a system restore/factory reset as the HP recovery tool always encounters errors when I try to scan the laptop for boot problems/reset to factory settings."
+Merlin.Speak "He has tried running the advanced system diagnostics tool via F11 however that encounters an error (without displaying a log) and directs him back to advanced options."
+Merlin.Speak "He has run certain commands in CMD (such as bootrec) but nothing has helped. He has restored the boot order to default settings yet that has not solved the problem."
+Merlin.Speak "He's not an expert with laptops. It has no malicious software on it."
+Set Req = Merlin.Speak("He had scanned the hard drive completely the day before this happened and he's not sure what to do, if necessary he can completely reinstall Windows 10.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Merlin.Speak "He's trying to upgrade a Windows 7 Pro PC to Windows 10 using a DVD, but is unable to do so."
+Merlin.Speak "To start with, the setup goes to 36-37% just fine, then gets stuck for a while, then it restarts the installation, repeating this cycle a couple of times, then finally at 6% the installation stops and gives an error 'setup has failed to initialize working directory'."
+Merlin.Speak "He has tried installing it in safe mode too, but to no avail."
+Merlin.Speak "He has very recently upgraded the hardware with i3-7100, Gigabyte MS motherboard and Kingston 4 GB DDR4 RAM. He has about 250 GB free on the C drive (where the Windows installation is)."
+Merlin.Speak "He ran a SFC scan and it threw up some results, with the message that it found some corrupt files that could not be repaired. He has not taken any action on that."
+Set Req = Merlin.Speak("The computer is on a network and all the other computers on the network have Windows 10, except for this one.")
+WaitFor Req
+Birdie.Speak "We're at the last story."
+Birdie.Speak "He is unable to update his computer from Windows 10 build 1803.17134.345 to build 1809, despite numerous attempts."
+Birdie.Speak "Every single time it has failed and he has received various errors, including:"
+Birdie.Speak "0xC1900101"
+Birdie.Speak "0xC19001E1"
+Birdie.Speak "0x8024000B"
+Birdie.Speak "0x800706BA"
+Birdie.Speak "Steps taken to resolve this and push the update to go through have all failed, always giving one of the above error messages and rolling back to his current build. sfc /scannow comes up clean and does not find any corrupted files. DISM /Online /Cleanup-Image /RestoreHealth also does not find and fix anything. Following the instructions posted here also does not do the trick. Attempting from a clean boot (as described here) and same error."
+Birdie.Speak "One of those errors - he thinks 0xC1900101 - is a driver related problem. He's reluctant to go down the fresh install route in case there really is an incompatible driver, in which case it'll never update. The hardware is quite old now (about 9 years) but don't want to shell out for a new PC when this one is perfectly OK for what he uses it for. There is definitely enough disk space (35 GB)."
+Birdie.Speak "Unfortunately, there seems to be no way of stopping the repeated attempts: every week it tries to update, resulting in wasting some 3/4 hour only to have it roll back and not update."
+Set Req = Birdie.Speak("He has tried to post into the Microsoft forums, but when he press Submit he gets this cursor which consists of a circle icon with a diagonal red line through it, and he waits for ages and the post is not made.")
+WaitFor Req
+Set Req = Cupid.Speak("We will now go to the random news, including scammers, some more PSU explosions, some more Windows 10, and more types until we're finished. Beep? Beep?")
+WaitFor Req
+Set Req = Joe.Speak("Yes")
+WaitFor Req
+Birdie.Speak "Yes"
+Birdie.Speak "He has a Dell computer running XP that a friend brought to him. The scammer had locked him out and when you start it, before POST, it asks for a password. You can not get into setup or BIOS, it will not do anything and when you try different passwords it beeps at you and even though it says you have 7 chances it then says it requires a shut down."
+Birdie.Speak "He was finally able to get past that by moving the jumper on the motherboard to clear the password and then he could get into BIOS and he cleared all the passwords, including administrator."
+Set Req = Birdie.Speak("Now when he starts it he gets to the Windows welcome screen, then the screen goes black and it's asking for a Windows password. It shouldn't be asking for one cause he cleared it! But now he can't get the USB mouse or keyboard to work so he can't put in a password or even just hit the space bar to continue!")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Set Req = Birdie.Speak("Windows XP Pro is connected to the internet but browser will not access websites.")
+WaitFor Req
+Set Req = Sizlik.Speak("Ready for next.")
+WaitFor Req
+Merlin.Speak "When he performs a file search (Windows XP SP3) and want to see what folder the file is in, he'd right-click it (from the Search Results window) to open the context menu and choose Open Containing Folder. Instead, the Open With window pops up asking you to choose a program when normally it should've been the folder itself. Trying this suggested fix (from another site) failed to resolve the problem:"
+Merlin.Speak "Click Start, Run and type Regedit.exe"
+Merlin.Speak "Navigate to the following branch"
+Merlin.Speak "HKEY_CLASSES_ROOT/Directory/shell"
+Merlin.Speak "In the right-pane, double-click the (default) entry"
+Merlin.Speak "Type the word none and press Enter"
+Merlin.Speak "Close Regedit.exe"
+Set Req = Merlin.Speak("This problem surfaced when he changed a default XP theme with a third party file, although he's not sure this is the culprit. Also, Malwarebytes and a boot-time scan with avast showed nothing suspect.")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Set Req = Merlin.Speak("He has just turned on his Windows XP Dell computer and a black screen with a flashing underscore has appeared")
+WaitFor Req
+Set Req = Marge.Speak("Next")
+WaitFor Req
+Merlin.Speak "He recently got a problem which have escalated severely over the past week."
+Merlin.Speak "It started out as a small problem with his keyboard and mouse malfunctioning after some time at the computer"
+Merlin.Speak "The keyboard lost all of it's original settings; ESC became Tab, Tab became Shift+Tab, Enter became Undo and Redo. Most of the other buttons did nothing"
+Merlin.Speak "The mouse right click appears for only 0.5 seconds and then disappears."
+Merlin.Speak "But now the problem appears between log-in and after 15 min. What he also noticed is that, he couldn't click on any tabs in his browser and clicking on any links just downloads it instead of opening it."
+Set Req = Merlin.Speak("He decided to reinstall his computer today, totaly clean (except the option if he should give his computer away clean) and yet it problem resurfaced after 30 min or so.")
+WaitFor Req
+Set Req = Sizlik.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "He would like to know how to recreate an MBR for a BIOS/MBR PC in Windows 10."
+Birdie.Speak "He has a PC which he recently 'zeroed' his HDD using dd in Linux (live USB stick) and he flushed the MBR of the PC using TestDisk, also from the same live USB stick (Gparted Live) (The bootloader was previously Grub, which he removed). He then reinstalled Windows 7 and upgraded it to Windows 10."
+Birdie.Speak "So, now his PC has only Windows 10 (The second partition, C:\; File system: NTFS). There is also a hidden factory recovery partition (The first partition, Windows 7 OEM, File system: W95 FAT Hidden). The rest of the HDD are also in NTFS (The third partition, D:\)."
+Birdie.Speak "His PC is now working fine, but when he does a hexdump using Linux's od command from GParted Live, he realized that the MBR is still TestDisk's 'temporary MBR'."
+Birdie.Speak "He's not very familiar with the Windows booting process, although he has a rough picture of what's going on. So, he did some research online to figure out what are the steps that he needs to take to get back an original MBR code created by Windows."
+Birdie.Speak "He is pretty sure he will need to use Bootrec.exe and the fixmbr command."
+Set Req = Birdie.Speak("Basically, he's not sure if changing the MBR code altogether will necessitate a change in the boot sector's code. He's pretty sure after the PC is done with the MBR during the early stages of booting, it will move on to the NTFS boot sector in the partition (assuming that its file system is NTFS) marked 'active'.")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "For some strange reason when he was downloading pictures, it asked him something weird about active desktop and he just kept clicking yes so he's not really sure."
+Set Req = Birdie.Speak("Now after that it waited a few seconds and suddenly all his icons and text on his desktop were surrounded by a dark blue color.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Birdie.Speak "He was just installing something on his dad's computer when he kept having to restart the computer because it would stall or get the prolonged hourglass. Apparently, this is common for him to have to restart a few times."
+Birdie.Speak "He said that it only works when he gets a notice from the anti-virus that was installed when he bought the computer. The notice pops up that his anti-virus has expired."
+Set Req = Birdie.Speak("When that appears he can use his computer without problems, when it doesn't then there are problems.")
+WaitFor Req
+Set Req = Sizlik.Speak("Ready for next")
+WaitFor Req
+Merlin.Speak "Starting in July or so, his computer began saving QuickFinder information files individually on his C drive. There are so many of them, it's hard to find his other files & folders."
+Set Req = Merlin.Speak("He doesn't know what sort of files these are exactly, they just say QuickFinder info file and have the .idx extension, which doesn't help him pinpoint them. Trying to open them just brings up the error message that Windows can't open the file without knowing what program created it")
+WaitFor Req
+Set Req = Marge.Speak("Next")
+WaitFor Req
+Merlin.Speak "A friend is getting the message that there is a Power Surge on Hub Port and that a USB device has exceeded the power limits of its hub port on their laptop when he tries to use his USB mouse and the plug and play icons keep flickering."
+Merlin.Speak "So far he has uninstalled and reinstalled any driver updates, and uninstalled and reinstalled USB controllers but no luck."
+Set Req = Merlin.Speak("He has also scanned his PC with MalwareBytes but it’s clean.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Merlin.Speak "XP is running dangerously slow. Even when he types right now, it's freezing and acting up."
+Merlin.Speak "He doesn't think it's spyware or virus since he has scanned and they're both clean. Do you have a clue how to get it working at a normal speed again? Thanks in advance."
+Set Req = Merlin.Speak("Also when he boots up, he always has to go to 'Last Good Configuration' to get it working. If he doesn't, blue screen appears and restarts straight away. He thinks it has a message about something that involves about the video card.")
+WaitFor Req
+Set Req = Joe.Speak("Windows XP can run slowly.")
+WaitFor Req
+Birdie.Speak "He recently replaced the motherboard and CPU (ECS Motherboard and Intel Dual Core 2.8 GHz E6300 processor) on his old homebrew XP machine (which was a 1.7 GHz Celeron, 32-bit platform) and now Windows XP will not boot, and he gets the famous 'We apologize for the inconvenience, but Windows did not start successfully' message and this is followed with cycling reboots - He can't even boot into safe mode."
+Set Req = Birdie.Speak("In an attempt to narrow down the problem, he booted from his original MB and CPU (with the same HD) and am able to boot into Windows XP in normal mode. He has thought that this has something to do with his new motherboard's ability to boot an old ATA 133 hard drive in the proper mode, or the fact that XP doesn't recognize some of the ancillary chipsets in his new motherboard. But with his successful boot with his old setup, he doesn't think his Hard Drive is the problem.")
+WaitFor Req
+Set Req = Sizlik.Speak("Ready for Next.")
+WaitFor Req
+Birdie.Speak "He has a problem when he clicks to any links from any search engine results. It usually directs him to toreeka/ave99/shopica websites."
+Set Req = Birdie.Speak("He ran the combofix already and it's clean")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "For the past four days he has been fighting a persistent infection in his OS. He has run a number of anti-virus, anti-malware and utilities to clean the infection.  Initially the problem was a massive increase in hardware interrupts consuming over 80-90% of the CPU and causing dithering in media player."
+Birdie.Speak "He assumed at first that this was a problem with his hardware or drivers. He ran RATT (driver trace app) in the background and read the log finding that there was extensive activity for a driver referred to as unknown."
+Birdie.Speak "He figured that this most be some kind of serious malware and started scanning with different apps. He also ran a number of rootkit revealers and small utilities to determine what 'ghost' driver(s) were running. Nothing could be detected in safe-mode and the only clues were provided by rootkit reveal (running in normal windows). It showed he had a number of drivers that were in operation that did not exist in the file system."
+Birdie.Speak "Essentially what he found was that he had a 'kernel mode' root kit rather than a 'userland' version. It still took him a couple days to figure out what he should've known which was that the drivers are all part of the same image and in the same memory address. Worst of all they have taken over ntkrnlpa.exe."
+Birdie.Speak "After learning this he ran a command console with sfc /scannow, then checked his system folder, analyzing all of the NT kernel files with filealyzer (hex+PE editor) and to him horror everyone of them is infected! including those files in an old Windows installation on an attached hard drive. So now he's pretty worried as he is unsure that he will be able to remove this infection from his system without reinstalling XP."
+Set Req = Birdie.Speak("He has been pretty conservative so far with the exception of no backups and shutting off system restore which was to prevent reinfection should he manage to clean the system.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Merlin.Speak "From the last 3 hours he was browsing on the Internet and everything was just fine but suddenly light was gone and he forgot to switch off his pc from main switch."
+Merlin.Speak "When the light is back his PC switches on directly and was stuck at welcome screen a little while administrator appears and when he clicks on it, it's saying 'saving settings' and nothing to do."
+Set Req = Merlin.Speak("He restarted his PC and try with safe mode but result was same so please help me.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Set Req = Merlin.Speak("He recently built a new computer, and he has noticed that occasionally, upon boot-up, that the left half of his screen is completely messed up, but the right half of the screen is fine. This 'messed' up screen on boot-up lasts through the motherboard splash screen, the Windows 7 splash screen, but as soon as the boot-up reaches the desktop, everything is fine. It's an intermittent problem, but annoying because if he wants to go into BIOS, he can't because he'd only be able to see half the screen.")
+WaitFor Req
+Set Req = Cupid.Speak("Ready for next.")
+WaitFor Req
+Merlin.Speak "He got a 5870 2 days ago and on boot up it worked fine, but then after loading latest 10.8 drivers and rebooting the display was corrupt looking as if the refresh was too high."
+Merlin.Speak "After messing about a bit, he removed the DVI and plugged in the HDMI input. The display was perfect. No problems. It was the initial welcome screen that appeared corrupt but after changing the input it looked fine."
+Set Req = Merlin.Speak("After rebooting again, had the same problem with the HDMI port. Changed back to DVI and the display was fine again. So he left it on DVI, as it looks better than HDMI, but now he has to reseat the DVI on the card each time he starts up or reboot. Another odd thin, this only seems happen if the monitor is powered on at boot time or when he reboots. If he leaves it off until he gets to the welcome screen of Windows XP 32-bit, and then switch the monitor on then all graphics are fine. All welcome screen icons are available.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Birdie.Speak "OK, it all started when he ran ad-aware SE and it found some adware. He looked over them and nothing looked essential to the computer running, so he deleted them."
+Birdie.Speak "So he rebooted. After it, he gets a system network error right after he selected the name he wanted to get on Windows XP with. He can't remember exactly what it said but it gave him 1 minute before it would auto-shutdown his computer and he couldn't stop it, so he had to wait."
+Birdie.Speak "Then when his computer came back on, he couldn't get on the Internet. He tried everything, but it wouldn't connect."
+Birdie.Speak "So then he thought that he had just deleted some important files when he ran ad-aware."
+Birdie.Speak "He then decided to pop in his Windows XP Pro disc and do a repair and it goes fine. Then it reboots after it finishes repairing and the first thing he saw after he saw his Intel motherboard splash screen, is an error screen (not blue, its black) that says there was an error and if he wanted to start in safe mode, safe mode with networking, safe mode with command prompt, last known good configuration, or start windows normally."
+Set Req = Birdie.Speak("He tried all of them and none of them helped him. with each he got the same error: His computer would come to that black screen he just described above, then no matter what he picked, it would go to the Windows XP splash screen. It would just hang there for about 2 seconds and then jump right to a blue screen and it stays on for about half a second, and then it restarts and keeps doing this loop.")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "He has not used this computer for the past couple of years, and the few times he has tried to turn it on recently, he gets a blue screen that reads:"
+Birdie.Speak "STOP: c0000221 {Bad Image Checksum}"
+Birdie.Speak "The image ole32.dll is possibly corrupt. The header checksum does not match the computed checksum."
+Birdie.Speak "The way it happens is that after the Windows XP logo screen shows up (the one with the 'loading' bar), he gets a blue screen that flashes so quickly he can't read it, and then the computer restarts. He can get the blue screen to stay by hitting F8 repeatedly as the computer boots up, then selecting 'Disable automatic restart on system failure' from the menu."
+Birdie.Speak "Also from that F8 screen, he has tried starting in the following modes but the same problem happens, where it gets to the XP logo/loading screen, then has the blue screen flash and reboots:"
+Birdie.Speak "- safe mode"
+Birdie.Speak "- last known good configuration"
+Birdie.Speak "- debugging mode"
+Birdie.Speak "He has been pointed to this page (http://support.microsoft.com/default.aspx?scid=kb;en-us;326687&Product=winxp) but he is a little confused by it, especially because he doesn't have a Windows 98 or ME disk. This computer came from Dell in 2000 with Windows 98 on it, and he installed XP on it a year or two later from a Windows XP Professional CD, and used the computer successfully for the next few years, installing a service pack or two along the way."
+Birdie.Speak "He can't find a way to follow their instructions to create a Windows 98 start-up disk from MS-DOS because he's not running 98 on this machine."
+Birdie.Speak "Other message boards have suggested to try going into 'repair' mode by inserting his Windows XP installation disk. He followed the instructions here (http://www.michaelstevenstech.com/XPrepairinstall.htm), without backing up his data because he can't get into my operating system to do that."
+Birdie.Speak "He got as far as step 3, as listed under 'XP Repair Install.' But when he hits 'enter' to start the Windows Setup, he got this message:"
+Birdie.Speak "'Setup did not find any hard disk drives installed in your computer."
+Birdie.Speak "'Make sure any hard disk drives are powered on and properly connected to your computer, and that any disk-related hardware configuration is correct. This may involve running a manufacturer-supplied diagnostic or setup program."
+Set Req = Birdie.Speak("'Setup cannot continue. To quit Setup, press F3.'")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He has a Dell Inspiron 1501 running Windows XP with 2GB RAM memory and 80GB hard disk and 40% free space. Without notice, while running programs or simply surfing the Internet, it sometimes just stops, it doesn't turn off, it just freezes and becomes motionless, and there is no way he can do until he manually turn it off."
+Set Req = Birdie.Speak("He has McAfee virus scan installed and PC Tools, and they both tell him that his computer is free of viruses.")
+WaitFor Req
+Set Req = Milton.Speak("2 stories left.")
+WaitFor Req
+Merlin.Speak "He recently bought a new higher wattage power supply (450 watt Foxconn taken out of a new Chieftech case) and a hard drive."
+Merlin.Speak "He put them into his computer, reinstalled Windows 2000, drivers, etc. Everything was running fine except that the computer seemed to lock up or randomly shutdown/reboot without warning. After a few power failures his Windows install was all messed up, so he reformatted and reinstalled. Again, lock ups / power failure."
+Merlin.Speak "So he went out and bought a 330W Antech True PSU, hoping to end those problems (and new IDE cables too)."
+Merlin.Speak "Here is where it gets interesting. He reformatted/reinstalled again without a glitch. He got everything running beautifully."
+Set Req = Merlin.Speak("He powered the computer down, unplugged it, and reconnected the power supply hook ups into a less messy arrangement, plugged the power cord back in and hit the switch. Nothing happened. 3 seconds later, it made a boom and there is a giant blue flash and a loup pop from the PSU.")
+WaitFor Req
+Set Req = Joe.Speak("Last story, then we'll exit.")
+WaitFor Req
+Merlin.Speak "He just put together a new computer and he's experiencing an annoying sound. It is a screeching sound, sometimes even a scratching sound."
+Merlin.Speak "It seems to be coming from the power supply."
+Merlin.Speak "He can create it easily by opening Firefox and some big site and there it is. He also got it from moving windows around, scrolling and just pressing down his mouse."
+Merlin.Speak "He has ran OCCT and sometimes during the test (power supply test), he got a higher sound (especially when moving the windows)."
+Merlin.Speak "Also to note is that he sometimes get a screeching sound sent through his mic (annoying for people listening to him) and this is easily fixed by unplugging and plugging in the mic, though it re-appears after some random time."
+Merlin.Speak "He has run memtester, OCCT and no obvious errors have turned up. All games/application seem to be working fine."
+Set Req = Merlin.Hide()
+WaitFor Req
+Set Req = Birdie.Hide()
+WaitFor Req
+Set Req = Spaceman.Speak("Exit news?")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes")
+WaitFor Req
+Set Req = Joe.Speak("Yes")
+WaitFor Req
+Set Req = Gar.Speak("Yes")
+WaitFor Req
+Set Req = Genie.Speak("Yes")
+WaitFor Req
+Set Req = Spaceman.Hide()
+WaitFor Req
+Set Req = Sizlik.Hide()
+WaitFor Req
+Set Req = Wabbit.MoveTo(90, 685)
+WaitFor Req
+Cupid.MoveTo 37, 663
+Set Req = Cupid.MoveTo(-2, 705)
+WaitFor Req
+Set Req = Robby.MoveTo(216, 742)
+WaitFor Req
+Milton.Speak "This news is interesting."
+Set Req = Milton.Speak("So let's exit.")
+WaitFor Req
+Set Req = Oscar.Play("Idle1_2")
+WaitFor Req
+Set Req = Cupid.Speak("Beep Oscar.")
+WaitFor Req
+Set Req = Oscar.Speak("I'm sneezing.")
+WaitFor Req
+Set Req = Cupid.Speak("For those who are sneezing, we'll exit.")
+WaitFor Req
+Oscar.Speak "I'll be exit."
+Set Req = Oscar.Hide()
+WaitFor Req
+Set Req = Ozzar.MoveTo(316, 747)
+WaitFor Req
+Set Req = Robby.MoveTo(252, 746)
+WaitFor Req
+Set Req = Wabbit.MoveTo(134, 685)
+WaitFor Req
+Cupid.MoveTo 53, 706
+Set Req = Cupid.Speak("Windows 10 is popular now. Windows 7 will end support.")
+WaitFor Req
+Set Req = Joe.Speak("So that the last OS that doesn't require SSE2 (Windows 7) will not be supported.")
+WaitFor Req
+Set Req = Wabbit.Speak("Let's wait for that moment for Windows 10 to get more population than Windows 7 and Windows XP.")
+WaitFor Req
+Set Req = Claude.Speak("But Windows XP is still used till now.")
+WaitFor Req
+Set Req = Gar.Speak("Yes.")
+WaitFor Req
+Set Req = Wabbit.Hide()
+WaitFor Req
+Set Req = Cupid.Hide()
+WaitFor Req
+Robby.Speak "I'll go."
+Set Req = Robby.Hide()
+WaitFor Req
+Billg.Speak "Let's go, Ben."
+Set Req = Billg.Hide()
+WaitFor Req
+Set Req = Ben.Hide()
+WaitFor Req
+Set Req = Felini.MoveTo(1077, 682)
+WaitFor Req
+Set Req = Alien.MoveTo(1167, 754)
+WaitFor Req
+Set Req = Al.MoveTo(1239, 749)
+WaitFor Req
+Genie.MoveTo 794, 326
+Set Req = Genie.Speak("Exit news?")
+WaitFor Req
+Set Req = Milton.Speak("Yes.")
+WaitFor Req
+Set Req = Genie.Hide()
+WaitFor Req
+Set Req = Joe.Speak("Also, News won't be news without Genie.")
+WaitFor Req
+Set Req = Gar.Speak("Because Genie doesn't exit every single time like us. Same for Birdie and sometimes Marlin.")
+WaitFor Req
+James.Speak "We'll see him broadcasting news."
+Set Req = James.Hide()
+WaitFor Req
+Set Req = Isabella.MoveTo(631, 686)
+WaitFor Req
+Set Req = Cami.MoveTo(718, 752)
+WaitFor Req
+Al.MoveTo 721, 342
+Al.Speak "What you're saying is right. We got a report that News 27 will have a new broadcaster, and it's Genie for not exiting."
+Set Req = Al.Hide()
+WaitFor Req
+Felini.Speak "Let's stop talking and exit News now.."
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

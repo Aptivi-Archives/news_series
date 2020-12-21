@@ -1,0 +1,1599 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Al=Al.acs
+Alien=Alien.acs
+Blanche=Blanche.acs
+Cami=Cami.acs
+Cathie=Cathie.acs
+Debbie=Debbie.acs
+Gar=Gar.acs
+Check=Check.acs
+Cupid=Cupid.acs
+Gourdy=Gourdy.acs
+Hanz=Hanz.acs
+James=James.acs
+Joe=Joe.acs
+Merlin=Merlin.acs
+Milton=Milton.acs
+Oscar=Oscar.acs
+Ozzar=Ozzar.acs
+Peedy=Peedy.acs
+Sizlik=Sizlik.acs
+Spaceman=Spaceman.acs
+Birdie=Birdie.acs
+Genie=Genie.acs
+Robby=Robby.acs
+Totem=Totem.acs
+Wartnose=Wartnose.acs
+
+[LanguageIDs]
+Al=&H409
+Alien=&H409
+Blanche=&H409
+Cami=&H409
+Cathie=&H409
+Debbie=&H409
+Gar=&H409
+Check=&H409
+Cupid=&H409
+Gourdy=&H409
+Hanz=&H409
+James=&H409
+Joe=&H409
+Merlin=&H409
+Milton=&H409
+Oscar=&H409
+Ozzar=&H409
+Peedy=&H409
+Sizlik=&H409
+Spaceman=&H409
+Birdie=&H409
+Genie=&H409
+Robby=&H409
+Totem=&H409
+Wartnose=&H409
+
+[Script]
+Al.MoveTo 1337, 746
+Al.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Al.Show()
+WaitFor Req
+Alien.MoveTo 1271, 751
+Alien.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Alien.Show()
+WaitFor Req
+Blanche.MoveTo 1177, 681
+Blanche.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Blanche.Show()
+WaitFor Req
+Cami.MoveTo 1146, 751
+Cami.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Cami.Show()
+WaitFor Req
+Cathie.MoveTo 1061, 683
+Cathie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Cathie.Show()
+WaitFor Req
+Debbie.MoveTo 1011, 686
+Debbie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Debbie.Show()
+WaitFor Req
+Gar.MoveTo 975, 750
+Gar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Gar.Show()
+WaitFor Req
+Check.MoveTo 915, 746
+Check.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Check.Show()
+WaitFor Req
+Cupid.MoveTo 812, 704
+Cupid.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Cupid.Show()
+WaitFor Req
+Gourdy.MoveTo 757, 744
+Gourdy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Gourdy.Show()
+WaitFor Req
+Hanz.MoveTo 646, 786
+Hanz.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Hanz.Show()
+WaitFor Req
+James.MoveTo 557, 687
+James.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = James.Show()
+WaitFor Req
+Joe.MoveTo 486, 749
+Joe.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Joe.Show()
+WaitFor Req
+Merlin.MoveTo 418, 748
+Merlin.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Merlin.Show()
+WaitFor Req
+Milton.MoveTo 361, 746
+Milton.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Milton.Show()
+WaitFor Req
+Oscar.MoveTo 308, 749
+Oscar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Oscar.Show()
+WaitFor Req
+Ozzar.MoveTo 254, 746
+Ozzar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Ozzar.Show()
+WaitFor Req
+Peedy.MoveTo 663, 671
+Peedy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Peedy.Show()
+WaitFor Req
+Sizlik.MoveTo 16, 685
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Sizlik.Show()
+WaitFor Req
+Spaceman.MoveTo 162, 787
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Spaceman.Show()
+WaitFor Req
+Set Req = Sizlik.MoveTo(2, 684)
+WaitFor Req
+Birdie.MoveTo 439, 285
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Birdie.Show()
+WaitFor Req
+Genie.MoveTo 530, 291
+Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Genie.Show
+Set Req = Genie.Speak("This is the last News 30 rebooted.")
+WaitFor Req
+Set Req = Spaceman.Speak("Hello guys? How are you?")
+WaitFor Req
+Set Req = Sizlik.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Ozzar.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Oscar.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Milton.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Merlin.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Joe.Speak("Hello, fine.")
+WaitFor Req
+Set Req = James.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Hanz.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Peedy.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Gourdy.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Cupid.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Check.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Gar.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Debbie.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Cathie.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Cami.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Blanche.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Alien.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Al.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Genie.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Spaceman.Speak("Can everyone listen to Birdie?")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes")
+WaitFor Req
+Set Req = Ozzar.Speak("Yes")
+WaitFor Req
+Set Req = Oscar.Speak("Yes")
+WaitFor Req
+Set Req = Milton.Speak("Yes")
+WaitFor Req
+Set Req = Merlin.Speak("Yes")
+WaitFor Req
+Set Req = Joe.Speak("Yes")
+WaitFor Req
+Set Req = James.Speak("Yes")
+WaitFor Req
+Set Req = Hanz.Speak("Yes")
+WaitFor Req
+Set Req = Peedy.Speak("Yes")
+WaitFor Req
+Set Req = Gourdy.Speak("Yes")
+WaitFor Req
+Set Req = Cupid.Speak("Yes")
+WaitFor Req
+Set Req = Check.Speak("Yes")
+WaitFor Req
+Set Req = Gar.Speak("Yes")
+WaitFor Req
+Set Req = Debbie.Speak("Yes")
+WaitFor Req
+Set Req = Cathie.Speak("Yes")
+WaitFor Req
+Set Req = Cami.Speak("Yes")
+WaitFor Req
+Set Req = Blanche.Speak("Yes")
+WaitFor Req
+Set Req = Alien.Speak("Yes")
+WaitFor Req
+Set Req = Al.Speak("Yes")
+WaitFor Req
+Set Req = Genie.Speak("Yes")
+WaitFor Req
+Set Req = Birdie.Speak("Genie, go to your place.")
+WaitFor Req
+Set Req = Al.Speak("But I sit here.")
+WaitFor Req
+Genie.MoveTo 607, 477
+Set Req = Genie.Speak("Can someone make me a free space to sit? Seems like it's a hard drive that is full.")
+WaitFor Req
+Set Req = Peedy.MoveTo(101, 686)
+WaitFor Req
+Set Req = Milton.MoveTo(355, 746)
+WaitFor Req
+Set Req = Joe.MoveTo(476, 749)
+WaitFor Req
+Set Req = James.MoveTo(542, 686)
+WaitFor Req
+Set Req = Hanz.MoveTo(618, 787)
+WaitFor Req
+Set Req = Gourdy.MoveTo(713, 744)
+WaitFor Req
+Set Req = Cupid.MoveTo(765, 704)
+WaitFor Req
+Set Req = Check.MoveTo(863, 745)
+WaitFor Req
+Set Req = Gar.MoveTo(923, 749)
+WaitFor Req
+Set Req = Debbie.MoveTo(958, 685)
+WaitFor Req
+Set Req = Cathie.MoveTo(1008, 685)
+WaitFor Req
+Set Req = Cami.MoveTo(1112, 752)
+WaitFor Req
+Set Req = Blanche.MoveTo(1131, 682)
+WaitFor Req
+Set Req = Alien.MoveTo(1220, 750)
+WaitFor Req
+Set Req = Al.MoveTo(1277, 745)
+WaitFor Req
+Genie.MoveTo 1331, 743
+Set Req = Genie.Speak("And now it is full.")
+WaitFor Req
+Set Req = Birdie.Speak("I want to let you know that we won't come back because Microsoft Agent is being deprecated.")
+WaitFor Req
+Set Req = Spaceman.Speak("Are we deprecated?")
+WaitFor Req
+Set Req = Birdie.Speak("Yes, ever since Windows 7.")
+WaitFor Req
+Set Req = James.Speak("We won't come on Windows 10 until we get a plan.")
+WaitFor Req
+Set Req = Hanz.Speak("You have said that they were preparing for Windows 9, so why do I hear Windows 10?")
+WaitFor Req
+Set Req = Birdie.Speak("They skipped Windows 9 because it would mislead the Windows installers.")
+WaitFor Req
+Set Req = Sizlik.Speak("PSU explosion?")
+WaitFor Req
+Cupid.Speak "Yes. This news is complicated so it takes too much time to finish, depending on what amount and how long the stories are."
+Set Req = Cupid.Speak("Beep?")
+WaitFor Req
+Set Req = Ozzar.Speak("Yes.")
+WaitFor Req
+Genie.Speak "Beep Wartnose."
+Genie.MoveTo 1336, 743
+Set Req = Genie.Speak("Start Birdie")
+WaitFor Req
+Set Req = Joe.Speak("Can I search for forums?")
+WaitFor Req
+Set Req = Gourdy.Speak("Yes.")
+WaitFor Req
+Set Req = Peedy.Speak("Do not search for Linux threads as we find it boring.")
+WaitFor Req
+Set Req = Birdie.Speak("I will search for PSU explosion, bluescreens, Android problems, and everything else.")
+WaitFor Req
+Hanz.MoveTo 619, 785
+Hanz.Play "DoMagic1"
+Hanz.Play "DoMagicReturn"
+Hanz.Play "DoMagic2"
+Hanz.Play "DoMagic3"
+Set Req = Hanz.Play("DoMagic3Return")
+WaitFor Req
+Set Req = Joe.Play("Assimilate")
+WaitFor Req
+Set Req = Oscar.Play("Idle2_1")
+WaitFor Req
+Set Req = Joe.Play("IdlingLevel1")
+WaitFor Req
+Set Req = Al.Play("Idle2_2")
+WaitFor Req
+Spaceman.Play "stargate"
+Set Req = Spaceman.Play("MajikReturn")
+WaitFor Req
+Cami.MoveTo 1086, 755
+Set Req = Cami.MoveTo(1098, 754)
+WaitFor Req
+Set Req = Gourdy.Play("Idle1_1")
+WaitFor Req
+Birdie.Speak "Last night his power supply exploded and caused a power shortage in most of the house. He is pretty sure that it was only the power supply as he can't find anything that looks damaged on the motherboard, graphics card, etc."
+Birdie.Speak "A lot of stuff in the PC has been upgraded - He believes that only the motherboard, CPU and PSU are the components which he has not replaced."
+Set Req = Birdie.Speak("It's worth mentioning that the pc is about 7 years old, and thats the reason he believes the PSU broke down as it had to keep up with newer components such as a GTX 970")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "Recently bought XFX ATI Radeon HD6950 2GB."
+Birdie.Speak "After finding out that he needed another 6 pin from the PSU, he went and got an adapter with female and male molex connections to 1 6 pin."
+Birdie.Speak "He connected up both molex from different wires started up his PC and played Max Payne for a while on max to test it out."
+Birdie.Speak "After about 10 mins of playing it got quite hot and before he could do anything about it, it popped twice really loudly and cut out."
+Set Req = Birdie.Speak("He examined everything and found that the PSU had blown just from the smell it gave off. He's yet to test if anything else is damaged with a new PSU.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Birdie.Speak "A week ago, he bought an FX8320 and an Asrock motherboard."
+Birdie.Speak "He had the other components (GPU, PSU, memory...) already."
+Birdie.Speak "After installing them, reinstalling windows, and everything, he decided to run a benchmark."
+Birdie.Speak "That made his PSU (650W) explode literally!"
+Birdie.Speak "Yesterday he bought a 500W PSU and installed it, It booted."
+Birdie.Speak "It looked like all was running just fine, but about 2 minutes after turning it on it turns off, but not a normal turn off, the fans keep going but all the components turns off, the power led is on, and if you try to use the power button or the reset one, it won't do anything!"
+Set Req = Birdie.Speak("He forgot to say that the old PSU had a 8pin CPU connector, the new one just 4pins, but he made some kind of adaptor and it keeps failing.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Birdie.MoveTo 574, 399
+Birdie.Speak "His problem is that his onboard audio device (Realtek) is no longer detected, so his rear I/O audio ports and his front panel ports do not work."
+Birdie.Speak "This happened after he did a fresh install of Windows 10 to get rid of a virus (the audio worked perfectly fine before). After finding the proper drivers and installing and reinstalling multiple times, the realtek audio device does not show up in device manager or in Sounds."
+Birdie.Speak "All the posts he has searched involved hardware failure, which is odd since all he did was reinstall Windows, and reinstalling audio controllers or drivers, none of which worked."
+Set Req = Birdie.Speak("Sound works fine out of his monitor through the GPU HDMI, but it does't have a subwoofer so he can't produce music.")
+WaitFor Req
+Set Req = Ozzar.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "His cheap E-pro 11$ PSU explode tonight, luckily it didnt fully fried up his gaming computer."
+Birdie.Speak "The mobo and GFX card is still healthy, and already checked that out with his friend's PSU."
+Birdie.Speak "His friend adviced him to buy the new one, thankfully his local store RMA his old PSU however to get the new PSU that his friends wanted, it costed another 45$."
+Birdie.Speak "His friends know well about computer though, but he just worry, then his friends gave him this PSU"
+Birdie.Speak "His PC-speaker makes a high-pitched noise ever since he installed a new graphics card and processor."
+Set Req = Birdie.Speak("There are no other error messages either in Windows or BIOS. He has disconnected the speaker for now and everything is running fine")
+WaitFor Req
+Set Req = Merlin.Speak("Next")
+WaitFor Req
+Birdie.Speak "He was using his computer at home a few days back when suddenly the fans became extremly loud followed by a 'pop' sound which resulted in his computer turning off and a distinct burning smell."
+Birdie.Speak "He first thought that his power supply must have just been fried, so he unplugged everything, opened up his computer, took out the power supply, and brought it to his local PC store to confirm what he had guessed."
+Birdie.Speak "According to the technician, his PSU was completely fried so he bought a new one, installed it, and tried to boot his computer up again."
+Birdie.Speak "Unfortunately, the computer would not boot up, his monitor would stay blank (flashing no signal), however the fans would turn on. He also noticed that the regular 'beep' he hears when he used to turn on his computer was not happening."
+Set Req = Birdie.Speak("He showed my computer to another friend who is more computer savvy than he is and he told him that the motherboard / processor and hard drive were definitely gone too.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He was playing a game then his PC just shut down as if it lost power then a smell of burning."
+Birdie.Speak "Unplugged all things connected + power cable, and tried to locate the smell of burning but couldn't."
+Set Req = Birdie.Speak("Tried to power it back up with minimal configuration and still nothing. The ESD light on the mobo still lights up but no sign of life apart from the little ESD light.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He was using a program to clean his registry and other files and he accidentally deleted the operating system."
+Birdie.Speak "He has a Toshiba Satellite Pro w/ Windows XP and Intel whatever."
+Birdie.Speak "When he turn it on, it does as usual and looks like it's loading Windows, then he hears a loud beep and its just a blank screen."
+Birdie.Speak "The noise gets louder each time he turn it on and off and try it again. It sounds like his computer is about to explode!"
+Birdie.Speak "Screen says some of this in this order:"
+Birdie.Speak "Intel Pre-boot environment,"
+Birdie.Speak "media test failure,"
+Birdie.Speak "windows xp screen,"
+Birdie.Speak "a lot of noise,"
+Birdie.Speak "then the beep."
+Birdie.Speak "If he boot it in a different order, he just get 'no operating system , please insert the disk'"
+Birdie.MoveTo 480, 283
+Birdie.Speak "While running BOINC for stress testing, he noticed that his computer would suddenly turn off and restart itself after he run it for about an hour."
+Birdie.Speak "When it boots back into Windows, he gets no errors, and the event log shows a Kernel-Power event saying it detected an “unexpected shutdown”, like it would if it suddenly lost power – not a stop error like he would expect to see if the voltages were not set correctly."
+Birdie.Speak "His main concern is that this thing is overloading the PSU by drawing more than 700W, because it appears to only do this when both the CPU and GPU are running close to 100% for a while. He has it running at 4.2 GHz now and appears to be fine (It survived an overnight BOINC session as well as 4 hours of Planetside 2), but if all it took was 100 MHz to set it off he's a little concerned."
+Birdie.Speak "He hasn’t been able to find anything about how much power these things draw, but he knew the Phenoms want big amounts of power overclocked."
+Birdie.Speak "There's no way this CPU draws 300+ watts of power without generating too much heat."
+Birdie.Speak "He went to Home Depot to look for a Kill-A-Watt meter today but they didn’t have it in stock, so when he get time, he plan on taking the PSU out of another computer, plugging it into the CPU power port on the motherboard then raise the clock to 4.3 again to see what happens."
+Birdie.MoveTo 879, 342
+Birdie.Speak "He decided to give it to his nephew who could use a computer. About 2 weeks ago he verified that it still worked, cleared all of his old stuff off of it, etc."
+Birdie.Speak "It needed a new case because the old one was missing a side and he didn't want to give it to his nephew in bad condition. So he ordered a $25 or so Rosewill case off of Newegg."
+Birdie.Speak "He transferred everything over, and tried to boot several times. Each time, it would stay on for the same amount of time and then power off... about 3-5 seconds."
+Birdie.Speak "He realized he forgot to hook up the mobo speaker. So he did that, and he realized that it was actually getting to POST, and then shutting off immediately after one short beep. However he never got any video on screen."
+Birdie.Speak "Upon closer examination, it turns out he did forget to hook up the Molex power connector to the Radeon 9700 Pro. He forgot that such an old card needed to draw power from the power supply. So thinking he may have found the problem, he hook that up, and he boot the computer."
+Birdie.Speak "This time, it doesn't even stay on for mroe than a split second. He also hear a spark sound, and think he smell a slight burn. He examine everything, don't see anything, and his girlfriend convinces him it was in his head because she's cooking and that could be what he's smelling."
+Birdie.Speak "Either way, now the computer isn't really turning on at all. No fans. Just a faint light coming from the power button when he have it in the 'on' position."
+Birdie.Speak "Now he think it's probably time to troubleshoot the power supply. He has an old crappy power supply that came with a case he bought that he never used sitting in the closet. So he take out the Thermaltake, and put in this crappy looking 500W Raidmax power supply."
+Birdie.Speak "The computer isn't on for more than an instant when he see some smoke that seems to be coming from the video card. He can't remember if he shut the computer off right away out of panic or if it shut off itself; either way, it wasn't on for long. He has never seen anything like that happen."
+Birdie.Speak "Je examine the video card, he examine the AGP slot and the mobo around that, everything looks fine, no burns or anything."
+Birdie.Speak "He take the video card out and leave it out, he then intended to test the motherboard as advised on this forum, by removing the RAM and booting to see if he get the expected beep codes. Since the video card was (presumably) just smoking, he take that out as well."
+Set Req = Birdie.Speak("So he boot up with only the hard drives, CD drives, motherboard, and CPU/HSF plugged in. No RAM and no video card. This time, smoke starts coming from what looked to me like the back of the hard drive!!! Hard to say, because once again, he turned off the computer quickly.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.MoveTo 565, 304
+Birdie.Speak "When reading the reviews foolishly after he bought the power supply, he knew how much of a risk this PSU would be no matter what type of computer he installed it in."
+Birdie.Speak "At the moment, he has his old PC set up that has been sat around doing nothing for the past few years. It still works today, and the PSU that came with the pre-built computer still works absolutely fine and fairly quiet."
+Birdie.Speak "Because it is outdated now and he will be building a new PC soon anyway (primarily what the PSU was bought for), he decided it wouldn't be much of a risk to test it in his old computer and see how it goes."
+Birdie.Speak "The good thing is it works, for now. It powers up his computer but the issue is that after the PC has just been powered on, the fan starts to get louder and louder to the point where it sounds like it is working to hard and is about to blow up!"
+Set Req = Birdie.Speak("Before the fan got too loud, he quickly switched off the power to the PC as he thought that it didn't sound safe to use whatsoever.")
+WaitFor Req
+Set Req = Sizlik.Speak("Next news.")
+WaitFor Req
+Set Req = Birdie.Speak("He was moving some cables in his gaming PC and out of nowhere smoke started to come out of his hdd, he was investigating and it may only be the PCB.")
+WaitFor Req
+Set Req = Ozzar.Speak("Next.")
+WaitFor Req
+Birdie.Speak "A few nights ago he was playing some games as you all do, when his PC just shut down."
+Birdie.Speak "He couldn't see anything that was wrong in the event logs. Thought nothing of it, But last night there was a huge cloud of smoke thrown from the underside of his PC. First thought after fear, was his PSU has blown out."
+Birdie.Speak "This morning he contacted the supplier and they sent him an RMA to replace it. No problems there other than having to go a few days without his PC."
+Birdie.Speak "This morning he decided to give the power supply a go just to see, but whilst it worked fine just running my desktop there is something else he have noticed. His second graphics card isn't showing up."
+Birdie.Speak "He has waterblocked cards with an SLI bridge, making a nightmare to trade up the slots for testing."
+Birdie.Speak "His second card is lighting up with the 6 pins plugged in but it is not showing up in his BIOS or under his hardware."
+Birdie.Speak "His guess is that what has blown out on my PSU may be related to what was powering that card, due to the fact that it would of been under load when gaming. He has no doubt that the PSU is at least half broken."
+Birdie.MoveTo 627, 377
+Set Req = Birdie.Speak("His computer shut down 3 times today because of power surge. When the computer boots up he get a message like: 'ASUS anti surge was activated to prevent harm to the computer' after that it boots normally and the PC runs fine for maybe 30 minutes and then it shuts down.")
+WaitFor Req
+Cupid.Speak "Ready for next."
+Set Req = Cupid.Speak("Beep?")
+WaitFor Req
+Set Req = Joe.Speak("Yes.")
+WaitFor Req
+Birdie.Speak "He has a power supply on a Dell XPS 600 thats whining even when powered down. It gets louder (or quieter sometimes) when on or under a load."
+Birdie.Speak "He is probably going to replace the power supply soon, but he has heard that this is possibly just a coil whine and can sometimes be simply fixed with some decent glue, and that coil whining doesnt necessarily mean there's a malfunction."
+Birdie.Speak "He recently posted about replacing this and still hope to. The fans both seem to be working fine."
+Set Req = Birdie.Speak("The whine continues when shut off but if he pull the power plug it comes to a stop, then if he plug it back in it starts back up again even if the computer is off, but it seems to go away after he leave it overnight but comes back when it's on for a couple of minutes.")
+WaitFor Req
+Set Req = Joe.Speak("Next.")
+WaitFor Req
+Birdie.Speak "The green light on my Dell desktop was blinking and the computer would not start."
+Birdie.Speak "He tried the three suggestion of holding the on button for ten seconds, switching the power to 220v and back again and the hair dryer idea."
+Birdie.Speak "So he bought a new power supply replaced the old one and the same thing is happening. blinking green light."
+Birdie.MoveTo 696, 365
+Birdie.Speak "He has a Dell OptiPlex GX520 running Windows XP. The other day someone knocked the tower over, and when he went to turn the computer back on, the power light was blinking amber, as were the two lights on the Ethernet port on the rear of the computer. He looked up what the amber light meant in the manual, and it states that"
+Birdie.Speak "If the power light is blinking amber, the computer is receiving electrical power, but an internal power problem might exist."
+Birdie.Speak "- Ensure that the voltage selection switch is set to match the AC power at your location (if applicable)."
+Birdie.Speak "- Ensure that the processor power cable is securely connected to the system board."
+Birdie.Speak "He first checked the voltage switch on the PSU, and it was correctly set to 115v. He then checked all the connections to the mobo and they were tight."
+Birdie.Speak "He also checked all the capacitors on the mobo for any leaks or bulges, still nothing. Next he took out the CMOS battery (for about 1-2 minutes) and put it back, no luck there either. And he reseated the memory with no luck."
+Birdie.Speak "So he bought a new power supply and switched it out, still he had no luck, the light was still blinking amber."
+Birdie.Speak "He is however able to get the PC to boot up if he jump out the Green Pin with a Ground Pin on the ATX 24-pin connector."
+Set Req = Birdie.Speak("When he do this, the computer stays on and runs no problem, but once he shut it down, he can not turn it back on using the normal power button, it blinks amber again. In order to boot it up, he has to jump out the ports.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.MoveTo 590, 365
+Set Req = Birdie.Speak("His computer stopped booting up after 2 years of running. With the Power Supply powered on, the green LED light on the motherboard would normally stay on and the computer would boot. Now it flashes when the Power Supply is powered on, and the computer no longer boots.")
+WaitFor Req
+Set Req = Check.Speak("Ready for next")
+WaitFor Req
+Birdie.Speak "He has a Dell Dimension B110 that show a green and flashing amber light on the front of it when he power it up. There is a green light on the motherboard."
+Birdie.Speak "However when he unplug the power connector to the CD player and then power it up, the amber light & green light comes on steady (the amber light stop flashing), but the unit will not boot-up."
+Birdie.Speak "He has changed out memory, CPU, and even replaced the power supply. When he replaced the power supply the unit then booted up and ran great, for about 30 mins and then the unit shut down."
+Birdie.Speak "The power supply had burned up, so he re-installed the original power supply and he's back to the steady green light on and amber light flashing when the power connector is connected to the CD player and he power it up."
+Set Req = Birdie.Speak("Once he plugged the CD player connector and power it up the green and amber lights comes on steady. Either way the unit will not boot-up.")
+WaitFor Req
+Set Req = Sizlik.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "This computer has been running for a few months now but now it won't even boot."
+Birdie.Speak "The motherboard only has the green LED blinking for both the old and the newly installed one. The power supply has also been switch out to a new Cool Max 500W"
+Set Req = Birdie.Speak("Now the only thing that hasnt been tested is the HDD and CPU")
+WaitFor Req
+Set Req = Merlin.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "He recently ordered all parts (so they are new) for his new computer to build for himself."
+Birdie.Speak "He put the motherboard in, correctly installed everything and connected the PSU to everything that needs power."
+Birdie.Speak "What he found was odd was the stand-by power LED that is located on the motherboard just blinks with about 2-3 seconds in-between each blink."
+Birdie.Speak "He had ordered an ASUS Sabertooth X58 motherboard from Newegg.com about a month ago and it turned out to be defective. He had it RMA'd and just today he received the new one."
+Birdie.Speak "He has tried to unplug all unnecessary things from the PSU (such as fans and HDD), and only used 1 RAM stick, and didn't even have the GPU 6-pin plugged in, just to try to get the motherboard to turn on."
+Set Req = Birdie.Speak("He had read a post about a recent problem someone had that was similar to mine. His stand-by power LED was blinking and how he got it to work was he unplugged his front panel USB ports. He unplugged mine and it still doesn't work.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He accidentally hit the sleep button on his keyboard and now his computer won't turn on. Everything was working perfectly before he hit the button."
+Birdie.Speak "Now when he press the power button, the lights come on for about 1 second then go off. About 3 seconds later, all the lights blink once and then nothing happens."
+Set Req = Birdie.Speak("He has tried unplugging the power and plugging back in after a few hours. He has also removed all the components except the processor from the motherboard. So right now, the only connections to the board are the two power supply connections (24 pin and 8 pin) and the processor is in the socket.")
+WaitFor Req
+Set Req = Gar.Speak("Ready for next.")
+WaitFor Req
+Set Req = Cupid.Speak("It is the last PSU explosion problem. Beep?")
+WaitFor Req
+Set Req = James.Speak("Yes.")
+WaitFor Req
+Birdie.Speak "His desktop just stopped working and now when he press the power up button it makes a noise as if it is going to power up by the fan starting but then turns off with the red led flashing four times. the led symbol looks like a light bulb with flash light marks around it."
+Birdie.MoveTo 652, 379
+Birdie.Speak "He keep getting this blue screen on his computer it is really annoying he think it is somthing wrong with his RAM."
+Birdie.Speak "He used memtest and there was no errors I've been getting this for a year now and he got some time to work on it."
+Birdie.Speak "His computer is using a thermaltake frio which provides for adaquate cooling"
+Set Req = Birdie.Speak("His specs are getting a little dated which is especially true of his motherboard, he dont want to do any significant upgrades to his computer until Microsoft flight or GTA 5 comes out.")
+WaitFor Req
+Set Req = Ozzar.Speak("Next.")
+WaitFor Req
+Birdie.Speak "The game version he's installed is GTA IV w/ patch 1.0.6.0 & listener's XLiveLess ver 0.99b4. He executed “LaunchGTAIV.exe” in Administrator Mode and played for a few minutes"
+Birdie.Speak "Then the game froze up for few seconds, crashed as the monitor black-out; and computer stopped responding, including keys such as “Esc”, “Alt + Tab” and “Ctrl + Alt + Delete”."
+Birdie.Speak "After that he reset the computer, launched the game to try again, the same happened; not to mention that he got no luck even though he re-install GTA IV."
+Birdie.Speak "After swapping the XLiveLess for turning on debug logging the following BSOD pop-up when the game crashed"
+Birdie.Speak "Since it is likely to be a memory-related issue, he tried the Windows Memory Diagnostic Tool with Extendrd Test Mix and he left it running overnight, but it failed to show up for listing out the test result after an automatic restart for the second time."
+Birdie.Speak "So he tested the RAMs manually by installing one of them after cleaning, and he launched the game again. This time the game worked smoothly and he had finished about 12 missions until the computer auto-restart for no obvious reasons when he was playing. During the restart, he got the disk checking screen."
+Set Req = Birdie.Speak("After that, the nightmare of BSOD keep striking again and again when he's playing the game for few minutes, and here is the error code: 'DRIVER_IRQL_NOT_LESS_OR_EQUAL'")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He looked around a bit, both here and elsewhere. The only 'fix' for the texture flickering that he get is the Real FX mod. He also noticed that it's supposed to fix the sound problem during storms."
+Birdie.Speak "It does neither (And, since he's installed it, he randomly get a sound-related crash during storms, although he's putting in the cheat to test them)"
+Set Req = Birdie.Speak("As well, when he look down outside, the whole world turns grey and somewhat laggy (And usually flickers for a bit when he look back up, although the flickering happens anyway from time to time).")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Set Req = Birdie.Speak("Everytime he gain some experience in a particular event in SA, his PC crashes/hangs and he get a blue-screen. He's tried turning off ALL of the background tasks.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Set Req = Birdie.Speak("At random times when playing Grand Theft Auto : San Andreas he get a blue screen and have to restart the computer. DRIVER_IRQL_NOT_LESS_OR_EQUAL")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Birdie.Speak "His computer keeps restarting itself when he play gta san andreas and he don't know why its doing it, it always happens when he get into fights and stuff."
+Birdie.Speak "He tried lowering the resolution and visual effects but nothing and when it's done restarting he get a message that says windows has recovered from a serious error."
+Set Req = Birdie.Speak("He bought his computer a year ago. He can't even make it across town and before his computer restarts he always get a blue screen that says driver_irql_not_less_or_equal")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Set Req = Birdie.Speak("When He open GTA-SA the screen goes black and the audio plays normally. He have attempted to go into the compatibility mode with xp-sp2 and sp3 but it would not even startup when he did.")
+WaitFor Req
+Set Req = Merlin.Speak("Next.")
+WaitFor Req
+Birdie.Speak "Everytime when he start to run GTA:SA, it startups, goes through the rockstar logos, intro movie, but when it gets to the 'Grand Theft Auto: San Andreas' Splash Movie, his computer shuts off and restarts itself, saying:"
+Set Req = Birdie.Speak("'This system has recovered from a serious error'")
+WaitFor Req
+Set Req = Joe.Speak("Next")
+WaitFor Req
+Birdie.Speak "The primary reason for why he wanted to upgrade was that his computer couldn't play most newer games, but even some older games. This is because his computer will shut off and then when he do turn it back on, he receive the BSOD. After about ten minutes of it off, he am able to load Windows 7 again. Besides that, his computer is running virtually great."
+Birdie.Speak "He also has a hard drive and a new(er) hard drive. The old one is running Windows and a few select games, while his newer 1.5TB is running, well, everything else."
+Birdie.Speak "Now at first he thought it was his processor's heatsink, something. It sounded extremely weird a month back as it started up, it had a wah-wah tone to it and it will (and still does) run extremely loud. It is the Athlon II X2's stock heatsink."
+Birdie.Speak "Now, then. If the problem is my heatsink, he'll buy a good one and, instead of buying a CPU right away, he'll just overclock my current one. Also, he could use the heatsink on a future build (eg i5 3570k)."
+Birdie.Speak "However, now he is starting to think, as according to some posts on other forums, it could be a hard drive issue."
+Set Req = Birdie.Speak("Something weird is that only some games crash his computer, though all new games do, some older games do, too.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Birdie.Speak "He has Windows 7 home premium 64 bit but he get a BSOD when 'Starting Windows'."
+Birdie.Speak "He cannot boot into safe mode, he get the BSOD again. He have tried last good known configuration, and same happens again. He tried startup repair with the startup repair CD several times."
+Birdie.Speak "He do not have the original windows 7 CD so he cannot reinstall windows. He have a dual boot setup with windows xp and windows 7 but he want to keep them both."
+Birdie.MoveTo 605, 300
+Birdie.Speak "Initially, when booting up, Windows wanted to do a startup repair, he didn't notice any BSOD before this when booting."
+Birdie.Speak "He let it do it's thing. He came back and see the BSOD and it reboots loop. So he tried a few of his own things, Chkdsk and the like, to no avail."
+Birdie.Speak "He did stop the infinite loops by forcing a disable on BSOD rebooting stuff."
+Birdie.Speak "He also tried Startup Repair Infinite Loop Recovery. No luck."
+Birdie.Speak "He did a Google search. Some things point to his SSD. Others aren't exactly related."
+Birdie.Speak "Using Bootrec.exe /RebuildBCD it doesn't find any Windows installations. Yet on the C: drive, he see all of the usual Windows folders like System32 and such."
+Birdie.Speak "Startup repair also can't fix it."
+Birdie.Speak "He installed Samsung KIES before shutting down. It installed drivers for my Galaxy S5 phone. His Computer wouldn't show the phone unless it was USB under Camera mode. He have an inkling this could be the culprit..."
+Birdie.Speak "CHKDSK /f 0 bad files found on C."
+Birdie.Speak "Tried booting up in IDE - same BSOD."
+Birdie.Speak "Currently booting in AHCI like he have been ever since he got the SSD."
+Birdie.Speak "he also compressed the E drive. Which basically holds archive media and some emails. It's a partition of his D drive."
+Set Req = Birdie.Speak("There were also no signs of his M4 failing. he was very particular when doing a fresh install of 7. Indexing is turned off. All caching is on D drive. Stuff like that.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He has a Dell Inspiron N5110 with Windows 7 Home Premium 64bit pre-installed."
+Birdie.Speak "When he try to startup, it gets past the Windows logo then goes to the BSOD, error 0x000000ED."
+Birdie.Speak "He's tried booting in the Last Known Good Configuration, and Safe Mode."
+Birdie.Speak "The 'Repair Your Computer' option doesn't do anything either."
+Birdie.Speak "He has backup disks made from the Dell Backup and Recovery Manager and tried using it."
+Birdie.Speak "It came up with this:"
+Birdie.Speak "'File: \windows\system32\boot\winload.exe"
+Birdie.Speak "Status: 0xc00000011"
+Birdie.Speak "info: the selected entry could not be loaded because the application is missing or corrupt.'"
+Set Req = Birdie.Speak("He's also tried using my second backup. It loaded successfully into a normal looking screen, but no window popped up with options to choose from.")
+WaitFor Req
+Set Req = Milton.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "Unfortunately his computer's hard disk has failed. Fortunately he did create an image (using Acronis TrueImage Home) shortly before disk failure. The OS is Windows 7 (32-bit), and the image includes the system partition, Windows 7's system reserved partition and the master boot record."
+Birdie.Speak "Since his HD is still covered by warranty he want to send it in for replacement."
+Birdie.Speak "Meanwhile he had the idea of restoring the image to an external HD connected via USB and to use it as a substitute while he's waiting for the replacement."
+Birdie.Speak "After restoring the entire image to the USB disk the system starts to boot normally from the USB device, up to the point where the animated Windows pictogram appears."
+Birdie.Speak "Then he get a bluescreen that flashes so briefly that he cannot read the error messages, and then the system reboots. The same happens when he boot in secure mode (the last driver loaded before bluescreen is classpnp.sys)."
+Set Req = Birdie.Speak("He have verified that the image works. The problem appears to be related to restoring it to an USB device.")
+WaitFor Req
+Set Req = Milton.Speak("Next.")
+WaitFor Req
+Birdie.Speak "Everything was going fine, and then he restarted."
+Birdie.Speak "Now, whenever it gets past the Windows is Starting screen with the animation, it does a millisecond bsod and then restarts, only to continue the cycle until the end of time."
+Set Req = Birdie.Speak("He cannot boot into safe mode.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He decided he was going to fix his friend's computer. It starts up and before it gets to windows it goes into a blue screen for like a 1/2 second then restarts and does the same thing again."
+Birdie.Speak "He figured the easiest thing to do would be to format and reinstall windows but every time he try, he tell it to install windows and it just stops at the part where it examines the hard drive."
+Birdie.Speak "He doesn't think it's freezing, then he gave up on that and realized it had a restore program built into it but again it stops before it loads the program all the way."
+Birdie.Speak "He knows it's not freezing here because he can see and move the mouse pointer. on both the restore program and the windows xp disc he let it sit for atleast a 1/2 hour and tried them both more then once."
+Set Req = Birdie.Speak("Then he thought maybe it's the hard drive so he ran drive fitness test and it passed so the drive is fine. He's not sure where to go from here. He can't see what the error is on the blue screen because it's so fast")
+WaitFor Req
+Set Req = Joe.Speak("Next")
+WaitFor Req
+Birdie.Speak "He's just built his first computer, and for the first couple of days Windows 7 has ran fine. However today, he have started to get a BSOD every time he turn the computer on. It usually happens 5 minutes after he turns it on."
+Birdie.Speak "Every time it happens he hears a small spinning noise, which he think is from the HDD but to be honest he has no idea. When this happens though it's usually after a couple seconds of Windows freezing and then he get a BSOD which lasts for a second and then the computer reboots, so he cant really read what the BSOD says."
+Set Req = Birdie.Speak("One of the times he booted up Windows forced a disk error check on boot up, which is why he think that noise came from the HDD.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "A friend of his's wanted him to install Windows seven on this laptop."
+Birdie.Speak "So he's created a USB install of Windows seven pro x64 with Rufus and a non-modified iso (with the gpt option for UEFI bios)."
+Birdie.Speak "He changed the 'secure boot' to 'disabled' and 'OS mode selection' to 'CSM and UEFI OS'"
+Birdie.Speak "After the installation he's launched windows update and downloaded all the avaliable updates but after the reboot, the screen 'starting windows' appear and after, a BSOD show. He can only access windows in safe mode."
+Birdie.Speak "He's searched on internet for a solution and he's found a fix KB979444 but he can't install it in safe mode so he's installed win7 again and apply the fix, but when he install the other updates, the same BSOD appear again after the 'Starting windows' screen."
+Birdie.Speak "He decided to test the RAM with memtest86+. 9 passes and 0 errors"
+Set Req = Birdie.Speak("3rd time he install win7, i disable updates and download samsung's drivers. He's installed the one for the GC and when he reboot, same BSOD again.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He doesn't know exactly what he did but he keep getting a BSOD everytime he log in since yesterday"
+Birdie.Speak "any account he log into gets a BSOD after a few seconds"
+Birdie.Speak "He has tried to do a system registry restore, but that didn't work"
+Birdie.Speak "He booted from hiren's boot disk (Hiren's BootCD Fan & Discussion Platform) a did some virus checking using avira"
+Birdie.Speak "He also used ccleaner"
+Birdie.Speak "He's tried everything he could think of but none of them worked."
+Birdie.MoveTo 635, 328
+Birdie.Speak "Getting BSOD a minute or so after the computer reaches the deskop. Still works in safe mode."
+Birdie.MoveTo 665, 398
+Birdie.Speak "Earlier today, his laptop (a Dell Inspiron 1545) was lagging hard, so he force shut it down in hopes that it would clear up and run smoothly."
+Birdie.Speak "However after restarting the computer and prompting Windows to start normally, he was taken to the default windows 7 login background, where his mouse appeared and nothing else."
+Birdie.Speak "Every time he has tried to restart his computer, regardless of whether he prompt Windows to start normally or run the startup repair, he's taken to that same screen where nothing seems to happen."
+Birdie.MoveTo 636, 419
+Birdie.Speak "His machine was running smoothly until recently it became infected with adware."
+Birdie.Speak "He tried to remove the uninvited software through Uninstall Programs in control panel, and also by using Malwarebytes to quarantine anything it found objectionable. It then seemed to work fine after all of this and booted up OK."
+Birdie.Speak "He recently also tried to upgrade the nVidia driver, and there was an error about not being able to update a file in use, so the install failed."
+Birdie.Speak "He rebooted the computer, re-ran the nVidia installer, and that also completed without any further errors. The computer also rebooted OK after that."
+Birdie.Speak "However days later, now he get a BSOD after login. Windows boots fine up to the point where he log in with his password. Once he log in, BSOD occurs."
+Birdie.Speak "If he wait for awhile before logging in (all drivers have loaded), then the BSOD is immediate after entering his login password."
+Birdie.Speak "On the other hand, if he log in immediately as soon as the login screen appears, he can see his desktop and use the menus etc for 10-20 seconds before BSOD occurs (he's assuming that's when all drivers have completed loading)."
+Birdie.Speak "If he boot in safe mode, it is stable and no crash occurs. he also ran msconfig and disabled all programs in startup. No difference."
+Set Req = Birdie.Speak("At first, the BSOD error was 'BAD_POOL_HEADER'. He tried uninstalling and reinstalling the nvidia driver, and now the BSOD error has changed to 'REGISTRY_ERROR'.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He went to sleep and turned his computer off and when he went to start it up this morning he gets a BSOD(0x0000001E)."
+Set Req = Birdie.Speak("He can only boot into safe mode, any attempts to use normal mode end up with the BSOD about 1min after the desktop is loading. He's not an expert but he dusted everything and tried re-seating his memory and nothing has changed.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Birdie.Speak "He doesn't know how it happened, one day he shut his computer down for the night and it was fine, then when he booted it back up the BSOD started happening, but it works just fine in safe mode"
+Birdie.MoveTo 606, 454
+Birdie.Speak "As per title, he's getting bsod after every Windows logins today. Pc seems to be working fine before this all happen. he cant do anything from after login except going to safe mode after getting bsod."
+Birdie.MoveTo 665, 485
+Birdie.Speak "He always got BSOD 0x0000001e when shutting down since November and it bugged me every time. His system is windows 7 ultimate x64 and it was installed at 2 month ago."
+Birdie.MoveTo 615, 435
+Set Req = Birdie.Speak("He is getting BSOD when his computer tries to shutdown or restart. This just started a few days ago even though he has been having shutdown and restart problems for the last few weeks (The computer goes through the shutdown screen, the screen turns off, the drives sound like they shut off, but the power does not go off, the power button light is still on and the leds are still lit and I have to hold the power button for the computer to turn off).")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He has a problem as his laptop crashes following a period of inactivity or when he try to shut it down. He get the BSOD."
+Set Req = Birdie.Speak("He tried to update the service pack (pack 1), but that also fails with the error, driver power state failure. He have tried to look at and understand the dump file following a BSOD and it appears there might be a problem with ntoskrnl.exe.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "Back in March, He installed 2 x Corsair Force Series GT CSSD-F120GBGT-BK 2.5' 120GB SATA III Internal Solid State Drive's (SSD) Into his computer, set up as a RAID 0. I was running great!"
+Birdie.Speak "Something else happened that he had something running in the background that was taking all his band with for his uverse and he couldn't go on line without lagging."
+Birdie.Speak "So after a few months of troubleshooting, he decided to put a clean install of Windows 7. back on. After the install he got a few BSOD's but he proceeded to move on and update windows first, before je tried troubleshooting this problem. Remembering from a previous BSOD issue he had, I proceeded to go to my device manager and DISABLE one of my High Definition Audio Controller's (the one that his video card was not using). This fixed one of the 3 BSOD issues."
+Birdie.Speak "The next BSOD he got was in relation to driver_power_state_failure, this only happened once and according to the BSOD message he got, he need not worry unless it keeps happening, which, so far, it has not."
+Set Req = Birdie.Speak("The 3rd BSOD message he got was the ntoskrnl.exe. This occured when he was finished updating windows and going to restart. He was frozen in 'Shutting Down' for over 15 minutes, but he let it do it's thing, then he got a message that windows recovered from a serious error, which he then ran 'Who Crashed' and found that ntoskrnl.exe has caused the error.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "Since late last night when he tried shutting down his laptop i got an BSOD and now he's still getting them whenever he try to normally shut down his laptop."
+Birdie.Speak "After rebooting, searching online, he cannot find the problem and fix. Actually he did find the problem but he doesn't know how to fix it."
+Birdie.Speak "Through his blue screen viwer he get this info."
+Birdie.Speak "CRITICAL_OBJECT_TERMINATION"
+Birdie.Speak "0x000000f4"
+Set Req = Birdie.Speak("caused by ntoskrnl.exe")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "His Windows 7 (64-bit) computer ends with a BSOD on shutdown, meaning that it does not shutdown completely and have to kill it by holding the power button."
+Birdie.MoveTo 619, 405
+Birdie.Speak "He just installed Windows 7 SP1 x64 and everything seems to be working perfectly except when he shut down his computer. When he reboot the machine, windows loads with out a problem, but when he shutdown the next time he boot up windows crashes on the 'Starting Windows' screen."
+Birdie.Speak "He has found that if he disconnects the power, windows will boot normally (this is the only way to get back into windows after a shutdown)."
+Set Req = Birdie.Speak("Everything seems to work fine and he does not believe it is his power supply. He did notice that when windows is working and he do a reboot that memtest shows no problems, but after a shutdown memtest says his ram has many errors. Then if he disconnect the power memtest says the ram is fine again.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Birdie.Speak "About a year ago, he purchased a Toshiba Satellite Pro which had Windows 7 Home Premium pre-installed from the retailer. It worked perfectly, and he had no problems. However, about 4 days ago, the hard drive failed, and he lost everything. This isn't the problem however."
+Birdie.Speak "He took the laptop to have a replacement hard drive installed, and all a reinstallation of Windows 7 Home Premium. He received the laptop back a couple of days ago, and he had no problems with set-up."
+Birdie.Speak "He noticed however, that whenever he try to shut the laptop down, or restart it (to apply changes features, configure updates etc) the entire laptop will become unresponsive on the 'Shutting Down...' screen. The little blue circle will stop spinning, and none of the Brightness buttons, Caps Lock, etc. will function. This forces him to press and hold the power button everytime he wishes to turn the laptop off, which of course is a strain on it."
+Set Req = Birdie.Speak("He has scanned the entire thing with MalwareBytes and Microsoft Security Essentials, so he know it isn't a virus of some kind (it wouldn't be anyway, as it was acting in this way before it was even connected to the internet.)")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Birdie.Speak "He just updated his some hardware(cpu, motherboard, ram) but had to format it."
+Set Req = Birdie.Speak("He had to update his drivers, and the BIOS, but whenever he shut down he get a BSOD with stop 0x7e.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He built a new machine a couple of months back, except for some minor teething issues it's been running stable."
+Birdie.Speak "However, the past few days his machine has been crashing while shutting down."
+Birdie.Speak "There is no BSOD or anything like that, it'll just crash."
+Birdie.Speak "The cursor at the side of 'Shutting down' will stop spinning and even after leaving it for some time, there is still nothing so he has to turn it off manually."
+Birdie.Speak "The PC will then start up just fine as though nothing has happened."
+Birdie.Speak "He's done some tests on the hardware side and running stress tests the past couple of days to see if a piece of hardware has started to fail but the results came back fine."
+Birdie.Speak "He can run Prime95 on full stress test for hours on end and still do his work without a problem in sight."
+Birdie.Speak "The HDD is coming back fine too after a full disk check."
+Birdie.Speak "It's a bit strange that it'll only crash while shutting down which has lead him to think it's a Windows issue then it is anything else."
+Birdie.MoveTo 581, 462
+Birdie.Speak "So he managed to get a stable 4.5 Ghz OC on my 2500k and he decided to put it to sleep a few hours ago (with the intention of going to sleep myself)."
+Birdie.Speak "Right after he put it to sleep, he realized he had forgot something and he tried to wake it up again."
+Birdie.Speak "His PC got into a boot loop and would not turn back on; it kept shutting off and powering on repeatedly. He couldn't shut it off until he went to the PSU and flipped the main switch."
+Set Req = Birdie.Speak("He turn it back on and to his horror, he got a BIOS checksum error! His Gigabyte mobo had a backup bios chip and it kicked in and took over bios functionality. Long story short, He's just spent the past few hours reflashing his primary bios chip and only succeeded about an hour ago")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.MoveTo 577, 374
+Birdie.Speak "He has his new PC and it's been running fine for a few days."
+Birdie.Speak "Until today he doesn't know what happened but the screen just became static for a second and Windows then shut down."
+Birdie.Speak "He has Windows 7 Home Premium 64-bit. He restarted it, and instead of 6 cores, it showed 5 cores."
+Birdie.Speak "He used it for another 30 mins, then it happened again. This time, it went into system repair on startup. It worked."
+Birdie.Speak "He used it for another 30 mins, then it happened again. This time, it wouldn't start up at all. The fans were spinning and LED's lit up, but the monitor remained blank."
+Set Req = Birdie.Speak("Only after he pressed the RESET button on his motherboard. It was fine, and he thought the problem was gone to which he was wrong, because it had to crash after 2 hours of work.")
+WaitFor Req
+Set Req = Peedy.Speak("Next")
+WaitFor Req
+Birdie.Speak "This morning his computer wouldn't turn on."
+Birdie.Speak "After checking all the cables he assumed it was a busted power supply."
+Birdie.Speak "When he returned later though, he gave the power button a 'one last try' push and it came on."
+Birdie.Speak "It went to a Gigabyte screen (mobo manufacturer) and said 'Your BIOS have been corrupted, resetting to backup BIOS."
+Birdie.MoveTo 609, 405
+Birdie.Speak "Bios is corrupted by bad reflash and asus P4S800 computer has black screen and will not boot."
+Birdie.MoveTo 582, 365
+Birdie.Speak "He has an HP Pavilion dv6-3225dx."
+Birdie.Speak "He tried to install custom BIOS on it as it was suggested in one of the threads."
+Set Req = Birdie.Speak("Now his laptop won't boot up, it stucks on HP logo, it is not hanged, keyboard is working but it won't go to BIOS or system Recovery or Boot Option etc.")
+WaitFor Req
+Set Req = Spaceman.Speak("We'll go to Android after one last story.")
+WaitFor Req
+Birdie.Speak "He tried updating the BIOS using one of HP's software downloads, and even though it exited successfully, his laptop does not boot."
+Birdie.Speak "Nothing loads, and the screen remains black. he have tried resetting the CMOS battery and tried to recover from a USB drive with a HP_TOOLS partition that contained the UEFI Support Environment."
+Set Req = Birdie.Speak("His laptop doesn't have the HP_TOOLS partition since it got deleted when he reinstalled Windows.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Birdie.Speak "He was running Indie ROM 4.3, v19. He did the 3 wipes and installed Indie ROM, v20."
+Birdie.Speak "After installation, he got this message 'UIDs on the system are inconsistent, you need to wipe your data partition or your device will be unstable.' It came with a button that says 'I'm Feeling Lucky'."
+Birdie.Speak "He research XDA, some stated to reflash the ROM using TWRP, and then fix permission. He am using Phil Touch CWM, which has fix permission. However, he still get the same message."
+Birdie.Speak "The phone is usable, but certain Google app wont install."
+Birdie.Speak "He got tired to flashing. Used TWRP to repartition the whole drive. This fixed all the issue."
+Birdie.Speak "He solved the problem. He install TWRP, wipes and fix permission. However, TWRP reported that fix permission has failed. He let the phone reboot. ROM start up with out problem. Guess he will be using TWRP from now on."
+Set Req = Birdie.Speak("He spoke to soon. He was not able to install many of Google apps. Reinstall ROM again and now getting the the same message ...UID..")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Birdie.Speak "He just went from JellyBeans18 to CM10.2 and when he rebooted no apparent issues."
+Birdie.Speak "Then he restored TiBu data on certain apps, not all, and started having issues. Mainly that Nova Launcher wouldn't load and kept crashing, tried deleting data etc...didn't work. He uninstalled Nova and now the Play Store gives him an error when he try to reinstall Nova. Either way he rebooted and he's now getting this error."
+Birdie.Speak "'UIDs on the sysytem are inconsistent, you need to wipe your data partition or your device will be unstable.'"
+Set Req = Birdie.Speak("with a button that says 'I'm Feeling Lucky'")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Birdie.Speak "He was on 4.2.1, rooted, and with TWRP as recovery."
+Birdie.Speak "He wanted to get the OTA to 4.2.2 so he did full Titanium backup and then used the WugFresh toolkit to flash stock 4.2.1."
+Birdie.Speak "After flashing, he was offered the OTA which he allowed to install."
+Birdie.Speak "When finished, he got root back with Rootkeeper and restored all Apps and Data (not System data) with Titanium."
+Birdie.Speak "Everything was working, but on every reboot he got the message :"
+Birdie.Speak "'System UIDs Inconsistent. UIDs on the system are inconsistent, you need to wipe your data partition or your device will be unstable.'"
+Birdie.Speak "He also found that My Phone Explorer would no longer connect via USB so he decided to go back to 4.2.1."
+Set Req = Birdie.Speak("He again flashed it with the toolkit and did another restore with Titanium. Again, everything seems to be working, but he still get this message on every boot.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He's gotten this annoying message on his Verizon LG Optimus Zone 2 (LG-VS415PP):"
+Birdie.Speak "'System UIDs Inconsistent UIDs on the system are inconsistent, you need to wipe your data partition or your device will be unstable' followed with an option to click a button saying 'I'm feeling lucky'."
+Birdie.Speak "Searched all over the internet, Tried fixing permissions, doing a factory reset, all to no avail."
+Birdie.Speak "After many reboots and many days later, finally the message just stopped; He tried to get some more ROM space back, so he put 'contacts', 'hangouts' in user space and got rid of 'help' and 'live wallpapers'."
+Set Req = Birdie.Speak("The same error came back, so here's how he fixed it: He had Titanium Backup and Link2sd so he clear all app/sys caches, then, cleanup dalvik-cache, and 2nd partition.- then rebooted, and it worked.")
+WaitFor Req
+Debbie.Speak "He provided us a fix."
+Set Req = Debbie.Speak("Cathie, we're both friends.")
+WaitFor Req
+Set Req = Cathie.Speak("Debbie, we're both friends.")
+WaitFor Req
+Birdie.Speak "Phone crashed while browsing HTC's blinkfeed, and restarted"
+Birdie.Speak "It limped along for a few minutes and restarted again"
+Birdie.Speak "Phone then gets stuck at white HTC/android screen and remains there (left for several hours) - ie cannot power off, screen remains on"
+Birdie.Speak "Later, he discovered that you can proceed beyond this screen by ejecting the sim card - this then shows the lock screen (active background, time, date etc) but on top of this is the message UIDs on system are inconsistent... and one button which says 'I'm feeling lucky'. Whether you can press the button seemed to be allowed if you changed the position of the sim card - (ie if out, push it in, if in, eject it)."
+Birdie.Speak "After dismissing the strange message, he's left with a black screen with notification bar at the top, and navigation bar at the bottom. No apps; no widgets. The notification bar was working, in that he could swipe down, enter settings etc."
+Birdie.Speak "Furthermore, if he received a text, he could then access messages via the notification bar, but could not reply to a text because the keyboard did not load. Having used an app like messages or settings, he could switch between them with the bottom right navigation button as usual."
+Birdie.Speak "He found that he could receive phone calls, and once done so, he could dial others by switching back to the phone app. This about sums up the functionality of the phone."
+Birdie.Speak "The other comment was that the phone could not be switched off. Holding down the power button and selecting power off simply resulted in a restart of the phone."
+Birdie.Speak "After further investigation with HTC technical support, he could restart the phone in safe mode, but exactly the same process happens (ie restart, ejecting and re-inserting the sim card and agreeing to the 'I'm feeling lucky' button to get back to the main lock screen)."
+Birdie.Speak "HTC technical support wanted him to do a hard reset: this can be done in one of two ways, by software (an option under settings>backup & reset>Reset phone) or by hardware (holding down volume-down and power during start up. The software method had no effect on the described behavior. We tried this several times. The hardware method was unsuccessful, the phone simply restarted in safe mode."
+Set Req = Birdie.Speak("HTC technical support finally admitted defeat, unable to think of something else suggested sending it in for repair. His career's tech support also offered to send a pack for returning the phone for repair.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He rooted his VS980 with IORoot and flashed the recovery with CWM 6.0.4.4 with Loki and installed cm-11-20131223-NIGHTLY-vs980 with gapps-kk-20131208."
+Birdie.Speak "Upon first boot it gave the error 'System UIDs inconsistent: UIDs on the system are inconsistent, you need to wipe your data partition or your device will be unstable.' and none of the gapps are working including Downloads or File Manager, nor is it detecting his device as a drive so he is unable to make changes to the storage, only access current files and programs. He can still boot into recovery and he still have root."
+Birdie.Speak "He tried returning his phone to stock using the LGUnitedMobileDriver and LGMLauncher method but it freezes before the download starts."
+Set Req = Birdie.Speak("He think there may have been storage corruption which caused the initial issue and may be locking up LGMLauncher but he don't know how to fix it.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He has just rooted his HTC One and installed Android Revolution High Definition, which is corrupted and is found to be causing problems."
+Birdie.Speak "Because of that, he noticed that when he rebooted the phone, the error System UID Inconsistent came up, so after a bit of researching he decided to do a full wipe and install the corrupted ROM again, however the same thing has occurred."
+Set Req = Birdie.Speak("The weird thing is that it only happens when he hold down the power button and choose reboot, if he choose power off and then power it back up the message doesn't appear.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He's using Safestrap 3.11 to run AOKP 4.2.2 Milestone 1."
+Birdie.Speak "The last couple days he has started to receive the 'UIDs on the system are inconsistent, you need to wipe your data partition or your device will be unstable.' error."
+Birdie.Speak "He constantly start getting messages telling him apps have stopped, and any changes he make to files or settings seem to be applied but on reboot everything is the same as it's been."
+Birdie.Speak "He tried deleting the ROM slot (He has AOKP loaded in rom-slot2) but even after he choose to load my stock ROM his phone boots into AOKP, meaning he can't boot into the stock ROM."
+Birdie.Speak "He tried fixing permissions, and that doesn't work. He has tried to flash the latest AOKP nightly but whenever he place the zip on his phone's internal storage it disappears when he reboot as his phone reverts to how the filesystem was before."
+Birdie.Speak "He hasn't put an external SD Card in his phone yet."
+Set Req = Birdie.Speak("He has tried factory resetting his phone through Safestrap, AOKP, and stock Android recovery to find there's no change.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Set Req = Birdie.Speak("When playing a game, watching movie, or just browsing, his tablet keeps shutting down by itself, then reboots itself")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He has a Galaxy S4 running Android 4.3."
+Birdie.Speak "Recently it's been randomly shutting off. If he tried to turn it on it just goes into a reboot loop and the only way to stop it is to plug it into the charger."
+Birdie.Speak "At first he thought maybe that the power button gets pressed somehow in his bike jacket pocket and hard shuts it down. But it keeps doing it."
+Birdie.Speak "Also he was using it whilst sitting in his house and it just randomly shut off. I'm not too sure whether it does it at a certain percentage or not or whether it only does it when a lot of memory is being used, which he doubt as he's obviously not using it when it's in his pocket."
+Set Req = Birdie.Speak("Another thing, and he doesn't know whether it's related or not, but when it shut off the other day whilst he was using it he thought If he took the battery out and back in would it let him boot it up without the need for a charger. But no it didn't work. He plugged it in and then when it came on the language had changed to Slovakian.")
+WaitFor Req
+Set Req = James.Speak("This is impossible to find that the phone can automatically change the language to Slovakian on startup when it's supposed to respect settings. He probably his the oldest ROM that is still in development and is not respecting settings when he plugged it in the charger.")
+WaitFor Req
+Set Req = Ozzar.Speak("Yes, it's impossible.")
+WaitFor Req
+Set Req = Milton.Speak("How is that even possible?")
+WaitFor Req
+Set Req = Peedy.Speak("The settings were probably corrupt.")
+WaitFor Req
+Set Req = Cami.Speak("Even the serial number and model number can be corrupt.")
+WaitFor Req
+Set Req = Cupid.Speak("We'll see if this is correct.")
+WaitFor Req
+Set Req = Joe.Speak("The phone that automatically changes language is probably the scariest thing Android users can even see on their own technological lives. It's coded using Java and some C++ so they shouldn't do anything that is not coded.")
+WaitFor Req
+Sizlik.MoveTo 0, 684
+Set Req = Sizlik.Speak("Nobody can have this issue unless the phone is extremely corrupt.")
+WaitFor Req
+Set Req = Debbie.Speak("By the storage.")
+WaitFor Req
+Birdie.Speak "He has really tried searching for forumposts which describes the problem he's experiencing, but not really anything like it."
+Birdie.Speak "He has had his phone for a few months now, and over the past week, it has been shutting itself down, even though there is plenty of battery left."
+Birdie.Speak "It seems like when he's 'stressing' the phone alittle bit, he can reproduce the problem. For instance, it usually happens when he browse around and multitask - jumping from one app to another... Also, if he just load the game GTA III, which is somewhat heavy to run, it shuts off within 10 minutes, usually less."
+Birdie.Speak "Also, He's unable to reproduce the problem if he plug the phone to a power charger."
+Birdie.Speak "Firmware is the newest 4.2.2, Linux kernel 3.4.0-1220396."
+Birdie.MoveTo 635, 372
+Set Req = Birdie.Speak("Kyocera hydro phone is turning off and on by itself every few minutes. this has been happening for a few days. occasionally it will stay on for about an hour and then it will begin to restart itself automatically that will happen over and over several times. Then the cycle continues.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He's having the strange problem that his tablet (Asus Infinity 700) will turn itself on after about 30 seconds after he turned the screen off (push the off button) if it is plugged to charger."
+Set Req = Birdie.Speak("This started happening right after he updated to 4.2. It will do this every 30 seconds as long as it is plugged in. It does not happen if he's on batteries or he has it powered it off (where I pushed the off button several seconds, and told it to turn off). He has looked for new settings where he can change this behavior, but no luck.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Set Req = Birdie.Speak("Phone is Samsung Infuse 4G with Cyanogenmod 11 (Android 4.4). On a few recent occasions when he check it in the morning, he find that it's powered off. He start it up again, and it shows plenty of battery charge (75% or more).")
+WaitFor Req
+Set Req = Spaceman.Speak("Let's see how do Samsung tablets were overpowering generic Chinese tablets.")
+WaitFor Req
+Set Req = Birdie.Speak("His wife bought a pretty crappy Chinese little tablet awhile back and i'm pretty sure the custom rom etc that is on it isn't doing it any favours. He tried using there install system but it didn't like it as it wasn't a preferred device")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He has pretty much decided to buy a cheap Chinese generic / no-name tablet before he leave Taiwan."
+Birdie.Speak "This will be his first Android and his first touchscreen device of any kind. He's buying something very cheap because right now he doesn't have much disposable money and don't need a serious bit of hardware. This will be more or less a toy to play with the tech."
+Set Req = Birdie.Speak("That being said he still want to avoid the worst pieces of hardware and get the best value for his money. But of course reviews for generic devices are hard to find and sometimes they don't even seem to have brand names or model numbers.")
+WaitFor Req
+Set Req = Spaceman.Speak("Don't stop, because Samsung tablets were evolved into S6!")
+WaitFor Req
+Set Req = Birdie.Speak("He bought one of these simple cheap Chinese no-name tablets: HDMI, Bluetooth, HD display, dual-core CPU. Unfortunately, it came without official Google apps such as Market and Gmail.")
+WaitFor Req
+Set Req = Cupid.Speak("And this is why I recommend buying Samsung tablets, because Chinese tablets won't get official Google versions.")
+WaitFor Req
+Set Req = Joe.Speak("Yes, so everyone who have it should exchange it for the better one.")
+WaitFor Req
+Birdie.Speak "He tried different ways to install these apps. Every time he got a Force Close error."
+Birdie.Speak "He's using Ubuntu as his workstation and looked with adb for the device and it found one. However he's tried obtaining root access on this device, without any success."
+Birdie.Speak "He has tried these tools:"
+Birdie.Speak "SuperOneClick, UniversalAndroot, and EasyRootICS"
+Set Req = Birdie.Speak("BusyBox is installed but without su. Cannot remount /system, because its not permitted.")
+WaitFor Req
+Set Req = Spaceman.Speak("Don't stop ruining these generic tablets.")
+WaitFor Req
+Birdie.Speak "He received a 7' tablet as a 'gift' when he attended a presentation recently."
+Birdie.Speak "The device came in a white and blue box that said 'Android' and 'Tablet PC' on it."
+Birdie.Speak "There is no mention of any manufacturer, so his guess is he got an extremely cheap Chinese tablet. The instructions seem to indicate so the English in it is horrible."
+Birdie.Speak "Based on the 'About tablet' section in Settings, it seems to be running stock Android 4.0.4 and its model number is 'TWD_MID'. He did some searches but couldn't find any conclusive manufacturer/specs."
+Set Req = Birdie.Speak("It has 1GB of internal storage, another 'internal storage' worth 1.71GB, and it has a 'TF Card' slot...which takes MicroSD cards.")
+WaitFor Req
+Set Req = Spaceman.Speak("Impossible begins in this story.")
+WaitFor Req
+Birdie.Speak "He has recently purchased a generic, Chinese manufactured tablet that he could use some help with. He doesn't know much about the operating systems that these devices use, but this one seems to have something called OWL, on it. Under device info, there is tab for OWL upgrade."
+Birdie.Speak "Tried researching this online, and only found a developer site that explains OWL to be a small group of people trying to support the Wildfire S (OWL standing for Operation Wildfire Life). So he's not sure if this tablet was somehow set up with a version of the mod used in that project, but he's thoroughly confused right now."
+Birdie.Speak "He's recently downloaded a Hardware Info app from the play store and he's in the process of gathering some screenshots to post in with this."
+Set Req = Birdie.Speak("There are just some basic PC/Phone/Tablet functions that don't seem to be here, and he's never seen any other device that functions quite like this one does.")
+WaitFor Req
+Set Req = Milton.Speak("How can generic Chinese tablets receive OWL firmware upgrades? They don't deserve it!")
+WaitFor Req
+Set Req = Cupid.Speak("Yes, Beep.")
+WaitFor Req
+Set Req = James.Speak("Only modern things can have it.")
+WaitFor Req
+Set Req = Joe.Speak("But it should not be based on Chinese tablets.")
+WaitFor Req
+Birdie.Speak "He has been trying to find ways to root his tablet, but no luck! He tried root programs like kingo and Vroot, He also tried root apps like towel root, framaroot, z4root, and poot."
+Birdie.Speak "All of these apps haven't worked for his and he really need to root his device due to the stupid SD card problem on 4.4.2 KitKat."
+Set Req = Birdie.Speak("His device is a FONESO Tab")
+WaitFor Req
+Set Req = Joe.Speak("They are hardly rootable, so expect failures when rooting. Besides, they won't even have TWRP, CWM, and all ROMs, and would take years to make one.")
+WaitFor Req
+Birdie.Speak "He bought this tablet from aliexpress."
+Birdie.Speak "MTK8752 Octa-Core, ARM Cortex A7@ 1.6—2.0GHz;"
+Birdie.Speak "4G Bytes LPDDR3"
+Birdie.Speak "Built-in 64G Bytes NAND Flash storage"
+Birdie.Speak "10.1 inch IPS HD 1280*800 Resolution"
+Birdie.Speak "The specs looks good with 4GB RAM and Octa-Core processor, but when he run applications on it, they get frozen, and response of scroll and displaying keyboard get slow."
+Set Req = Birdie.Speak("Also the videos on VLC stuck and freezes but behind sound continue to play.")
+WaitFor Req
+Milton.MoveTo 351, 745
+Set Req = Milton.Speak("This isn't possible.")
+WaitFor Req
+Birdie.Speak "Bought unbranded generic Chinese 7' 1024x600 Android 4.2.2 tablet on MTK 6572 Dual Core 1.0GHz."
+Birdie.Speak "Everything fine except relatively low FPS on UI and games, about ~18-20 (fps meter shows 19), so it looks not smooth as he want."
+Birdie.Speak "CPU usage when scrolling between 20-30%. Tried every build.prop tweaks found here and other forums, egl.cfg fix, flashed MIUI ROM with /system/lib/ replacement, set governor to performance with min frequency set to max - still no changes."
+Birdie.Speak "Further investigation revealed that screen refresh rate is fixed to 19.37Hz."
+Set Req = Birdie.Speak("Googled a bit for any solution - nothing yet. Play Market has some 'magic' gaming 'FPS-unlocking' apps, but not working.")
+WaitFor Req
+Set Req = Milton.Speak("And again it isn't possible.")
+WaitFor Req
+Set Req = Cupid.Speak("How can Chinese tablet manufacturers reduce the screen refresh rate? The configuration will be very hard and even impossible to find.")
+WaitFor Req
+Set Req = James.Speak("I won't tolerate any more Chinese tablets. Go back to the modern and decent ones.")
+WaitFor Req
+Set Req = Spaceman.Speak("So, ready for next.")
+WaitFor Req
+Birdie.Speak "His stock, untouched, unrooted HTC One S has randomly got itself stuck in a boot loop. It goes through the 'quietly brilliant' screen, onto the 'htc one' screen and then it restarts."
+Birdie.Speak "He's desperately trying to recover his files and photos from the memory before he try a Factory Reset, because while these threads mention ways to recover deleted files, these posts from the OP suggest that it doesn't work for files lost to a factory reset."
+Birdie.Speak "Things he have tried:"
+Birdie.Speak "Selecting the 'Recovery' option from the bootloader shows a black screen with green arrows on it for about 10s, but then the green arrows change to a red triangle with an exclamation mark in it and it eventually reboots into the same loop."
+Birdie.Speak "Connecting to the phone using ADB over USB fails as the device is unseen. he believe this is failing because the phone is locked, and/or does not have USB debugging enabled on it."
+Set Req = Birdie.Speak("The Fastboot tool does seem to be able to see his device, but from what he can tell fastboot is more used for flashing ROMs, and he's not really trying to do this.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "His phone is stuck in boot loop, and won't pass the setup, AND USB Debugging is disabled and the bootloader is locked. If he put it in recovery he will have an option to use ADB Sideload."
+Birdie.MoveTo 670, 365
+Birdie.Speak "He have a rooted galaxy S2 on stock with the SuperSU application. He updated the SuperSU application today and when he opened it, it advised him to update the binary."
+Set Req = Birdie.Speak("He selected the option to update the binary via CWM. His phone then tried to reboot but is now stuck on the splash screen, He have access to ODIN mode which currently says CUSTOM BINARY DOWNLOAD: Yes (1 counts) but no access to CWM.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He bought his phone from Etotalk, so it came rooted, and with their custom version of the Lenovo Stock ROM and their custom version of CWM 5.5 installed."
+Birdie.Speak "He tried formatting my SD card and then doing a factory data reset from within the operating system. (He was intending to install MIUI V5 after rebooting into recovery)."
+Birdie.Speak "However, on rebooting, the device is now caught in an infinite boot loop, and he is not able to boot into recovery mode (by holding down power and both volume keys). It loads the initial splash screen, then shows a few seconds of the Android character and some whirring cogs before rebooting."
+Birdie.Speak "He is able to boot into Factory mode (power and volume up) or Meta mode (power and volume down). Factory mode has a number of options, but they are all in Chinese characters, which he is unfortunately not able to read."
+Set Req = Birdie.Speak("He did notice that his SD card seemed to be write protected when he tried to format it in his computer and to copy on the new ROM - he solved this by putting it in a different phone and reformatting it.")
+WaitFor Req
+Set Req = Spaceman.Speak("So this is one of the Chinese phones. Recovery screen will look like Chinese because it is not localized and so they assume that everyone talks Chinese, so ready for next.")
+WaitFor Req
+Birdie.Speak "He have a Samsung Galaxy Mini with stock Android 2.2, not rooted and USB debugging is not on. Now the phone memory was quite full so he tried to remove the Street View app, but now the phone is stuck in boot loop mode. The Samsung logo is just glowing and the phone vibrates now and then."
+Set Req = Birdie.Speak("He can get into download mode and recovery mode. He thinks he can flash a new firmware in download mode and then the phone would work fine then.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He rooted his Note 2 ( N7100, german version) like described in Kaitan's thread and it worked fine."
+Birdie.Speak "Then he flashed PAC Rom using TWRP and that also worked fine."
+Birdie.Speak "Now he wanted to install a stock Rom from Kaitan's Thread and that's when the problem began."
+Birdie.Speak "He installed the stock rom using odin (successful) which rebooted the phone after finishing and until then he's stuck in a bootloop, where the samsung logo (animation with the blue cirle around it) keeps coming over and over again."
+Set Req = Birdie.Speak("He can't seem to get into recovery mode, but he's able to get into download mode. to turn off, he has to remove the battery.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He was running SmoothROM with 4.2.2 and was messing with the 'Permissions Manager' settings under 'Settings'. He turned off several permissions on Facebook, such as SMS view/sender and location on it as well on some other apps."
+Birdie.Speak "He then rebooted the tablet and now he's stuck on a boot loop. He doesn't get how because these aren't system apps, so he doesn't think it should affect the system booting up at all."
+Birdie.Speak "Sadly he didn't make a nandroid backup before doing this, since he thought the worse that could happen would be the apps force closing which is easily fixed. Since he didn't make a backup he rather try things that wouldn't make him lose any data."
+Birdie.Speak "He can get into recovery (TWRP) and have already made a backup of the current boot looping state. He has already tried deleting cache and dalvik-cache and still won't boot."
+Set Req = Birdie.Speak("Turning the 'Permission Management' setting to 'Off' would make the apps have their default permissions. He would have to get into /data/data/com.Android.Settings and find the 'Permissions Management' setting and set it to 'false' or 'off' through ADB so he would have to pull the file and push the edited file back through fast boot or recovery.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He's running CM10 and using TWRP and he's S-OFF."
+Birdie.Speak "He's been running CM10 for about a month and have had no problems until this morning."
+Birdie.Speak "He woke up and checked his emails and texts then put his phone in his pocket."
+Birdie.Speak "When he took it out about an hour later, the power button wouldn't wake his screen but it would light up the capacitive buttons."
+Birdie.Speak "To try to fix, he did a hard reset (power button 10+ seconds) and now his phone won't boot or show anything on the screen, it just vibrates over and over."
+Birdie.Speak "He also is unable to do another hard reset (the buttons won't flash or anything). He's tried to get into bootloader and recovery and no luck."
+Set Req = Birdie.Speak("Also, he plugged it into his computer, and the charging light isn't on.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "So the phone fell from a small height into a toilet today but didn't turn off. Instead it rebooted and now it is stuck in a bootloop, reaching the end of the boot animation and beginning again."
+Birdie.Speak "He can't reach the recovery or bootloader. Holding down the bottom button and the power button stalls the bootloop but only produces a black screen for a few seconds before it loops again. Holding the power button just restarts the loop."
+Birdie.Speak "He tried plugging it into a PC and checking if it was listed under 'adb devices' while it was looping but got no joy."
+Set Req = Birdie.Speak("The thing is sitting in rice while he hunts for some silica gel packets. So on the plus side he has invented flashing rice.")
+WaitFor Req
+Set Req = Sizlik.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "He owns a Blu Studio 5.5s and it is stuck on bootloop."
+Birdie.Speak "He can not enable usb debugging, and recovery mode does not work."
+Birdie.Speak "He accidentally deleted his 'systems' file in his phone's hard drive."
+Set Req = Birdie.Speak("He went to a store, and they said he need to put a new update on his MicroSD card.")
+WaitFor Req
+Set Req = Sizlik.Speak("Ready for then.")
+WaitFor Req
+Set Req = Birdie.Speak("After spending a couple of weeks reading about rooting, he decided that he was ready. Despite being as careful as possible, he still managed to hard brick my phone within a couple of hours before he could actually even accomplish anything he set out to do.")
+WaitFor Req
+Set Req = Sizlik.Speak("Ready for then")
+WaitFor Req
+Birdie.Speak "He downloaded from Google Play a program called AParted to format his SD card."
+Birdie.Speak "He run the program, SD card is not formated but instead he think the telephone is formated itself."
+Birdie.Speak "Now is completely hard bricked, no flash at all, no charging, not hard reset and the most important the computer does not recognized it."
+Set Req = Birdie.Speak("When he plugged it with the USB caple, he received the message 'unknown USB device'. If he manage his computer to recognize the telephone, he can do something by himself using the flash tool.")
+WaitFor Req
+Set Req = Debbie.Speak("Ready for next")
+WaitFor Req
+Birdie.Speak "He had wicked sensations ROM installed."
+Birdie.Speak "Had TWRP recovery installed. The rom got really buggy after it being installed for a while, so he figured it was time to reinstall fresh rom."
+Birdie.Speak "so he used rom manager to download the newest cyanogen mod."
+Birdie.Speak "he decided to do a clean wipe when installing cyanogen mod ROM, and while installing it failed."
+Birdie.Speak "he was stuck in recovery mode with no operating system installed, so he used an old ROM on his sd card just to get android back on. he think it was called hercules rom. It successfully flashed and installed in recovery."
+Birdie.Speak "Next he pressed reboot/start."
+Birdie.Speak "Screen goes black."
+Birdie.Speak "and nothing ever came up."
+Birdie.Speak "His phone had 80% juice."
+Birdie.Speak "-he have swapped batteries."
+Birdie.Speak "-The little red light doesnt come on showing its charging"
+Birdie.Speak "-No splash boot logo"
+Birdie.Speak "-wont go into download mode(power,vol down, home)"
+Birdie.Speak "-wont go into recovery mode."
+Birdie.Speak "Holding the power button or any combination above the screen always stays black"
+Birdie.Speak "-no vibration"
+Set Req = Birdie.Speak("-no signs of life")
+WaitFor Req
+Spaceman.Speak "Ready for next."
+Set Req = Spaceman.MoveTo(167, 785)
+WaitFor Req
+Birdie.Speak "All was going so well at first. He rooted the phone successfully through Odin. His phone's out of warranty so it wasn't an issue."
+Birdie.Speak "Next he installed Clockworkmod (not rom manager) and got bricked. He can't enter download mode or recovery mode via any avenue."
+Birdie.Speak "Odin and Kies aren't detecting that his phone is even connected. All that happens is that he get the 'samsung www.samsungmobile.com' boot screen."
+Birdie.Speak "He tried the Vol+Power+Home+insert battery trick (needed 2 hands, double jointed fingers & a chin for that juggling act) but all I get is the same samsung screen with a text block in the top left:"
+Birdie.Speak "Emergency Dload Mode"
+Birdie.Speak "(ARM9 Mode)"
+Birdie.Speak "Somehow he doesn't think that's a good thing...."
+Set Req = Birdie.Speak("He's guessing his phone's rooted. He's ordered a USB jig as a last ditch attempt but he think it only helps soft-bricked phones.")
+WaitFor Req
+Set Req = Peedy.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "He has been messing around with with a Galaxy S3 SCH-i535 running 4.3 Jelly Bean. he bought the phone outright on eBay last week and it came with 4.3. He's been trying to get cyanogenmod installed however, with the permanently locked bootloader, he has not been able to get past the 'Verizon detected non authorized software' on boot."
+Birdie.Speak "Rooting the device was not a problem and he's gotten pretty comfortable with using odin to reflash the rom to stock. He had EZ-Unlock so he loaded that up to see what the it said about the status of the bootloader and it said that he was unlocked already. So he did something against his better judgment and tried to lock the bootloader with the intent to return everything to stock."
+Set Req = Birdie.Speak("On reboot the device shutdown with no responce. After removing the battery for about 10 minutes he replaced the battery and tryed to power on the S3. Nothing, no response, no blue LED, no vibrating, nothing. When I plug the S3 into his computer via USB cable his device manager sees an unknown device.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "So he rooted and installed AB on his droid charge, but did not like it so much, so he decided to revert back to the stock rom."
+Birdie.Speak "Anyways, in CWM he cleared everything then installed the stock rom, but when it ran it gave me an error saying the PIT file was missing."
+Set Req = Birdie.Speak("So, he found a pit file (803) and tried it again. It failed again, but after that the phone would not turn on; no recovery mode, no download mode, nothing! All he get when he charge it is the buttons on the bottom light up a bit.")
+WaitFor Req
+Set Req = Milton.Speak("We are ready for next.")
+WaitFor Req
+Birdie.Speak "He got his nexus around Febuary as a gift for his birthday as a little toy and music, he went right ahead and unlocked the bootloader and rooted it for future use as well as going ahead and putting TWRP on it with multirom for Ubuntu tinkering but never bothered flashing a new android and only flashed a new kernal to be able to tweek the clock speeds and never bothered with that ether becuase the nexus was fast enfough for everything he could throw at it."
+Birdie.Speak "Now a few days ago he decided to do a factory reset from TWRP to put a stock rom on it and clean everything off it, Then it just refused to boot but he still had bootloader access so all was well and he used the lazy option and oppted to use the nexus toolkit and told it to just flash the stock rom onto it. It finished then he went to restart it and it died."
+Birdie.Speak "Now since that death it will not boot, it will not get to the bootloader or recovery menu, it won't respond to any buttons at all, It won't display the charging icon when plugged it nor will the screen turn on at all and to top it all off even when he plug it into his laptop it will not even notice it at all."
+Set Req = Birdie.Speak("He has seen simlar problems but none exactly the same, he tried to return it today but to put it lightly PC World wouldn't exchange or repair it becuase the receipt was slightly damaged so returning it isn't an option.")
+WaitFor Req
+Set Req = Ozzar.Speak("Ready for next")
+WaitFor Req
+Birdie.Speak "The phone was unlocked and rooted shortly after he bought it in July."
+Birdie.Speak "He was using a Google edition Revolution High Definition 22 Rom, but he decided to try a CM10.2 ROM and this is where it all started to go wrong."
+Birdie.Speak "He downloaded the CM Rom and started to flash it on his phone but he got a boot loop with a different screen repeating over the recovery screen so he tried to wipe it and reflash but in doing so he deleted everything."
+Birdie.Speak "At that time he could get into the recovery screen where it said there wasnt a ROM installed, so he tried flashing the ROM again but this time he can only get into the boot loader and Fastboot, with option into recovery."
+Birdie.Speak "In fastboot he can type cmds such as devices, reboot_bootloader, fastboot oem readcid, without a problem, but if he try to flash a image or zip file it doesnt recognise the command or file. he receive a message unknown partition & error : cannot determine image file name"
+Set Req = Birdie.Speak("If he try cmd fastboot oem rebootRUU. The phone screen changes to a dark screen with HTC")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next")
+WaitFor Req
+Birdie.Speak "He has (had now most probably) a GT-i9505 running a Samsung stock Touchwiz Rom on Android 4.2.2."
+Birdie.Speak "He kept reading about how to “unlock” the full potential of Android you needed to Root your device, and was frustrated at how many apps needed “root” access to get the most out of them, so he rooted his device using using CF-Auto-Root-jflte-jfltexx-gti9505.zip.zip and Odin V3.09."
+Birdie.Speak "The root went fine. His original reason for rooting was to use Link2SD with a new 32gb microSD card that he had bought for his phone. He used a guide which used minitool partition to create a second partition on the meomory card, except the guide said to set the new partition to fat32 and he thinks he used ext4 instead"
+Birdie.Speak "Installed link2sd and moved a lot of his apps across to the new partition on the SD card. Phone was randomly rebooting so reading around he deleted everything “knox” related on his phone by searching “knox” in titanium backup and deleting it. His phone stopped rebooting and worked fine."
+Birdie.Speak "He was still frustrated by all the bloatware and rubbish that he never used on the Samsung rom, so he thought about installing cyanogenmod. He knew he had to install a custom recovery so he dutifully set his phone into download mode and installed clockwrokmod using GalaxyS4-CWM-6.0.4.4-GT-i9505.tar via Odin and all went well."
+Birdie.Speak "He then booted into recovery and made a full backup, which he saved on his windows computer. He was also worried that using Link2SD might mean CWM didn’t back everything up correctly so he moved everything back to the internal memory and did another backup which he again saved to his computer and it was larger than the first one. He still has access to both, and the microSD card which he can access through his PC via an adapter."
+Birdie.Speak "It was late at night and he had been reading about how locked bootloaders could cause problems with custom roms and that’s where it all went wrong."
+Birdie.Speak "He couldn’t find an easy way to see if my bootloader was unlocked, so he googled and found a link to a piece of software called “E-Z Unlock” which he downloaded and installed."
+Birdie.Speak "After granting it superuser permission he ran it and a box came upsaying it couldn’t tell if his bootloader was locked or not, with a button to “unlock” his bootloader."
+Birdie.Speak "He clicked the button, an American voice said “well that was easy,” and his bootloader status in the app showed as unlocked."
+Birdie.Speak "He switched off his phone to reboot it, and it was dead. He knew it was bad when he plugged the USB charging cable in and nothing happened. Holding the power button, nothing happens. Holding volume up, home and power, nothing happens. Taking the battery out, waiting for 12 seconds and holding home, volume down and power and putting battery back in – nothing happens."
+Set Req = Birdie.Speak("His PC/Odin can’t see my phone at all. The battery had 80% charge when this happened.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He just flashed a boot image with Flashify app from Google Play. He accidently thought that the boot image is the splash screen before the boot animation."
+Set Req = Birdie.Speak("He flashed a jpg file to his boot partition of the device to which after he restarte it, it could not boot up. Well of course, a jpg image does not contain the files to boot his device.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He flashed his phone using Odin ROM JPY_JPY_JPY, and then flashed supermod-kernel-k13d-500hz successfully."
+Birdie.Speak "Then he realized that there was a newer ROM: I9000XWJS5 with the XEN thing."
+Birdie.Speak "Since the ROM has the 3 files (MODEM, CSC, and PDA) and he read that it needed a different PIT, he flashed with the re-partition checkbox checked and with the 803 pit file but no luck."
+Birdie.Speak "It didn't get through. It got stuck at flashing sbl.bin"
+Birdie.Speak "He had to unplug it after several minutes and he tried to go back to JPY. After many tries and errors, finally he could flash back JPY ROM."
+Birdie.Speak "At the end of the process it reboots and the system get into Android system recovery <3e>. He can read at the bottom the following signs:"
+Birdie.Speak "E: Can't mount /dev/block/stl10 (invalid argument)"
+Birdie.Speak "E: copy_dbdata_media: Can't mount DBDATA:"
+Birdie.Speak "your storage not prepared yet, please use UI menu for format and reebot actions."
+Birdie.Speak "copy default media content failed."
+Birdie.Speak "If he reboot the system, it boots and he see the splash 'S' moving theme, and it seems that it is booting but then it stops and it starts vibrating from time to time... then the screen goes black and nothing happens (but vibrating from time to time). It never appeared the 'login screen'"
+Birdie.Speak "Reading there and there, some advised to flash first the speedmod-kernel with the PIT 512 file and re-partitioning. He did so, and then, after boot he was able to get into Clockworkmod recovery screen."
+Set Req = Birdie.Speak("Someone suggested to flash to JPU ROM but when he did so, it takes him at the beginning.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Birdie.Speak "Today at work he went to make a phone call and noticed that his phone wouldn't turn on. He pulled the battery and it brought him to a screen that said 'encryption failed' with a note saying he needs to do a factory reset and he'll lose all data."
+Birdie.Speak "After an hour he decided to press the reset button but nothing happened."
+Birdie.Speak "He removed the battery again and now it's stuck at the 'SAMSUNG GALAXY S2' screen for life. It won't turn on or off and won't go any further."
+Set Req = Birdie.Speak("He tried hard resets from the volume buttons and it didn't work.")
+WaitFor Req
+Set Req = Joe.Speak("Ready for next")
+WaitFor Req
+Birdie.Speak "He tried rooting with odin, installed Kies for the USB support but halfway through the root process he gets the big red failed phone's progress bar stops and it hangs."
+Birdie.Speak "He thought this was strange and never encountered this before. He then tried repeating the same process and same results, however this time around he is only able to bring the phone into 'odin' mode 'download' and not the original stock rom."
+Birdie.Speak "At first he was getting the original 'the firmware encountered an upgrade issue' and couldn't bypass this unless he opted for download mode."
+Birdie.Speak "He's tried the same steps to 'unbrick' via odin with stock T-Mobile firmware for this phone and yet it yields the same results, big exclamation failed on odin."
+Birdie.Speak "He then tried the process with the .pit file to partition that he found online somewhere and that fails too. His note starts up now, but stuck at the samsung galaxy note 3 screen."
+Birdie.Speak "He's tried several versions of odin, switching usb cables, usb ports and he's unable to root this phone or even get it unbricked."
+Birdie.MoveTo 725, 358
+Set Req = Birdie.Speak("He's installed CWM, after wiping cache and the other thing, also have rooted it apparently. His phone when in recovery mode never had the option to update from SD card, but he found a forum that told him to rename the files to update.zip because his phone had that option. Apparently this is called Hard Bricked and it is bugged.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Birdie.Speak "He has been trying to start my Samsung S2. The problem is that, he gets hung on the starting process of loading the device. All he get to see is the initial screen that displays 'Samsung Galaxy S II'."
+Set Req = Birdie.Speak("It does it about 4 times in a row and then it turns off. He tried taking the battery off, doing a hard reset on it by going the ClockworkMod recovery screen. He's currently there but he's not sure what to choose.")
+WaitFor Req
+Set Req = Gar.Speak("Ready for next")
+WaitFor Req
+Birdie.MoveTo 659, 325
+Birdie.Speak "He was updating his inspire 4g from the HTC's update sense 3.0 that he got it directly from their site."
+Birdie.Speak "His micro-usb cable apparently wiggled loose during the 'Installing Bootloader' phase of the installation and now his phone will turn on after about 20 minutes."
+Birdie.Speak "It does not respond pressing the power button and can not get into recovery mode. It hangs at either a Black HTC screen or a White HTC screen."
+Set Req = Birdie.Speak("It's different each time it boots. When it boots into the white HTC screen it vibrates for a good 5 minutes then eventually boots up. His phone is not rooted.")
+WaitFor Req
+Spaceman.Speak "Next"
+Set Req = Spaceman.MoveTo(166, 789)
+WaitFor Req
+Birdie.Speak "He can only boot into the bootloader/fastboot. Using fastboot he tried flashing recovery."
+Birdie.Speak "It will flash a recovery fine (tried TWRP, CWM, stock) but when you boot to recovery you get the HTC splash screen and then it hangs."
+Birdie.Speak "For quite a while he was worried he had a bad image. But after a little more searching, he found out he had some corrupt information! Model ID and Serial # appear to be really messed up!"
+Birdie.Speak "He tried to re-write his serial number and model ID, but I guess it won't work because he doesn't have the ENG hboot."
+Set Req = Birdie.Speak("Another thing that is interesting is that version-misc shows UNKNOWN.")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next")
+WaitFor Req
+Birdie.Speak "He has a Sprint HTC One running 4.2.2 (3.05.651.6) stock rom and TWRP recovery. It is unlocked and unrooted at the moment."
+Birdie.Speak "It randomly took a nose dive the other day and has been stuck in either boot loop or bootloader/ fastboot usb. If he tried to reboot, reboot-bootloader, factory reset, or lock the bootloader it boot loops on the white HTC screen."
+Set Req = Birdie.Speak("He has tried to flash the recovery again and erase cache with no luck. He's tried to flash a stock rooted rom using RUU and fastboot with no luck, it just boot loops.")
+WaitFor Req
+Set Req = Sizlik.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "His phone isn't working, because it says something about a DO.11 boot loader. Code corrupt, battery OK, OK to program, Connect USB, Data cable."
+Set Req = Birdie.Speak("He's tried everything he doesn't know what else there is. He downloaded a picture and it froze so he took out the battery and it hasn't turned on since.")
+WaitFor Req
+Set Req = Milton.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "His HTC One M7 is stuck in the bootloader screen and is unable to boot to the main OS."
+Birdie.Speak "The phone has never been unlocked or rooted, he's never even seen the bootloader screen until now. The bootloader is locked."
+Birdie.Speak "The only information he knows is that prior to this, he was prompted for a system update which looked official."
+Set Req = Birdie.Speak("He's tried every option in the boot menu (fastboot, bootloader, recovery, recovery reset) and it just goes back to the main screen.")
+WaitFor Req
+Set Req = Ozzar.Speak("Ready for next")
+WaitFor Req
+Birdie.Speak "Yesterday his Nexus 5 turned itself off and since then he can't get it back on."
+Birdie.Speak "When he tried to start his phone with the power button nothing happens, and also when he tried it with different combinations in buttons it won't start."
+Birdie.Speak "Now, when he try to charge my nexus everytime the google logo shows up and it shuts itself down, this happens over and over again as long as the phone is plugged in."
+Set Req = Birdie.Speak("When he tried to do it in bootloader it shows up one second and shut itself off again.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He foolishly followed a website that gave instructions on rooting, without a warning about unlocking the bootloader. He rooted the phone, no problem there."
+Birdie.Speak "He then tried flashing TWRP recovery, and that is where it all broke down. He got the Verizon triangle of doom, telling him unauthorized software."
+Birdie.Speak "He restored by using the stock ROM. But wait! It did not work, because it would constantly fail in Odin when it got to sboot.bin! The workaround he found was to use imnuts alternate rom which leaves the bootloader alone (does not do anything with sboot.bin)."
+Set Req = Birdie.Speak("However, he cannot do anything in Odin which requires a bootloader file - he tried using casual to root/unlock, but he gets a mean message.")
+WaitFor Req
+Set Req = Milton.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "So he unlocked his tf300t and flashed cwm to recovery and everything seemed to go fine."
+Birdie.Speak "When he would go into cwm it was not able to mount or access any other part of his tablet. He figured ok erase/format the recovery partition and try TWRP."
+Birdie.Speak "So he booted to the bootloader, using fastboot he erased recovery but now whenever he go to flash a new recovery, his bootloader either freezes or he gets an Unrecoverable bootloader error 0x00000000."
+Birdie.Speak "He can access fastboot and adb but it doesn't seem like he can flash using fastboot and he just doesn't feel comfortable trying with adb."
+Set Req = Birdie.Speak("Also, he can access fastboot only from the bootloader screen and adb only after he boots into his current rom (stock 4.2.1)")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Birdie.Speak "So he can't seem to find a solution to his specific issue. He was on Modaco switch beta 13 and decided he'd move on to something else because it hadn't been an update for quite a while and heI really didn't switch back to Sense except when he wanted to play around something."
+Birdie.Speak "He restarted into CWM recovery and tried to flash CM 11 but it gave him an error and he realized that he was downlevel on CWM recovery. He tried to flash an updated CWM and now only have access to fastboot."
+Set Req = Birdie.Speak("When he try to boot to recovery it gives him the HTC splashscreen and hangs. He tried TWRP, CWM, and stock with the same results. Checking fastboot getvar he noticed some really strange entries! serialno and modelid were corrupt!")
+WaitFor Req
+Set Req = Joe.Speak("Ready for next")
+WaitFor Req
+Birdie.Speak "He has an installation of Windows XP. It has corrupt registry hive (SOFTWARE). He's able to access system32\config folder but he has no registry backup."
+Set Req = Birdie.Speak("System Volume Information folder contains only two files and in repair folder are files 4 years old. He tried to load hive to Regedit but it says it's corrupt")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "Been getting regular BSOD for years, contacted Dell tech support many time several years back and after them remotely accessing his computer and trying all, the only thing they could tell him was to reinstall Windows."
+Birdie.Speak "But at the time he couldn't because he has no back up space."
+Birdie.Speak "Lived with it for years until it got so bad he couldn't take it anymore. Finally formatted and re-installed Windows 7, downloaded the critical updates, but the more he done the more it went back to the way it was until he couldn't open the browser for more than a few seconds before getting Blue screen again."
+Birdie.Speak "Read somewhere that may need a BIOS update, checked Dell drivers and they had the same A16 but there's was dated 2011 and his's was dated 2009."
+Birdie.Speak "So he downloaded and installed, got the message that he was installing the same BIOS did he want to overwite, he did, within seconds the screen went blank, an hour later he shut it down and that where he is now. Start the machine, fans come on and nothing else, nothing on the monitor, no beebs nothing."
+Set Req = Birdie.Speak("He made a bootable USB stick with the BIOS file added but the computer will not even boot far enough to read the USB, CD nothing.")
+WaitFor Req
+Set Req = Milton.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "A few weeks ago his PC started giving him BSOD's and would not boot into Windows."
+Birdie.Speak "He tried windows recovery methods, and even formatting his HDD but the problem still persists."
+Birdie.Speak "He tested his HDD and RAM, both were fine. He then reset the CMOS, which seemed to solve the problem. His PC was working fine, however it would take a much longer time to boot, often restarting itself during the first boot attempt."
+Birdie.Speak "He would sometimes have to restart it himself because although the fans and LED's were running for a considerable amount of time, the peripherals (mouse, keyboard and monitor) were still off."
+Birdie.Speak "It got to the point last week where after he tried turning the PC on, it would just keep switching itself on and off at about 2 second intervals, and could not even get to POST."
+Birdie.Speak "He has a dual bios motherboard, and after switching to Bios B, his PC now works perfectly."
+Set Req = Birdie.Speak("He assumed that Bios A was corrupted, so he tried flashing it using MSI USB flashing tool, but it unfortunately did not work. He really wants to fix Bios A in case anything happens to Bios B.")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "For purposes of the OS update to 8.0, he has tried to relock the bootloader through fastboot. Once done, his device refuses to boot and displays the following message: 'Your device is corrupt. It can't be trusted and will not boot'."
+Birdie.Speak "Then he is to unlock the bootloader again + wipe everything (including system) + flash TWRP recovery + flash (via TWRP sideload) a previous version of Oxygen OS based on Android N."
+Birdie.MoveTo 620, 360
+Birdie.Speak "His phone is currently stuck in boot loop. he cannot go to the recovery, but have access to fastboot. But the bootloader is locked."
+Birdie.Speak "1. Tried 'fastboot oem unlock' to unlock the bootloader, but the bootloader was not getting unlocked. Because he does not have access to the recovery, he cannot change the unlock bit."
+Birdie.Speak "2. Unable to to back to stock like given in the below post as the bootloader is locked and it does not allow him to flash stock image."
+Set Req = Birdie.Speak("3. Also tried the following methods (both Color OS and CM11S). Though it did like it was supposed to do, phone still is stuck at boot loop.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Birdie.Speak "He used a tool, after flash CyanogenMod, then he locked the bootloader for misclick."
+Birdie.Speak "After a reboot, he gets stuck on Oneplus logo. Now he only can enter fastboot, but bootloader is locked. Also, he can't enter on TWRP."
+Birdie.Speak "If he does: fastboot devices, his device is recognized by PC."
+Set Req = Birdie.Speak("If he does: fastboot oem device-info, all information is false except device tempered. On 'device unlocked' it shows false too. It means that bootloader is locked.")
+WaitFor Req
+Set Req = Peedy.Speak("Ready for next")
+WaitFor Req
+Birdie.Speak "He's got an HTC One with Sprint running 4.2.2 (3.05.651.6). He unlocked the bootloader and rooted it using qbking77's tutorial. He hasn't flashed any ROMs on his phone."
+Birdie.Speak "Everything has been working fine until yesterday, when he took his phone out of his pocket and it was dead. he charged it up and when he turned it on it was stuck in a boot loop on the HTC screen."
+Birdie.Speak "He can get into bootloader fine and fast boot usb shows up on his phone when connected to the computer, but he can't access his TWRP recovery. It shows TeamWin screen then boot loops again."
+Birdie.Speak "He has reflashed the recovery and erased the cache. He has also tried to lock the bootloader using AIO Toolkit and by connecting to fastboot and typing in 'fastboot oem lock'. For the toolkit he gets device not found and an error and when using the command prompt he gets failed (status read failed (No such file or directory))"
+Birdie.Speak "He think its possible his usb debugging may be off since he can't find any devices using adb but his pdanet can find his phone (which needs usb debugging) so he's not sure."
+Set Req = Birdie.Speak("If he can get it locked, he can use RUU to get back to stock.")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "His Nexus 7 is stock and unfortunately bootloader locked"
+Birdie.Speak "It's been acting up lately and a few days ago it stopped booting at all, it would either stay on the nexus logo or the google splash screen."
+Birdie.Speak "He didn't have anything important on it so he decided to perform a factory reset from the bootloader menu (recovery mode-dropdown menu-wipe data/factory reset) screen comes up, says it's wiping the data."
+Birdie.Speak "And it freezes, He left it for a long time on the erasing screen, no progress, no animations, nothing but a frozen screen."
+Birdie.Speak "Hit the power button, tried to do a soft brick repair using nexus root toolkit (flash stock + no root), downloaded correct factory rom, installed drivers on PC and attempted the repair."
+Birdie.Speak "The command prompt style window tells him its all going ok, says its doing a power reset on the tablet and it will power back on."
+Birdie.Speak "Then sits on 'waiting for device' indefinitely."
+Birdie.Speak "He powers the tablet on himself, error message on cmd prompt window. 'archive does not contain boot.sig, recovery.sig or system.sig.'"
+Birdie.Speak "He then tried unlocking the bootloader using the built in feature in nexus root toolkit but once the tablet begins that process it freezes exactly like the factory reset issue."
+Birdie.Speak "He decided to power cycle the device"
+Set Req = Birdie.Speak("Now the tablet won't attempt to boot, it just sits on the bootloader screen with 'boot failed' in the upper left corner of the screen. He can still access everything in the bootloader")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Birdie.Speak "He want to factory reset his phone as it started acting up with lots of toast messages about processes stopping. He's tried from settings and it fails. He's tried from fastboot and when he selected recovery, he gets the error message 'boot up failed'."
+Birdie.Speak "Fastboot v41.1A."
+Set Req = Birdie.Speak("Device is LOCKED.  Status Code: 0")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Set Req = Birdie.Speak("His Android Lifepad TAB is misbehaving because it has pop up ads and he can't go on google play and it says app management error, He tried to reset it several times and still doing the same.")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "One of his friends had a Huawei Y210, it locked because of so many wrong pattern attempt. Unfortunately he hasn't google account to login with it."
+Birdie.Speak "He wants to hard reset it but it fails to load Recovery mode by pressing Volume Up + Power for more than 10 seconds or less. He tested any key combination but only it normally boots and shows locked screen."
+Birdie.Speak "He tried fastboot -i 0x12d1 flash recovery recovery.img and without vendor id, it only waits for device."
+Birdie.Speak "Also he added 51-android.rules to udev and restart udev but nothing happened and only waits for device."
+Birdie.MoveTo 575, 291
+Birdie.Speak "He has a Moto G which spontaneously went to a white screen with a blue 'M'. It will only display that screen or a battery level screen. If an attempt is made to recover or factory reset, it either shows the blue M, or the fastboot program says the boot failed."
+Birdie.Play "Read"
+Birdie.Play "ReadContinued"
+Birdie.Play "ReadContinued"
+Birdie.Play "ReadReturn"
+Birdie.Play "Protest"
+Birdie.Speak "He is trying to install Google Play Store 6.0.5 on his PC through BlueStacks APK handler. It shows 'Installing APK', but after sometime it shows APK installation failed: Android_Boot_Failure."
+Birdie.Play "ProtestReturn"
+Set Req = Birdie.Speak("His phone keeps restart with this message 'Kernel panic!' He already updated his firmware but it's still won't fix anything. His phone is Samsung galaxy Mega 5.8 GT-i9152p")
+WaitFor Req
+Set Req = Cupid.Speak("So that Android is Linux based.")
+WaitFor Req
+Birdie.Speak "His SGS3 is now in a 'boot-loop', where the Samsung screen comes up but then it reboots every time without going any further. He can't go into recovery, because he gets the 'Kernel Panic' message, so he can't do a hard reset."
+Birdie.Play "Explain"
+Birdie.Speak "He recently did a factory reset on his Note 2 because of lagginess. Before he did the reset, he could run his phone for days/weeks without restarting and he would only restart when it was running slow or something like that."
+Set Req = Birdie.Speak("Now post reset, he seems to get get Kernel Panics much more frequently, to a couple times a day to once every few days. Sometimes he's using his phone, sometimes it's just in his pocket.")
+WaitFor Req
+Set Req = Genie.MoveTo(1341, 743)
+WaitFor Req
+Al.Speak "Everything is corrupt now."
+Set Req = Al.Hide()
+WaitFor Req
+Set Req = Alien.MoveTo(1281, 750)
+WaitFor Req
+Set Req = Blanche.MoveTo(1191, 684)
+WaitFor Req
+Set Req = Cami.MoveTo(1168, 751)
+WaitFor Req
+Set Req = Cathie.MoveTo(1080, 683)
+WaitFor Req
+Set Req = Debbie.MoveTo(1030, 683)
+WaitFor Req
+Set Req = Gar.MoveTo(1001, 749)
+WaitFor Req
+Set Req = Check.MoveTo(952, 747)
+WaitFor Req
+Set Req = Cupid.MoveTo(865, 705)
+WaitFor Req
+Set Req = Gourdy.MoveTo(816, 745)
+WaitFor Req
+Hanz.MoveTo 734, 780
+Hanz.Speak "I'm going now."
+Set Req = Hanz.Hide()
+WaitFor Req
+Set Req = James.MoveTo(733, 687)
+WaitFor Req
+Set Req = Joe.MoveTo(664, 751)
+WaitFor Req
+Set Req = Merlin.MoveTo(597, 748)
+WaitFor Req
+Set Req = Milton.MoveTo(540, 747)
+WaitFor Req
+Set Req = Oscar.MoveTo(494, 749)
+WaitFor Req
+Set Req = Ozzar.MoveTo(440, 745)
+WaitFor Req
+Set Req = Peedy.MoveTo(365, 746)
+WaitFor Req
+Robby.MoveTo 322, 744
+Robby.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273006}"
+Set Req = Robby.Show()
+WaitFor Req
+Set Req = Spaceman.MoveTo(170, 785)
+WaitFor Req
+Totem.MoveTo 205, 723
+Totem.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273003}"
+Set Req = Totem.Show()
+WaitFor Req
+Spaceman.MoveTo 141, 739
+Set Req = Spaceman.Speak("Are Peedy and Marlin here?")
+WaitFor Req
+Set Req = Robby.Speak("Yes.")
+WaitFor Req
+Birdie.Speak "His Vibrant just crashed with this message, 'user fault not kernel panic upload mode'. All he was doing was updating a word document using the application Freethink which comes with the phone."
+Birdie.Speak "He pulled the battery out and restarted, and went to do the same thing he was trying to do before the crash and it crashed again."
+Birdie.Speak "He looked this message up online using 'google', but there isn't much. People seem to think it has to do with GPS, and it seems like it's a reoccurring problem, which factory reset will not fix."
+Set Req = Birdie.Speak("He's switched back to his Blackberry, incase that it does reoccur. And he will call T-Mobile he guess or maybe try restarting again, and see if it crashes again doing something different other than Freethink.")
+WaitFor Req
+Set Req = Oscar.Speak("So there were kernel panics in Android.")
+WaitFor Req
+Set Req = Milton.Speak("Because it's made out of Linux.")
+WaitFor Req
+Birdie.Speak "Peedy, come here."
+Set Req = Birdie.Hide()
+WaitFor Req
+Set Req = Spaceman.Speak("Is this usual to get kernel panics on your phone?")
+WaitFor Req
+Set Req = Cupid.Speak("No.")
+WaitFor Req
+Set Req = James.Speak("I had a kernel panic once.")
+WaitFor Req
+Set Req = Gourdy.Speak("On your Linux PC? Or on your Android phone?")
+WaitFor Req
+Set Req = James.Speak("It's a Linux PC.")
+WaitFor Req
+Set Req = Robby.Speak("He's trying to trick us.")
+WaitFor Req
+Set Req = James.Speak("No.")
+WaitFor Req
+Set Req = Ozzar.Speak("Robby and Totem, as you know, you will never come after this News.")
+WaitFor Req
+Peedy.Speak "This is the last one."
+Peedy.MoveTo 535, 287
+Peedy.Speak "He's got a problem with severely corrupted display (weird lines of repeated random characters across the screen)."
+Peedy.Speak "Corrupt lines intersecting mouse position appear in wrong RGB. Very strange! Began as game crash in Arx Fatalis (now fixed), now happens on occasional vendors video demo and espesecially when starting up computer after it has been off for some time."
+Peedy.Speak "Startup problem goes away after 15-20 minutes runtime and reboot, and used to be avoided via booting into safe mode for 'warm-up.' Now, problem appears even in safe mode, which eliminates Video Card related problems."
+Set Req = Peedy.Hide()
+WaitFor Req
+Set Req = Ozzar.MoveTo(395, 744)
+WaitFor Req
+Set Req = Oscar.MoveTo(455, 744)
+WaitFor Req
+Milton.MoveTo 517, 747
+Set Req = Milton.Speak("Kernel panics, because there were one.")
+WaitFor Req
+Genie.Speak "Yes, and I'm talking."
+Genie.MoveTo 573, 357
+Genie.Speak "Last year, his PC started showing corrupted graphics, blue & green screens (not BSOD) and black vertical lines across the screen. Computer was still under warranty, the shop replaced the PSU."
+Genie.Speak "Problem still occurred, he replaced the Gigabyte HD7970 3GB with an older MSI 2GB R7850-2GD5/OC that he had around the place. As soon as he booted up and ran the PC for a hour or so no problems with the video. Tried using different HDMI cables no change. He wasn't able to get the screen corruption to replicate."
+Genie.Speak "So he requested a refund for what he thought was a dodgy GPU. The shop refunded him the money."
+Genie.Speak "So he purchased a R9 290 4GB card, put it in and the same problems came back along with the message 'the display driver has crashed and recovered' He completely wiped the SSD and installed windows, as soon as Windows had finished installing even before he could install any specific drivers the same problems came back."
+Genie.Speak "He tested the monitor on his other PC with the same HDMI cable for over a week and didn't have one problem."
+Genie.Speak "He tested in safe Mode, same thing, corruption and driver crashes, black screens etc."
+Genie.Speak "So by now weeks and weeks had gone by and he demanded the store look into it further. They stress tested the PC overnight and weren't able to replicate, when he told them about the BIOS resetting when ever the power fails or the cable being unplugged, they replaced the Gigabyte Motherboard with an ASUS one."
+Set Req = Genie.Hide()
+WaitFor Req
+Set Req = Alien.Speak("And now everyone can leave after this.")
+WaitFor Req
+Set Req = Merlin.MoveTo(497, 289)
+WaitFor Req
+Set Req = Joe.MoveTo(592, 751)
+WaitFor Req
+Set Req = James.MoveTo(673, 687)
+WaitFor Req
+Set Req = Gourdy.MoveTo(771, 746)
+WaitFor Req
+Set Req = Cupid.MoveTo(845, 706)
+WaitFor Req
+Set Req = Alien.MoveTo(1335, 751)
+WaitFor Req
+Set Req = Blanche.MoveTo(1239, 686)
+WaitFor Req
+Set Req = Cami.MoveTo(1203, 752)
+WaitFor Req
+Set Req = Cathie.MoveTo(1102, 683)
+WaitFor Req
+Set Req = Debbie.MoveTo(1052, 685)
+WaitFor Req
+Set Req = Gar.MoveTo(1014, 754)
+WaitFor Req
+Merlin.Speak "He got the PC home, put my R9 290 back in and instantly get the same video corruption."
+Merlin.Speak "Everything points to GPU, but this has happened with two different makes and models of GPU, the PSU and motherboards have been replaced."
+Merlin.Speak "He booted the PC up tonight again with no devices, such as mouse, keyboard etc. plugged in except for the HDMI cable, same black screen and mouse cursor only as soon as Windows finished booting."
+Merlin.Speak "He get no corruption on the BIOS post screen or the Windows Load screen, only when Windows starts."
+Merlin.Speak "He's swapped power cables, mouse, keyboards, monitors, HDMI cables and still can't explain it."
+Set Req = Merlin.Hide()
+WaitFor Req
+Totem.Speak "So we're finished."
+Totem.Speak "We can't come back after it. Goodbye."
+Set Req = Totem.Hide()
+WaitFor Req
+Set Req = Spaceman.MoveTo(178, 784)
+WaitFor Req
+Set Req = Robby.MoveTo(282, 742)
+WaitFor Req
+Set Req = Ozzar.MoveTo(365, 744)
+WaitFor Req
+Set Req = Oscar.MoveTo(440, 745)
+WaitFor Req
+Milton.MoveTo 511, 747
+Milton.Play "Congratulate"
+Milton.Play "CongratulateReturn"
+Milton.Speak "News is now in nothingness."
+Set Req = Milton.Hide()
+WaitFor Req
+Set Req = Joe.MoveTo(511, 749)
+WaitFor Req
+Set Req = James.MoveTo(598, 685)
+WaitFor Req
+Set Req = Gourdy.MoveTo(701, 742)
+WaitFor Req
+Set Req = Cupid.MoveTo(779, 704)
+WaitFor Req
+Set Req = Check.MoveTo(909, 747)
+WaitFor Req
+Set Req = Gar.MoveTo(983, 748)
+WaitFor Req
+Set Req = Debbie.MoveTo(1028, 686)
+WaitFor Req
+Set Req = Cathie.MoveTo(1092, 683)
+WaitFor Req
+Set Req = Sizlik.Hide()
+WaitFor Req
+Set Req = Robby.Hide()
+WaitFor Req
+Set Req = Spaceman.Hide()
+WaitFor Req
+Set Req = Ozzar.Hide()
+WaitFor Req
+Set Req = Oscar.Hide()
+WaitFor Req
+Set Req = Joe.Hide()
+WaitFor Req
+Set Req = James.Hide()
+WaitFor Req
+Set Req = Gourdy.Hide()
+WaitFor Req
+Set Req = Cupid.Hide()
+WaitFor Req
+Set Req = Check.Hide()
+WaitFor Req
+Set Req = Gar.Hide()
+WaitFor Req
+Set Req = Debbie.Hide()
+WaitFor Req
+Set Req = Cathie.Hide()
+WaitFor Req
+Set Req = Cami.Hide()
+WaitFor Req
+Set Req = Blanche.Hide()
+WaitFor Req
+Set Req = Alien.Hide()
+WaitFor Req
+Birdie.Show
+Set Req = Birdie.Speak("I will tell the last 2 stories since they're quite long. It's about Minecraft.")
+WaitFor Req
+Wartnose.MoveTo 515, 296
+Wartnose.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273003}"
+Wartnose.Show
+Set Req = Wartnose.Speak("No, I will tell. haqa. haqa. haqa.")
+WaitFor Req
+Set Req = Birdie.Play("GestureRight")
+WaitFor Req
+Wartnose.Play "Fart"
+Set Req = Wartnose.Hide()
+WaitFor Req
+Birdie.Speak "There is a server that he joined in March 2014. That was the date before we came. It's probably the best server until December 2015."
+Birdie.Speak "A new player joined, but he was too polite to other players and staff. He decided to get him started to let him use his blaze farm and automatic melon farm."
+Birdie.Speak "He also made him occupy a part of the base, since the owner didn't need it, and he made him maxed out diamond armor and tools like swords, etc."
+Birdie.Speak "They started building together."
+Birdie.Speak "Everything was fine, until another guy joined, when he started OK at first, then he got more belligerent as he is buying perks and making donations to all of the staff members to get players away from the server."
+Birdie.Speak "Let's call the player that's telling the story, X, the nice guy, Y, and the bad guy, Z."
+Birdie.Speak "Z repeatedly messaged X telling him to stop complaining about him being rude to players to the staff members so X want him to be banned."
+Birdie.Speak "It continued to be like this in a very unusable situation until April 2016, where the server admins have announced that the staff applications were open."
+Birdie.Speak "X and Y tried to apply for staff, but X didn't get staff because he wasn't accepted, while Y got staff."
+Birdie.Speak "X was waiting for a year to get staff, but he was disappointed to see that he failed to get it applied, so he was partying for Y."
+Birdie.Speak "This was the funniest thing X has ever done. A lot of fireworks, explosions, potions, etc."
+Birdie.Speak "Now, the rude Z applied as well and got moderator instead of being rejected and banned. Unexpected."
+Birdie.Speak "In his records, he got records and instances of swearing, griefing, and being rude. He was constantly telling anyone to stop complaining whenever it happened."
+Birdie.Speak "X had a clean record, and is very nice to other players, and so, the community."
+Birdie.Speak "However, something seems to be getting out of control because Z has to punish all players who had clean records since the server has started and who did not even break the rules, at all."
+Birdie.Speak "They tried to ask for their offenses to remove, but the owner 'trusts Z's decisions and will not be removed.'"
+Birdie.Speak "Z then starts to warn X over things like flattening land, making buildings that are too fancy, and making redstone lighting."
+Birdie.Speak "After a few months, he was banned over griefing, when he isn't doing it. He went on the forums to make a dispute, and they said that Z had banned him."
+Birdie.Speak "Z has posted the screenshots of X griefing the building, which is untrue because he is destructive, because he modified the history to make it look like that X is griefing the building."
+Birdie.Speak "He failed to ask questions, because the staff had to lock the thread before even answering."
+Birdie.Speak "He asked Y to investigate, and he checked the ticket and took more screenshots of the area that he 'griefed' in."
+Birdie.Speak "The moderator, Z, had griefed the building but instead of admitting, he tried to edit a history entry for that area so it would look like that X griefed everything."
+Birdie.Speak "Y had said it from what I have said in the last statement, but X was surprised that one of the areas that he 'griefed' was the house that one of his friends owned."
+Birdie.Speak "He started the thread on the forum that Z needs to be demoted to normal member with a permanent ban...... It got locked and deleted before anyone can see it!"
+Birdie.Speak "He contacted the server owner, for which we'll be calling, A, and told him about everything that a moderator has done. However, he failed to reply, because 'he trusts Z.'"
+Birdie.Speak "Z then goes very rude and tell all of the other staff members that haven't seen X that he is a griefer, and they just accepted without evidence and started to ban him like 20 times for the corrupted reasons that are very mean, rude, and offensive."
+Birdie.Speak "'Bye zFa!!!! We won't miss you!'"
+Birdie.Speak "'Wow, it's so great to be rid of you!'"
+Birdie.Speak "'You are a horrible person and should never have ever been allowed on this server in the first place. We are so much better than you.'"
+Birdie.Speak "Then they banned him on their own servers before he can even contact them to tell them that none of these are true, because they're using MCBans, which is terrible, and that Z has told them not to allow him on all their own servers. As a result, he can't join most servers because he had a horrible rating on it, and he lost the projects that took months to finish on that server."
+Birdie.Speak "And now the second story."
+Birdie.Speak "\Spd=75\This is the last story of all News."
+Birdie.Speak "Let's call the one who is telling the story, X, and the rogue owner, Y"
+Birdie.Speak "He remember a friend of his's had a 12-player whitelist survival server with a few addons."
+Birdie.Speak "They had so much fun even if the map resets every now and then. But a hacker came, with an Xray hack, who managed to find so many diamonds."
+Birdie.Speak "But the original server owner is in the high school and so he shut it down because he can't keep up for hackers and tricksters."
+Birdie.Speak "After a few months, a rogue owner stole the address and made the server where it has a 40 player limitation, and the server title is 'Welcome back.'"
+Birdie.Speak "X told his friends and they started doing everything they are supposed to do, until they made a Nether portal and went inside."
+Birdie.Speak "They failed to find the nether fortress where it is guarded by blazes and zombie pigmen, so they went back to the Overworld to find that they're going to the shallow grassy valley, in which they have climbed up the hill and saw the nice-looking wooden or cobblestone buildings with iron stuff behind it."
+Birdie.Speak "In the gravel roads, they have labels. However this is built in survival, so they realized that Y has took over the entire server."
+Birdie.Speak "They found valuable stuff like diamond blocks and beacons carefully without damaging the buildings so they wouldn't realize something is up with the admins that are actively looking for corruption in the town. They went back home."
+Birdie.Speak "A few weeks later, when the admins were extensively guarding the town and restoring what was damaged, X and his friends tried to find a nether fortress in which they returned to a valley because they failed to find the fortress."
+Birdie.Speak "They noticed that there was a wall that is put by the admins telling strangers to go away. They bypassed the wall and started to steal everything, in which the admins replied with the thicker and taller wall with signs that got more worried. They are starting to do town raiding parties every few weeks so that admins there think that there are ghosts in the town stealing stuff."
+Birdie.Speak "The admins, as expected, thought that the ghosts had came back to seek revenge on him. He didn't know that X and his friends were actively using the nether portal in which brang them to the valley. The admins can't use the portals for that reason either."
+Birdie.Speak "The admins then exposed them and banned them for 'HAHA gotcha but well played.'"
+Birdie.Speak "They were disappointed... Someone unbanned X only, with administrative privileges without even touching the town. He unbanned his friends and they all continued as usual."
+Birdie.Speak "The admins thought that they are scared because the raids are continuing, so they put the sign saying that has to be stopped. They thought that it was ghosts."
+Birdie.Speak "In the final days, the message was 'You win now leave me alone!' After that, the server got brutally shut down with the raided town."
+Birdie.Speak "This is the goodbye music for News 30. For programmers that can change the value, please change the directory to your own music. It should be saves as Wave format. (.wav)"
+Birdie.Speak "Goodbye News series", "C:\Documents and Settings\EoflaOE\My Documents\title.wav"
+Birdie.Speak "However we're still not done yet, because we kept making amusements, programming, and some games that you may find at https://eofla.wordpress.com. Also, we have created a fake radio station of GTA San Andreas named Eofla Radio."
+Birdie.Speak "Goodbye."
+Birdie.Hide
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

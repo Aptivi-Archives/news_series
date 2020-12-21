@@ -1,0 +1,211 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Cami=Cami.acs
+Cathie=Cathie.acs
+Genie=Genie.acs
+James=James.acs
+Oscar=Oscar.acs
+Ozzar=Ozzar.acs
+Santa=Santa.acs
+Totem=Totem.acs
+Sizlik=Sizlik.acs
+Spaceman=Spaceman.acs
+Vrgirl=Vrgirl.acs
+Wabbit=Wabbit.acs
+Sharky=Sharky.acs
+Milton=Milton.acs
+Robby=Robby.acs
+Birdie=Birdie.acs
+Reaper=Reaper.acs
+
+[LanguageIDs]
+Cami=&H409
+Cathie=&H409
+Genie=&H409
+James=&H409
+Oscar=&H409
+Ozzar=&H409
+Santa=&H409
+Totem=&H409
+Sizlik=&H409
+Spaceman=&H409
+Vrgirl=&H409
+Wabbit=&H409
+Sharky=&H409
+Milton=&H409
+Robby=&H409
+Birdie=&H409
+Reaper=&H409
+
+[Script]
+Cami.MoveTo 1341, 750
+Cami.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Cami.Show()
+WaitFor Req
+Cathie.MoveTo 1233, 682
+Cathie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Cathie.Show()
+WaitFor Req
+Genie.MoveTo 1179, 737
+Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Genie.Show()
+WaitFor Req
+James.MoveTo 1096, 683
+James.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = James.Show()
+WaitFor Req
+Oscar.MoveTo 1030, 742
+Oscar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Oscar.Show()
+WaitFor Req
+Ozzar.MoveTo 960, 746
+Ozzar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Ozzar.Show()
+WaitFor Req
+Santa.MoveTo 876, 726
+Santa.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Santa.Show()
+WaitFor Req
+Totem.MoveTo 741, 715
+Totem.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273003}"
+Set Req = Totem.Show()
+WaitFor Req
+Sizlik.MoveTo 1, 669
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Sizlik.Show()
+WaitFor Req
+Spaceman.MoveTo 178, 766
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Spaceman.Show()
+WaitFor Req
+Vrgirl.MoveTo 285, 721
+Vrgirl.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Vrgirl.Show()
+WaitFor Req
+Wabbit.MoveTo 360, 680
+Wabbit.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Wabbit.Show()
+WaitFor Req
+Sharky.MoveTo 539, 670
+Sharky.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Sharky.Show()
+WaitFor Req
+Milton.MoveTo 490, 736
+Milton.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Milton.Show()
+WaitFor Req
+Robby.MoveTo 681, 736
+Robby.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273006}"
+Set Req = Robby.Show()
+WaitFor Req
+Birdie.MoveTo 1313, 61
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Birdie.Show()
+WaitFor Req
+Reaper.MoveTo 744, 14
+Reaper.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273007}"
+Set Req = Reaper.Show()
+WaitFor Req
+Set Req = Oscar.Speak("I am sneezing")
+WaitFor Req
+Set Req = Genie.Speak("For those who are sneezing, we will exit.")
+WaitFor Req
+Oscar.Speak "I'll be exit."
+Set Req = Oscar.Hide()
+WaitFor Req
+Set Req = Sharky.Speak("News 8")
+WaitFor Req
+Set Req = Reaper.Speak("Now News 8")
+WaitFor Req
+Set Req = Robby.Speak("Yeahhhh!!")
+WaitFor Req
+Set Req = Totem.Speak("Yeahhhh!!")
+WaitFor Req
+Set Req = Santa.Speak("Yeahhhh!!")
+WaitFor Req
+Set Req = Ozzar.Speak("Yeahhhh!!")
+WaitFor Req
+Set Req = James.Speak("Yeahhhh!!")
+WaitFor Req
+Set Req = Genie.Speak("Yeahhhh!!")
+WaitFor Req
+Set Req = Cathie.Speak("Yeahhhh!!")
+WaitFor Req
+Set Req = Cami.Speak("Yeahhhh!!")
+WaitFor Req
+Set Req = Sharky.Speak("Yeahhhh!!")
+WaitFor Req
+Set Req = Milton.Speak("Yeahhhh!!")
+WaitFor Req
+Set Req = Wabbit.Speak("Yeahhhh!!")
+WaitFor Req
+Set Req = Vrgirl.Speak("Yeahhhh!!")
+WaitFor Req
+Set Req = Spaceman.Speak("Yeahhhh!!")
+WaitFor Req
+Set Req = Sizlik.Speak("Yeahhhh!!")
+WaitFor Req
+Set Req = Birdie.Speak("OK, Let's wait for cat is sneezing.")
+WaitFor Req
+Set Req = Oscar.Show()
+WaitFor Req
+Set Req = Reaper.Speak("The Oscar are sneezing?")
+WaitFor Req
+Set Req = Robby.Speak("Yes")
+WaitFor Req
+Set Req = Ozzar.Speak("Don't sneeze it again my friend Oscar.")
+WaitFor Req
+Birdie.MoveTo 286, 284
+Birdie.Speak "Every time He tries to install any version of Windows he get stuck at a very distorted screen."
+Set Req = Birdie.Speak("It starts out Okay, but once his computer restarts during the installation and goes to the completion it comes to that distorted screen.")
+WaitFor Req
+Oscar.Speak "I'll be exit again because I'm sneezing."
+Set Req = Oscar.Hide()
+WaitFor Req
+Birdie.MoveTo 367, 353
+Birdie.Speak "He has recently installed Windows 8.1 Pro on a new hard drive, allowing him to dual boot into both his old Windows 7 environment and the new Windows 8 operating system."
+Birdie.Speak "However each time He turn on his PC the Windows 8 boot logo appears distorted as if there's a failure with his GPU."
+Birdie.MoveTo 349, 96
+Birdie.Speak "Once the boot logo disappears He's just left with the blank screen and the screen which allows him to pick the operating system never appears."
+Birdie.MoveTo 1086, 60
+Birdie.Speak "Operating system (has Windows 8) to operate and open what do you want."
+Birdie.Speak "But the OS is preparing Windows 9."
+Set Req = Birdie.MoveTo(419, 227)
+WaitFor Req
+Set Req = Robby.Speak("I'm sick, Please talk.")
+WaitFor Req
+Birdie.MoveTo 410, 354
+Birdie.Speak "We have updated."
+Set Req = Birdie.Speak("Hard drive usage LED isn't glowing after shutdown, even he press and hold the Power button it's of no use, He had to unplug the main power to completely switch off.")
+WaitFor Req
+Set Req = Genie.Speak("Next.")
+WaitFor Req
+Birdie.MoveTo 396, 319
+Birdie.Speak "Hi guys."
+Birdie.Speak "Just had a bit of problem with his SE J200i"
+Birdie.Speak "His phone doesn't turn on and when he plug to charger, The charging icon doesn't appear on screen."
+Set Req = Birdie.Speak("Instead a red light in the NO Button keep flashing and he can't still turn on the phone despite having the charger connected.")
+WaitFor Req
+Set Req = Ozzar.Speak("Last one.")
+WaitFor Req
+Set Req = James.Speak("Your turn Birdie, But tell the news about Windows XP forums.")
+WaitFor Req
+Birdie.Speak "Just a bit."
+Birdie.Speak "Hi he wants to format Windows XP."
+Birdie.Speak "When he trying to format, BlueScreen Event will appear!!"
+Set Req = Birdie.Speak("He had tried to change the SATA into IDE but in He can't find it in Dell OptiPlex GX280 in Boot Menu.")
+WaitFor Req
+Set Req = James.Speak("Exit.")
+WaitFor Req
+Set Req = Spaceman.Speak("Exit News Now?")
+WaitFor Req
+Genie.Speak "Yes"
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

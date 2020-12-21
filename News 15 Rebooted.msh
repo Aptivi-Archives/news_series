@@ -1,0 +1,270 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Al=Al.acs
+Audie=Audie.acs
+Billg=Billg.acs
+Bonzi=Bonzi.acs
+Cami=Cami.acs
+Electra=Electra.acs
+Eman=Eman.acs
+Ewoman=Ewoman.acs
+Genie=Genie.acs
+Gourdy=Gourdy.acs
+Isabella=Isabella.acs
+Jack=Jack.acs
+Marge=Marge.acs
+Maria=Maria.acs
+Spaceman=Spaceman.acs
+Sizlik=Sizlik.acs
+Galaxygirl=Galaxygirl.acs
+Merlin=Merlin.acs
+
+[LanguageIDs]
+Al=&H409
+Audie=&H409
+Billg=&H409
+Bonzi=&H409
+Cami=&H409
+Electra=&H409
+Eman=&H409
+Ewoman=&H409
+Genie=&H409
+Gourdy=&H409
+Isabella=&H409
+Jack=&H409
+Marge=&H409
+Maria=&H409
+Spaceman=&H409
+Sizlik=&H409
+Galaxygirl=&H409
+Merlin=&H409
+
+[Script]
+Al.MoveTo 1347, 744
+Al.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Al.Show()
+WaitFor Req
+Audie.MoveTo 1257, 750
+Audie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Audie.Show()
+WaitFor Req
+Billg.MoveTo 1170, 709
+Billg.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Billg.Show()
+WaitFor Req
+Bonzi.MoveTo 1096, 722
+Bonzi.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Bonzi.Show()
+WaitFor Req
+Cami.MoveTo 1068, 753
+Cami.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Cami.Show()
+WaitFor Req
+Electra.MoveTo 986, 744
+Electra.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Electra.Show()
+WaitFor Req
+Eman.MoveTo 931, 743
+Eman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Eman.Show
+Ewoman.MoveTo 877, 744
+Ewoman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Ewoman.Show()
+WaitFor Req
+Genie.MoveTo 819, 743
+Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Genie.Show()
+WaitFor Req
+Gourdy.MoveTo 742, 744
+Gourdy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Gourdy.Show()
+WaitFor Req
+Isabella.MoveTo 637, 683
+Isabella.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Isabella.Show()
+WaitFor Req
+Jack.MoveTo 602, 743
+Jack.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Jack.Show()
+WaitFor Req
+Marge.MoveTo 477, 726
+Marge.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Marge.Show()
+WaitFor Req
+Maria.MoveTo 401, 744
+Maria.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Maria.Show()
+WaitFor Req
+Spaceman.MoveTo 183, 789
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Spaceman.Show()
+WaitFor Req
+Sizlik.MoveTo 24, 685
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Sizlik.Show()
+WaitFor Req
+Galaxygirl.MoveTo 304, 752
+Galaxygirl.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Galaxygirl.Show
+Set Req = Galaxygirl.Speak("Shrink away")
+WaitFor Req
+Set Req = Audie.MoveTo(1273, 749)
+WaitFor Req
+Set Req = Billg.MoveTo(1192, 709)
+WaitFor Req
+Set Req = Bonzi.MoveTo(1128, 724)
+WaitFor Req
+Set Req = Cami.MoveTo(1111, 753)
+WaitFor Req
+Set Req = Electra.MoveTo(1050, 749)
+WaitFor Req
+Set Req = Eman.MoveTo(1003, 747)
+WaitFor Req
+Set Req = Ewoman.MoveTo(962, 744)
+WaitFor Req
+Set Req = Genie.MoveTo(906, 748)
+WaitFor Req
+Set Req = Gourdy.MoveTo(825, 748)
+WaitFor Req
+Set Req = Isabella.MoveTo(729, 684)
+WaitFor Req
+Set Req = Jack.MoveTo(693, 741)
+WaitFor Req
+Set Req = Marge.MoveTo(571, 729)
+WaitFor Req
+Set Req = Maria.MoveTo(484, 746)
+WaitFor Req
+Merlin.MoveTo 665, 274
+Merlin.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Merlin.Show
+Set Req = Merlin.Speak("Hello guys.")
+WaitFor Req
+Set Req = Spaceman.Speak("Hello guys? How are you?")
+WaitFor Req
+Set Req = Sizlik.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Galaxygirl.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Maria.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Marge.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Jack.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Isabella.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Gourdy.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Genie.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Ewoman.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Eman.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Electra.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Cami.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Bonzi.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Billg.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Audie.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Al.Speak("Hello, fine.")
+WaitFor Req
+Merlin.MoveTo 263, 216
+Merlin.Play "Explain"
+Merlin.Speak "He was wondering if someone could help him out with a little repair job he's doing at the moment. He is trying to repair an old Asus EEE PC R101 for his girlfriend before she leaves the country and he has an interesting problem."
+Merlin.Speak "The netbook is plugged into the wall, battery removed and turned on. The blue power light on the switch comes on, a gentle hum starts, power and Wi-Fi lights flick on, Then nothing."
+Merlin.Speak "No post, no fan and no HDD light."
+Merlin.Speak "Also the power button doesn't always start the netbook, but when it does it is stable."
+Set Req = Merlin.Speak("The same happens with battery in, however the battery light flashes red as well. The battery does charge (to begin with the netbook wouldn't start at all with the battery in and then after a while it does but the red flashing light remains)")
+WaitFor Req
+Set Req = Genie.Speak("Ready for next")
+WaitFor Req
+Merlin.Speak "He has an Acer Aspire KAV60 which he has seen is also suppose to be a AOD250. This is a netbook with no CD-ROM or DVD. The ALT+F10 will not work."
+Merlin.Speak "When he try to use it, it freezes up with a tiny bit of graphics at the top of the screen. He can not boot to safe mode because it locks on amdagp.sys. It will also lock on safemode /network and command prompt in the same place."
+Merlin.Speak "Last known configuration only shows the Windows logo screen with the status bar moving but it never boots. This is also what happens on the normal boot."
+Set Req = Merlin.Speak("If he tried to use the recovery console, he gets 'disk read error occured press Control+Alt+DeleteFile to restart.'")
+WaitFor Req
+Set Req = Galaxygirl.Speak("Next")
+WaitFor Req
+Merlin.Speak "He have an Asus EEE PC1005PEB which, the other day, suddenly turned off. He was using it while the battery was being charged. Then, he tried removing it and leaving only the power cord connected, but nothing happened. There is no sign of life, no lights on. Nothing. He didn't smell burning either."
+Merlin.Speak "He tested the power supply and the readings were correct (19V with no load), disassembled the netbook, disconnected everything (WiFi, HD chord,etc) but still it wouldn't turn on."
+Merlin.Speak "Finally, something strange happened. He thought the DC IN jack might be the problem (the model has 4 pins soldered to the board)."
+Merlin.Speak "While he was doing some tests, he happened to plug the power adapter and a few times he noticed some sparks coming from the inside of the female jack. He realised the male plug (the one coming from the power source) suffered minor burns, nothing big."
+Set Req = Merlin.Speak("Anyway, tested it again(no load) and everything was fine. He tried to measure the voltage right on the weldings that held the female jack to the board. The multimeter kept showing nothing but 0V. If he is not wrong, the 4 pins are grounded except from the positive one.")
+WaitFor Req
+Set Req = Eman.Speak("Next")
+WaitFor Req
+Merlin.Speak "He has recently come into some trouble with his Asus EEE Flare 1025C netbook. In short the netbook won't turn on, but when plugged in to the mains all lights on the laptop flash rapidly and when the power button is held down all the lights turn off until the power button is released."
+Merlin.Speak "The only exception to this is when the battery is removed and the laptop is plugged into the mains in which the same thing happens but the battery indicator does not light up because there is no battery plugged in"
+Merlin.Speak "Another thing worth noting is that the the fan inside intermittently spins while plugged into the mains. While all lights are flashing the fan will spin for less than a second not even making a full rotation stop for less than a second and repeat. This has led him to believe that the netbook is trying to boot without him pressing any buttons."
+Set Req = Merlin.Speak("He has also reset the BIOS by holding down the power button for 30 seconds, but he didn't think it did anything though.")
+WaitFor Req
+Set Req = Genie.Speak("Last story.")
+WaitFor Req
+Merlin.Speak "Windows will not load on his netbook. He gets an error message saying the following file is missing: WINDOWS/SYSTEM/vgaoem.fon. He has an Acer netbook which does not have any optical drives."
+Set Req = Merlin.Speak("He is not able to use a Windows CD to do a repair. He does have access to another PC and has taken the drive out of his netbook and can access it by plugging it into a drive slot. Files are viewable and the drive is good.")
+WaitFor Req
+Bonzi.Play "Banana"
+Bonzi.Play "BananaMiss"
+Bonzi.Play "GetAttention2"
+Bonzi.Play "Wink"
+Set Req = Bonzi.Speak("Exit News?")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes")
+WaitFor Req
+Set Req = Marge.Speak("Yes")
+WaitFor Req
+Set Req = Genie.Speak("All yes.")
+WaitFor Req
+Set Req = Merlin.Hide()
+WaitFor Req
+Set Req = Bonzi.Speak("Goodbye everyone.")
+WaitFor Req
+Set Req = Gourdy.Speak("Goodbye.")
+WaitFor Req
+Set Req = Al.Hide()
+WaitFor Req
+Set Req = Audie.Hide()
+WaitFor Req
+Set Req = Billg.Hide()
+WaitFor Req
+Set Req = Bonzi.Hide()
+WaitFor Req
+Set Req = Cami.Hide()
+WaitFor Req
+Set Req = Electra.Hide()
+WaitFor Req
+Eman.Hide
+Set Req = Ewoman.Hide()
+WaitFor Req
+Set Req = Gourdy.Hide()
+WaitFor Req
+Set Req = Isabella.Hide()
+WaitFor Req
+Set Req = Jack.Hide()
+WaitFor Req
+Set Req = Marge.Hide()
+WaitFor Req
+Set Req = Maria.Hide()
+WaitFor Req
+Set Req = Galaxygirl.Hide()
+WaitFor Req
+Set Req = Spaceman.Hide()
+WaitFor Req
+Set Req = Sizlik.Hide()
+WaitFor Req
+Genie.MoveTo 1339, 741
+Genie.Speak "He compressed his C drive on which he has his Windows XP OS. Now, all he is getting is 'Bootmgr is compressed press Alt+Ctrl+Del to restart'. he can't use his CD ROM on the desktop because it is broken but he did copy and paste the XP OS files from CD on to his external HD using his laptop. After copying the XP files on to his external HD, He have connected the external HD to his affected desktop via USB port and changed the first booting device to USB drive in the BIOS set-up but still getting the same 'Bootmgr is compressed press Alt+Ctrl+Del to restart' message."
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

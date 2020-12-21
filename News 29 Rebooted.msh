@@ -1,0 +1,319 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Birdie=Birdie.acs
+Al=Al.acs
+Genie=Genie.acs
+Alien=Alien.acs
+Blanche=Blanche.acs
+Cathie=Cathie.acs
+Check=Check.acs
+Debbie=Debbie.acs
+Cupid=Cupid.acs
+Felini=Felini.acs
+Galaxygirl=Galaxygirl.acs
+Jack=Jack.acs
+Marge=Marge.acs
+Peedy=Peedy.acs
+Rebecca=Rebecca.acs
+Sam=Sam.acs
+Sizlik=Sizlik.acs
+Spaceman=Spaceman.acs
+Oscar=Oscar.acs
+Ozzar=Ozzar.acs
+Robby=Robby.acs
+Sharky=Sharky.acs
+
+[LanguageIDs]
+Birdie=&H409
+Al=&H409
+Genie=&H409
+Alien=&H409
+Blanche=&H409
+Cathie=&H409
+Check=&H409
+Debbie=&H409
+Cupid=&H409
+Felini=&H409
+Galaxygirl=&H409
+Jack=&H409
+Marge=&H409
+Peedy=&H409
+Rebecca=&H409
+Sam=&H409
+Sizlik=&H409
+Spaceman=&H409
+Oscar=&H409
+Ozzar=&H409
+Robby=&H409
+Sharky=&H409
+
+[Script]
+Birdie.MoveTo 624, 257
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Birdie.Show()
+WaitFor Req
+Al.MoveTo 1286, 744
+Al.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Al.Show()
+WaitFor Req
+Genie.MoveTo 1342, 740
+Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Genie.Show()
+WaitFor Req
+Alien.MoveTo 1219, 752
+Alien.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Alien.Show()
+WaitFor Req
+Blanche.MoveTo 1135, 680
+Blanche.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Blanche.Show()
+WaitFor Req
+Cathie.MoveTo 1077, 684
+Cathie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Cathie.Show()
+WaitFor Req
+Check.MoveTo 1054, 747
+Check.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Check.Show()
+WaitFor Req
+Debbie.MoveTo 975, 682
+Debbie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Debbie.Show()
+WaitFor Req
+Cupid.MoveTo 894, 701
+Cupid.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Cupid.Show()
+WaitFor Req
+Felini.MoveTo 818, 683
+Felini.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273007}"
+Set Req = Felini.Show()
+WaitFor Req
+Galaxygirl.MoveTo 696, 753
+Galaxygirl.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Galaxygirl.Show()
+WaitFor Req
+Jack.MoveTo 606, 742
+Jack.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Jack.Show()
+WaitFor Req
+Marge.MoveTo 477, 723
+Marge.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Marge.Show()
+WaitFor Req
+Peedy.MoveTo 367, 745
+Peedy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Peedy.Show()
+WaitFor Req
+Rebecca.MoveTo 334, 745
+Rebecca.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Rebecca.Show()
+WaitFor Req
+Sam.MoveTo 267, 746
+Sam.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Sam.Show()
+WaitFor Req
+Sizlik.MoveTo 12, 678
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Sizlik.Show()
+WaitFor Req
+Spaceman.MoveTo 186, 784
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Spaceman.Show
+Set Req = Spaceman.Speak("What is wrong with Sharky?")
+WaitFor Req
+Set Req = Sizlik.Speak("He will never come.")
+WaitFor Req
+Set Req = Birdie.Speak("He quits a lot.")
+WaitFor Req
+Set Req = Jack.Speak("Genie is good.")
+WaitFor Req
+Set Req = Galaxygirl.Speak("You are bad.")
+WaitFor Req
+Set Req = Jack.Speak("No, you are bad.")
+WaitFor Req
+Set Req = Galaxygirl.Speak("At least I am not a criminal like Spaceman.")
+WaitFor Req
+Set Req = Spaceman.Speak("I'm never going to allow you to call me a criminal, so if you keep arguing with people, then you may have to be permanently banned by Birdie.")
+WaitFor Req
+Set Req = Galaxygirl.Play("Greet")
+WaitFor Req
+Set Req = Birdie.Speak("Don't make noises.")
+WaitFor Req
+Set Req = Galaxygirl.Speak("OK.")
+WaitFor Req
+Set Req = Birdie.Speak("Do you want to hear Indian sentence in American accent?")
+WaitFor Req
+Set Req = Spaceman.Speak("Yes.")
+WaitFor Req
+Set Req = Birdie.Speak("sabhee hindee charitron ko saamaany charitron ke lie svich kiya jaega jo hindee kee tarah dhvani, kyonki kansol hindee charitron ko sambhaala nahin ja sakata hai. meenahel, saamaany charitr yahaan maujood hain. ek baar 0.0.5.9 jaaree kiya gaya hai, sabhee hindee charitr hata die jaenge, phir ham rileej ke dauraan ek kaamakaaj ke baare mein sochenge. aap keval yoonikod praaroop ke dvaara is paath ko khol sakate hain.")
+WaitFor Req
+Set Req = Marge.Play("Connect")
+WaitFor Req
+Set Req = Galaxygirl.Speak("Hahahahaha")
+WaitFor Req
+Set Req = Birdie.Speak("What are you laughing at? I will permanently ban you.")
+WaitFor Req
+Set Req = Rebecca.Speak("What about Chinese?")
+WaitFor Req
+Set Req = Birdie.Speak("Nihongo no tekisuto wa, hyojun no konsoru de hyoji suru koto wa dekimasenga, nihongo no shisutemu ya konsoru o shiyo shite nihongo no gengo o atsukau koto ga dekireba, sono tekisuto o miru koto wa dekimasen. Anata wa sorera o yomu koto ga dekiru kamo shiremasen. 0.0.5.9 De wa, tsujo no moji nomi ga sonzai shimasu. Watashitachiha saishu-tekina ririsu de no kaihi-saku o kangaedashimasu. Sarani, kono fairu o yonde mitai baai wa, nihongo taio no fonto de yunikodo de yondekudasai!")
+WaitFor Req
+Set Req = Cupid.Speak("You will get most Indian words wrong in this accent that he's speaking. Beep?")
+WaitFor Req
+Set Req = Marge.Speak("Yes")
+WaitFor Req
+Set Req = Birdie.Speak("Why beep, beep, beep, beep, beep, beep?")
+WaitFor Req
+Cupid.Speak "Beep?"
+Cupid.Speak "Beep?"
+Set Req = Cupid.Speak("Beeeeeeeeeeeeeeeeep?")
+WaitFor Req
+Set Req = Galaxygirl.Speak("Yes")
+WaitFor Req
+Set Req = Spaceman.Speak("Yes")
+WaitFor Req
+Set Req = Galaxygirl.Speak("Hey you!")
+WaitFor Req
+Set Req = Spaceman.Speak("No, hey you!")
+WaitFor Req
+Set Req = Galaxygirl.Speak("How dare you?")
+WaitFor Req
+Set Req = Spaceman.Speak("Stop talking to me like this!")
+WaitFor Req
+Galaxygirl.Speak "Well, you just listen."
+Set Req = Galaxygirl.Speak("", "C:\WINDOWS\Media\Windows Startup.wav")
+WaitFor Req
+Set Req = Birdie.Speak("You're permanently banned.")
+WaitFor Req
+Set Req = Galaxygirl.Hide()
+WaitFor Req
+Oscar.MoveTo 791, 747
+Oscar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Oscar.Show()
+WaitFor Req
+Ozzar.MoveTo 734, 743
+Ozzar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Ozzar.Show()
+WaitFor Req
+Robby.MoveTo 672, 739
+Robby.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273006}"
+Set Req = Robby.Show()
+WaitFor Req
+Set Req = Spaceman.Speak("At least let Sharky come.")
+WaitFor Req
+Sharky.MoveTo 128, 601
+Sharky.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Sharky.Show
+Set Req = Sharky.Speak("Hello for the last time.")
+WaitFor Req
+Set Req = Sizlik.Speak("Hello.")
+WaitFor Req
+Set Req = Robby.Speak("Hello.")
+WaitFor Req
+Set Req = Sharky.Speak("I am sorry for interrupting the News, Birdie, but it seems like we are being deprecated.")
+WaitFor Req
+Set Req = Birdie.Speak("No problem. You can go.")
+WaitFor Req
+Set Req = Sharky.Hide()
+WaitFor Req
+Set Req = Robby.Speak("Sharky is gone.")
+WaitFor Req
+Set Req = Sam.Speak("At least, Birdie is still here.")
+WaitFor Req
+Set Req = Birdie.Speak("Let's talk about anything.")
+WaitFor Req
+Set Req = Spaceman.Speak("No Linux, at least.")
+WaitFor Req
+Birdie.Speak "In GTA Vice City, if you fail the Bloodring when you run out of time, you will not actually die in the Bloodring. After you exit the stadium event, then the effect of the dying carries over outside in the Downtown area - so if you die, you are transported back to the stadium with all your weapons. Also, this glitch may actually change your existing clothes back to street clothes."
+Birdie.Speak "Another reason for this is because the stadium events is just like any ordinary mission. If you get 'mission failed', you will not die. As for the stadiums, you can die as well get mission failed. So after dying outside of the stadium events, the death sequence that was supposed to happen at the stadium, will occur in Vice City instead. Try to die, and the game will spawn you in front of Hyman Stadium."
+Birdie.Speak "This glitch also happens because of the message 'Mission failed'. If you were to fail the Bloodring, the game brings this message up in Vice City and a conflict will occur if you try to die since normally when you get mission failed, the game thinks you died as well."
+Birdie.MoveTo 614, 338
+Set Req = Birdie.Speak("When he was doing Snail Trail and following the train. Then his Sanchez fell off the track around Angel Pine and it took a while to get back. Then unluckily he happened to be too close to the reporter when he was looking for a taxi and failed.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Set Req = Birdie.Speak("He purchased a 19' Viewsonic A90 from a friend of his's. It seemed to work okay (the light goes on, etc.), but no picture appeared on the screen. He examined the VGA cable more carefully, only to discover that one of the pins was broken in half")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Birdie.Speak "He has a huge problem connecting his laptop to his LCD screen."
+Birdie.Speak "He was using windows 7 trying to connect his toshiba a100-912 laptop to his new LG W2361v monitor. The colors appear blurry and specially greens appear as yellow and red appears black theres no problem with blue actually."
+Birdie.Speak "He was thinking it was about windows 7 however his neighbor's acer works like a charm with his monitor and another friend's vista. So there is no problem with the cable nor the monitor."
+Birdie.Speak "However another friend's Linux appeared just like his's. He updated his graphic card's drivers and so on. Still no solution."
+Birdie.Speak "Then he formatted and went back to XP however it still did not work. It works like a charm with his Xbox 360 through HDMI."
+Set Req = Birdie.Speak("He tried to connect it to his Linux friend's HP monitor and still same colors greens are yellow and reds are black. He have tried possible color schemes and etc still no solution.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Birdie.Speak "His PC freezes while Playing with freeze in the sound and strange screen appear"
+Birdie.Speak "Some people tell him to change his VGA Cable because maybe has been damaged (he was using DVI to HDMI) then change it to Analog Cable and it didn't fix the problem."
+Birdie.Speak "But which will make his crazy, that he was playing BF4 with maxmuim graphic for 2 or 3 hours no problems Temp. not get over on 70 C and the FPS is so good on Full HD Resoulation 40-60 and sometimes the screen freeze and sometimes not ."
+Set Req = Birdie.Speak("He used Benchmark Programs like Unigine (Valley, Heavan , Tropics & Sanctuary) , 3DMark FurMark & OCCT too and there are no problems")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "His newest task is centered around an HP Pavilion 15-p033ca laptop with a broken screen. Replacing the screen is actually super simple but his issue lies elsewhere."
+Set Req = Birdie.Speak("Normally he would hook the laptop up to a monitor via VGA cable. This newer laptop only has an HDMI hook-up, so he hooked it up to his TV with that cable. The HP logo upon start up is semi-visible as the picture is distorted.")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "His computer is hacked and keylogged. New hidden user has changes his user accounts so I can not access his files, he apparently doesn't have permissions."
+Set Req = Birdie.Speak("Norton Internet Security has been comprimised and corrupted and is useless at this point. A hidden user has been added and name or user ID doesn't show. Already done the Control Alt Delete x2 and not finding hidden user that way either.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Birdie.Speak "His elderly uncle got a call from someone claiming to be from Microsoft."
+Birdie.Speak "Hee somehow got duped into the call and the person at the other end used TeamViewer to share the desktop and now has locked his computer. He now wants £100 for giving password."
+Set Req = Birdie.Speak("He doesn't have PC with him but when now his uncle tries to start PC he is taken to a black screen asking for prompt with password.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He has been trying mad passing this mission and yes he has read the guide here in the forum."
+Birdie.Speak "He managed to kill them all but there is not enough fuel to get back to the roof."
+Birdie.Speak "After researching a bit in internet it is said that the XBOX and PC version and even the recent PS2 Version have fixed the fuel problem by"
+Birdie.Speak "1) increasing it a bit"
+Birdie.Speak "2) while gliding in the air (without pushing the X button) it doesn't use up fuel."
+Set Req = Birdie.Speak("He has an old PS/2 version.")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "He has a bug in his game. When he's playing the lowrider challenge in the Cesar Vialpando mission, the arrows slowly creep to the center (the circle) from the right, but instead of going all the way smoothly, the game seems to skip ahead at least once per second, bringing up several 'missed' messages on screen. Since the arrows do not pass by the circle smoothly, the two plot-critical dance missions are not complete-able."
+Birdie.MoveTo 513, 353
+Birdie.Speak "So he recently bought GTA:SA during the christmas sale and was doing a playthrough. No cheats/mods used whatsoever, everything from the raw GTA:SA."
+Birdie.Speak "Everything was going fine until he bought Zero's shop. After he completes the first mission 'Air Raid', his RPG gets a bug (the icon doesn't show and when he select it, CJ appears as weaponless)."
+Set Req = Birdie.Speak("However, if he press the right mouse button, it aims like the RPG and when he try to fire it, the game crashes.")
+WaitFor Req
+Set Req = Sam.Speak("Next")
+WaitFor Req
+Set Req = Birdie.Speak("He's running Windows 7 and his PC recently began shutting down frequenlty on its own. Before it shuts down, he have a blue screen with white lettering that has mentioned something about Memory, but it flashes so quickly he can't read the whole thing. He has gone through the steps for malware in the Virus Forum and they directed him here because despite a clean PC, he continue to have the shut down issue.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Birdie.Speak "He had no problems whatsoever when he had Windows 7. However, after upgrading to Windows 10, he's gotten several BSOD crashes."
+Birdie.Speak "As well as he can figure, his computer seems to be crashing after going idle for a few minutes. He looked up 'windows 10 bsod after going idle' on Google and found lots of threads that seem to describe the same issue, but I'll explain anyway in case there are any hints he's not noticing."
+Birdie.Speak "He originally had the power saving settings set to turn the monitor off after 5 minutes and put the computer to sleep after 20. After the monitor turns off, the HD light shows the HD is being accessed heavily."
+Birdie.Speak "But after a few minutes the light stops flickering and just stays on constantly. If he jiggle the mouse to turn the monitor back on, the screen is either blank or frozen, the mouse cursor is the spinning wheel for a while (I can move it around but that's all), he can't start Task Manager or anything, and then he get a BSOD."
+Birdie.Speak "The first few times, the BSOD would only appear for half a second, then the computer would restart automatically. After the booting process started, it would show a black screen with 'Boot from CD/DVD: ' 'Disk boot failure: Insert system disk and press Enter'. Pressing the power button on the case turned the computer off immediately, and when he turned it back on, Windows booted normally."
+Birdie.Speak "After this happened three times, he found out that you could disable automatic restarts on BSOD and did so. The next two times the computer crashed like this, the error messages were KERNEL_DATA_INPAGE_ERROR and CRITICAL_PROCESS_DIED (that's all - no numbers or file names or anything)."
+Birdie.Speak "It says 'collecting some error info', but stays at 0% completion with the HDD light still on constantly. He allowed it to stay that way for a few minutes, then pressed the power button and the computer turned off immediately. When he turned it on again after that, Windows again booted normally (this time without the system trying to boot from a disk like it did before he disabled automatic restarts)."
+Birdie.Speak "His computer does not appear to be creating any dump files of any kind (he search for *.dmp files myself and also tried NirSoft BlueScreenView which didn't find any), and there's nothing useful in the Event Viewer (just 'last system shutdown was unexpected' errors)."
+Birdie.Speak "He saw several threads on Google that talked about this issue having something to do with Windows Defender. He discovered that Windows Defender is not running on his machine. The service is set to manual, but when he try to start it I get Error 577: Windows cannot verify the digital signature of this file."
+Set Req = Birdie.Speak("The only solutions that he found either amount to never allowing the computer do any maintenance (like disabling maintenance processes such as defragmentation or running a song on a permanent loop so the computer can never go idle) - He doesn't want his computer to be completely maintained... - or disabling Windows Defender from the registry.")
+WaitFor Req
+Set Req = Spaceman.Speak("Last one.")
+WaitFor Req
+Birdie.Speak "He went to reboot his computer. When he hit restart the little dots started spinning like normal. Then he get this blue screen"
+Birdie.Speak "It stops with this screen, he can hit reset on computer or power button. It will then restart like normal. Only get blue screen when restarting or shutting down. No other blue screens occur!"
+Birdie.Speak "Everything functions 100%, games, internet surfing, any program works without errors."
+Birdie.Speak "He has checked to make sure Windows was up to date and it is. He checked device manager for errors, no errors found. He can not remember what he had done when this first occurred. He has tried to go to previous restore point, but will not let him."
+Set Req = Birdie.Speak("When he tries to restart, he get that blue screen and have to hit reboot button.")
+WaitFor Req
+Peedy.Speak "Exit."
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

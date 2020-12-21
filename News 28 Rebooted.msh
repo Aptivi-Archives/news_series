@@ -1,0 +1,314 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Al=Al.acs
+Genie=Genie.acs
+Alien=Alien.acs
+Birdie=Birdie.acs
+Blanche=Blanche.acs
+Cathie=Cathie.acs
+Debbie=Debbie.acs
+Bonzi=Bonzi.acs
+Check=Check.acs
+Claude=Claude.acs
+Galaxygirl=Galaxygirl.acs
+Imp=Imp.acs
+Isabella=Isabella.acs
+James=James.acs
+Max=Max.acs
+Merlin=Merlin.acs
+Milton=Milton.acs
+Oscar=Oscar.acs
+Ozzar=Ozzar.acs
+Robby=Robby.acs
+Sizlik=Sizlik.acs
+Spaceman=Spaceman.acs
+Vrgirl=Vrgirl.acs
+
+[LanguageIDs]
+Al=&H409
+Genie=&H409
+Alien=&H409
+Birdie=&H409
+Blanche=&H409
+Cathie=&H409
+Debbie=&H409
+Bonzi=&H409
+Check=&H409
+Claude=&H409
+Galaxygirl=&H409
+Imp=&H409
+Isabella=&H409
+James=&H409
+Max=&H409
+Merlin=&H409
+Milton=&H409
+Oscar=&H409
+Ozzar=&H409
+Robby=&H409
+Sizlik=&H409
+Spaceman=&H409
+Vrgirl=&H409
+
+[Script]
+Al.MoveTo 1342, 742
+Al.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Al.Show()
+WaitFor Req
+Genie.MoveTo 1277, 746
+Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Genie.Show
+Set Req = Genie.Speak("You're not here.")
+WaitFor Req
+Set Req = Al.MoveTo(1279, 613)
+WaitFor Req
+Set Req = Genie.MoveTo(1339, 745)
+WaitFor Req
+Al.MoveTo 1280, 744
+Set Req = Al.Speak("Is it better?")
+WaitFor Req
+Set Req = Genie.Speak("Yes")
+WaitFor Req
+Alien.MoveTo 1218, 746
+Alien.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Alien.Show()
+WaitFor Req
+Birdie.MoveTo 624, 266
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Birdie.Show()
+WaitFor Req
+Blanche.MoveTo 1134, 681
+Blanche.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Blanche.Show()
+WaitFor Req
+Cathie.MoveTo 1083, 679
+Cathie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Cathie.Show()
+WaitFor Req
+Debbie.MoveTo 1034, 681
+Debbie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Debbie.Show()
+WaitFor Req
+Bonzi.MoveTo 958, 719
+Bonzi.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Bonzi.Show()
+WaitFor Req
+Check.MoveTo 939, 745
+Check.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Check.Show()
+WaitFor Req
+Claude.MoveTo 881, 738
+Claude.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Claude.Show()
+WaitFor Req
+Galaxygirl.MoveTo 744, 752
+Galaxygirl.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Galaxygirl.Show()
+WaitFor Req
+Imp.MoveTo 837, 703
+Imp.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Imp.Show()
+WaitFor Req
+Isabella.MoveTo 625, 682
+Isabella.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Isabella.Show()
+WaitFor Req
+James.MoveTo 593, 684
+James.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = James.Show()
+WaitFor Req
+Max.MoveTo 547, 746
+Max.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Max.Show()
+WaitFor Req
+Merlin.MoveTo 717, 693
+Merlin.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Merlin.Show()
+WaitFor Req
+Set Req = Galaxygirl.Speak("Who are you?")
+WaitFor Req
+Set Req = Merlin.Speak("I am Marlin.")
+WaitFor Req
+Milton.MoveTo 490, 747
+Milton.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Milton.Show()
+WaitFor Req
+Oscar.MoveTo 441, 745
+Oscar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Oscar.Show()
+WaitFor Req
+Ozzar.MoveTo 385, 746
+Ozzar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Ozzar.Show()
+WaitFor Req
+Robby.MoveTo 322, 742
+Robby.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273006}"
+Set Req = Robby.Show()
+WaitFor Req
+Sizlik.MoveTo 6, 685
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Sizlik.Show()
+WaitFor Req
+Spaceman.MoveTo 175, 788
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Spaceman.Show()
+WaitFor Req
+Vrgirl.MoveTo 258, 745
+Vrgirl.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Vrgirl.Show()
+WaitFor Req
+Set Req = Robby.MoveTo(317, 742)
+WaitFor Req
+Set Req = Galaxygirl.Speak("Why are you making phone calls?")
+WaitFor Req
+Set Req = Imp.Speak("I am making phone calls.")
+WaitFor Req
+Set Req = Galaxygirl.Speak("You're not allowed to do so. Either stop making phone calls or get out.")
+WaitFor Req
+Set Req = Imp.Play("Idle2_2")
+WaitFor Req
+Set Req = Galaxygirl.Speak("That's it. Birdie, get him out of here.")
+WaitFor Req
+Birdie.MoveTo 784, 593
+Birdie.MoveTo 15, -6
+Imp.MoveTo -22, 4
+Set Req = Imp.Hide()
+WaitFor Req
+Birdie.MoveTo 639, 302
+Set Req = Birdie.Speak("He won't do that again.")
+WaitFor Req
+Set Req = Spaceman.Speak("Hello guys? How are you?")
+WaitFor Req
+Set Req = Sizlik.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Vrgirl.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Robby.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Ozzar.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Oscar.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Milton.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Max.Speak("Hello, fine.")
+WaitFor Req
+Set Req = James.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Isabella.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Merlin.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Galaxygirl.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Claude.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Check.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Bonzi.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Debbie.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Cathie.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Blanche.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Alien.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Al.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Genie.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Spaceman.Speak("All listen to Birdie?")
+WaitFor Req
+Birdie.Speak "If anybody said no, then they're permanently banned from News 30."
+Set Req = Birdie.Speak("Wartnose is permanently banned.")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes.")
+WaitFor Req
+Set Req = Vrgirl.Speak("Yes.")
+WaitFor Req
+Set Req = Robby.Speak("Yes.")
+WaitFor Req
+Set Req = Ozzar.Speak("Yes.")
+WaitFor Req
+Set Req = Oscar.Speak("Yes.")
+WaitFor Req
+Set Req = Milton.Speak("Yes.")
+WaitFor Req
+Set Req = Max.Speak("Yes.")
+WaitFor Req
+Set Req = James.Speak("Yes.")
+WaitFor Req
+Set Req = Isabella.Speak("Yes.")
+WaitFor Req
+Set Req = Merlin.Speak("Yes.")
+WaitFor Req
+Set Req = Galaxygirl.Speak("Yes.")
+WaitFor Req
+Set Req = Claude.Speak("Yes.")
+WaitFor Req
+Set Req = Check.Speak("Yes.")
+WaitFor Req
+Set Req = Debbie.Speak("Yes.")
+WaitFor Req
+Set Req = Cathie.Speak("Yes.")
+WaitFor Req
+Set Req = Blanche.Speak("Yes.")
+WaitFor Req
+Set Req = Alien.Speak("Yes.")
+WaitFor Req
+Set Req = Al.Speak("Yes.")
+WaitFor Req
+Set Req = Genie.Speak("Yes.")
+WaitFor Req
+Set Req = Bonzi.Speak("No.")
+WaitFor Req
+Set Req = Birdie.Speak("Then get off News.")
+WaitFor Req
+Set Req = Bonzi.Hide()
+WaitFor Req
+Set Req = Check.MoveTo(1001, 745)
+WaitFor Req
+Set Req = Claude.MoveTo(937, 738)
+WaitFor Req
+Set Req = Galaxygirl.MoveTo(802, 753)
+WaitFor Req
+Merlin.MoveTo 720, 743
+Set Req = Merlin.Speak("He hasn't made space for me.")
+WaitFor Req
+Birdie.Speak "This will be the last Linux news then we'll go back to the news that it's supposed to be."
+Birdie.Speak "He accidentally removed all the packages starting with the name jpeg with sudo apt-get remove jpeg*"
+Birdie.Speak "It has removed all important packages like Unity, Firefox, Flash player, etc."
+Set Req = Birdie.Speak("He somehow managed to recover the desktop and unity but then a lot of things are still buggy. For example .rpm files and .tar.gz just won't open up at all.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Birdie.Speak "He recently ran apt install build-essential libncurses5-dev libpcap-dev libgtkmm-3.0-dev autoconf autopoint intltool libxml2-utils as an application dependencies because it was mentioned in the website. But after he's done with application he ran sudo apt purge build-essential libncurses5-dev libpcap-dev libgtkmm-3.0-dev autoconf autopoint intltool libxml2-utils."
+Set Req = Birdie.Speak("After that, apt gives a large autoremove list, but he know these packages are important. He again installed previously removed packages. But still showing large list of packages to be removed.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Birdie.Speak "He recently installed Kali Linux in his system. It came with a preinstalled Iceweasel. However, instead of Iceweasel he wanted to install firefox so he followed this guide and installed firefox successfully."
+Set Req = Birdie.Speak("Now whenever he invoke apt-get it shows many pre-installed packages as 'automatically installed and no longer required'")
+WaitFor Req
+Set Req = Spaceman.Speak("Last news.")
+WaitFor Req
+Birdie.Speak "After some failed attempts to install the nvidia binary blob, he returned to debian's nvidia packages. But now aptitude wants to auto-remove many packages"
+Set Req = Birdie.Speak("He understands the lib* packages but it wants to remove important packages like xinit and xorg")
+WaitFor Req
+Set Req = Spaceman.Speak("Exit News?")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes")
+WaitFor Req
+Set Req = Milton.Speak("Yes")
+WaitFor Req
+Galaxygirl.Speak "Yes"
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

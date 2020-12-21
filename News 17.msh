@@ -1,0 +1,424 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Cami=Cami.acs
+Cathie=Cathie.acs
+Charlie=Charlie.acs
+Check=Check.acs
+Cupid=Cupid.acs
+Debbie=Debbie.acs
+Felini=Felini.acs
+James=James.acs
+Joe=Joe.acs
+Genie=Genie.acs
+Robby=Robby.acs
+Peedy=Peedy.acs
+Merlin=Merlin.acs
+Marge=Marge.acs
+Milton=Milton.acs
+Spaceman=Spaceman.acs
+Sizlik=Sizlik.acs
+Wartnose=Wartnose.acs
+Birdie=Birdie.acs
+
+[LanguageIDs]
+Cami=&H409
+Cathie=&H409
+Charlie=&H409
+Check=&H409
+Cupid=&H409
+Debbie=&H409
+Felini=&H409
+James=&H409
+Joe=&H409
+Genie=&H409
+Robby=&H409
+Peedy=&H409
+Merlin=&H409
+Marge=&H409
+Milton=&H409
+Spaceman=&H409
+Sizlik=&H409
+Wartnose=&H409
+Birdie=&H409
+
+[Script]
+Cami.MoveTo 1342, 752
+Cami.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Cami.Show()
+WaitFor Req
+Cathie.MoveTo 1242, 683
+Cathie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Cathie.Show()
+WaitFor Req
+Charlie.MoveTo 1149, 710
+Charlie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Charlie.Show()
+WaitFor Req
+Check.MoveTo 1044, 748
+Check.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Check.Show()
+WaitFor Req
+Cupid.MoveTo 941, 706
+Cupid.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Cupid.Show
+Set Req = Cupid.Speak("Beep?")
+WaitFor Req
+Set Req = Check.Speak("Yes.")
+WaitFor Req
+Debbie.MoveTo 866, 686
+Debbie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Debbie.Show()
+WaitFor Req
+Felini.MoveTo 801, 685
+Felini.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273007}"
+Set Req = Felini.Show()
+WaitFor Req
+James.MoveTo 759, 688
+James.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = James.Show()
+WaitFor Req
+Joe.MoveTo 666, 749
+Joe.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Joe.Show()
+WaitFor Req
+Genie.MoveTo 605, 739
+Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Genie.Show()
+WaitFor Req
+Robby.MoveTo 532, 741
+Robby.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273006}"
+Set Req = Robby.Show()
+WaitFor Req
+Peedy.MoveTo 442, 746
+Peedy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Peedy.Show()
+WaitFor Req
+Merlin.MoveTo 388, 746
+Merlin.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Merlin.Show()
+WaitFor Req
+Marge.MoveTo 266, 724
+Marge.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Marge.Show()
+WaitFor Req
+Milton.MoveTo 209, 672
+Milton.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Milton.Show()
+WaitFor Req
+Spaceman.MoveTo 143, 787
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Spaceman.Show()
+WaitFor Req
+Sizlik.MoveTo -22, 686
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Sizlik.Show()
+WaitFor Req
+Wartnose.MoveTo 1333, 60
+Wartnose.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273003}"
+Set Req = Wartnose.Show()
+WaitFor Req
+Birdie.MoveTo 1142, 51
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Birdie.Show()
+WaitFor Req
+Milton.MoveTo 1239, 63
+Set Req = Milton.Speak("Ready!")
+WaitFor Req
+Cupid.Speak "Beep?"
+Set Req = Cupid.Speak("I advised you that you Beep.")
+WaitFor Req
+Set Req = Check.Speak("Yes.")
+WaitFor Req
+Debbie.MoveTo 864, 685
+Set Req = Debbie.Speak("What does the word Beep mean?")
+WaitFor Req
+Set Req = Cupid.Speak("Beep means it comes from motherboard like Beep, Beep, Beep.")
+WaitFor Req
+Birdie.MoveTo 229, 373
+Set Req = Birdie.Speak("He used the AMD Clean Uninstall Utility before he was going to try installing CCC 14.3.")
+WaitFor Req
+Spaceman.Speak "Hello Guys?"
+Set Req = Spaceman.Speak("How are you?")
+WaitFor Req
+Set Req = Sizlik.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Marge.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Merlin.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Peedy.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Robby.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Genie.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Joe.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = James.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Felini.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Debbie.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Cupid.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Check.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Charlie.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Cathie.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Cami.Speak("Hello, Fine.")
+WaitFor Req
+Wartnose.MoveTo 1334, 58
+Set Req = Wartnose.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Milton.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Spaceman.Speak("Did you talk like Atlas Systems?")
+WaitFor Req
+Set Req = Birdie.Speak("Yes.")
+WaitFor Req
+Set Req = Genie.Speak("Yes.")
+WaitFor Req
+Set Req = James.Speak("Yes.")
+WaitFor Req
+Set Req = Milton.Speak("Yes.")
+WaitFor Req
+Sizlik.MoveTo -18, 684
+Set Req = Sizlik.Speak("No.")
+WaitFor Req
+Set Req = Marge.Speak("No.")
+WaitFor Req
+Set Req = Merlin.Speak("Yes.")
+WaitFor Req
+Set Req = Peedy.Speak("No.")
+WaitFor Req
+Set Req = Robby.Speak("No.")
+WaitFor Req
+Set Req = Joe.Speak("No.")
+WaitFor Req
+Set Req = Felini.Speak("No.")
+WaitFor Req
+Set Req = Debbie.Speak("No.")
+WaitFor Req
+Set Req = Cupid.Speak("No.")
+WaitFor Req
+Set Req = Check.Speak("No.")
+WaitFor Req
+Set Req = Charlie.Speak("No.")
+WaitFor Req
+Set Req = Cathie.Speak("No.")
+WaitFor Req
+Set Req = Cami.Speak("No.")
+WaitFor Req
+Set Req = Wartnose.Speak("No.")
+WaitFor Req
+Set Req = Spaceman.Speak("All listen to Birdie?")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes.")
+WaitFor Req
+Set Req = Marge.Speak("Yes.")
+WaitFor Req
+Set Req = Merlin.Speak("Yes.")
+WaitFor Req
+Set Req = Peedy.Speak("Yes.")
+WaitFor Req
+Set Req = Robby.Speak("Yes.")
+WaitFor Req
+Set Req = Genie.Speak("Yes.")
+WaitFor Req
+Set Req = Joe.Speak("Yes.")
+WaitFor Req
+Set Req = James.Speak("Yes.")
+WaitFor Req
+Set Req = Felini.Speak("Yes.")
+WaitFor Req
+Set Req = Debbie.Speak("Yes.")
+WaitFor Req
+Set Req = Cupid.Speak("Yes.")
+WaitFor Req
+Set Req = Check.Speak("Yes.")
+WaitFor Req
+Set Req = Charlie.Speak("Yes.")
+WaitFor Req
+Set Req = Cathie.Speak("Yes.")
+WaitFor Req
+Set Req = Cami.Speak("Yes.")
+WaitFor Req
+Set Req = Milton.Speak("Yes.")
+WaitFor Req
+Set Req = Wartnose.Speak("No.")
+WaitFor Req
+Set Req = Spaceman.Speak("Who said no?")
+WaitFor Req
+Set Req = Sizlik.Speak("Monster.")
+WaitFor Req
+Set Req = Marge.Speak("Monster.")
+WaitFor Req
+Set Req = Milton.Speak("Monster.")
+WaitFor Req
+Set Req = Cami.Speak("Monster.")
+WaitFor Req
+Set Req = Merlin.Speak("Monster.")
+WaitFor Req
+Set Req = Peedy.Speak("Monster.")
+WaitFor Req
+Set Req = Robby.Speak("Monster.")
+WaitFor Req
+Set Req = Genie.Speak("Monster.")
+WaitFor Req
+Set Req = Joe.Speak("Monster.")
+WaitFor Req
+Set Req = James.Speak("Monster.")
+WaitFor Req
+Set Req = Felini.Speak("Monster.")
+WaitFor Req
+Set Req = Debbie.Speak("Monster.")
+WaitFor Req
+Set Req = Cupid.Speak("Monster.")
+WaitFor Req
+Set Req = Check.Speak("Monster.")
+WaitFor Req
+Set Req = Charlie.Speak("Monster.")
+WaitFor Req
+Set Req = Cathie.Speak("Monster.")
+WaitFor Req
+Set Req = Spaceman.Speak("OK, We will exit Wartnose.")
+WaitFor Req
+Set Req = Wartnose.Hide()
+WaitFor Req
+Milton.MoveTo 1330, 60
+Set Req = Milton.Speak("Why Wartnose is hid?")
+WaitFor Req
+Set Req = Genie.Speak("Because he did not want to listen to Birdie.")
+WaitFor Req
+Birdie.Speak "OK, Let's exit Wartnose."
+Birdie.MoveTo 1208, 47
+Birdie.Speak "Already exit!"
+Birdie.MoveTo 253, 373
+Birdie.Speak "He guess it uninstalled his USB drivers because his mouse and his keyboard no longer function."
+Birdie.Speak "The keyboard works in the BIOS but when he booted into Windows, it doesn't work, not even safe mode."
+Birdie.Speak "Can't sign in to update drivers."
+Birdie.Speak "He had tried PS/2 to USB adapter, didn't work."
+Set Req = Birdie.MoveTo(366, 305)
+WaitFor Req
+Cupid.Speak "Next."
+Set Req = Cupid.Play("Angry")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "His AVG detected a threat in his local files and with no even thinking about it he clicked the OK to get rid of threat."
+Birdie.Speak "At the time he was also updating some things so he restart his computer."
+Birdie.Speak "On the restart, His resolution on his desktop went back to Factory and the keyboard, mouse wasn't work after the startup."
+Birdie.Speak "He tried 3 different mice and 2 keyboards."
+Set Req = Birdie.Speak("He tried with the Lecagy option enabled and disabled in BIOS and nothing works.")
+WaitFor Req
+Joe.Speak "EVGA, I'm lovin' it."
+Set Req = Joe.Speak("But This part is for Distortion?")
+WaitFor Req
+Set Req = Genie.Speak("Yes.")
+WaitFor Req
+Set Req = Robby.Speak("Could be a GPU.")
+WaitFor Req
+Birdie.MoveTo 369, 345
+Birdie.MoveTo 374, 315
+Birdie.Speak "When he view a fullscreen video at 1080p, Then the his TV would go black, flashing on with colors horribly distorted."
+Birdie.Speak "Flesh tones would be a single peach-colored blob and all the colors look Shift."
+Birdie.Speak "He was able to make colours original again by turning off then on, or switching it from Game Mode (Off/On)."
+Set Req = Birdie.Speak("Also happen when he scrolling down his Facebook news feed.")
+WaitFor Req
+Set Req = Joe.Speak("Facebook?")
+WaitFor Req
+Set Req = Genie.Speak("Yes.")
+WaitFor Req
+Set Req = Spaceman.Speak("All have Facebook account?")
+WaitFor Req
+Set Req = Felini.Speak("Yes.")
+WaitFor Req
+Set Req = James.Speak("All yes.")
+WaitFor Req
+Set Req = Cami.Speak("Behave, This color will going to be distorted Joes.")
+WaitFor Req
+Joe.Play "Assimilate"
+Joe.Speak "I'm distorted now."
+Joe.Speak "I can undistort."
+Joe.Play "IdlingLevel1"
+Set Req = Joe.Speak("Distortion of Text like Retupmoc Dk'dfk koos le solitaimd solarolios d(&%)m.")
+WaitFor Req
+Birdie.MoveTo 409, 375
+Birdie.Speak "Hey Peedy, Talk about news."
+Set Req = Birdie.Hide()
+WaitFor Req
+Peedy.MoveTo 400, 387
+Set Req = Peedy.Speak("He just build his own computer and he got a brand new Radeon HD 6670 from Amazon but when he first used it the screen was not looking right and the desktop was distorted pretty much the whole screen was distorted.")
+WaitFor Req
+Set Req = Robby.MoveTo(474, 743)
+WaitFor Req
+Set Req = Genie.MoveTo(568, 743)
+WaitFor Req
+Set Req = Joe.MoveTo(654, 751)
+WaitFor Req
+Set Req = James.MoveTo(745, 684)
+WaitFor Req
+Set Req = Genie.Speak("Only birds, Me 1.")
+WaitFor Req
+Set Req = Peedy.Speak("Yes, You can talk.")
+WaitFor Req
+Set Req = Genie.Speak("Yeahh!")
+WaitFor Req
+Set Req = Peedy.MoveTo(523, 745)
+WaitFor Req
+Set Req = Genie.MoveTo(595, 741)
+WaitFor Req
+Set Req = Milton.Speak("Atlas Systems, I'm lovin' it.")
+WaitFor Req
+Genie.Speak "I'm talking like Atlas systems hardly."
+Genie.MoveTo 289, 86
+Set Req = Genie.Speak("Accidently spilled a teeny bit of water on the top of his case.")
+WaitFor Req
+Set Req = Peedy.MoveTo(560, 743)
+WaitFor Req
+Sizlik.MoveTo -39, 684
+Set Req = Sizlik.Speak("I don't understand what is the meaning of word spilled.")
+WaitFor Req
+Set Req = Spaceman.Speak("Spill means you're putting on (liquids) on what place you want to put it.")
+WaitFor Req
+Genie.Speak "10 minutes later his computer shut off."
+Set Req = Genie.Speak("Try turning back on, All he hear is the Click (like clicking mouse).")
+WaitFor Req
+Sizlik.MoveTo -18, 685
+Set Req = Sizlik.Speak("I don't understand what is the meaning of word clicking.")
+WaitFor Req
+Set Req = Spaceman.Speak("Clicking means you're clicking on anything.")
+WaitFor Req
+Genie.Speak "He try more time and it turns on, It popped!"
+Genie.Speak "It turn it on and restarts. Blank screen."
+Set Req = Genie.Hide()
+WaitFor Req
+Merlin.MoveTo 357, 330
+Merlin.Speak "LEDs on GPU and RAM are on, water seems to be pumping (nIXne think... He see his tubes move a bit when turned it on). Though the LEDs on his keyboard and bottom of mouse don't light up."
+Merlin.MoveTo 387, 357
+Merlin.Speak "When he turned it on, He heard a very loud headache noise pop, smoke from the processor area (could not tell where from because his heatsink is large), and an odd smell."
+Merlin.Speak "When he turned it on again, it turns off in immediate speed."
+Set Req = Merlin.Speak("All fans were booting up, CPU fan was on, the GPU fan turned on, all good.")
+WaitFor Req
+Set Req = Spaceman.Speak("Exit News?")
+WaitFor Req
+Set Req = Peedy.Speak("yes.")
+WaitFor Req
+Set Req = Merlin.MoveTo(392, 748)
+WaitFor Req
+Birdie.Show
+Birdie.Speak "I'm explaining my first own news."
+Birdie.Speak "First when he turn it on, the monitor doesn't recieve any signal and the case was popped."
+Birdie.Speak "Smoke from Processor area, When he turned it on again, it turned off immediately, all good."
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

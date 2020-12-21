@@ -1,0 +1,539 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Birdie=Birdie.acs
+Al=Al.acs
+Alien=Alien.acs
+Cami=Cami.acs
+Cupid=Cupid.acs
+Electra=Electra.acs
+Felini=Felini.acs
+Genie=Genie.acs
+Isabella=Isabella.acs
+Gourdy=Gourdy.acs
+Joe=Joe.acs
+Miku=Miku.acs
+Plany=Plany.acs
+Robby=Robby.acs
+Milton=Milton.acs
+Sizlik=Sizlik.acs
+Spaceman=Spaceman.acs
+Wartnose=Wartnose.acs
+Merlin=Merlin.acs
+Peedy=Peedy.acs
+
+[LanguageIDs]
+Birdie=&H409
+Al=&H409
+Alien=&H409
+Cami=&H409
+Cupid=&H409
+Electra=&H409
+Felini=&H409
+Genie=&H409
+Isabella=&H409
+Gourdy=&H409
+Joe=&H409
+Miku=&H409
+Plany=&H409
+Robby=&H409
+Milton=&H409
+Sizlik=&H409
+Spaceman=&H409
+Wartnose=&H409
+Merlin=&H409
+Peedy=&H409
+
+[Script]
+Birdie.MoveTo 725, 224
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Birdie.Show
+Set Req = Birdie.Speak("OK, BIOS is in war!")
+WaitFor Req
+Al.MoveTo 1331, 743
+Al.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Al.Show
+Set Req = Al.Speak("We have about 12 stories to read, and 3 Android stories.")
+WaitFor Req
+Set Req = Birdie.Speak("Everyone will come.")
+WaitFor Req
+Alien.MoveTo 1246, 750
+Alien.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Alien.Show()
+WaitFor Req
+Cami.MoveTo 1184, 749
+Cami.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Cami.Show
+Cami.Speak "I'm scaring!"
+Cami.Speak "Corrupted BIOS!"
+Set Req = Cami.Speak("On motherboard!")
+WaitFor Req
+Cupid.MoveTo 1061, 705
+Cupid.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Cupid.Show()
+WaitFor Req
+Electra.MoveTo 998, 746
+Electra.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Electra.Show
+Set Req = Electra.Speak("BIOS is messed up.")
+WaitFor Req
+Felini.MoveTo 909, 685
+Felini.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273007}"
+Set Req = Felini.Show()
+WaitFor Req
+Genie.MoveTo 867, 745
+Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Genie.Show
+Set Req = Genie.Speak("I don't love this mess.")
+WaitFor Req
+Isabella.MoveTo 784, 683
+Isabella.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Isabella.Show
+Isabella.Speak "All messed up!"
+Isabella.Play "Kick"
+Isabella.Play "Kick"
+Set Req = Isabella.Speak("I kicked the messing BIOS and motherboard so.")
+WaitFor Req
+Gourdy.MoveTo 732, 745
+Gourdy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Gourdy.Show
+Gourdy.Speak "BIOS is corrupted."
+Set Req = Gourdy.Speak("What about the messed BIOS!")
+WaitFor Req
+Joe.MoveTo 621, 750
+Joe.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Joe.Show()
+WaitFor Req
+Miku.MoveTo 556, 641
+Miku.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Miku.Show()
+WaitFor Req
+Plany.MoveTo 480, 784
+Plany.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Plany.Show
+Set Req = Plany.Speak("BIOS messed and Miku!")
+WaitFor Req
+Set Req = Miku.Speak("Plany?")
+WaitFor Req
+Set Req = Plany.Speak("This mess is messed, we will attack them by talking about News!")
+WaitFor Req
+Robby.MoveTo 393, 743
+Robby.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273006}"
+Robby.Show
+Set Req = Robby.Speak("What about this mess!")
+WaitFor Req
+Milton.MoveTo 318, 745
+Milton.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Milton.Show
+Set Req = Milton.Speak("Messy BIOS.")
+WaitFor Req
+Sizlik.MoveTo 21, 686
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Sizlik.Show()
+WaitFor Req
+Spaceman.MoveTo 206, 788
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Spaceman.Show()
+WaitFor Req
+Sizlik.Speak "What is that BIOS?"
+Set Req = Sizlik.Speak("I'm scaring!")
+WaitFor Req
+Set Req = Spaceman.Speak("BIOS scare from Corruptions!")
+WaitFor Req
+Set Req = Birdie.Speak("We will work together on attacking the messup on BIOS.")
+WaitFor Req
+Set Req = Spaceman.MoveTo(187, 787)
+WaitFor Req
+Wartnose.MoveTo 263, 742
+Wartnose.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273003}"
+Set Req = Wartnose.Show()
+WaitFor Req
+Set Req = Spaceman.Speak("Hello guys? How are you?")
+WaitFor Req
+Set Req = Sizlik.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Wartnose.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Milton.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Robby.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Plany.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Miku.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Joe.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Gourdy.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Isabella.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Genie.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Felini.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Electra.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Cupid.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Cami.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Alien.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Al.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Spaceman.Speak("Did you talk like Atlas Systems?")
+WaitFor Req
+Set Req = Milton.Speak("Yes")
+WaitFor Req
+Set Req = Gourdy.Speak("Yes")
+WaitFor Req
+Set Req = Birdie.Speak("Yes")
+WaitFor Req
+Set Req = Genie.Speak("Yes")
+WaitFor Req
+Set Req = Al.Speak("Yes")
+WaitFor Req
+Set Req = Sizlik.Speak("No")
+WaitFor Req
+Set Req = Wartnose.Speak("No")
+WaitFor Req
+Set Req = Robby.Speak("No")
+WaitFor Req
+Set Req = Plany.Speak("No")
+WaitFor Req
+Set Req = Miku.Speak("No")
+WaitFor Req
+Set Req = Joe.Speak("No")
+WaitFor Req
+Set Req = Isabella.Speak("No")
+WaitFor Req
+Set Req = Felini.Speak("No")
+WaitFor Req
+Set Req = Electra.Speak("No")
+WaitFor Req
+Set Req = Cupid.Speak("No")
+WaitFor Req
+Set Req = Cami.Speak("No")
+WaitFor Req
+Set Req = Alien.Speak("No")
+WaitFor Req
+Set Req = Spaceman.Speak("All listen to Birdie?")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes")
+WaitFor Req
+Set Req = Milton.Speak("Yes")
+WaitFor Req
+Set Req = Robby.Speak("Yes")
+WaitFor Req
+Set Req = Plany.Speak("Yes")
+WaitFor Req
+Set Req = Miku.Speak("Yes")
+WaitFor Req
+Set Req = Joe.Speak("Yes")
+WaitFor Req
+Set Req = Gourdy.Speak("Yes")
+WaitFor Req
+Set Req = Isabella.Speak("Yes")
+WaitFor Req
+Set Req = Genie.Speak("Yes")
+WaitFor Req
+Set Req = Felini.Speak("Yes")
+WaitFor Req
+Set Req = Electra.Speak("Yes")
+WaitFor Req
+Set Req = Cupid.Speak("Yes")
+WaitFor Req
+Set Req = Cami.Speak("Yes")
+WaitFor Req
+Set Req = Alien.Speak("Yes")
+WaitFor Req
+Set Req = Al.Speak("Yes")
+WaitFor Req
+Set Req = Wartnose.Speak("No")
+WaitFor Req
+Set Req = Spaceman.Speak("Who said No?")
+WaitFor Req
+Set Req = Sizlik.Speak("Monster")
+WaitFor Req
+Set Req = Milton.Speak("Monster")
+WaitFor Req
+Set Req = Robby.Speak("Monster")
+WaitFor Req
+Set Req = Plany.Speak("Monster")
+WaitFor Req
+Set Req = Miku.Speak("Monster")
+WaitFor Req
+Set Req = Joe.Speak("Monster")
+WaitFor Req
+Set Req = Gourdy.Speak("Monster")
+WaitFor Req
+Set Req = Isabella.Speak("Monster")
+WaitFor Req
+Set Req = Genie.Speak("Monster")
+WaitFor Req
+Set Req = Felini.Speak("Monster")
+WaitFor Req
+Set Req = Electra.Speak("Monster")
+WaitFor Req
+Set Req = Cupid.Speak("Monster")
+WaitFor Req
+Set Req = Cami.Speak("Monster")
+WaitFor Req
+Set Req = Alien.Speak("Monster")
+WaitFor Req
+Set Req = Al.Speak("Monster")
+WaitFor Req
+Set Req = Spaceman.Speak("Let's exit Wartnose.")
+WaitFor Req
+Set Req = Wartnose.Hide()
+WaitFor Req
+Merlin.MoveTo 260, 745
+Merlin.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Merlin.Show
+Set Req = Merlin.Speak("Shrink away.")
+WaitFor Req
+Set Req = Cupid.MoveTo(1075, 703)
+WaitFor Req
+Set Req = Electra.MoveTo(1023, 747)
+WaitFor Req
+Set Req = Felini.MoveTo(938, 685)
+WaitFor Req
+Set Req = Genie.MoveTo(894, 745)
+WaitFor Req
+Set Req = Isabella.MoveTo(810, 684)
+WaitFor Req
+Set Req = Gourdy.MoveTo(761, 745)
+WaitFor Req
+Set Req = Joe.MoveTo(654, 750)
+WaitFor Req
+Set Req = Miku.MoveTo(603, 641)
+WaitFor Req
+Set Req = Plany.MoveTo(549, 785)
+WaitFor Req
+Set Req = Robby.MoveTo(471, 745)
+WaitFor Req
+Set Req = Milton.MoveTo(404, 745)
+WaitFor Req
+Set Req = Merlin.MoveTo(341, 746)
+WaitFor Req
+Peedy.MoveTo 266, 744
+Peedy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Peedy.Show()
+WaitFor Req
+Set Req = Birdie.Speak("E-Man and E-Woman doesn't come here, because they are too busy.")
+WaitFor Req
+Spaceman.Speak "It's OK."
+Spaceman.Play "Dropit"
+Set Req = Spaceman.Play("Hover")
+WaitFor Req
+Birdie.Speak "Last night he was using his PC and suddenly he got a BSOD. He left it to go get food and when he was back the BSOD was there."
+Birdie.Speak "PC tried to restart but it got stuck at the loading screen post BIOS, with the loading spinning circle. It would stay like that forever."
+Birdie.Speak "He attempted to force restart his PC by holding the power button and it would keep doing the exact same thing."
+Birdie.Speak "After 3 attempts, it would say Windows was trying to auto repair for a few seconds... The PC would go to a black screen and sometimes I was able to select to restart the PC to fix the issue."
+Birdie.Speak "But he couldn't since he'd get a BSOD again with a message like 'can't access boot device'."
+Birdie.Speak "He was able to enter the BIOS and check if his SSD (OS) and his 2 slave HDD (storage) were there and it was all listed."
+Birdie.Speak "For some reason, he selected the boot override thing and selected one of his HDD without an OS. The PC gave him a black screen asking him to do something which he doesn't remember and press any key when done."
+Birdie.Speak "He couldn't do anything and restarted his PC yet again... and he can't turn his PC on ever since."
+Birdie.Speak "Most of the times, he power it up and it doesn't do anything beside spinning fans and lighting up his mouse and keyboard for a few seconds then turns itself off."
+Birdie.Speak "There are times that it manages to do the beep, gives him the BIOS screen with the Function keys and DEL options for a few seconds then goes to a 'Gigabyte UEFI DualBIOS' of sorts without any information and stays like that for about 5 seconds before turning itself off and repeating the reboot cycle."
+Birdie.Speak "He has tried resetting the CMOS by removing the battery and leaving it off for a minute and then replugging."
+Birdie.Speak "He has tried disconnecting both HDD's (but leaving the SSD with the OS plugged) but then the PC keeps restarting nonstop too."
+Set Req = Birdie.Speak("He has double checked and everything is properly plugged in")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "Blinking light sequence indicates corrupted BIOS."
+Birdie.Speak "HP laptop will not start and the screen is dark."
+Set Req = Birdie.Speak("Laptop is HP Pavilion DV6-6B27NR Entertainment PC.")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "He just installed a Elsa Gladiac GTX 590 in his PC and he doesn't get anything on the screen when he boots."
+Birdie.Speak "So his PC has an integrated GPU but the BIOS is set to boot on PCI Express."
+Birdie.Speak "He was using another GPU until now and it was working perfectly fine."
+Birdie.Speak "With the new Elsa Gladiac GTX 590, the PC seems to boot normally."
+Birdie.Speak "He doesn't get any beeps from the motherboard PC speaker. The CPU and GPU fans are spinning. The Elsa Gladiac GTX 590 LED logo on the card lights up."
+Birdie.Speak "The GPU is an Elsa Gladiac GTX 590, it has 3x DPI and 1x mini Display Port."
+Birdie.Speak "He tried connecting the monitor to each of them but no luck."
+Birdie.Speak "He tried connecting to the motherboard's iGPU DVI port but it doesn't seem to be active."
+Birdie.Speak "The Elsa Gladiac GTX 590 needs 2 x 8 pin PCI Express power. He has a 750W PSU with dedicated native PCI 6/8 pin express power."
+Set Req = Birdie.Speak("He doesn't have any drives connected, it's just the motherboard, RAM, CPU + CPU cooler and the Elsa Gladiac GTX 590")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for Next")
+WaitFor Req
+Birdie.Speak "It started a couple days ago when he rebooted his system. Upon reboot he received a message that said:"
+Birdie.Speak "The system found unauthorized changes on the firmware, operating system, or UEFI drivers."
+Birdie.Speak "Press N to run the next boot device, or enter directly to BIOS Setup if there are no other boot devices installed. Go to BIOS Setup, Advanced, Boot and change the current boot device into other secured boot devices."
+Birdie.Speak "OK, easy enough. He did some searching and the solution is to go into BIOS/UEFI to update the Secure Boot parameters."
+Birdie.Speak "He rebooted the system, and it said press F2 or DEL to enter BIOS."
+Birdie.Speak "When he went to BIOS, it enters into the UEFI Module, but there is no information displayed, and the keyboard and mouse do not appear to work!"
+Birdie.Speak "The screen is all formatted similarly to the ASUS UEFI EZ-Mode Screen Shots but there is no text on the screen."
+Birdie.Speak "The clock in the upper left corner is set to 88:88 and is grayed out like it is not functioning and it is ready to start if he presses something."
+Birdie.Speak "There is a mouse icon in the middle, but it does not move."
+Birdie.Speak "After this, he tried to reset CLRTC several times."
+Birdie.Speak "He also tried removing CMOS battery."
+Birdie.Speak "He tried different waiting times like a few seconds, and a few hours."
+Birdie.Speak "He kept getting the same screen."
+Birdie.Speak "So after that he read that the GPU does not sync with the monitor and displays wrong resolution, so he tried three different Video Cards that have several different inputs. These included HDMI, DVI, & VGA."
+Birdie.Speak "He tried several different monitors, which included 3x ASUS 27', ViewSonic, and a Flat Screen LED TV. He tried straight cables and he tried adapters."
+Birdie.Speak "He still kept getting the same BIOS/UEFI screen. So next he read that the USB Mouse/Keyboard could be the culprit, so he tried an adapted USB to PS2 Wired Keyboard in its place."
+Birdie.Speak "The post screen found it! But nothing different in the BIOS/UEFI Screen."
+Birdie.Speak "He still need to try an original PS/2 Keyboard hardwired, but have not found one to try yet."
+Birdie.Speak "Throughout all of this, he can go to the Windows DVD Startup, and try Start Repair to no avail."
+Birdie.Speak "Sometimes it finds my main drive, and sometimes it finds my backup drive."
+Birdie.Speak "It is constantly switching between the two as to assigning drive letters."
+Set Req = Birdie.Speak("Once in a while it will set his backup as C: and other times it will set his main drive to C:. Additionally, it does not always find both drives.")
+WaitFor Req
+Set Req = Peedy.Speak("Next")
+WaitFor Req
+Birdie.Speak "He recently built his own PC, but every now and again he runs into a BAD_POOL_HEADER error message."
+Birdie.Speak "It never persists and after a few reboots, he can use his computer again."
+Birdie.Speak "He has done everything he knows to fix the issue, but still the problem pops up once in a while."
+Birdie.Speak "He think it might be connected to an issue he have with his RAM."
+Birdie.Speak "When he boots up his PC in its BIOS, he saw the RAM slot he chose is colored as if it is filled, but when he hovers over it, it says it is empty."
+Set Req = Birdie.Speak("In Windows, it has the correct amount of RAM. He has checked his memory for issues and nothing was found.")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "He is facing issues with his display. It started with random crashes during games with error saying 'display driver stopped working'."
+Birdie.Speak "But now it immediately crashes as soon as he boots a game with display getting distorted."
+Birdie.Speak "Tried clean re-install of the drivers, TDR fix, OS reinstall but still the issue persists."
+Set Req = Birdie.Speak("Even the BIOS screen has pixels distortion.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He built his computer a couple of days ago and when he turned it on it booted fine and he was able install Windows."
+Birdie.Speak "Now, he accidentally left his computer on overnight and when he woke up, he got a BSOD saying he got file error '0xc0000225' and that the file winload.exe is missing or corrupt."
+Birdie.Speak "He has tried booting into Windows boot media through a USB but when he does he gets the same BSOD screen."
+Set Req = Birdie.Speak("He has unplugged all drives and tried to boot off only the USB but still no luck.")
+WaitFor Req
+Set Req = Sizlik.Speak("Next")
+WaitFor Req
+Birdie.Speak "It keeps crashing/freezing, sometimes with a distorted image on the screen."
+Birdie.Speak "He'll turn it off, and once he turn it on again, he'll sometimes have other problems, like the screen refusing to work at all and the fans on the machine going crazy."
+Birdie.Speak "It'll sometimes boot up on different screens, like the 'start windows normally' one, or it'll boot up Startup Repair. He ran that by the way, it didn't resolve anything."
+Set Req = Birdie.Speak("It's happened most days for the last few weeks, but a weird thing is that it's no more than once a day. After a hard shutdown, it'll run fine for hours and hours on end.")
+WaitFor Req
+Set Req = Merlin.Speak("Next")
+WaitFor Req
+Birdie.Speak "He got his monitor today from dell the 30' one. He unhooked the DVI cable from his 27' and hook it up to his 3007 monitor and he gets a crazy image. All the colors are all over the place."
+Set Req = Birdie.Speak("He then hook it up to his 27' and it looks fine.")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Set Req = Birdie.Speak("I will leave eleventh and twelvth story for Peedy, Genie and Marlin.")
+WaitFor Req
+Set Req = Spaceman.Speak("Last PC story for you.")
+WaitFor Req
+Birdie.Speak "Recently he decided to build his very first PC. Everything runs great on his PC except one thing."
+Birdie.Speak "Every time he plays a game, the image gets distorted alot, and it gets worse with higher demanding games."
+Birdie.Speak "It only happens with games, everything else looks great."
+Birdie.Speak "The AMD driver is up to date, all settings are in default."
+Birdie.Speak "The graphics card is not overclocked, it is on its default settings."
+Birdie.Speak "Ran a stress test with Furmark and it worked great, no distortion at all."
+Birdie.Speak "Checked his frames per second while on the game. With Alien isolation the game is running at 60 frames with the image distorted. With Metro 2033, the frames running from 80 to 120 and it looks horrible."
+Set Req = Birdie.Speak("He also tried it on a monitor and LED TV with different cables, display port, DVI and HDMI, they all look the same.")
+WaitFor Req
+Set Req = Spaceman.Speak("Android story.")
+WaitFor Req
+Birdie.Speak "The images on his RCA tablet 7' Voyager are all distorted and flashing. He can slightly see the android robot laying on its back with the front panel open. It shows a triangle with an exclamation mark."
+Birdie.Speak "Next News."
+Birdie.Speak "OK, Soon he will power up his tablet he gets a message saying 'Unfortunately, Launcher has stopped' and he gets no response to pressing the app drawer button."
+Birdie.Speak "Hence he can't get into any of his apps to fix the problem."
+Set Req = Birdie.Speak("He had another app (MyLibrary Lite) stop the same way a few weeks ago but that didn't matter.")
+WaitFor Req
+Set Req = Joe.Speak("Last Android Story")
+WaitFor Req
+Birdie.Speak "He has a Galaxy S7 running Android version 7/Nougat, on T-Mobile."
+Birdie.Speak "Three days ago, he shut off his phone while on a flight, and restarted it when the plane landed. When the phone came to life, various things had gone wrong."
+Birdie.Speak "The resolution had dropped to the point that icons were huge, and much of the screen was missing! The stock keyboard, rather than his preferred Swype/Dragon keyboard, was running. Various apps would not run."
+Birdie.Speak "Even the time entry for the alarm had changed!"
+Birdie.Speak "He tried to reset the resolution (it is showing as FHD, but it is actually far lower than that, and attempting to reset simply crashes the app)."
+Birdie.Speak "He tried to reset the keyboard (it appears to accept the change, but does not actually change the keyboard)."
+Birdie.Speak "He tried to restart the apps, but the problem still persists."
+Birdie.Speak "For what it's worth, this does not appear to be related to T-Mobile's rollout out of Android 7/Nougat last week. That update appeared to go smoothly enough."
+Set Req = Birdie.Speak("He is aware that Nougat can lower resolution (to FHD) to save battery but it looks like something much odder is going on here.")
+WaitFor Req
+Set Req = Cami.Speak("Behave, This color will going to be distorted Joes.")
+WaitFor Req
+Joe.Play "Assimilate"
+Joe.Speak "I'm distorted now."
+Joe.Speak "I can undistort."
+Joe.Play "IdlingLevel1"
+Set Req = Joe.Speak("Distortion of Text like Retupmoc Dk'dfk koos le solitaimd solarolios d(&%)m.")
+WaitFor Req
+Birdie.MoveTo 409, 375
+Birdie.Speak "Hey Peedy, Talk about news."
+Set Req = Birdie.Hide()
+WaitFor Req
+Peedy.MoveTo 400, 387
+Peedy.Speak "He just built his new computer and all has been well except for the last couple of days it's been playing up a little so every time he loads up a page on google chrome he gets this 1-3 pixel long white line flash up on the top right of the screen even if google chrome isn't covering that part of the screen."
+Set Req = Peedy.Speak("When he's loading videos it's constantly flashing and is really annoying also every so often he gets this thing where the image has these really large black lines for like 0.2 seconds before it flashes and goes back to normal.")
+WaitFor Req
+Set Req = Genie.Speak("Only birds, Me 1.")
+WaitFor Req
+Set Req = Peedy.Speak("Yes, you can talk.")
+WaitFor Req
+Set Req = Genie.Speak("Yeahh!")
+WaitFor Req
+Set Req = Peedy.MoveTo(258, 742)
+WaitFor Req
+Set Req = Milton.Speak("Atlas Systems, I'm lovin' it.")
+WaitFor Req
+Genie.Speak "I'm talking like Atlas systems hardly."
+Genie.MoveTo 289, 86
+Set Req = Genie.Speak("He recently replaced his dead R9 270X with an ASUS strict R9 285.")
+WaitFor Req
+Set Req = Sizlik.Speak("I don't understand how his old GPU went dead")
+WaitFor Req
+Set Req = Spaceman.Speak("I don't know.")
+WaitFor Req
+Genie.Speak "After installing it, the system would boot but he's trying to launch any games."
+Genie.Speak "His screen would go black and say no input forcing him to restart his machine."
+Set Req = Genie.Hide()
+WaitFor Req
+Merlin.MoveTo 357, 330
+Merlin.Speak "He tried updating various drivers, trying the current and option versions from AMD before on one restart his PC stopped booting and instead showed white lines, sometimes over the whole screen but most times just in one solid line slightly out from the left of the screen with purple/green flashes on the white bar."
+Merlin.MoveTo 387, 357
+Merlin.Speak "He tried reseating the card in multiple slots but didn't have time"
+Set Req = Merlin.MoveTo(338, 747)
+WaitFor Req
+Set Req = Spaceman.Speak("Exit news?")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes")
+WaitFor Req
+Set Req = Cami.Speak("Yes")
+WaitFor Req
+Set Req = Gourdy.Speak("Yes")
+WaitFor Req
+Set Req = Joe.Speak("Yes")
+WaitFor Req
+Set Req = Plany.Speak("All yes")
+WaitFor Req
+Birdie.Show
+Set Req = Birdie.Speak("BIOS is got now saved.")
+WaitFor Req
+Set Req = Sizlik.Speak("Yeahhhhh!")
+WaitFor Req
+Set Req = Genie.Speak("Yeahhhhh!")
+WaitFor Req
+Set Req = Miku.Speak("We are remaining")
+WaitFor Req
+Set Req = Robby.Speak("Internet Connections.")
+WaitFor Req
+Birdie.Speak "He has recently been getting an error on his PC after the machine BSOD and then hung for an hour."
+Set Req = Birdie.Speak("He decided that the PC was frozen and hit the restart button on his PC. Later we will talk about this.")
+WaitFor Req
+Set Req = Birdie.Speak("Exit Now, BIOS saved.")
+WaitFor Req
+Set Req = Birdie.Speak("We have saved our world! Coming soon at News 9 Rebooted!")
+WaitFor Req
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

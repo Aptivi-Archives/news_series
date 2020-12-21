@@ -1,0 +1,164 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Check=Check.acs
+Debbie=Debbie.acs
+Genie=Genie.acs
+Marge=Marge.acs
+Milton=Milton.acs
+Robby=Robby.acs
+Santa=Santa.acs
+Sizlik=Sizlik.acs
+Spaceman=Spaceman.acs
+Birdie=Birdie.acs
+
+[LanguageIDs]
+Check=&H409
+Debbie=&H409
+Genie=&H409
+Marge=&H409
+Milton=&H409
+Robby=&H409
+Santa=&H409
+Sizlik=&H409
+Spaceman=&H409
+Birdie=&H409
+
+[Script]
+Check.MoveTo 1348, 740
+Check.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Check.Show()
+WaitFor Req
+Debbie.MoveTo 1252, 683
+Debbie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Debbie.Show()
+WaitFor Req
+Genie.MoveTo 1196, 735
+Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Genie.Show()
+WaitFor Req
+Marge.MoveTo 1072, 723
+Marge.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Marge.Show()
+WaitFor Req
+Milton.MoveTo 977, 739
+Milton.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Milton.Show()
+WaitFor Req
+Robby.MoveTo 905, 741
+Robby.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273006}"
+Set Req = Robby.Show()
+WaitFor Req
+Santa.MoveTo 819, 728
+Santa.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Santa.Show()
+WaitFor Req
+Sizlik.MoveTo 683, 679
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Sizlik.Show()
+WaitFor Req
+Spaceman.MoveTo 540, 780
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Spaceman.Show()
+WaitFor Req
+Birdie.MoveTo 1256, 60
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Birdie.Show()
+WaitFor Req
+Set Req = Marge.Speak("Birdie wants to listen.")
+WaitFor Req
+Set Req = Robby.Speak("No, Speaking News was Birdie.")
+WaitFor Req
+Set Req = Milton.Speak("A moderator of news is Birdie")
+WaitFor Req
+Birdie.MoveTo 378, 270
+Set Req = Birdie.Speak("Hi guys.")
+WaitFor Req
+Set Req = Spaceman.Speak("Hello")
+WaitFor Req
+Set Req = Sizlik.Speak("Hello")
+WaitFor Req
+Set Req = Santa.Speak("Hello")
+WaitFor Req
+Set Req = Robby.Speak("Hello")
+WaitFor Req
+Set Req = Milton.Speak("Hello")
+WaitFor Req
+Set Req = Marge.Speak("Hello")
+WaitFor Req
+Set Req = Genie.Speak("Hello")
+WaitFor Req
+Set Req = Debbie.Speak("Hello")
+WaitFor Req
+Check.Speak "Hello"
+Set Req = Check.Speak("I am the checkmate.")
+WaitFor Req
+Set Req = Spaceman.Speak("I am the spaceman, Birdie should exit from news.")
+WaitFor Req
+Set Req = Sizlik.Speak("No.")
+WaitFor Req
+Marge.Speak "All listen to Birdie."
+Set Req = Marge.Play("Connect")
+WaitFor Req
+Birdie.Speak "He have recently bought a Nvidia GeForce GT 430 card 2 days ago and his Smps exploded today with a greenish blue light."
+Birdie.Speak "The Smps was if 450w."
+Birdie.Speak "Also he was running AMD Dual Core Pros, 4GB RAM, 250GB HDD and 1 DVD-W."
+Set Req = Birdie.Speak("before the explosion the wall switch of his CPU was flashing.")
+WaitFor Req
+Set Req = Marge.Speak("Next")
+WaitFor Req
+Birdie.MoveTo 375, 321
+Birdie.Speak "Just bought a new Avtec EA-670W power supply."
+Birdie.Speak "It have been set wrong."
+Birdie.Speak "Anyone else in News Members ever hear as hooked up right and when he turned on his computer the PSU went (Boom!!) and smoke was all over the place."
+Birdie.Speak "It has an automatic voltage regulator so it couldn't be set wrong."
+Set Req = Birdie.Speak("Anyone else on News Members ever heard of anything like that?")
+WaitFor Req
+Set Req = Robby.Speak("Then.")
+WaitFor Req
+Birdie.Speak "He was playing something and usually his PC can run games with higher requirements."
+Birdie.Speak "He was having no frame lag or anything."
+Birdie.Speak "Then all of sudden his PSU made a snapping noise, sparks appeared from within it and turned off his PC."
+Set Req = Birdie.Speak("Everything is working fine, except for the PSU.")
+WaitFor Req
+Set Req = Milton.Speak("Any advices that will help Birdie will much more on News.")
+WaitFor Req
+Set Req = Marge.Speak("So the fourth one.")
+WaitFor Req
+Set Req = Check.Speak("Start")
+WaitFor Req
+Birdie.Speak "His PC literally exploded today while at work and he had no ideas where to begal and how much collateral damage he might be looking at."
+Birdie.Speak "While at work the GF was in another room, When she says it sounded like a bomb went off on the PC room."
+Set Req = Birdie.Speak("She ran in to find the case filled with smoke and a nasty burnt rubber smell.")
+WaitFor Req
+Set Req = Spaceman.Speak("Like the steak of Pasta was burnt smell?")
+WaitFor Req
+Set Req = Robby.Speak("Yes")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes")
+WaitFor Req
+Set Req = Santa.Speak("Yes")
+WaitFor Req
+Set Req = Birdie.Speak("He can't see any visible melting or scoroching of anything, nor is the smell still present.")
+WaitFor Req
+Set Req = Marge.Speak("Last one.")
+WaitFor Req
+Birdie.Speak "He just put a GTS 250 in a system with a 300w generic PSU."
+Birdie.Speak "He used the 6-pin to 2-molex adaptor to supply the card."
+Birdie.Speak "It seems to be working fine - He benched it with 3D Mark Vantage and it didn't stumble or reboot or anything."
+Birdie.Speak "He know the PSU can just barely supply enough power for the rig, What he want to know if what happens if the PSU fails."
+Set Req = Birdie.Speak("Does it explode? Catch on fire? Simply cease operating? Burn out the motherboard? What's the worst case/most likely scenario?")
+WaitFor Req
+Set Req = Check.Speak("Exit?")
+WaitFor Req
+Set Req = Spaceman.Speak("Yes")
+WaitFor Req
+Milton.Think "I think that the PSU can explode."
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

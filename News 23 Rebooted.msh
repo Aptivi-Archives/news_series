@@ -1,0 +1,385 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Genie=Genie.acs
+Alien=Alien.acs
+Birdie=Birdie.acs
+Cami=Cami.acs
+Cathie=Cathie.acs
+Debbie=Debbie.acs
+Cupid=Cupid.acs
+Electra=Electra.acs
+Felini=Felini.acs
+Gar=Gar.acs
+Gourdy=Gourdy.acs
+Isabella=Isabella.acs
+Joe=Joe.acs
+James=James.acs
+Merlin=Merlin.acs
+Peedy=Peedy.acs
+Robby=Robby.acs
+Sizlik=Sizlik.acs
+Spaceman=Spaceman.acs
+Milton=Milton.acs
+
+[LanguageIDs]
+Genie=&H409
+Alien=&H409
+Birdie=&H409
+Cami=&H409
+Cathie=&H409
+Debbie=&H409
+Cupid=&H409
+Electra=&H409
+Felini=&H409
+Gar=&H409
+Gourdy=&H409
+Isabella=&H409
+Joe=&H409
+James=&H409
+Merlin=&H409
+Peedy=&H409
+Robby=&H409
+Sizlik=&H409
+Spaceman=&H409
+Milton=&H409
+
+[Script]
+Genie.MoveTo 1342, 742
+Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Genie.Show
+Genie.Speak "I will revive some parts of missing News."
+Set Req = Genie.Speak("Go! Go!!")
+WaitFor Req
+Alien.MoveTo 1273, 752
+Alien.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Alien.Show
+Alien.Speak "New characters won't come..."
+Set Req = Alien.Play("Sad")
+WaitFor Req
+Birdie.MoveTo 520, 264
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Birdie.Show
+Birdie.Speak "I have thought of a story that could revive missing News."
+Set Req = Birdie.Speak("It has an Enermax PSU.")
+WaitFor Req
+Cami.MoveTo 1208, 751
+Cami.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Cami.Show()
+WaitFor Req
+Cathie.MoveTo 1113, 684
+Cathie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Cathie.Show()
+WaitFor Req
+Debbie.MoveTo 1060, 684
+Debbie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Debbie.Show()
+WaitFor Req
+Cupid.MoveTo 984, 704
+Cupid.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Cupid.Show()
+WaitFor Req
+Electra.MoveTo 930, 744
+Electra.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Electra.Show()
+WaitFor Req
+Felini.MoveTo 844, 683
+Felini.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273007}"
+Set Req = Felini.Show()
+WaitFor Req
+Gar.MoveTo 798, 755
+Gar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Gar.Show()
+WaitFor Req
+Gourdy.MoveTo 713, 741
+Gourdy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Gourdy.Show()
+WaitFor Req
+Isabella.MoveTo 607, 684
+Isabella.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Isabella.Show()
+WaitFor Req
+Joe.MoveTo 556, 751
+Joe.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Joe.Show()
+WaitFor Req
+James.MoveTo 492, 683
+James.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = James.Show()
+WaitFor Req
+Merlin.MoveTo 442, 744
+Merlin.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Merlin.Show()
+WaitFor Req
+Peedy.MoveTo 366, 745
+Peedy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Peedy.Show()
+WaitFor Req
+Robby.MoveTo 320, 743
+Robby.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273006}"
+Set Req = Robby.Show()
+WaitFor Req
+Sizlik.MoveTo 172, 685
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Sizlik.Show()
+WaitFor Req
+Set Req = Gourdy.Speak("Curing old news.")
+WaitFor Req
+Set Req = James.Speak("We're attempting to do it.")
+WaitFor Req
+Set Req = Merlin.Speak("Yes.")
+WaitFor Req
+Set Req = Felini.Speak("What should Spaceman gather?")
+WaitFor Req
+Set Req = Debbie.Speak("Now.")
+WaitFor Req
+Set Req = Isabella.Speak("Now.")
+WaitFor Req
+Set Req = Joe.Speak("Are you curing old News?")
+WaitFor Req
+Set Req = Birdie.Speak("Yes")
+WaitFor Req
+Set Req = Sizlik.Speak("Guys, what do Birdie wait?")
+WaitFor Req
+Set Req = Isabella.Speak("For spaceman.")
+WaitFor Req
+Spaceman.MoveTo 49, 789
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Spaceman.Show()
+WaitFor Req
+Set Req = Birdie.Speak("Hello, He just built his first personal PC almost a week ago, and everything seemed to be going well until last Friday.")
+WaitFor Req
+Set Req = Spaceman.Speak("Hello guys? How are you?")
+WaitFor Req
+Set Req = Sizlik.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Robby.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Peedy.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Merlin.Speak("Hello, fine.")
+WaitFor Req
+Set Req = James.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Joe.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Isabella.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Gourdy.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Gar.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Felini.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Electra.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Cupid.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Debbie.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Cathie.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Cami.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Alien.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Genie.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Spaceman.Speak("All listen to Birdie to cure old, missing News?")
+WaitFor Req
+Set Req = Sizlik.Speak("We are all ready.")
+WaitFor Req
+Set Req = Robby.Speak("Me too.")
+WaitFor Req
+Set Req = Peedy.Speak("Me too.")
+WaitFor Req
+Set Req = Merlin.Speak("Me too.")
+WaitFor Req
+Set Req = James.Speak("Where's Milton?")
+WaitFor Req
+Set Req = Cupid.Speak("Shrink Away")
+WaitFor Req
+Set Req = Alien.MoveTo(1297, 754)
+WaitFor Req
+Set Req = Cami.MoveTo(1242, 752)
+WaitFor Req
+Set Req = Cathie.MoveTo(1166, 681)
+WaitFor Req
+Set Req = Debbie.MoveTo(1113, 682)
+WaitFor Req
+Set Req = Cupid.MoveTo(1046, 705)
+WaitFor Req
+Set Req = Electra.MoveTo(996, 755)
+WaitFor Req
+Set Req = Felini.MoveTo(909, 683)
+WaitFor Req
+Set Req = Gar.MoveTo(877, 752)
+WaitFor Req
+Set Req = Gourdy.MoveTo(790, 743)
+WaitFor Req
+Set Req = Isabella.MoveTo(692, 683)
+WaitFor Req
+Set Req = Joe.MoveTo(640, 752)
+WaitFor Req
+Milton.MoveTo 566, 747
+Milton.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Milton.Show()
+WaitFor Req
+Set Req = Joe.MoveTo(633, 752)
+WaitFor Req
+Set Req = James.Speak("Me too")
+WaitFor Req
+Set Req = Joe.Speak("Me too")
+WaitFor Req
+Set Req = Isabella.Speak("Me too")
+WaitFor Req
+Set Req = Gourdy.Speak("Me too")
+WaitFor Req
+Set Req = Gar.Speak("Me too")
+WaitFor Req
+Set Req = Felini.Speak("Me too")
+WaitFor Req
+Set Req = Electra.Speak("Me too")
+WaitFor Req
+Set Req = Cupid.Speak("Me too")
+WaitFor Req
+Set Req = Debbie.Speak("Me too")
+WaitFor Req
+Set Req = Cathie.Speak("Me too")
+WaitFor Req
+Set Req = Cami.Speak("Me too")
+WaitFor Req
+Set Req = Alien.Speak("Me too")
+WaitFor Req
+Set Req = Genie.Speak("Me too")
+WaitFor Req
+Set Req = Electra.MoveTo(988, 744)
+WaitFor Req
+Set Req = Cupid.MoveTo(1031, 705)
+WaitFor Req
+Set Req = Debbie.MoveTo(1105, 687)
+WaitFor Req
+Set Req = Cathie.MoveTo(1156, 685)
+WaitFor Req
+Set Req = Cami.MoveTo(1236, 752)
+WaitFor Req
+Set Req = Alien.MoveTo(1287, 752)
+WaitFor Req
+Milton.Speak "\Pit=70\Me too"
+Set Req = Milton.Speak("Me too")
+WaitFor Req
+Set Req = Birdie.Speak("He was playing DayZ Standalone.")
+WaitFor Req
+Set Req = James.Speak("DayZ Standalone or DayZ Networked?")
+WaitFor Req
+Set Req = Joe.Speak("DayZ Standalone")
+WaitFor Req
+Set Req = Spaceman.Speak("DayZ Networked")
+WaitFor Req
+Set Req = James.Speak("Who said wrong?")
+WaitFor Req
+Birdie.Speak "Spaceman"
+Birdie.Speak "OK, Let's explain guys, suddenly He heard a loud pop, coming from underneath his desk, right where his computer, and therefore his PSU was."
+Set Req = Birdie.Speak("As he reached down to unplug absolutely everything under his desk, a series of loud pops, similar to the one before went off, un-interrupted.")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "He had an Enermax 460w PSU from the Axp era and would work on a new build as it had solid rails and enough amps."
+Birdie.Speak "Last night when he was building he essentially turned on his computer when it was only enough to get into BIOS... He slept."
+Birdie.Speak "Today he woke up, installed his DVD drive and a second hard drive, and He plugged in the power cord to the PSU and flipped on the PSU switch and smoke came out of the back!"
+Birdie.Speak "He has purchased an Earthwatts 500w to replace it, now hopefully it will come in and he can test the parts before he can no longer RMA."
+Set Req = Birdie.Speak("He never even got to test the rig for stability, memtest or anything... now he can't even be sure if any part problems were due to his actions or if it was out of his control to begin with.")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "He has to test Ubuntu with his flash drive."
+Birdie.Speak "There is one problem that BIOS won't detect the connected USB Devices."
+Birdie.Speak "He went to the boot menu and the only thing it has listed was his Floppy drive which is not working, CD/DVD and Hard drive but it won't show him the USB Device."
+Birdie.Speak "So he went back to BIOS Setup version 3.31a and then to the CMOS Settings, chose boot orders, selected it and it only showed him the same thing. No USB Device found! It is plugged in!"
+Set Req = Birdie.Speak("Also it does not have Q-flash nor update BIOS available")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "He likes the version of NT 5.0 so he thought that he want it so he went to WinWorldPC and download Windows NT 5.0 build 1691."
+Birdie.Speak "When he put it in virtual machine, it will start the Windows Setup until it finished loading all drivers, Then it will get to the blue screen saying Kernel Debugger Using: COM2 (Port: 0x2f8, Baud Rate: 19200)."
+Birdie.Speak "It stays there for couple of minutes until he gets Windows NT 5.0 Version Build 1691 and stays again until he gets the screen which says that Setup cannot continue (0xc0000034) error message and the system is halted."
+Set Req = Birdie.Speak("he left the CD to boot, it does the same thing but differently says PROCESS1_INITALIZATION_FAILED (0x000006B), It showed him the list of dll and sys and exe and etc.")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "On eighth month of 2015, he used to play Minecraft finely, and swiftly, to play, when he realized that he want to work on something."
+Birdie.Speak "Until the end of eighth year of 2015, now it runs very slowly with just like 1 FPS on every minute, Minecraft will then become unplayable on his computer."
+Birdie.Speak "He reinstalled Java several times, reinstalled Minecraft, Uninstalled Antivirus, Enabled Firewall, and Minecraft experiences same slowing issue"
+Birdie.Speak "Also Minecraft plays no sound as he has slowness of Minecraft PC issue."
+Birdie.Speak "He cannot use Optifine because it experienced the same issue."
+Set Req = Birdie.Speak("His graphic card is OpenGL 1.3. With no shaders.")
+WaitFor Req
+Set Req = Spaceman.Speak("Last story from the owner of us, and more stories.")
+WaitFor Req
+Birdie.Speak "We have updated."
+Set Req = Birdie.Speak("He just went to safe mode and he uninstalled Avast and It works! His computer loops now.")
+WaitFor Req
+Set Req = Spaceman.Speak("Additional Forums!")
+WaitFor Req
+Set Req = Genie.Speak("He compressed his C drive on which he has his Windows XP OS. Now, all he is getting is 'Bootmgr is compressed press Alt+Ctrl+Del to restart'. he can't use his CD ROM on the desktop because it is broken but he did copy and paste the XP OS files from CD on to his external HD using his laptop. After copying the XP files on to his external HD, He have connected the external HD to his affected desktop via USB port and changed the first booting device to USB drive in the BIOS set-up but still getting the same 'Bootmgr is compressed press Alt+Ctrl+Del to restart' message.")
+WaitFor Req
+Birdie.MoveTo 403, 348
+Birdie.Speak "He has an 8 GB ScanDisk cruzer, and whenever he plug it in his computer and use it, every 10-20 min. of usage, his computer crashes and he get the Blue Screen of death."
+Set Req = Birdie.Speak("His computer is around 3 years of age.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He start the install and it goes through the first screen then a second screen pops up stating that his system hardware does not meet the minimum requirements."
+Set Req = Birdie.Speak("He is installing on Athlon XP 3000+ and apparently that processor doesn't have SSE2.")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "He has a pre-built system from IBuyPower, that he have had for about a year and a half."
+Birdie.Speak "He has been using the computer and out of the blue he gets a 'pop' or 'zap' noise coming from the tower, immediately followed by the system rebooting itself."
+Set Req = Birdie.Speak("Everything appears to be fine when the system comes back online, but he can only think that something is wrong and this could lead to failures")
+WaitFor Req
+Set Req = Spaceman.Speak("Last story, and then Genie.")
+WaitFor Req
+Set Req = Genie.MoveTo(490, 353)
+WaitFor Req
+Birdie.Speak "He flashed the wrong BIOS, and his PC would not boot next time he turned it on."
+Birdie.Speak "So he take the battery out to default the BIOS, nothing."
+Birdie.Speak "He pulled the 4-pin plug while PC is on and his CPU made a Zap! or a shock. shock.. shock... shock.... shock....."
+Set Req = Birdie.Hide()
+WaitFor Req
+Set Req = Joe.Speak("Cure old News Now!!!")
+WaitFor Req
+Genie.Speak "He recently built the PC in his sig."
+Genie.Speak "He hear a popping sound not too frequently in side on his computer. "
+Genie.Speak "Maybe 1-2 times per day."
+Set Req = Genie.Speak("He read up on this problem online and so far he has seen it can be motherboard conductor capacitors being burnt, those small cylinder-shaped metal pieces on the motherboard, and they aren't burnt or anything since he opened the case and checked.")
+WaitFor Req
+Set Req = Spaceman.Speak("Last story! You've cured it perfectly!!")
+WaitFor Req
+Genie.Speak "So, he turn his surge protector on, then his monitor, then his computer itself, same as always."
+Genie.Speak "About 2 seconds later, he hear a pop sound. Like a lightbulb breaking, but far louder."
+Genie.Speak "He figured he blew his monitor, but it was lit up as always."
+Genie.Speak "But his computer was off. No blue light lighting up his power button."
+Genie.Speak "Pushed it again and nothing."
+Genie.Speak "More pushes, same nothing."
+Genie.Speak "In the back, removing the power cord and replugging it back in lights up the little green light."
+Genie.Speak "Pushing the computer's power button turns it off. There's no burning, smoking smell."
+Genie.Speak "He opened it up, got rid of as much dust as he could, closed it up, hit the power button, still nothing."
+Set Req = Genie.Hide()
+WaitFor Req
+Birdie.Show
+Birdie.Speak "He installed Google Desktop yesterday."
+Birdie.Speak "He Had a virus/trojan/whatever in Firefox's Java cache that always reappears from time to time."
+Birdie.Speak "Exit now."
+Set Req = Birdie.Hide()
+WaitFor Req
+Isabella.Speak "We've had success reviving old News!"
+Isabella.Speak "Sadly, we've to exit."
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

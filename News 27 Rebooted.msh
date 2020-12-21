@@ -1,0 +1,272 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Genie=Genie.acs
+Al=Al.acs
+Audie=Audie.acs
+Billg=Billg.acs
+Blanche=Blanche.acs
+Cami=Cami.acs
+Charlie=Charlie.acs
+Cupid=Cupid.acs
+Electra=Electra.acs
+Gar=Gar.acs
+Gourdy=Gourdy.acs
+Jack=Jack.acs
+Merlin=Merlin.acs
+Miku=Miku.acs
+Milton=Milton.acs
+Oscar=Oscar.acs
+Reaper=Reaper.acs
+Sizlik=Sizlik.acs
+Spaceman=Spaceman.acs
+
+[LanguageIDs]
+Genie=&H409
+Al=&H409
+Audie=&H409
+Billg=&H409
+Blanche=&H409
+Cami=&H409
+Charlie=&H409
+Cupid=&H409
+Electra=&H409
+Gar=&H409
+Gourdy=&H409
+Jack=&H409
+Merlin=&H409
+Miku=&H409
+Milton=&H409
+Oscar=&H409
+Reaper=&H409
+Sizlik=&H409
+Spaceman=&H409
+
+[Script]
+Genie.MoveTo 599, 336
+Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Genie.Show
+Set Req = Genie.Speak("I'm going to broadcast News 27.")
+WaitFor Req
+Al.MoveTo 1343, 744
+Al.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Al.Show()
+WaitFor Req
+Audie.MoveTo 1266, 748
+Audie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Audie.Show()
+WaitFor Req
+Billg.MoveTo 1179, 706
+Billg.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Billg.Show()
+WaitFor Req
+Blanche.MoveTo 1122, 684
+Blanche.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Blanche.Show()
+WaitFor Req
+Cami.MoveTo 1096, 750
+Cami.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Cami.Show()
+WaitFor Req
+Charlie.MoveTo 971, 710
+Charlie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Charlie.Show()
+WaitFor Req
+Cupid.MoveTo 838, 708
+Cupid.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Cupid.Show()
+WaitFor Req
+Electra.MoveTo 784, 744
+Electra.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Electra.Show()
+WaitFor Req
+Gar.MoveTo 726, 751
+Gar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Gar.Show()
+WaitFor Req
+Gourdy.MoveTo 635, 742
+Gourdy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Gourdy.Show()
+WaitFor Req
+Jack.MoveTo 551, 740
+Jack.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Jack.Show()
+WaitFor Req
+Merlin.MoveTo 484, 745
+Merlin.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Merlin.Show()
+WaitFor Req
+Miku.MoveTo 431, 639
+Miku.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Miku.Show()
+WaitFor Req
+Milton.MoveTo 374, 745
+Milton.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Milton.Show()
+WaitFor Req
+Oscar.MoveTo 326, 745
+Oscar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Oscar.Show()
+WaitFor Req
+Reaper.MoveTo 242, 686
+Reaper.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273007}"
+Set Req = Reaper.Show()
+WaitFor Req
+Sizlik.MoveTo 6, 680
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Sizlik.Show()
+WaitFor Req
+Spaceman.MoveTo 177, 783
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Spaceman.Show()
+WaitFor Req
+Set Req = Genie.Speak("So everyone's here, and everyone say Hello.")
+WaitFor Req
+Set Req = Sizlik.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Spaceman.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Reaper.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Oscar.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Milton.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Miku.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Merlin.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Jack.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Gourdy.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Gar.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Electra.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Cupid.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Charlie.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Cami.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Blanche.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Billg.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Audie.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Al.Speak("Hello, fine.")
+WaitFor Req
+Set Req = Spaceman.Speak("All listen to Genie?")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes")
+WaitFor Req
+Set Req = Reaper.Speak("Yes")
+WaitFor Req
+Set Req = Oscar.Speak("Yes")
+WaitFor Req
+Set Req = Milton.Speak("Yes")
+WaitFor Req
+Set Req = Miku.Speak("Yes")
+WaitFor Req
+Set Req = Merlin.Speak("Yes")
+WaitFor Req
+Set Req = Jack.Speak("Yes")
+WaitFor Req
+Set Req = Gourdy.Speak("Yes")
+WaitFor Req
+Set Req = Gar.Speak("Yes")
+WaitFor Req
+Set Req = Electra.Speak("Yes")
+WaitFor Req
+Set Req = Cupid.Speak("Yes")
+WaitFor Req
+Set Req = Charlie.Speak("Yes")
+WaitFor Req
+Set Req = Cami.Speak("Yes")
+WaitFor Req
+Set Req = Blanche.Speak("Yes")
+WaitFor Req
+Set Req = Billg.Speak("Yes")
+WaitFor Req
+Set Req = Audie.Speak("Yes")
+WaitFor Req
+Set Req = Al.Speak("Yes")
+WaitFor Req
+Set Req = Genie.Speak("Everyone should be ready to listen, because I am about to start.")
+WaitFor Req
+Milton.Play "Congratulate"
+Milton.Play "CongratulateReturn"
+Set Req = Milton.Speak("Congratulations, Genie.")
+WaitFor Req
+Genie.Speak "Thanks."
+Genie.Speak "He has an old PC which he use for gaming. He opened up the case the other day to put in a new soundcard and noticed that a lot of the capacitors had been leaking, or looked like they were about to leak."
+Genie.Speak "He did a bit of reading online and found out that it's a fairly common issue with older PCs, and that if you know what you are doing it's easy to replace them."
+Genie.Speak "He went to the only local computer repair shop and asked if they would do it. They said they would do it, for about £45 (which seemed a bit much to me, but not over the top), but they recommended that he left it as the computer was still working, and it might not work after they had replaced them."
+Set Req = Genie.Speak("He asked them what would happen if the capacitors stopped working completely (would it damage any other bits of the computer), but he wasn't 100% sure.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Genie.Speak "His PC keeps switching off randomly. Sometimes he use it for days and nothing, other times he merely switch it on and 5 minutes later it just switches off completely."
+Set Req = Genie.Speak("Once its off, he has to pull power completely before he can restart. He tried 3 different rams already and he still get the same.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Set Req = Genie.Speak("Basically he plugged in his power supply and it made a pop with a spark followed by some smoke and a burning smell and most people would say it's a blown capacitor.")
+WaitFor Req
+Set Req = Milton.Speak("Ready for next.")
+WaitFor Req
+Genie.Speak "His power supply on his less than one week old computer just died and leaked some stinky brown ooze onto his floor."
+Genie.Speak "He had some electricians working on my powerbox. He shut down his computer but he didn’t unplug it from the UPS. He came back to his desk after they finish up what they were doing and he notice a powerful smell."
+Genie.Speak "He try to turn on his computer and it won’t turn on. The power button lights for a fraction of a second and the case fans start up and then stop and startup and stop."
+Genie.Speak "Flip the switch on and on with no luck, move the case so he can look at the back and notice a tablespoon of brown ooze on the floor trickling out from the bottom of the powersupply."
+Genie.Speak "Obviously, the powersupply is dead, but now he's worried that he have 1500 dollars of new PC parts that just died with it. Nothing really looks burned. There is still a faint smell in the case after he removed the PSU but he doesn’t know if that is lingering odor from the burn or it it means the components are dead."
+Set Req = Genie.Speak("He unplugged the UPS it was plugged into and got a shock from it when he accidentally touched the part that plugs into the wall earlier that day. He doesn't know if that would have any effect.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Genie.Speak "He has an old VGA monitor thats about 10 years old. It's a Mitsuba 710VH."
+Genie.Speak "He need to use it on a small system he's setting up."
+Genie.Speak "It displays video, but it emits a loud, high pitched screech when it's on."
+Set Req = Genie.Speak("He don't recall it doing this when he put it in storage 10 years ago.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Genie.Speak "Last thursday he bought himself a huion Gt 220 v2 pen display tablet, and today the monitor has started making popping and cracking noises."
+Genie.Speak "He figured it was something with the stand or the weight of him drawing on it, but it's been making the noises when he's not even touching it!"
+Genie.Speak "Now it's completely unplugged from everything, turned off, face down (so its not putting pressure on the stand) and it's continuing to pop and crackle."
+Set Req = Genie.Speak("This thing cost $699 and he's a little worried about it and if it's gonna spontaneously combust or explode. probably not but he just bought this thing.")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Genie.Speak "Recently for unknown reasons his monitor has started making a static/white noise with occasional outbursts of ear splitting crackling."
+Genie.Speak "Interestingly enough, the monitor is silent when not connected to the computer and even during startup until the Windows 8 login page appears."
+Genie.Speak "He has attached a video to illustrate this. (Notice that there is no static or noise until the moment the login appears. That's when you'll hear the outburst.)"
+Genie.Speak "The static sound is also registered in his volume control area. Whenever it makes a noise, the green bar jumps a little bit. When he's not doing anything at the computer, it makes small little static 'ticks' that last half a second."
+Genie.Speak "However, when he's doing things like opening a file, or loading a webpage, it seems more prone to these really violent outburst of crackling static."
+Set Req = Genie.Speak("He's tried switching out the HDMI and no luck there. He also thought it might be that his volume control is too high but he has always kept his monitor volume set to about 30/100 and controlled the volume with the windows volume controller.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Set Req = Genie.Speak("So recently his laptop gets a black screen on start up, and makes popping sounds a few seconds after. He can get it to work, but at the moment, the only way to do so is by repetitively powering up and removing/reinserting the battery to try to boot it up again. Its only a year and a half old but he's dropped it from a car seat out onto the pavement a month or two ago.")
+WaitFor Req
+Set Req = Milton.Speak("Last one.")
+WaitFor Req
+Genie.Speak "He has a Mitsubishi Diamondtron trinitron monitor which he dearly love."
+Genie.Speak "A few months ago he noticed intermittent flickering of the picture, like it was degaussing, only with a popping noise."
+Genie.Speak "A few months down the road he noticed that when he turned on the monitor he would hear this loud 'Pop!' noise as it powered up. The picture looked fine."
+Genie.Speak "Finally the other day he turned it on, heard two loud pops!, and the screen is blank. Now when he turn it on he hear it make some sort of undulating hissing sound for a few seconds, like a car trying to start, before it just gives up."
+Set Req = Genie.Speak("Interestingly, he noticed when looking through the air vents with the lights out there is some sort of blue sparking action going on in the back of the monitor.")
+WaitFor Req
+Set Req = Spaceman.Speak("Exit news?")
+WaitFor Req
+Milton.Speak "Yes."
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

@@ -1,0 +1,731 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Al=Al.acs
+Blanche=Blanche.acs
+Cathie=Cathie.acs
+Debbie=Debbie.acs
+Cami=Cami.acs
+Check=Check.acs
+Gar=Gar.acs
+Genie=Genie.acs
+Cupid=Cupid.acs
+James=James.acs
+Joe=Joe.acs
+Merlin=Merlin.acs
+Birdie=Birdie.acs
+Sizlik=Sizlik.acs
+Spaceman=Spaceman.acs
+Oscar=Oscar.acs
+Ozzar=Ozzar.acs
+Bonzi=Bonzi.acs
+Jack=Jack.acs
+Audie=Audie.acs
+Billg=Billg.acs
+Galaxygirl=Galaxygirl.acs
+Maria=Maria.acs
+Milton=Milton.acs
+Wartnose=Wartnose.acs
+
+[LanguageIDs]
+Al=&H409
+Blanche=&H409
+Cathie=&H409
+Debbie=&H409
+Cami=&H409
+Check=&H409
+Gar=&H409
+Genie=&H409
+Cupid=&H409
+James=&H409
+Joe=&H409
+Merlin=&H409
+Birdie=&H409
+Sizlik=&H409
+Spaceman=&H409
+Oscar=&H409
+Ozzar=&H409
+Bonzi=&H409
+Jack=&H409
+Audie=&H409
+Billg=&H409
+Galaxygirl=&H409
+Maria=&H409
+Milton=&H409
+Wartnose=&H409
+
+[Script]
+Al.MoveTo 1346, 744
+Al.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Al.Show()
+WaitFor Req
+Blanche.MoveTo 1239, 686
+Blanche.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Blanche.Show()
+WaitFor Req
+Cathie.MoveTo 1186, 685
+Cathie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Cathie.Show()
+WaitFor Req
+Debbie.MoveTo 1135, 688
+Debbie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Debbie.Show()
+WaitFor Req
+Cami.MoveTo 1099, 752
+Cami.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Cami.Show()
+WaitFor Req
+Check.MoveTo 1035, 744
+Check.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Check.Show()
+WaitFor Req
+Gar.MoveTo 969, 752
+Gar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Gar.Show()
+WaitFor Req
+Genie.MoveTo 903, 742
+Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Genie.Show()
+WaitFor Req
+Cupid.MoveTo 804, 705
+Cupid.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Cupid.Show()
+WaitFor Req
+James.MoveTo 746, 683
+James.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = James.Show()
+WaitFor Req
+Joe.MoveTo 667, 750
+Joe.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Joe.Show
+Set Req = Joe.Speak("I thought about BIOS chip explosions")
+WaitFor Req
+Set Req = James.Speak("This is interesting.")
+WaitFor Req
+Merlin.MoveTo 594, 746
+Merlin.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Merlin.Show
+Set Req = Merlin.Speak("There is a new character, so make some space.")
+WaitFor Req
+Set Req = Blanche.MoveTo(1254, 686)
+WaitFor Req
+Set Req = Cathie.MoveTo(1200, 684)
+WaitFor Req
+Set Req = Debbie.MoveTo(1151, 688)
+WaitFor Req
+Set Req = Cami.MoveTo(1130, 751)
+WaitFor Req
+Set Req = Check.MoveTo(1074, 745)
+WaitFor Req
+Set Req = Gar.MoveTo(1010, 752)
+WaitFor Req
+Set Req = Genie.MoveTo(940, 742)
+WaitFor Req
+Set Req = Cupid.MoveTo(844, 707)
+WaitFor Req
+Set Req = James.MoveTo(790, 684)
+WaitFor Req
+Set Req = Joe.MoveTo(717, 752)
+WaitFor Req
+Merlin.MoveTo 644, 748
+Set Req = Merlin.Speak("Plenty of space.")
+WaitFor Req
+Birdie.MoveTo 766, 213
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Birdie.Show
+Set Req = Birdie.Speak("Marlin, come here.")
+WaitFor Req
+Set Req = Merlin.MoveTo(694, 233)
+WaitFor Req
+Set Req = Birdie.Speak("I will be absent in News 15 Rebooted.")
+WaitFor Req
+Set Req = Merlin.Speak("Nice, because I have some stories.")
+WaitFor Req
+Set Req = Birdie.Speak("Is it about PSU explosions?")
+WaitFor Req
+Merlin.Speak "No, it is about the netbook doesn't start."
+Set Req = Merlin.MoveTo(642, 746)
+WaitFor Req
+Sizlik.MoveTo 13, 686
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Sizlik.Show()
+WaitFor Req
+Spaceman.MoveTo 182, 787
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Spaceman.Show()
+WaitFor Req
+Set Req = Birdie.Speak("This is so many space for new characters.")
+WaitFor Req
+Oscar.MoveTo 583, 744
+Oscar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Oscar.Show()
+WaitFor Req
+Ozzar.MoveTo 523, 747
+Ozzar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Ozzar.Show
+Set Req = Ozzar.Speak("Hello my friend Oscar.")
+WaitFor Req
+Set Req = Oscar.Speak("Hello, how are you?")
+WaitFor Req
+Set Req = Ozzar.Speak("Fine, but how are you?")
+WaitFor Req
+Set Req = Oscar.Speak("I will be fine.")
+WaitFor Req
+Set Req = Merlin.Speak("Ozzar is my friend. We both have magic.")
+WaitFor Req
+Set Req = Ozzar.Speak("Yes.")
+WaitFor Req
+Set Req = Birdie.Speak("We are introducing 6 new characters.")
+WaitFor Req
+Set Req = Joe.Speak("Nice. We will have 6 more members.")
+WaitFor Req
+Set Req = Birdie.Speak("Let's see who are they.")
+WaitFor Req
+Audie.MoveTo 1015, 356
+Audie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Audie.Show()
+WaitFor Req
+Billg.MoveTo 920, 315
+Billg.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Billg.Show()
+WaitFor Req
+Set Req = Birdie.MoveTo(761, 150)
+WaitFor Req
+Bonzi.MoveTo 839, 328
+Bonzi.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Bonzi.Show()
+WaitFor Req
+Galaxygirl.MoveTo 713, 366
+Galaxygirl.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Galaxygirl.Show()
+WaitFor Req
+Jack.MoveTo 623, 349
+Jack.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Jack.Show()
+WaitFor Req
+Maria.MoveTo 559, 349
+Maria.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Maria.Show()
+WaitFor Req
+Set Req = Birdie.Speak("Say hello to these 6 characters")
+WaitFor Req
+Set Req = Audie.Speak("Hello guys. I am Audie, a Computer.")
+WaitFor Req
+Set Req = Billg.Speak("Hello guys. I am the real Bill Gates.")
+WaitFor Req
+Set Req = Audie.Speak("You can say this is real.")
+WaitFor Req
+Set Req = Bonzi.Speak("Hello, I am Bonzi.")
+WaitFor Req
+Galaxygirl.Speak "Hello guys, I am Galaxy Girl"
+Set Req = Galaxygirl.Speak("So, we meet again, Spaceman, from the party once News 30 has ended.")
+WaitFor Req
+Set Req = Spaceman.Speak("You are my best friend")
+WaitFor Req
+Set Req = Galaxygirl.Speak("Thanks. I saw Sizlik on your way.")
+WaitFor Req
+Set Req = Sizlik.Speak("How did you know my name, Galaxy Girl? You didn't see me.")
+WaitFor Req
+Set Req = Galaxygirl.Speak("I talked with Spaceman.")
+WaitFor Req
+Set Req = Jack.Speak("Hello, I am Jack.")
+WaitFor Req
+Maria.Play "Pleased"
+Set Req = Maria.Speak("Hello guys. I am Maria.")
+WaitFor Req
+Birdie.Speak "Sit on your own places."
+Set Req = Birdie.Speak("Old characters will move to the upper left corner.")
+WaitFor Req
+Galaxygirl.MoveTo 311, 752
+Set Req = Galaxygirl.Speak("So we meet again, Spaceman.")
+WaitFor Req
+Set Req = Spaceman.Speak("Hello.")
+WaitFor Req
+Set Req = Galaxygirl.Play("Greet")
+WaitFor Req
+Spaceman.Speak "I have better."
+Spaceman.MoveTo 185, 754
+Spaceman.Play "Greet"
+Spaceman.Play "Still"
+Set Req = Spaceman.MoveTo(187, 785)
+WaitFor Req
+Set Req = Galaxygirl.Speak("Well, my greetings has sound. Yours doesn't.")
+WaitFor Req
+Set Req = Spaceman.Speak("Well, my voice is louder than yours")
+WaitFor Req
+Birdie.MoveTo 266, 609
+Set Req = Birdie.Speak("Don't fight.")
+WaitFor Req
+Set Req = Spaceman.Speak("OK. We won't fight.")
+WaitFor Req
+Set Req = Birdie.MoveTo(780, 154)
+WaitFor Req
+Set Req = Ozzar.MoveTo(1322, 15)
+WaitFor Req
+Set Req = Oscar.MoveTo(1256, 16)
+WaitFor Req
+Set Req = Maria.MoveTo(494, 742)
+WaitFor Req
+Set Req = Jack.MoveTo(539, 742)
+WaitFor Req
+Set Req = Merlin.MoveTo(1189, 22)
+WaitFor Req
+Set Req = Bonzi.MoveTo(568, 719)
+WaitFor Req
+Set Req = Billg.MoveTo(642, 708)
+WaitFor Req
+Set Req = Joe.MoveTo(1087, 28)
+WaitFor Req
+Set Req = Audie.MoveTo(727, 751)
+WaitFor Req
+Set Req = Birdie.MoveTo(759, 329)
+WaitFor Req
+Milton.MoveTo 1014, 26
+Milton.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Milton.Show()
+WaitFor Req
+Wartnose.MoveTo 951, 27
+Wartnose.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273003}"
+Wartnose.Show
+Wartnose.Play "Surprised"
+Wartnose.Play "Fart"
+Set Req = Wartnose.Speak("Who are these new characters?")
+WaitFor Req
+Set Req = Birdie.Speak("Galaxy Girl, Maria, Jack, Bonzi, Bill Gates and Audie the Computer.")
+WaitFor Req
+Set Req = Wartnose.Speak("I met someone, the computer.")
+WaitFor Req
+Set Req = Audie.Speak("I am the computer.")
+WaitFor Req
+Set Req = Billg.Speak("I have a computer")
+WaitFor Req
+Set Req = Birdie.Speak("Let's see.")
+WaitFor Req
+Set Req = Billg.Play("Read")
+WaitFor Req
+Set Req = Birdie.Speak("He actually has the computer.")
+WaitFor Req
+Galaxygirl.Speak "Hello guys?"
+Set Req = Galaxygirl.Speak("How are you?")
+WaitFor Req
+Set Req = Sizlik.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Spaceman.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Maria.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Jack.Speak("Hello, Fine.")
+WaitFor Req
+Bonzi.Speak "Hello, Fine."
+Bonzi.Play "Wave"
+Set Req = Billg.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Audie.Speak("Hello, Fine")
+WaitFor Req
+Set Req = James.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Cupid.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Genie.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Gar.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Check.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Cami.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Debbie.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Cathie.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Blanche.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Al.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Ozzar.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Oscar.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Merlin.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Joe.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Milton.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Wartnose.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Spaceman.Speak("All listen to Birdie?")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes")
+WaitFor Req
+Set Req = Galaxygirl.Speak("Yes")
+WaitFor Req
+Set Req = Maria.Speak("Yes")
+WaitFor Req
+Set Req = Jack.Speak("Yes")
+WaitFor Req
+Set Req = Bonzi.Speak("Yes")
+WaitFor Req
+Set Req = Billg.Speak("Yes")
+WaitFor Req
+Set Req = Audie.Speak("Yes")
+WaitFor Req
+Set Req = James.Speak("Yes")
+WaitFor Req
+Set Req = Cupid.Speak("Yes")
+WaitFor Req
+Set Req = Genie.Speak("Yes")
+WaitFor Req
+Set Req = Gar.Speak("Yes")
+WaitFor Req
+Set Req = Check.Speak("Yes")
+WaitFor Req
+Set Req = Cami.Speak("Yes")
+WaitFor Req
+Set Req = Debbie.Speak("Yes")
+WaitFor Req
+Set Req = Cathie.Speak("Yes")
+WaitFor Req
+Set Req = Blanche.Speak("Yes")
+WaitFor Req
+Set Req = Al.Speak("Yes")
+WaitFor Req
+Set Req = Ozzar.Speak("Yes")
+WaitFor Req
+Set Req = Oscar.Speak("Yes")
+WaitFor Req
+Set Req = Merlin.Speak("Yes")
+WaitFor Req
+Set Req = Joe.Speak("Yes")
+WaitFor Req
+Set Req = Milton.Speak("Yes")
+WaitFor Req
+Set Req = Wartnose.Speak("No")
+WaitFor Req
+Spaceman.MoveTo 185, 786
+Set Req = Spaceman.Speak("Who said no?")
+WaitFor Req
+Set Req = Sizlik.Speak("Monster")
+WaitFor Req
+Set Req = Galaxygirl.Speak("Monster")
+WaitFor Req
+Set Req = Maria.Speak("Monster")
+WaitFor Req
+Set Req = Jack.Speak("Monster")
+WaitFor Req
+Set Req = Bonzi.Speak("Monster")
+WaitFor Req
+Set Req = Billg.Speak("Monster")
+WaitFor Req
+Set Req = Audie.Speak("Monster")
+WaitFor Req
+Set Req = James.Speak("Monster")
+WaitFor Req
+Set Req = Cupid.Speak("Monster")
+WaitFor Req
+Set Req = Genie.Speak("Monster")
+WaitFor Req
+Set Req = Gar.Speak("Monster")
+WaitFor Req
+Set Req = Check.Speak("Monster")
+WaitFor Req
+Set Req = Cami.Speak("Monster")
+WaitFor Req
+Set Req = Debbie.Speak("Monster")
+WaitFor Req
+Set Req = Cathie.Speak("Monster")
+WaitFor Req
+Set Req = Blanche.Speak("Monster")
+WaitFor Req
+Set Req = Al.Speak("Monster")
+WaitFor Req
+Set Req = Ozzar.Speak("Monster")
+WaitFor Req
+Set Req = Oscar.Speak("Monster")
+WaitFor Req
+Set Req = Merlin.Speak("Monster")
+WaitFor Req
+Set Req = Joe.Speak("Monster")
+WaitFor Req
+Set Req = Milton.Speak("Monster")
+WaitFor Req
+Set Req = Spaceman.Speak("OK, We will exit Wartnose.")
+WaitFor Req
+Set Req = Wartnose.Hide()
+WaitFor Req
+Birdie.Speak "After making the upgrade to the E8400 he has had problems booting to BIOS on several occasions. Most of the time the BIOS settings won't recognize the bus speed at 340 mhz (x9) and will set it at 133 mhz. When he changes it back to the default, everything runs smoothly."
+Birdie.Speak "However, recently, when he runs something demanding, like a game, his system crashes like it has been unplugged from the wall. After several attempts to reboot, his system would not get to the BIOS to even begin starting Windows."
+Set Req = Birdie.Speak("He has been stable now with the bus speed set at 133 MHz. His idle temps (running several instances of Mozilla, CPU-Z and SpeedFan) for both bus speeds of 340 MHz and 133 MHz have been 37C.")
+WaitFor Req
+Set Req = Galaxygirl.Speak("Ready for next")
+WaitFor Req
+Set Req = Spaceman.Speak("I say Ready for next, Not you.")
+WaitFor Req
+Set Req = Cupid.Speak("Beep Spaceman and Galaxy Girl, second time.")
+WaitFor Req
+Set Req = Galaxygirl.Speak("No, No, No, Nooooo.")
+WaitFor Req
+Set Req = Cupid.Speak("Beep Galaxy Girl, Last time.")
+WaitFor Req
+Birdie.Speak "He is building his first PC from scratch."
+Birdie.Speak "He installed both sticks of RAM to motherboard, installed CPU with CPU cooler onto motherboard, and connected motherboard to power supply."
+Birdie.Speak "The problem is that after a few seconds, the power supply and motherboard both reboot and keep doing so because one of the RAM sticks is bad."
+Birdie.Speak "He bought a second power supply (also 500W) and it had the same symptoms (keeps cycling after a few seconds)."
+Set Req = Birdie.Speak("He tried each stick of RAM separately and in each different RAM socket, and same thing happens.")
+WaitFor Req
+Set Req = Galaxygirl.Speak("Ready for next")
+WaitFor Req
+Set Req = Spaceman.Speak("You are punished.")
+WaitFor Req
+Set Req = Cupid.Speak("Beep Galaxy Girl, Giant Red Card.")
+WaitFor Req
+Set Req = Birdie.Speak("Giant red card must be ready for Galaxy Girl, so I'll take you to exit.")
+WaitFor Req
+Set Req = Galaxygirl.Hide()
+WaitFor Req
+Set Req = Maria.MoveTo(298, 742)
+WaitFor Req
+Set Req = Jack.MoveTo(343, 742)
+WaitFor Req
+Set Req = Bonzi.MoveTo(372, 718)
+WaitFor Req
+Set Req = Billg.MoveTo(443, 707)
+WaitFor Req
+Set Req = Audie.MoveTo(530, 753)
+WaitFor Req
+Set Req = James.MoveTo(599, 687)
+WaitFor Req
+Set Req = Milton.MoveTo(651, 746)
+WaitFor Req
+Set Req = Joe.MoveTo(717, 751)
+WaitFor Req
+Set Req = Oscar.MoveTo(798, 747)
+WaitFor Req
+Set Req = Merlin.MoveTo(1248, 19)
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "About a year ago it started acting up a bit and seemed to get worse as time went on. It stopped booting instantaneously when he had any USB HDDs connected."
+Birdie.Speak "Eventually, it got to the point that he would have to unplug them completely in order for it to boot. Literal difference from twenty seconds to three or four minutes hanging on POST when a USB drive was plugged in."
+Birdie.Speak "A few months ago, he upgraded his SSD and graphics card."
+Birdie.Speak "He had reinstalled Windows 7 at least four times over the course of his computer at this point. It ran great for a while, but then one day his computer would not boot at all."
+Birdie.Speak "After removing his three other SATA HDD drives and his SATA DVD drive, it boot instantly. He tried replacing his motherboard."
+Birdie.Speak "Suddenly while playing Skyrim it slowed to a crawl. He finally got it playable again by dropping his settings to medium, 1080p. Played more Skyrim for a couple days."
+Birdie.Speak "Two days ago, it turned on, NS wouldn't allow me to do anything. Multiple programs wouldn't work at startup."
+Birdie.Speak "One error stated that a certain .dll file wasn't for a Windows operating system. Another error said another thread could not be created. Explorer would not work."
+Birdie.Speak "Downloaded MemTest86 on another computer and tested with no errors."
+Birdie.Speak "After a few reboots, he got it running and downloaded Prime95. Tested over the period of ten hours in a test that put more stress on CPU and less on RAM."
+Birdie.Speak "Three of his cores averaged around the same amount of completed tests while another one only finished three in the whole test."
+Birdie.Speak "When he stopped it, it didn't say that any errors were created throughout the test."
+Set Req = Birdie.Speak("He pulled the power supply this morning and tested it with a multimeter. All tests showed that the power supply was well within range. This was of course not under any load either.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "Been working fine for a few weeks... then suddenly, about 15 bangs, flashes, sparks flew out of it! as though he had lit an entire box of fireworks under the desk."
+Birdie.Speak "Strangely the PC continued to run while this happened at which point the PSU gave up and it went off. Fuses all intact."
+Birdie.Speak "Replaced the PSU, and the PC booted OK. Just one drive of the mirror/stripe appeared to be blank/corrupted, but it's autorebuilding it in the background."
+Birdie.Speak "Next news."
+Birdie.Speak "OK, Soon he will finish putting together a new PC just to find when all the parts were connected it wouldn't switch on."
+Birdie.Speak "He double checked the connections and everything and he decided to leave the power connected for a while to see if there was any difference."
+Birdie.Speak "A couple of minutes later there was an intense burning smell and smoke coming from the motherboard so he switched everything off, and after reconnecting the board to the PSU, he tried to switch the system on and there was a loud noise spark and smoke from the motherboard!"
+Set Req = Birdie.Speak("He discovered that a chip blew up!")
+WaitFor Req
+Billg.Play "ReadReturn"
+Set Req = Billg.Speak("Because of electricity problems.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Set Req = Birdie.Speak("He purchased an A7N8X motherboard and placed his old chip into it. Turned out the chip was fried in his old system too, but it seems that it may have toasted the ASUS board now.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He upgraded his PC to an Abit KT7A Raid Pro 133 motherboard and an Athlon 1.2GHz."
+Birdie.Speak "It works fine in standard usage, however, whenever he runs games, it crashes after about a minute."
+Birdie.Speak "It's an over heating issue because he has software that tells him the CPU temperature and he gets a popup window just before it crashes saying that it is over 50 Celsius."
+Set Req = Birdie.Speak("He has tried two different heatsinks/fans which say they are both acceptable up to 1.5ghz and differing amounts of thermal compound but none seem to work")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He painted a thin line of thermal paste down the center of the processor, installed the heatsink per their directions, and used Prime95 (max CPU load/heat) to test for temperature."
+Birdie.Speak "He is idling at 36-38c and as soon as he turn on Prime95, in under a minute or two, he is running +60c (via Coretemp and PC-probe II). At this point, PC-probe tells him things are getting too hot."
+Set Req = Birdie.Speak("No matter how many times he repeats this process or change how he is installing, he can not get it to work. He cleaned both the CPU and heatsink with 70% iso alcohol on a coffee filter each time.")
+WaitFor Req
+Set Req = Bonzi.Speak "Ready for next"
+WaitFor Req
+Set Req = Birdie.Speak("He broke off four pins off the top right sides of his processor!")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "So yesterday he got his new Thunderbird 1.33 Ghz processor, and he fit it in his brand new Microstar M7T Turbo motherboard, and he fit his chrome orb cooler on top of it."
+Birdie.Speak "Whenever he tried to turn on the system, there's this horrible burning smell! The LED's on the motherboard show the system advancing to the BIOS checking phase, and then it stops. He unplugged it."
+Birdie.Speak "He took the cooler off, checked the bottom to make sure he hadn't left a sticker or something on it that was burning and making the smell--no, it's all good, thermal compound is in place, So he put everything back together and try again."
+Birdie.Speak "The smell comes back, and this time the motherboard LED's don't get past their initial state (the same thing it does with no CPU installed)."
+Set Req = Birdie.Speak("So he take the CPU out, and there's a little scorch mark at the top around metal piece that the fan contacts. Underneath, there's a dime-sized scorch mark that burned a hole through the 'warranty void if removed' sticker!")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "Tried to build a new PC yesterday but when he tried to turn it on for the first time nothing happened."
+Birdie.Speak "He disconnected/reconnected the power cable and press the PC power button again... This time his keyboard light turned on for while and the PSU exploded! There is black color burnt mark on the M_BIOS (Main BIOS) chip!"
+Birdie.Speak "Bought a new ASUS Z-45FP power supply today, replace the old one (HEC-300FN-1RX) which comes with the PC case."
+Birdie.Speak "He disconnected everything from the motherboard except for the CPU, CPU Fan, RAM, casing power switch cable, 24 pin ATX motherboard power connector, and 4 pin CPU power connector."
+Birdie.Speak "He managed to turn on the PC and saw no boot device detected message. Turned the PC off, connect keyboard and turned it on again. This time nothing happened and this time there are black color burnt mark on both M_BIOS and B_BIOS chips!"
+Set Req = Birdie.Speak("B_BIOS is Backup BIOS.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "About 2 weeks after he built it he shut it off normally... His girlfriend turns it on and it displays this white flash looking screen kind of like it froze. So he held the power button and shut it off."
+Birdie.Speak "Then he went to turn it back on, and it started to shut itself off after about 5 seconds everytime he turned it on."
+Birdie.Speak "There was no power surge, he hadn't moved the computer, messed around, overclocked or anything like that. Only regular usage. He doesn't leave it on all night like some people like to do."
+Birdie.Speak "He disconnected the hard drive and the DVD-ROM, and 2 case fans. This worked, and the computer successfully kept power."
+Birdie.Speak "He reconnected the fans and the HDD. Now it keeps power but there isnt a POST."
+Birdie.Speak "He cleared the CMOS. He has tried it about 3 times separately, but nothing."
+Birdie.Speak "He reseated his RAM, but nothing."
+Birdie.Speak "He checked his video card seating, but nothing."
+Set Req = Birdie.Speak("He reconnected the HDD to make sure it was properly connected, but nothing.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Set Req = Birdie.Speak("He just finished building his new PC. Before he turned his PSU on he went to plug his VGA cable into a monitor and sparks flew out, melted the ends of the cable and the power went out in his room! He flipped the breakers and everything is OK now but his PC won't turn on or anything.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He recently acquired a bunch of parts to build a simple, budget gaming computer. After buying all the parts and putting it all together, he plugged the power unit, flicked the power on, and then powered up the PC."
+Set Req = Birdie.Speak("As it was booting, he realized he hadn't plugged in his TV. He then plugged his HDMI cable into his faulty graphics card and then into his TV... When a big explosion happened and the HDMI port on the TV went up in flames!")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.MoveTo 547, 356
+Birdie.Speak "He just built a PC for the first time. He put in a PSU which he has used before. He just put in his new GXT 760."
+Birdie.Speak "He has been playing Grand Theft Auto 5 for about 10 minutes before his PC made a loud bang! Before it blew, there is ghostly lines over the screen."
+Birdie.Speak "He lowered the graphics settings but still doesn't fix anything. He didn't see smoke however he could smell a faint burn!"
+Birdie.Speak "He looked inside and cannot see anything burned."
+Set Req = Birdie.Speak("His PC doesn't turn on anymore and he cannot hear any static noise when he plugs in to the plug socket (it usually does).")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "Some times on Counter Strike when his computer goes to sleep and he turn it back on and continue the mouse doesn't react as fast."
+Set Req = Birdie.Speak("It is like the sensitivity drops or something. but when he shut down his computer again his mouse turns back to normal.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Set Req = Bonzi.Speak("virus")
+WaitFor Req
+Set Req = Cupid.Speak("Beep Bonzi.")
+WaitFor Req
+Set Req = Birdie.Speak("He plugged it in and no power... However his mouse's light is flashing and then when he flick the power switch off the mouse stops flashing!!!!!!")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "While he play games, his PC would lose connection to the monitor but he still hears the sound that is being outputted from his PC."
+Birdie.Speak "When this problem occurs, he would hear his PC's fans become really loud, very loud!"
+Birdie.Speak "He upgraded to a GTX 1060 6GB mini by Zotac. The problem starts to occur. He thought it would be a bottlenecking problem so he saved up for an i5 7600. The problem still persists."
+Set Req = Birdie.Speak("So far the only games that causes this is Overwatch.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "When he plays games, He's consistently getting less than 60 fps with frequent stutters, despite the fact that when he plays the offline mode, he get smooth performance over 60 fps on Ultra with no dips or stutters at all."
+Birdie.Speak "His CPU was running an 100% with a rare dips into the 80s and 90s. He reduced pre-rendered frames to 0, which briefly helped until things picked up and he was back to a perpetual 100% on the CPU."
+Birdie.Speak "Switching the settings from Ultra-->Low had no noticeable improvements."
+Birdie.Speak "Knocking up the resolution scale to 125% increased GPU core usage a little bit (like 10%), but didn't hurt or improve FPS in any noticeable way."
+Birdie.Speak "He ran the Unengine Valley Benchmark and the GPU ran fine."
+Birdie.Speak "Ran the Intel Extreme Tuning benchmark with no issues"
+Set Req = Birdie.Speak("He has noticed that he also run into huge FPS losses with the Witcher 3 when there are large amounts of characters on screen. BF1 is at its worst when there are many units/explosions/effects on screen which has lead him to believe it's the CPU.")
+WaitFor Req
+Set Req = Bonzi.Speak("It looks like there is 2 stories left.")
+WaitFor Req
+Birdie.Speak "So he was playing a game and then he heard something really loud and his monitor went off."
+Birdie.Speak "He looked down at his computer and he saw something smoking! He opened up his PC and what looks like the north bridge exploded off the board! It took the heat sink and a about a half dollar size chunk out of his motherboard, but the chip with the chunk of board is still attached to it is still sitting in his case."
+Set Req = Birdie.Speak("It also looks like it made a nice dent in his case as well. 90% of the capacitors are also blown.")
+WaitFor Req
+Set Req = Spaceman.Speak("Last story.")
+WaitFor Req
+Birdie.Speak "He shut down his computer the other day to change his monitor configuration."
+Birdie.Speak "When he tried to start it back up, the power supply made a buzzing sound, then a loud pop! PSU wouldn't start the computer, so he unplugged the power supply and ordered a new one."
+Birdie.Speak "Today, the new one came. He plugged it in, and the computer started up. It was working fine for a few hours, then randomly restarted."
+Birdie.Speak "After the restart, he installed new graphics drivers, then the machine suddenly powered off with no warning."
+Birdie.Speak "Now, when he press the power button, the PSU comes on for ~1/10th of a second, then shuts off again."
+Birdie.Speak "He tried literally removing every component from the computer except the motherboard, CPU, CPU cooler, and PSU, and it still exhibits the same behavior."
+Birdie.Speak "When the power supply is plugged in, the SB PWR light is illuminated on the motherboard."
+Birdie.Speak "He has tried removing the motherboard from the case but he doesn't see any components that appear to be physically damaged."
+Birdie.Speak "The motherboard makes no beeps or anything, and it doesn't seem to stay on long enough for any testing lights to illuminate or anything."
+Set Req = Birdie.Hide()
+WaitFor Req
+Set Req = Bonzi.Speak("Exit News?")
+WaitFor Req
+Set Req = Cupid.Speak("Beep?")
+WaitFor Req
+Set Req = Genie.Speak("Yes.")
+WaitFor Req
+Set Req = Sizlik.Hide()
+WaitFor Req
+Set Req = Spaceman.Hide()
+WaitFor Req
+Set Req = Maria.Hide()
+WaitFor Req
+Set Req = Jack.Hide()
+WaitFor Req
+Set Req = Billg.Hide()
+WaitFor Req
+Set Req = Audie.Hide()
+WaitFor Req
+Set Req = James.Hide()
+WaitFor Req
+Set Req = Milton.Hide()
+WaitFor Req
+Set Req = Joe.Hide()
+WaitFor Req
+Set Req = Oscar.Hide()
+WaitFor Req
+Set Req = Cupid.Hide()
+WaitFor Req
+Set Req = Gar.Hide()
+WaitFor Req
+Set Req = Check.Hide()
+WaitFor Req
+Set Req = Cami.Hide()
+WaitFor Req
+Set Req = Debbie.Hide()
+WaitFor Req
+Set Req = Cathie.Hide()
+WaitFor Req
+Set Req = Blanche.Hide()
+WaitFor Req
+Set Req = Al.Hide()
+WaitFor Req
+Set Req = Genie.MoveTo(1338, 742)
+WaitFor Req
+Bonzi.MoveTo 1230, 718
+Set Req = Bonzi.Speak("News ended.")
+WaitFor Req
+Genie.Speak "He compressed his C drive on which he has his Windows XP OS. Now, all he is getting is 'Bootmgr is compressed press Alt+Ctrl+Del to restart'. he can't use his CD ROM on the desktop because it is broken but he did copy and paste the XP OS files from CD on to his external HD using his laptop. After copying the XP files on to his external HD, He have connected the external HD to his affected desktop via USB port and changed the first booting device to USB drive in the BIOS set-up but still getting the same 'Bootmgr is compressed press Alt+Ctrl+Del to restart' message."
+Set Req = Genie.Speak("Goodbye, Bonzi.")
+WaitFor Req
+Set Req = Bonzi.Speak("How did you know my name?")
+WaitFor Req
+Set Req = Genie.Speak("Birdie said it.")
+WaitFor Req
+Set Req = Bonzi.Speak("You must be Genie.")
+WaitFor Req
+Genie.Speak "Yes."
+Set Req = Genie.Speak("Now, goodbye.")
+WaitFor Req
+Set Req = Bonzi.Speak("It hurts me to say goodbye, Genie.")
+WaitFor Req
+Set Req = Genie.Hide()
+WaitFor Req
+Set Req = Bonzi.Hide()
+WaitFor Req
+Set Req = Merlin.Speak("We're left. Goodbye.")
+WaitFor Req
+Ozzar.Speak "Goodbye"
+Set Req = Ozzar.Hide()
+WaitFor Req
+Merlin.Hide
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

@@ -1,0 +1,209 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Spaceman=Spaceman.acs
+Wartnose=Wartnose.acs
+Wabbit=Wabbit.acs
+Cupid=Cupid.acs
+Birdie=Birdie.acs
+Vrgirl=Vrgirl.acs
+Woo=Woo.acs
+Plany=Plany.acs
+Sizlik=Sizlik.acs
+Oscar=Oscar.acs
+Ozzar=Ozzar.acs
+Milton=Milton.acs
+Debbie=Debbie.acs
+Cathie=Cathie.acs
+Isabella=Isabella.acs
+Blanche=Blanche.acs
+Cami=Cami.acs
+Charlie=Charlie.acs
+Check=Check.acs
+
+[LanguageIDs]
+Spaceman=&H409
+Wartnose=&H409
+Wabbit=&H409
+Cupid=&H409
+Birdie=&H409
+Vrgirl=&H409
+Woo=&H409
+Plany=&H409
+Sizlik=&H409
+Oscar=&H409
+Ozzar=&H409
+Milton=&H409
+Debbie=&H409
+Cathie=&H409
+Isabella=&H409
+Blanche=&H409
+Cami=&H409
+Charlie=&H409
+Check=&H409
+
+[Script]
+Spaceman.MoveTo 547, 778
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Spaceman.Show()
+WaitFor Req
+Wartnose.MoveTo 674, 738
+Wartnose.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273003}"
+Set Req = Wartnose.Show()
+WaitFor Req
+Wabbit.MoveTo 103, 690
+Wabbit.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Wabbit.Show()
+WaitFor Req
+Cupid.MoveTo 216, 708
+Cupid.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Cupid.Show()
+WaitFor Req
+Birdie.MoveTo 1278, 32
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Birdie.Show()
+WaitFor Req
+Set Req = Wabbit.Speak("This is Sorries center.")
+WaitFor Req
+Set Req = Birdie.Speak("Spaceman and Wartnose will say Sorry.")
+WaitFor Req
+Set Req = Spaceman.Speak("Soooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooorry.")
+WaitFor Req
+Set Req = Wartnose.Speak("Forry.")
+WaitFor Req
+Wabbit.Speak "What's happening on this center?"
+Wabbit.MoveTo 1139, 5
+Wabbit.Play "WriteContinued"
+Set Req = Wabbit.Speak("Here are Fire visitors from Cupid.")
+WaitFor Req
+Birdie.Speak "OK, Let's explain it."
+Birdie.Speak "As he was saying Sorry to Wartnose and Sorry to Spaceman he say sorry with extra oos and Wartnose he say sorry but instead if saying S saying F letter unsafely."
+Birdie.Speak "He has the face that will joking everything."
+Birdie.Speak "His first sorry he did not have the correct word, nor the letter but the R, R, and Y letter has been correct."
+Birdie.Speak "He say sorry then Wrong! Wrong characters and extra oos coming from his mouth."
+Set Req = Birdie.Speak("What Happened?")
+WaitFor Req
+Set Req = Wabbit.Speak("They'll have Fire station.")
+WaitFor Req
+Cupid.MoveTo 1009, 371
+Set Req = Cupid.Speak("Fire Station, No sorries, No talking and No Mess with Argue.")
+WaitFor Req
+Set Req = Wartnose.MoveTo(1047, 745)
+WaitFor Req
+Set Req = Spaceman.MoveTo(936, 787)
+WaitFor Req
+Wartnose.Speak "OK, Let's joke it."
+Wartnose.Speak "As he was uninstalling the motherboard from the case he remain 5 chips accidentally while damaging the ESD wriststrap and trying to avoid releasing the motherboard he pulled all down safely."
+Wartnose.Speak "He has the 90w PSU that will power up something."
+Wartnose.Speak "As for his first fireboot he did not have the ZAM nor PGU installed but the CCU has integrated video card with it."
+Wartnose.Speak "He turned it on then Boom! Loud fires and sparks coming from PSWU."
+Set Req = Wartnose.Speak("What happened?")
+WaitFor Req
+Set Req = Cupid.Speak("You'll have Fires.")
+WaitFor Req
+Birdie.MoveTo 997, 590
+Birdie.Speak "No."
+Set Req = Birdie.MoveTo(724, 14)
+WaitFor Req
+Wartnose.MoveTo 1192, 851
+Set Req = Wartnose.Hide()
+WaitFor Req
+Birdie.Speak "End of 2 stations."
+Set Req = Birdie.Speak("News Station.")
+WaitFor Req
+Set Req = Cupid.MoveTo(1024, 717)
+WaitFor Req
+Wabbit.MoveTo 1125, 691
+Set Req = Wabbit.MoveTo(1303, 690)
+WaitFor Req
+Wartnose.Show
+Set Req = Wartnose.MoveTo(1260, 746)
+WaitFor Req
+Vrgirl.MoveTo 1195, 747
+Vrgirl.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Vrgirl.Show()
+WaitFor Req
+Woo.MoveTo 1117, 688
+Woo.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Woo.Show()
+WaitFor Req
+Plany.MoveTo 968, 783
+Plany.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Plany.Show
+Set Req = Plany.Speak("Forecasting.")
+WaitFor Req
+Spaceman.Speak "Go away or I'll kill you."
+Set Req = Spaceman.MoveTo(834, 790)
+WaitFor Req
+Sizlik.MoveTo 668, 690
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Sizlik.Show()
+WaitFor Req
+Oscar.MoveTo 580, 749
+Oscar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Oscar.Show()
+WaitFor Req
+Ozzar.MoveTo 512, 747
+Ozzar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Ozzar.Show()
+WaitFor Req
+Milton.MoveTo 444, 743
+Milton.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Milton.Show()
+WaitFor Req
+Debbie.MoveTo 356, 686
+Debbie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Debbie.Show()
+WaitFor Req
+Cathie.MoveTo 306, 686
+Cathie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Cathie.Show()
+WaitFor Req
+Isabella.MoveTo 258, 683
+Isabella.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Isabella.Show()
+WaitFor Req
+Blanche.MoveTo 201, 683
+Blanche.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Blanche.Show()
+WaitFor Req
+Cami.MoveTo 165, 755
+Cami.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Cami.Show()
+WaitFor Req
+Charlie.MoveTo 35, 710
+Charlie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Charlie.Show()
+WaitFor Req
+Check.MoveTo -57, 746
+Check.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Check.Show()
+WaitFor Req
+Birdie.MoveTo 470, 139
+Birdie.Speak "OK, Let's explain it."
+Birdie.Speak "As he was installing the motherboard into the case He dropped 3 screws accidentally while wearing a ESD wriststrap and trying to avoid touch the motherboard he picked them all up safely."
+Birdie.Speak "He has a 550w PSU that will power up everything."
+Birdie.Speak "As for his first boot He did not have a RAM nor GPU installed but the CPU has a integrated video card with it."
+Birdie.Speak "He turned it on then Boom!! Loud noise and sparks coming from the PSU."
+Set Req = Birdie.Speak("What happened?")
+WaitFor Req
+Debbie.MoveTo 1064, 685
+Birdie.Speak "He asked his next door neighbor because his an IT expert and he told him that the front panel won't harm the motherboard if installed wrong because it's just 12 volts."
+Birdie.Speak "But the screws however he said it will get shorted it it touches specific parts of the motherboard."
+Birdie.Speak "When he went back to his local IT shop, they tested it."
+Birdie.Speak "They told him Your PSU is dead and your motherboard was fried."
+Set Req = Birdie.Speak("When he got it replaced they told him Always have a RAM installed otherwise it'll damage the motherboard.")
+WaitFor Req
+Birdie.Speak "So what do I think people? What caused his PSU to explode like that? His specs are Celeron G1620, No RAM yet, no HDD yet, No GPU yet, basically it xD."
+Birdie.Speak "Best Regards, Birdie"
+Set Req = Birdie.Speak("Go fair.")
+WaitFor Req
+Ozzar.Speak "Fairy."
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

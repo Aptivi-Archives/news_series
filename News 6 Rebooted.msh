@@ -1,0 +1,434 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Al=Al.acs
+Birdie=Birdie.acs
+Alien=Alien.acs
+Cami=Cami.acs
+Claude=Claude.acs
+Cupid=Cupid.acs
+Eman=Eman.acs
+Ewoman=Ewoman.acs
+Gar=Gar.acs
+Genie=Genie.acs
+Joe=Joe.acs
+Miku=Miku.acs
+Milton=Milton.acs
+Peedy=Peedy.acs
+Plany=Plany.acs
+Spaceman=Spaceman.acs
+Robby=Robby.acs
+Sharky=Sharky.acs
+Totem=Totem.acs
+
+[LanguageIDs]
+Al=&H409
+Birdie=&H409
+Alien=&H409
+Cami=&H409
+Claude=&H409
+Cupid=&H409
+Eman=&H409
+Ewoman=&H409
+Gar=&H409
+Genie=&H409
+Joe=&H409
+Miku=&H409
+Milton=&H409
+Peedy=&H409
+Plany=&H409
+Spaceman=&H409
+Robby=&H409
+Sharky=&H409
+Totem=&H409
+
+[Script]
+Al.MoveTo 1347, 746
+Al.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Al.Show
+Al.Speak "Good " & GetTimeOfDay() & "!  It is " & GetTime() & " on " & GetDay() & ", " & GetDate() & "."
+Al.Play "Idle2_2"
+Set Req = Al.Speak("Begin!")
+WaitFor Req
+Birdie.MoveTo 669, 235
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Birdie.Show
+Birdie.Speak "Your look makes me think you're a gangster."
+Birdie.Speak "Do you make a gang?"
+Birdie.Speak "Do you gang on someone?"
+Set Req = Birdie.Speak("Do you have a gang team to gang up on others?")
+WaitFor Req
+Set Req = Al.Speak("Yes, yes, yes.")
+WaitFor Req
+Set Req = Birdie.Speak("Other characters will come soon.")
+WaitFor Req
+Alien.MoveTo 1275, 750
+Alien.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Alien.Show()
+WaitFor Req
+Cami.MoveTo 1215, 751
+Cami.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Cami.Show()
+WaitFor Req
+Claude.MoveTo 1143, 740
+Claude.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Claude.Show()
+WaitFor Req
+Cupid.MoveTo 1046, 705
+Cupid.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Cupid.Show()
+WaitFor Req
+Eman.MoveTo 995, 742
+Eman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Eman.Show
+Ewoman.MoveTo 943, 741
+Ewoman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Ewoman.Show()
+WaitFor Req
+Eman.Play "4DEV_bigface"
+Eman.Play "4DEV_Envelope"
+Eman.Play "4DEV_Excited"
+Eman.Play "4DEV_headstand"
+Eman.Play "4DEV_heckle"
+Set Req = Eman.Play("4DEV_PunchScreen")
+WaitFor Req
+Ewoman.Play "4DEV_Electric"
+Ewoman.Play "4DEV_Kick"
+Ewoman.Play "4DEV_Somersault"
+Set Req = Ewoman.Play("4DEV_ZapLeft")
+WaitFor Req
+Set Req = Eman.Speak("I felt a zap.")
+WaitFor Req
+Ewoman.Speak "I am electronic."
+Ewoman.Play "4DEV_LeanIn"
+Ewoman.Play "4DEV_MuscleFlex1"
+Ewoman.Play "4DEV_MuscleFlex2"
+Set Req = Ewoman.Play("4DEV_Punch")
+WaitFor Req
+Gar.MoveTo 879, 751
+Gar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Gar.Show()
+WaitFor Req
+Genie.MoveTo 811, 742
+Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Genie.Show()
+WaitFor Req
+Joe.MoveTo 723, 749
+Joe.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Joe.Show()
+WaitFor Req
+Miku.MoveTo 664, 639
+Miku.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Miku.Show()
+WaitFor Req
+Milton.MoveTo 601, 745
+Milton.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Milton.Show()
+WaitFor Req
+Peedy.MoveTo 519, 746
+Peedy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Peedy.Show()
+WaitFor Req
+Plany.MoveTo 453, 783
+Plany.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Plany.Show
+Set Req = Plany.Speak("Miku")
+WaitFor Req
+Set Req = Miku.Speak("Plany?")
+WaitFor Req
+Set Req = Plany.Speak("Sizlik is very busy to the point that he isn't coming.")
+WaitFor Req
+Set Req = Miku.Speak("He always comes.")
+WaitFor Req
+Set Req = Plany.Speak("Yes, but he isn't coming in this News.")
+WaitFor Req
+Set Req = Miku.Speak("OK.")
+WaitFor Req
+Set Req = Ewoman.Play("4DEV_Kick")
+WaitFor Req
+Gar.Speak "You kicked me"
+Gar.Play "DoMagic1"
+Gar.Play "DoMagic2"
+Set Req = Gar.Play("DoMagicReturn")
+WaitFor Req
+Spaceman.MoveTo 334, 790
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Spaceman.Show
+Spaceman.Speak "You're right, Plany."
+Set Req = Spaceman.Speak("Sizlik is very busy.")
+WaitFor Req
+Set Req = Plany.Speak("Thanks. He might come during this session.")
+WaitFor Req
+Robby.MoveTo 242, 747
+Robby.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273006}"
+Set Req = Robby.Show()
+WaitFor Req
+Sharky.MoveTo 67, 695
+Sharky.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Sharky.Show()
+WaitFor Req
+Totem.MoveTo -35, 730
+Totem.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273003}"
+Set Req = Totem.Show()
+WaitFor Req
+Set Req = Spaceman.Speak("All listen to Birdie?")
+WaitFor Req
+Set Req = Sharky.Speak("Yes")
+WaitFor Req
+Set Req = Totem.Speak("Yes")
+WaitFor Req
+Set Req = Robby.Speak("Yes")
+WaitFor Req
+Set Req = Plany.Speak("All yes")
+WaitFor Req
+Set Req = Ewoman.Play("4DEV_GetAttention")
+WaitFor Req
+Set Req = Birdie.Speak("What, E-Woman?")
+WaitFor Req
+Set Req = Ewoman.Speak("I am powerful.")
+WaitFor Req
+Set Req = Birdie.Speak("Can you kick someone?")
+WaitFor Req
+Ewoman.Speak "Yes"
+Set Req = Ewoman.Play("4DEV_Kick")
+WaitFor Req
+Set Req = Gar.Speak("You kicked me.")
+WaitFor Req
+Ewoman.Play "4DEV_ZapRight"
+Set Req = Ewoman.Play("4DEV_Scout")
+WaitFor Req
+Set Req = Gar.Speak("I felt a zap.")
+WaitFor Req
+Set Req = Ewoman.Play("4DEV_Punch")
+WaitFor Req
+Birdie.Speak "Ouch!"
+Birdie.Speak "Recently he bought a Gecube X1950XT AGP 8x and have it installed in AGP slot."
+Birdie.Speak "However, his PC fails to boot."
+Birdie.Speak "According to D-Bracket, his PC hangs at 'Testing VGA Bios' stage (nothing on the screen). This GPU works good in other motherboard and his previous Radeon 9550 works fine with this motherboard which indicate that the AGP slot is fine."
+Set Req = Birdie.Speak("Then he tried to flash bios of the motherboard which maybe can overcome the above problem by 6712V54.zip as the current BIOS is 6712V50. But there is a stage where it says 'Chipset/Flash part isn't available'.")
+WaitFor Req
+Set Req = Robby.Speak("Next")
+WaitFor Req
+Birdie.Speak "He's running the Athlon 2500+ with a gigabyte of RAM. Nothing is overclocked."
+Birdie.Speak "When he first built the system it worked great. However anytime he restart it from the Windows shutdown screen or even using the reset switch, the system will hang before the POST has completed and made the beep"
+Birdie.Speak "It'll come up with all its info showing that it checked the RAM and it's fine and it detected the hard disks and so on but it just hangs."
+Birdie.Speak "Now if he turn the system off for 1-2 minutes, then turn it back on, it fires right up. No problems at all"
+Set Req = Birdie.Speak("His BIOS is updated.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He got a MSI KT4AV motherboard today and fitted it with an AMD Sempron 2400 CPU and altered the CPU frequency from 100MHz to 166MHz so that the CPU would function at full speed of 1.67GHz."
+Birdie.Speak "It wouldn't do this in the AM37 mobo he had in his Compaq Presario S3010AN which saw the CPU as an AMD Athlon XP 1500+ and its speed was 1.33GHz."
+Birdie.Speak "The AM37 only has two FSB settings, 100MHz and 133MHz, but neither gave him the necessary frequency to push the CPU to DRAM 333 and the 1.67GHz he wanted."
+Birdie.Speak "This worked perfectly until he thought he'd try to push it to 2GHz and raised the CPU frequency to 200MHz."
+Birdie.Speak "He didn't alter the multiplier and left it set as it was."
+Birdie.Speak "He turned it off"
+Birdie.Speak "Later when he tried to turn it on, it got a black screen! Then there is no signal."
+Birdie.Speak "Checked the CPU, RAM (2GB PC2700 DDR SDRAM) and Graphics card (Radeon 9000S) back in the AM37 mobo and everything is fine."
+Set Req = Birdie.Speak("He has tried to get the BIOS back to default by removing CMOS battery for a while and shorting the clear BIOS pins with the jumper moved to pins 1-2, but the problem still persists.")
+WaitFor Req
+Set Req = Robby.Speak("Next story, this time, it was the owner of us stories.")
+WaitFor Req
+Birdie.Speak "Everything was fine until today."
+Birdie.Speak "When he saw that his computer is remote controlled, he accidentally messed something up!"
+Birdie.Speak "Today morning he's going to turn on his computer, But when I login into his username, It is stuck at 'Executing Wlnotify.DLL'."
+Birdie.Speak "He has restarted his computer to get to recovery, But he's going in to the computer and the boot speed of recovery was just fine."
+Birdie.Speak "He goes to fixboot and fixmbr and exit, he restarted his computer using exit."
+Birdie.Speak "He goes to fail safe mode using command prompt, typed just chkdsk -f, he answered Y, then he restarted his computer."
+Birdie.Speak "He thought it will go to chkdsk as he performed before."
+Birdie.Speak "After checking 3 stages, his computer rebooted!"
+Birdie.Speak "He goes to start Windows normally, and everything was just fine except the wireless network connection!"
+Birdie.Speak "So he restarted his computer several times with several modes, But he's disappointed to get stuck, so he gets to Windows Recovery and typed nothing in Admin Password."
+Birdie.Speak "Then, he performed the fixboot, fixmbr and exit."
+Birdie.Speak "He went to Safe Mode, Then he saw that there is the French disc in his CD drive so he inserted the Sacc's Windows XP Pro Black Edition."
+Birdie.Speak "He thought that was not the black edition, So he upgraded setup but couldn't because needs the internet connection but he's connected!"
+Birdie.Speak "Later, He tried several fixes in his computer and trying to turn on his computer in several modes, But he did the same but with file data and free disk space."
+Birdie.Speak "But it was very slow so again his computer rebooted."
+Birdie.Speak "He went to the Desktop, but there's applications that hasn't installed because the Windows Installer Service was interrupted by fail safe mode."
+Birdie.Speak "He tried uninstalling several programs and restarting the computer."
+Birdie.Speak "After getting to his profile, The computer got frozen!"
+Birdie.Speak "His computer won't open anything now."
+Set Req = Birdie.Speak("His specs are Windows XP, Slow RAM, GPU Nvidia GeForce MX/MX 400.")
+WaitFor Req
+Set Req = Milton.Speak("He has so many stories regarding his computer, so it appears that his computer would last forever after he got bombarded by all of these problems.")
+WaitFor Req
+Birdie.Speak "Yesterday he edited his computer, optimized all problems that he has, Used TuneUp Styler to make 2 screen boot, he installed Minecraft boot screen, Then he installed and patched WindowBlinds."
+Birdie.Speak "He restarted the computer, then he found CHKDSK that scanning files, indexes, security descriptors, restarted itself while he was hearing the 'k' but the volume is so low as if the computer wants to restart."
+Birdie.Speak "He waited up to one minute to boot to XP, and he found that he has 2 OS (Windows XP, and Windows XP (AVG Backup))."
+Birdie.Speak "He doesn't back up, it backed up by itself."
+Birdie.Speak "Then, he played ShellShock, and he wants to buy Deluxe for his account for SSL2, for a lifetime, but it costs more so he can't reach to it (like 300 tank coins)."
+Birdie.Speak "so he watched several videos on YouTube, Then he shutoff his computer."
+Birdie.Speak "Today, he woke up to earlier morning, he turned on laptop then his PC."
+Birdie.Speak "He saw the original wallpaper! he changed it and restarted his computer, It defaulted to the original wallpaper!! So he changed it again, and same problem occurred."
+Birdie.Speak "Then, he play SSL2 for a moment, then he went to Chrome Store, he navigated the themes for Google Chrome, then he got Minecraft Temple then he got the BSOD that might be from win32k.sys."
+Birdie.Speak "He guesses that is taking a long time to restart past BSOD. It restarted his computer unexpectedly!"
+Birdie.Speak "Then, he got to SSL2 again, he went to Web Store again, and no BSOD until he opened Firefox at the third time... Then it made a BSOD and restarted unexpectedly!"
+Set Req = Birdie.Speak("After several minutes when shutoff, he saw that his computer is turned on again unexpectedly without him pressing the power button!")
+WaitFor Req
+Set Req = Robby.Play("Idle2_2")
+WaitFor Req
+Set Req = Genie.Speak("It looks like his computer is haunted.")
+WaitFor Req
+Birdie.Speak "he attempted the recovery and launched all of the following commands:"
+Birdie.Speak "fixboot"
+Birdie.Speak "fixmbr"
+Birdie.Speak "fixboot"
+Birdie.Speak "fixmbr"
+Birdie.Speak "dir"
+Birdie.Speak "dir C:/"
+Birdie.Speak "dir C:\"
+Birdie.Speak "dir C:\Documents and settings"
+Birdie.Speak "dir C:\Docume~1"
+Birdie.Speak "dir C:\DOCUME~1"
+Birdie.Speak "dir C:\Documents an"
+Birdie.Speak "When the PSU made the quiet noise low pitch and high pitch every 1 second and the computer turned off!"
+Birdie.Speak "He rebooted his PSU when the noise is gone."
+Birdie.Speak "He started his computer, Boots up to Windows, he logged in... Now the sound doesn't work!"
+Birdie.Speak "He did check the cable and devices, and all fine."
+Birdie.Speak "He unplugged and replugged the cable but problem still persists."
+Birdie.Speak "Even he disabled the device and re-enable but the problem still persists."
+Set Req = Birdie.Speak("He checked the volume and it was 100 percent but on speaker is around 33% or 44% but the computer is still not receiving sounds.")
+WaitFor Req
+Set Req = Peedy.Speak("Next")
+WaitFor Req
+Birdie.Speak "6/14/2015: His computer got BSOD when he clicked on 'You' profile on instructables.com. This bluescreen is from the TuKernel.exe. Then, it restarted his computer, and it showed the error message that Windows recovered from unexpected shutdown, then everything worked fine."
+Birdie.Speak "6/15/2015: His computer got BSOD when he left the login screen on his computer. This bluescreen is from the Avast antivirus device driver. Then he logged in to his computer and found out everything was just fine but the RAM is not allocated when upgrading RAM to 2GB!"
+Set Req = Birdie.Speak("6/16/2015: His computer got BSOD when Plany exits while News 13 ended.")
+WaitFor Req
+Set Req = Plany.Speak("I got mentioned!")
+WaitFor Req
+Set Req = Spaceman.Speak("So you first came in News 13?")
+WaitFor Req
+Set Req = Plany.Speak("Yes.")
+WaitFor Req
+Set Req = Genie.Speak("Don't speak.")
+WaitFor Req
+Birdie.Speak "This bluescreen is from the Win32k.sys. He left logged out from his computer whilst he's playing Minecraft. Before bluescreen, they bought all the items they need from the store, Then he found the electronic is cutout."
+Set Req = Birdie.Speak("So he waited till the electronic is on, Power to his room, Power on his computer, Logged in, Clicked on News 13.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "In many last years, Hardware renderer on Midtown Madness on white computer is fine."
+Birdie.Speak "He plays it with cheats or no cheats all the time until he reinstalled Windows... and now when he tries to play Midtown Madness, it shows him the crazy graphical glitch!"
+Birdie.Speak "The game changes texture."
+Birdie.Speak "He tried the other computer but no luck."
+Birdie.Speak "Whenever he tries to play with Hardware with no T and L, the texture is broken on vehicle's texture!"
+Birdie.Speak "The problem is still the same. Software renderer is fine."
+Birdie.Speak "When he run the redetect video, it shows him that is missing."
+Set Req = Birdie.Speak("Now, he has to play Midtown Madness 2 on the laptop all the time until he got the new video card, and he makes sure that his new video card does not explode PSU, beeps, errors, and hardware renderer is fine.")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "At first they have 5 problems with his OS."
+Birdie.Speak "He has BSOD after playing GTA Vice City which is IRQL_NOT_LESS_OR_EQUAL issue then his computer rebooted."
+Birdie.Speak "After he left the sign-in page, it got BSOD Again which needs him to delete anti-virus, backup or defrag disk tool, Then it again rebooted his system and everything was just fine!"
+Birdie.Speak "Got out of electricity and he unplugged everything, discharged charged currents and then he didn't attempt to turn it back on."
+Birdie.Speak "The electricity was back in, then he plugged in everything, including VGA, DVI (Above the PSU), USB and Speaker, then he turned on his computer and got the BSOD 2 times when he left the sign-in page!"
+Birdie.Speak "He has the new problem that is unfixable is after system rebooted from unknown reason!"
+Birdie.Speak "He booted it back to see the failure with TUKernel.exe and Antivirus drivers... it didn't attempt to boot!"
+Set Req = Birdie.Speak("Whenever he tried to turn his computer on, it shows the black screen that can't boot the system then reboots again!")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "Everything was just fine until today and yesterday."
+Birdie.Speak "In horrible time on the few days, It got BSOD 'Kernel_Exception_Not_Handled' when using bugs.mojang.com on browser listening to the movie, so he cannot use the computer."
+Birdie.Speak "Yesterday in the night, they are clearing CMOS to ensure that it would boot up properly."
+Birdie.Speak "But in strange intervals, they plugged everything, Turn it on, Adjusted Date and Time correctly, Saved the CMOS Settings and found out that after Windows XP Boots up, A blackscreen pops up with the cursor for strange seconds... then the BSOD popped up!"
+Birdie.Speak "And the same thing like last time on Month 6, pops up and then nothing loads."
+Set Req = Birdie.Speak("Today they woke, Turned on his computer, Instead, it would get the BSOD in limited times, and it rebooted, and it extended the time before the BSOD just pops up.")
+WaitFor Req
+Set Req = Ewoman.Speak("Next story, Birdie.")
+WaitFor Req
+Birdie.Speak "He installed Avast but he's accidentally gaming, it goes back to the Windows, I tap on the game, it will return to Windows, and then it successfully installed."
+Birdie.Speak "He enabled quiet mode for games on Avast Settings, Registered it, and he tried to scan it but it says No Endpoints available. So he restarted his computer, After the restart, Avast Software and SecureLine connection wasn't working as it showed the tray icon."
+Birdie.Speak "He ended the Avast's tasks but it says Access Denied."
+Birdie.Speak "Then, he wants to uninstall Avast but the Avast Setup won't continue!"
+Birdie.Speak "It will take infinite time to uninstall it!"
+Birdie.Speak "He prefer the other antivirus software but he can't end the progress of instup"
+Birdie.Speak "Then he came to tasks and ended to the Avast Setup, it gave him either end or cancel. He ended it and it still can't remove it."
+Birdie.Speak "And then he restarted his computer but guess... (The Avast won't end after the WinExplorer ends and window station is shut down.), so his computer can't shutdown at all."
+Set Req = Birdie.Speak("He ended it and now, there's only a background and Windows won't continue until Avast ends, but Avast never ends!")
+WaitFor Req
+Peedy.Speak "I am so surprised by this problem."
+Set Req = Peedy.Speak("It looks like his computer is haunted 2 times, this time, it is from the haunted Avast and Avast setup.")
+WaitFor Req
+Birdie.Speak "In this day, his computer has only one game and mods in it."
+Birdie.Speak "When he plays Minecraft and left his computer to make something."
+Birdie.Speak "When he is back to his room, his computer has turned off!"
+Birdie.Speak "Now only his monitor and speakers are turned on but his computer, which is not working, has some cables are broken but they aren't."
+Birdie.Speak "So he checked all the cables and all the cables has conected to the power source."
+Set Req = Birdie.Speak("He tried to power off his power source and turn it on and he pressed power button but it got no power.")
+WaitFor Req
+Set Req = Milton.Speak("Next.")
+WaitFor Req
+Birdie.Speak "He has the very important documents from the Internet."
+Birdie.Speak "On the last night, he was setting up something on the Internet for his documents until his electricity got off, then he went to sleep."
+Birdie.Speak "On this morning, his computer has a problem that it would turn his computer on but until Windows starts or time, the computer will reset."
+Birdie.Speak "Going into BIOS, Booting into Windows, his computer resets."
+Birdie.Speak "This sequence has a different time like it has to reset itself until his computer and the power plugger has been off."
+Birdie.Speak "After he waited for minutes, he turned it back on, and it does the same thing, but BIOS will reset itself to the BIOS and it keeps doing again until his computer and the power plugger again will power off themselves."
+Set Req = Birdie.Speak("Then the power plugger is on, Monitor is on, Speaker was plugged, PSU is plugged, into the power plugger.")
+WaitFor Req
+Set Req = Plany.Speak("Next")
+WaitFor Req
+Birdie.Speak "He is tired of using Linux so he went to Windows but he has mistyped and accidentally installed the inappropriate version of AMD Radeon 9200 driver."
+Birdie.Speak "He cannot start PSXFin or anything except Screensavers, so he tried to download 6-11 38185 but it didn't work."
+Birdie.Speak "He searched for hours and the drivers told him that he must first download the tool then the driver which is completely useless for him to inappropriate drivers."
+Set Req = Birdie.Speak("He wants the appropriate drivers but he found out that their site was slowdown of him.")
+WaitFor Req
+Robby.Speak "I have the solution Birdie."
+Robby.MoveTo 605, 243
+Set Req = Robby.Speak("He will try touslesdrivers.com")
+WaitFor Req
+Set Req = Birdie.Speak("He already tried it now on 2018.")
+WaitFor Req
+Robby.Speak "OK."
+Set Req = Robby.MoveTo(243, 744)
+WaitFor Req
+Set Req = Milton.Speak("\Pit=50\We are talking about PSU! Yeahh!")
+WaitFor Req
+Birdie.Speak "On the past Friday, he tried to play Minecraft on his favorite Linux system."
+Birdie.Speak "It was glitched so he reverted back to Windows to make a gaming system live again, he installed everything he needs, then the glitch started."
+Birdie.Speak "His computer has the lateness appearing the BIOS boot screen showing him all the hard drives, memory installed, etc."
+Birdie.Speak "Then Windows started with no problems."
+Birdie.Speak "Then the worse thing happened after past days is that the computer kept rebooting and then the BIOS appeared."
+Birdie.Speak "Yesterday and a day before yesterday, the computer made fan noises consisting of dusts in both the motherboard and the power supply."
+Birdie.Speak "They cleaned the dusts and the noise is gone but the computer is not booting and the light for hard drive activity kept on and the CD-ROM writer's light kept flickering."
+Birdie.Speak "It did not show anything on his screen!"
+Birdie.Speak "He is sure he has the important data that he doesn't want to lose it!"
+Set Req = Birdie.Speak("Today, the noise returned.")
+WaitFor Req
+Set Req = Miku.Speak("Last story")
+WaitFor Req
+Birdie.Speak "Yesterday morning, his computer shut down while he was downloading torrents."
+Birdie.Speak "He did not open Firefox nor VirtualBox as they are CPU and RAM consumers."
+Birdie.Speak "To be more specific, he initialized the download for the torrent, then the download started."
+Birdie.Speak "He is playing some games on his tablet when his computer randomly decided that it wants to shut itself down for no apparent reason."
+Birdie.Speak "Now when he tries to power on his computer nothing happens! No lights, no fans spinning, nothing."
+Birdie.Speak "So he opened the case to check for apparent damage, Nothing is damaged."
+Birdie.Speak "So he unplugged and plugged the PSU, checked for the cables, and pressed the power button."
+Birdie.Speak "The CPU fan spins for a fraction of a second then it stops spinning!"
+Birdie.Speak "No signs of life. No GPU fan spinning. No PSU fan spinning. No POST. No BIOS. Nothing."
+Birdie.Speak "Pressed the power button again and nothing happened."
+Birdie.Speak "He unplugged and plugged the PSU and turned on the computer, Same things above, Tried again, nothing."
+Birdie.Speak "He tried to do the following:"
+Birdie.Speak "- Unplugging and replugging PSU (Nothing worked)"
+Birdie.Speak "- Unplugging everything except the PSU switch and some USB (nothing worked)"
+Set Req = Birdie.Speak("- Checking the cables (Everything's fine).")
+WaitFor Req
+Set Req = Spaceman.Speak("Exit news?")
+WaitFor Req
+Ewoman.Hide
+Set Req = Eman.Hide()
+WaitFor Req
+Set Req = Milton.Speak("Yes")
+WaitFor Req
+Birdie.MoveTo 959, 733
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

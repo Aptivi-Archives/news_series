@@ -1,0 +1,259 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Al=Al.acs
+Alien=Alien.acs
+Cathie=Cathie.acs
+Robby=Robby.acs
+Vrgirl=Vrgirl.acs
+Woo=Woo.acs
+Santa=Santa.acs
+Sizlik=Sizlik.acs
+Max=Max.acs
+Birdie=Birdie.acs
+
+[LanguageIDs]
+Al=&H409
+Alien=&H409
+Cathie=&H409
+Robby=&H409
+Vrgirl=&H409
+Woo=&H409
+Santa=&H409
+Sizlik=&H409
+Max=&H409
+Birdie=&H409
+
+[Script]
+Al.MoveTo 1306, 739
+Al.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Al.Show()
+WaitFor Req
+Alien.MoveTo 1197, 749
+Alien.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Alien.Show()
+WaitFor Req
+Cathie.MoveTo 1093, 680
+Cathie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Cathie.Show()
+WaitFor Req
+Robby.MoveTo 957, 738
+Robby.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273006}"
+Set Req = Robby.Show()
+WaitFor Req
+Vrgirl.MoveTo 874, 745
+Vrgirl.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Vrgirl.Show()
+WaitFor Req
+Woo.MoveTo 788, 680
+Woo.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Woo.Show()
+WaitFor Req
+Santa.MoveTo 723, 724
+Santa.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Santa.Show()
+WaitFor Req
+Sizlik.MoveTo 581, 680
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Sizlik.Show()
+WaitFor Req
+Max.MoveTo 480, 744
+Max.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Max.Show()
+WaitFor Req
+Set Req = Sizlik.Speak("A wireless network problem?")
+WaitFor Req
+Eman.Speak "Yes"
+WaitFor Req
+Set Req = Santa.Speak("What is the balloon say in first time?")
+WaitFor Req
+Set Req = Alien.Speak("Already fixed")
+WaitFor Req
+Set Req = Sizlik.Speak("Open Internet?")
+WaitFor Req
+Set Req = Max.Speak("Yes")
+WaitFor Req
+Set Req = Cathie.Speak("I realized you that you first in a moment connect to Internet to acquire to network.")
+WaitFor Req
+Set Req = Al.Speak("Is a loading bar stall the Internet?")
+WaitFor Req
+Set Req = Robby.Speak("No")
+WaitFor Req
+Set Req = Woo.Speak("What is?")
+WaitFor Req
+Set Req = Santa.Speak("Nothing")
+WaitFor Req
+Set Req = Robby.Speak("We fixed.")
+WaitFor Req
+Set Req = Robby.MoveTo(1033, 738)
+WaitFor Req
+Set Req = Vrgirl.MoveTo(961, 745)
+WaitFor Req
+Set Req = Woo.MoveTo(871, 684)
+WaitFor Req
+Set Req = Santa.MoveTo(814, 726)
+WaitFor Req
+Set Req = Sizlik.MoveTo(677, 680)
+WaitFor Req
+Set Req = Max.MoveTo(587, 743)
+WaitFor Req
+Set Req = Cathie.Speak("Where's Birdie?")
+WaitFor Req
+Set Req = Al.Speak("Now coming soon.")
+WaitFor Req
+Birdie.MoveTo 1214, -3
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Birdie.Show
+Set Req = Birdie.Speak("Hello Guys")
+WaitFor Req
+Set Req = Max.Speak("Hello")
+WaitFor Req
+Set Req = Sizlik.Speak("Hello")
+WaitFor Req
+Set Req = Santa.Speak("Hello")
+WaitFor Req
+Set Req = Vrgirl.Speak("Hello")
+WaitFor Req
+Set Req = Woo.Speak("Hello")
+WaitFor Req
+Set Req = Robby.Speak("Hello")
+WaitFor Req
+Set Req = Cathie.Speak("Hello")
+WaitFor Req
+Set Req = Alien.Speak("Hello")
+WaitFor Req
+Set Req = Al.Speak("Hello")
+WaitFor Req
+Set Req = Alien.Play("BIG_SMILE")
+WaitFor Req
+Birdie.MoveTo 1043, -4
+Birdie.Speak "Okay, Let's go and find Tom's Hardware."
+Birdie.MoveTo 636, 244
+Birdie.MoveTo 520, -45
+Set Req = Birdie.Speak("Searched, Now Problems.")
+WaitFor Req
+Set Req = Max.Speak("We will wait.")
+WaitFor Req
+Birdie.MoveTo 883, 326
+Set Req = Birdie.Speak("This could be a problem with Internet Connections with Communications.")
+WaitFor Req
+Set Req = Sizlik.Speak("Why Internet could be a problem?")
+WaitFor Req
+Birdie.MoveTo 469, -49
+Birdie.MoveTo 424, 229
+Birdie.Speak "Everything was well and good until today morning when his Gigabyte E240N decided to stop detecting his keyboard."
+Birdie.Speak "Now he has to use the On-Screen Keyboard in order to do anything."
+Birdie.Speak "Mouse is working fine though."
+Birdie.Speak "He tried switching USB ports and using the same keyboard on another machine."
+Set Req = Birdie.Speak("Both the keyboard as well as all the USB ports are working fine.")
+WaitFor Req
+Set Req = Robby.Speak("Next?")
+WaitFor Req
+Set Req = Birdie.Speak("I think that is yes.")
+WaitFor Req
+Set Req = Sizlik.Speak("Network change in Torch?")
+WaitFor Req
+Birdie.MoveTo 432, 320
+Birdie.Speak "Yes"
+Birdie.MoveTo 401, 352
+Birdie.Speak "According to sharikou's anaysis, The Core Duo Spews 53 watts, but the fan is designed for 31 watts only, the user was running some hefty apps in preparation for the conference."
+Set Req = Birdie.Speak("Causing the CPU to overheat, however, somehow the thermal throttling logic failed, the CPU exploded, causing secondary explosion in the battery.")
+WaitFor Req
+Set Req = Santa.Speak("A problem again?")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes")
+WaitFor Req
+Alien.Speak "fixed."
+Set Req = Alien.Play("ANGEL")
+WaitFor Req
+Birdie.MoveTo 389, 231
+Birdie.Speak "He just got his motherboard and had it all hooked up to test it all he had plugged in was the CPU and CPU Cooler, RAM and Power Supply."
+Set Req = Birdie.Speak("When he turned it on one of the little chips just sorta exploded and then everything just shutoff, His motherboard was defected and he sent it back to get a new one.")
+WaitFor Req
+Set Req = Sizlik.Speak("Last one?")
+WaitFor Req
+Birdie.MoveTo 394, 263
+Birdie.Speak "Yes."
+Set Req = Birdie.Speak("He had an Asus K8V Deluxe Motherboard, and he recently discovered that a small, flat, chip like resistor on it (which is directly to the right of the red IE1394_1 connector and to the left of the northbridge) had exploded, Which is now causing his CPU to overheat Very quickly.")
+WaitFor Req
+Set Req = Robby.Speak("Last More One?")
+WaitFor Req
+Set Req = Al.Speak("Yes")
+WaitFor Req
+Set Req = Max.Speak("Yes")
+WaitFor Req
+Set Req = Birdie.Speak("OK, This is my turn to speak.")
+WaitFor Req
+Set Req = Robby.Speak("Again the Internet problem?")
+WaitFor Req
+Santa.Speak "Yes"
+Set Req = Santa.Hide()
+WaitFor Req
+Set Req = Sizlik.MoveTo(754, 682)
+WaitFor Req
+Set Req = Max.MoveTo(658, 745)
+WaitFor Req
+Set Req = Birdie.Speak("I still waiting")
+WaitFor Req
+Set Req = Vrgirl.Speak("It's time to connect to Internet")
+WaitFor Req
+Max.Speak "Yes"
+Set Req = Max.MoveTo(-24, 560)
+WaitFor Req
+Set Req = Sizlik.MoveTo(64, 499)
+WaitFor Req
+Set Req = Woo.MoveTo(166, 497)
+WaitFor Req
+Set Req = Vrgirl.MoveTo(238, 555)
+WaitFor Req
+Robby.MoveTo 303, 554
+Set Req = Robby.Speak("Can challenge it?")
+WaitFor Req
+Set Req = Woo.Speak("No, Because Windows knows.")
+WaitFor Req
+Set Req = Cathie.MoveTo(330, 669)
+WaitFor Req
+Set Req = Alien.MoveTo(264, 446)
+WaitFor Req
+Set Req = Al.MoveTo(409, 731)
+WaitFor Req
+Set Req = Cathie.Speak("Oh no!!")
+WaitFor Req
+Set Req = Al.Speak("Oh no!!")
+WaitFor Req
+Set Req = Robby.Speak("Oh no!!")
+WaitFor Req
+Set Req = Vrgirl.Speak("Oh no!!")
+WaitFor Req
+Set Req = Alien.Speak("Oh no!!")
+WaitFor Req
+Set Req = Woo.Speak("Oh no!!")
+WaitFor Req
+Set Req = Sizlik.Speak("Oh no!!")
+WaitFor Req
+Set Req = Max.Speak("Oh no!!")
+WaitFor Req
+Set Req = Robby.MoveTo(294, 732)
+WaitFor Req
+Set Req = Alien.MoveTo(499, 734)
+WaitFor Req
+Set Req = Vrgirl.MoveTo(242, 738)
+WaitFor Req
+Set Req = Woo.MoveTo(171, 674)
+WaitFor Req
+Set Req = Sizlik.MoveTo(63, 676)
+WaitFor Req
+Set Req = Max.MoveTo(-29, 735)
+WaitFor Req
+Set Req = Robby.Speak("Exit.")
+WaitFor Req
+Woo.Speak "Later smps-exploded"
+Woo.Speak "on News 7"
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

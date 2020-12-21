@@ -1,0 +1,270 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Cami=Cami.acs
+Felini=Felini.acs
+Hanz=Hanz.acs
+Vrgirl=Vrgirl.acs
+Wabbit=Wabbit.acs
+Woo=Woo.acs
+Sizlik=Sizlik.acs
+Totem=Totem.acs
+Reaper=Reaper.acs
+Birdie=Birdie.acs
+Spaceman=Spaceman.acs
+
+[LanguageIDs]
+Cami=&H409
+Felini=&H409
+Hanz=&H409
+Vrgirl=&H409
+Wabbit=&H409
+Woo=&H409
+Sizlik=&H409
+Totem=&H409
+Reaper=&H409
+Birdie=&H409
+Spaceman=&H409
+
+[Script]
+Cami.MoveTo 1327, 746
+Cami.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Cami.Show()
+WaitFor Req
+Felini.MoveTo 1209, 678
+Felini.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273007}"
+Set Req = Felini.Show()
+WaitFor Req
+Hanz.MoveTo 1125, 778
+Hanz.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Hanz.Show()
+WaitFor Req
+Vrgirl.MoveTo 1002, 739
+Vrgirl.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Vrgirl.Show()
+WaitFor Req
+Wabbit.MoveTo 847, 679
+Wabbit.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Wabbit.Show()
+WaitFor Req
+Woo.MoveTo 740, 681
+Woo.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Woo.Show()
+WaitFor Req
+Sizlik.MoveTo 625, 676
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Sizlik.Show()
+WaitFor Req
+Totem.MoveTo 454, 712
+Totem.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273003}"
+Set Req = Totem.Show()
+WaitFor Req
+Reaper.MoveTo 1271, -52
+Reaper.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273007}"
+Set Req = Reaper.Show()
+WaitFor Req
+Birdie.MoveTo 333, 464
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Birdie.Show
+Set Req = Birdie.Speak("\Chr=""Monotone""\\Map=""\Pit=52\\Spd=130\doe \Pit=55\ray \Pit=62\me \Pit=65\fah \Pit=73\so \Pit=82\lah \Pit=87\sea \Pit=104\doe""=""do re mi fa so la ti do""\")
+WaitFor Req
+Reaper.MoveTo 1178, -46
+Set Req = Reaper.Speak("What you are singing")
+WaitFor Req
+Set Req = Birdie.Speak("Nothing, But I'll search Tom's Hardware later on")
+WaitFor Req
+Set Req = Cami.Speak("I'm new")
+WaitFor Req
+Set Req = Felini.Speak("I'm new")
+WaitFor Req
+Set Req = Hanz.Speak("I'm new")
+WaitFor Req
+Set Req = Vrgirl.Speak("I'm new")
+WaitFor Req
+Set Req = Wabbit.Speak("I'm new")
+WaitFor Req
+Set Req = Woo.Speak("I'm new")
+WaitFor Req
+Set Req = Sizlik.Speak("I'm new")
+WaitFor Req
+Set Req = Totem.Speak("I'm new")
+WaitFor Req
+Birdie.MoveTo 1308, -4
+Birdie.Play "LookRight"
+Birdie.Play "LookLeft"
+Birdie.Play "LookRight"
+Set Req = Birdie.Speak("Am I seeing the loading page?")
+WaitFor Req
+Reaper.MoveTo 350, 686
+Set Req = Reaper.Speak("Yes")
+WaitFor Req
+Set Req = Felini.Speak("What should Spaceman gather?")
+WaitFor Req
+Set Req = Wabbit.Speak("Now!!")
+WaitFor Req
+Set Req = Birdie.Speak("Now!!")
+WaitFor Req
+Set Req = Totem.Speak("I have the worship to restart the Internet.")
+WaitFor Req
+Set Req = Vrgirl.Speak("It's already fixed.")
+WaitFor Req
+Set Req = Wabbit.Speak("It's Corsair that we love.")
+WaitFor Req
+Set Req = Vrgirl.Speak("About game or about explosions or about both?")
+WaitFor Req
+Birdie.MoveTo 401, 317
+Set Req = Birdie.Speak("Yes")
+WaitFor Req
+Set Req = Sizlik.Speak("Guys, What do Birdie wait?")
+WaitFor Req
+Set Req = Vrgirl.Speak("For Spaceman")
+WaitFor Req
+Spaceman.MoveTo -2, 782
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Spaceman.Show()
+WaitFor Req
+Set Req = Birdie.Speak("Hello, He just built a new computer about 3 months ago and everything was just fine until today.")
+WaitFor Req
+Spaceman.MoveTo 218, 773
+Spaceman.Speak "Hello guys?"
+Set Req = Spaceman.Speak("How are you?")
+WaitFor Req
+Set Req = Reaper.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Totem.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Sizlik.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Woo.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Wabbit.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Vrgirl.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Hanz.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Felini.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Cami.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Spaceman.Speak("All listen to Birdie?")
+WaitFor Req
+Set Req = Reaper.Speak("Yes")
+WaitFor Req
+Set Req = Totem.Speak("Yes")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes")
+WaitFor Req
+Set Req = Woo.Speak("Yes")
+WaitFor Req
+Set Req = Wabbit.Speak("Yes")
+WaitFor Req
+Set Req = Vrgirl.Speak("Yes")
+WaitFor Req
+Set Req = Hanz.Speak("Yes")
+WaitFor Req
+Set Req = Felini.Speak("Yes")
+WaitFor Req
+Set Req = Cami.Speak("Yes")
+WaitFor Req
+Set Req = Birdie.Speak("He was playing World of Warcraft using his headphones.")
+WaitFor Req
+Set Req = Woo.Speak("World or Warcraft or Armored Warfare?")
+WaitFor Req
+Set Req = Felini.Speak("World of Warcraft")
+WaitFor Req
+Set Req = Spaceman.Speak("Armored Warfare")
+WaitFor Req
+Set Req = Woo.Speak("Who said wrong?")
+WaitFor Req
+Birdie.Speak "Spaceman"
+Birdie.Speak "OK, Let's explain guys, Suddenly the volume in his headphones went crazy high and distorted-like (He has an AudioTechnica AD700x pair of headphones and He usually have the volume around either 10% or 13%, it seemed like the volume changed to 100% and that's too much with the headphone.)"
+Birdie.Speak "Because he was the middle of a game He just alt+tabbed and try to change the volume but couldn't (1% or 100% was the same)."
+Birdie.Speak "So he changed the sound device to his monitor that has speakers built-in and continue playing normally."
+Set Req = Birdie.Speak("After like 5 minutes something exploded in the back of his PC and it turned off very very very immediate fast speed.")
+WaitFor Req
+Set Req = Sizlik.Speak("What's the meaning of word Immediately.")
+WaitFor Req
+Set Req = Felini.Speak("means a very fast thing.")
+WaitFor Req
+Set Req = Reaper.Speak("or very fast actions")
+WaitFor Req
+Set Req = Woo.Speak("or very fast appears")
+WaitFor Req
+Birdie.Speak "He unplugged everything and didn't attempt to turn it back on."
+Birdie.Speak "There was a smell coming from the PSU like something burnt (He think that the smell is smelled like(Steak of Pasta burned) is on the PSU)."
+Set Req = Birdie.Speak("So he guess inside the PSU exploded cause He don't see any apparent damage in the Motherboard nor the graphics card.")
+WaitFor Req
+Set Req = Sizlik.Speak("Could that 3 peoples go away from text?")
+WaitFor Req
+Set Req = Vrgirl.Speak("Yes")
+WaitFor Req
+Set Req = Totem.MoveTo(1160, -6)
+WaitFor Req
+Set Req = Reaper.MoveTo(1109, -4)
+WaitFor Req
+Set Req = Spaceman.MoveTo(1239, 5)
+WaitFor Req
+Birdie.Speak "He don't know if the sound think is related he just wanted to give as much information he could, becuase he like he already said everything is just 3 months old...and being the quality PSU it's just strange."
+Set Req = Birdie.Speak("Do he need to replace the PSU? For what should he do.. Also the PSU was really hot idk ir that's normal.")
+WaitFor Req
+Set Req = Vrgirl.Speak("Next.")
+WaitFor Req
+Birdie.MoveTo 399, 352
+Birdie.Speak "Recently his old PSU (600w, some no mark brand from aria.co.uk) started making a grinding/rattling noise what the fan kicked in."
+Set Req = Birdie.Speak("He read a post saying (Put the pencil or something (like Pen, SIM Card, ID Card, Shirt or small card) before turning on the computer to see if it was the PSU making the noise), He did, PSU performed an illegal operation (PSU Explode) and it will be shut down (idiotic of him his know).")
+WaitFor Req
+Set Req = Felini.Speak("Also")
+WaitFor Req
+Birdie.Speak "He had his new one to hand (750w Corsair CX750 Modular 80 Bronze) and install it along with his new i5 3750K."
+Birdie.Speak "However when he turned his computer on, the case lights came on, fans kicked in and after 5 sec. it shut down with illegal operation (Restart Computer) and did the same result."
+Set Req = Birdie.Speak("Been trying to figure out for hours what's up with it, connecting the pins again, they're all hooked up.")
+WaitFor Req
+Set Req = Cami.Speak("Guys, You need Tom's Hardware.")
+WaitFor Req
+Birdie.Speak "Hello, 2 days ago, He was playing a game called Rust and he start smelling this burning smell."
+Birdie.Speak "He assume it is his mother cooking some steak for him, but it wasn't it was coming from his PC, so he tell his friend He smell a burning and his PC immediately turns off and 2 seconds later He hear 3 bangs (like Bang-Bang-Bang!!) so he start to shit himself and worry."
+Birdie.Speak "So he look at his PC and He smell a firework smell and text his friend He was talking to (he's good with computers) So he tell him that his PC exploded."
+Birdie.Speak "So he says it could be his PSU."
+Birdie.Speak "He immediately said I'll repair it."
+Birdie.Speak "So he are going to order a PSU on Friday."
+Birdie.MoveTo 397, 354
+Birdie.Speak "When he play League of Legends everytime He attack something It lags a little bit."
+Birdie.Speak "Like the animation makes it lag."
+Birdie.Speak "His FPS is normal it just lags now."
+Birdie.Speak "Not the Internet but the attack lags the game."
+Set Req = Birdie.Speak("He guessing when his PSU exploded and turned off the computer immediately.")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Birdie.MoveTo 398, 322
+Birdie.Speak "So his PSU just exploded and he tried replacing it with a 500w one."
+Birdie.Speak "His original PSU was Xion XON-700p12n."
+Birdie.Speak "OK so the worse PSU that's in now only had a 4 pin to the CPU and his original had 8."
+Birdie.Speak "So he plugged in everything and everything seems to be OK But one Beep Post."
+Birdie.Speak "There's no display."
+Birdie.Speak "So today he are gunna take his graphics card to his friends house and see if it's the GPU BUT."
+Set Req = Birdie.Speak("This backup PSU only has 1 graphic card plug in 6 pin he think and not 2 of them which he think he need CUZ it's a GTX 570.")
+WaitFor Req
+Set Req = Felini.Speak("Last one")
+WaitFor Req
+Birdie.MoveTo 400, 264
+Birdie.Speak "In the past He has bought all of his computers from either Alienware, or IbuyPower."
+Birdie.Speak "He now has a family and blowing 3 grand on a computer is no longer an option."
+Birdie.Speak "He was helping out a friend fix his computer the other day."
+Birdie.Speak "He brought it over to his place and He hooked it up to his computer, mouse, etc. After He finished with his, He started plugging back into his computer."
+Birdie.Speak "When he plugged his mouse back in, a spark and smoke came out of the PSU."
+Birdie.Speak "He opened up his case and took it out, and sure enough there was some crap all over the insides."
+Birdie.Speak "No problems, He figured."
+Birdie.Speak "He borrowed another p/s from another computer and hooked it up."
+Birdie.Speak "Now when he power on his computer, All he get is a repeating, slow beep."
+Birdie.Speak "He are afraid that something or everything on hisd motherboard is fried, but not sure what."
+Birdie.Speak "He get nothing else from the system, the monitor doesn't receive any signal. What can he do?"
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

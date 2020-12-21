@@ -1,0 +1,314 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Merlin=Merlin.acs
+Al=Al.acs
+Blanche=Blanche.acs
+Cathie=Cathie.acs
+Debbie=Debbie.acs
+Isabella=Isabella.acs
+Check=Check.acs
+Cupid=Cupid.acs
+Electra=Electra.acs
+Eman=Eman.acs
+Ewoman=Ewoman.acs
+Genie=Genie.acs
+Gourdy=Gourdy.acs
+James=James.acs
+Max=Max.acs
+Oscar=Oscar.acs
+Ozzar=Ozzar.acs
+Peedy=Peedy.acs
+Sizlik=Sizlik.acs
+Spaceman=Spaceman.acs
+Wartnose=Wartnose.acs
+
+[LanguageIDs]
+Merlin=&H409
+Al=&H409
+Blanche=&H409
+Cathie=&H409
+Debbie=&H409
+Isabella=&H409
+Check=&H409
+Cupid=&H409
+Electra=&H409
+Eman=&H409
+Ewoman=&H409
+Genie=&H409
+Gourdy=&H409
+James=&H409
+Max=&H409
+Oscar=&H409
+Ozzar=&H409
+Peedy=&H409
+Sizlik=&H409
+Spaceman=&H409
+Wartnose=&H409
+
+[Script]
+Merlin.MoveTo 659, 334
+Merlin.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Merlin.Show
+Merlin.Play "Explain"
+Merlin.Speak "It has come to the conclusion that Birdie might not come on this news serie."
+Merlin.Speak "But people will come like usual but without Birdie."
+Set Req = Merlin.Speak("I will be the secondary news-teller in this serie. Go.")
+WaitFor Req
+Al.MoveTo 1337, 742
+Al.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Al.Show()
+WaitFor Req
+Blanche.MoveTo 1238, 682
+Blanche.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Blanche.Show()
+WaitFor Req
+Cathie.MoveTo 1185, 683
+Cathie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Cathie.Show()
+WaitFor Req
+Debbie.MoveTo 1133, 685
+Debbie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Debbie.Show()
+WaitFor Req
+Isabella.MoveTo 1083, 684
+Isabella.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Isabella.Show()
+WaitFor Req
+Check.MoveTo 1055, 745
+Check.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Check.Show()
+WaitFor Req
+Cupid.MoveTo 945, 707
+Cupid.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Cupid.Show()
+WaitFor Req
+Electra.MoveTo 879, 746
+Electra.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Electra.Show()
+WaitFor Req
+Eman.MoveTo 821, 745
+Eman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Eman.Show
+Ewoman.MoveTo 773, 746
+Ewoman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Ewoman.Show()
+WaitFor Req
+Genie.MoveTo 726, 743
+Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Genie.Show()
+WaitFor Req
+Gourdy.MoveTo 651, 742
+Gourdy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Gourdy.Show()
+WaitFor Req
+James.MoveTo 566, 685
+James.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = James.Show()
+WaitFor Req
+Max.MoveTo 511, 750
+Max.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Max.Show()
+WaitFor Req
+Oscar.MoveTo 455, 748
+Oscar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Oscar.Show()
+WaitFor Req
+Ozzar.MoveTo 402, 746
+Ozzar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Ozzar.Show()
+WaitFor Req
+Peedy.MoveTo 321, 748
+Peedy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Peedy.Show()
+WaitFor Req
+Sizlik.MoveTo 13, 686
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Sizlik.Show()
+WaitFor Req
+Spaceman.MoveTo 181, 791
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Spaceman.Show()
+WaitFor Req
+Wartnose.MoveTo 262, 745
+Wartnose.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273003}"
+Set Req = Wartnose.Show()
+WaitFor Req
+Set Req = Genie.MoveTo(314, 747)
+WaitFor Req
+Set Req = Peedy.MoveTo(710, 747)
+WaitFor Req
+Set Req = Genie.MoveTo(324, 744)
+WaitFor Req
+Set Req = Merlin.Speak("Hello guys? How are you?")
+WaitFor Req
+Set Req = Sizlik.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Spaceman.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Wartnose.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Genie.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Ozzar.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Oscar.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Max.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = James.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Gourdy.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Peedy.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Ewoman.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Eman.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Electra.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Cupid.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Check.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Isabella.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Debbie.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Cathie.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Blanche.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Al.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Spaceman.Speak("All listen to Marlin?")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes")
+WaitFor Req
+Set Req = Genie.Speak("Yes")
+WaitFor Req
+Set Req = Ozzar.Speak("Yes")
+WaitFor Req
+Set Req = Oscar.Speak("Yes")
+WaitFor Req
+Set Req = Max.Speak("Yes")
+WaitFor Req
+Set Req = James.Speak("Yes")
+WaitFor Req
+Set Req = Gourdy.Speak("Yes")
+WaitFor Req
+Set Req = Peedy.Speak("Yes")
+WaitFor Req
+Set Req = Ewoman.Speak("Yes")
+WaitFor Req
+Set Req = Eman.Speak("Yes")
+WaitFor Req
+Set Req = Electra.Speak("Yes")
+WaitFor Req
+Set Req = Cupid.Speak("Yes")
+WaitFor Req
+Set Req = Check.Speak("Yes")
+WaitFor Req
+Set Req = Isabella.Speak("Yes")
+WaitFor Req
+Set Req = Debbie.Speak("Yes")
+WaitFor Req
+Set Req = Cathie.Speak("Yes")
+WaitFor Req
+Set Req = Blanche.Speak("Yes")
+WaitFor Req
+Set Req = Al.Speak("Yes")
+WaitFor Req
+Merlin.Speak "I just managed to see that there is 2 new people coming."
+Set Req = Merlin.Speak("Introduce yourselves")
+WaitFor Req
+Ewoman.Speak "I am E-Woman!"
+Ewoman.Play "4DEV_Electric"
+Ewoman.Play "4DEV_Envelope1"
+Ewoman.Play "4DEV_Excited"
+Ewoman.Play "4DEV_Flattened"
+Ewoman.Play "4DEV_HornBlow"
+Ewoman.Play "4DEV_Kick"
+Ewoman.Play "4DEV_LeanIn"
+Ewoman.Play "4DEV_MuscleFlex1"
+Ewoman.Play "4DEV_MuscleFlex2"
+Ewoman.Play "4DEV_Somersault"
+Ewoman.Play "4DEV_Surprise"
+Ewoman.Play "4DEV_ZapLeft"
+Ewoman.Play "4DEV_ZapRight"
+Ewoman.Play "4DEV_Scout"
+Set Req = Ewoman.Speak("And this is my brother, E-Man!")
+WaitFor Req
+Eman.Play "4DEV_Alert"
+Eman.Play "4DEV_bigface"
+Eman.Play "4DEV_Eat_Mail"
+Eman.Play "4DEV_Envelope"
+Eman.Play "4DEV_Excited"
+Eman.Play "4DEV_headstand"
+Eman.Play "4DEV_heckle"
+Eman.Play "4DEV_MuscleFlex1"
+Eman.Play "4DEV_MuscleFlex2"
+Eman.Play "4DEV_MuscleFlex3"
+Eman.Play "4DEV_PunchScreen"
+Eman.Play "4DEV_Pushups"
+Eman.Play "4DEV_spit_Envelope"
+Eman.Play "4DEV_UncleSam"
+Set Req = Eman.Play("4DEV_wave")
+WaitFor Req
+Set Req = Merlin.Speak("You two are powerful.")
+WaitFor Req
+Set Req = Ewoman.Speak("Thanks.")
+WaitFor Req
+Set Req = Eman.Speak("Thanks.")
+WaitFor Req
+Merlin.MoveTo 432, 420
+Merlin.Play "Explain"
+Merlin.Speak "He got a new PC, ASUS X541NA and has Ubuntu."
+Merlin.Speak "Somehow he changed the partition format in Ubuntu disk."
+Set Req = Merlin.Speak("Now he cannot see HDD in BIOS and he can't boot from any USB.")
+WaitFor Req
+Set Req = Gourdy.Speak("Ready for the next story.")
+WaitFor Req
+Merlin.MoveTo 450, 274
+Merlin.MoveTo 456, 359
+Merlin.Speak "I respect was the news here, In the last boot he made BIOS changes because he is migrating from Windows XP to Windows 10."
+Merlin.Speak "To swap between them, he changed OS type being UEFI or legacy first, boot: Windows Boot Manager or X HDD, SATA mode: IDE or AHCI."
+Merlin.Speak "He disconected everything, Changed the RAM, and power supply. Nothing happened."
+Merlin.Speak "He cleared the CMOS, same thing."
+Set Req = Merlin.Speak("He is getting this empty bios image in most of the infinite boots.")
+WaitFor Req
+Set Req = Gourdy.Speak("Third story")
+WaitFor Req
+Merlin.Speak "He has an Intel Core i5 4690K, an MSI Z97 Gaming 3 motherboard, EVGA SuperNOVA NEX750G PSU and MSI GTX GeForce 970 GPU."
+Merlin.Speak "He noticed that his dedicated GPU wasn't being used but instead his onboard graphics card."
+Merlin.Speak "He went into Device Manager and under Display Adapters only the Intel would show up."
+Merlin.Speak "He went into his MSI Bios and checked the motherboard layout, and it said that (where his GPU is connected) is empty."
+Merlin.Speak "His GPU has light up though, but the fans are not working. They are Frozr controlled."
+Set Req = Merlin.Speak("He connected his motherboard using a VGA cable and his GPU using HDMI to his Samsung CF390 monitor and it is fine, but when he disconnects the motherboard, the monitor doesn't show anything and in the top left corner it keeps switching from Analog to HDMI.")
+WaitFor Req
+Set Req = Max.Speak("Last one")
+WaitFor Req
+Merlin.Speak "Hello and thanks for taking time to read this. He has just bought a second hand Samsung Series 5 Ultratouch NP540U3C-A02UK. It has Phoenix SecureCore Tiano BIOS, version P07ABH."
+Merlin.Speak "He bought it without a hard drive and when it arrived he installed the SSD from his previous laptop and booted the new one."
+Merlin.Speak "It would not boot and entered a boot loop a number of time before giving the error 'All boot options are tried...'"
+Merlin.Speak "When pressing F2, the boot tab is empty and on the other tab pressing enter on Windows Boot Manager does nothing."
+Merlin.Speak "Entering the BIOS setup SATA port 1 shows his hard drive but when he enters the boot tab and select 'Boot Device Priority' the list is totally empty."
+Merlin.Speak "The BIOS says that the certification key is for Windows 8."
+Merlin.Speak "He has tried putting a hard drive with Windows 8 in it but that was also not recognized."
+Merlin.Speak "He has also tried blank HDD and bootable USB drives. Fast boot and secure boot are disabled and the UEFI is enabled."
+Set Req = Merlin.Speak("He has tried legacy mode, reset BIOS to default and reset the whole BIOS.")
+WaitFor Req
+Set Req = Ewoman.Speak("Goodbye News.")
+WaitFor Req
+Set Req = Spaceman.Speak("Exit News?")
+WaitFor Req
+Ozzar.Speak "Yes"
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

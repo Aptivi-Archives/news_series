@@ -1,0 +1,297 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Al=Al.acs
+Alien=Alien.acs
+Audie=Audie.acs
+Billg=Billg.acs
+Birdie=Birdie.acs
+Blanche=Blanche.acs
+Bonzi=Bonzi.acs
+Cami=Cami.acs
+Check=Check.acs
+Cupid=Cupid.acs
+Electra=Electra.acs
+Felini=Felini.acs
+Genie=Genie.acs
+Jack=Jack.acs
+James=James.acs
+Joe=Joe.acs
+Maria=Maria.acs
+Max=Max.acs
+Miku=Miku.acs
+Milton=Milton.acs
+Peedy=Peedy.acs
+Sizlik=Sizlik.acs
+Spaceman=Spaceman.acs
+Galaxygirl=Galaxygirl.acs
+
+[LanguageIDs]
+Al=&H409
+Alien=&H409
+Audie=&H409
+Billg=&H409
+Birdie=&H409
+Blanche=&H409
+Bonzi=&H409
+Cami=&H409
+Check=&H409
+Cupid=&H409
+Electra=&H409
+Felini=&H409
+Genie=&H409
+Jack=&H409
+James=&H409
+Joe=&H409
+Maria=&H409
+Max=&H409
+Miku=&H409
+Milton=&H409
+Peedy=&H409
+Sizlik=&H409
+Spaceman=&H409
+Galaxygirl=&H409
+
+[Script]
+Al.MoveTo 1347, 743
+Al.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Al.Show
+Set Req = Al.Speak("This news is all about X11 and other problems.")
+WaitFor Req
+Alien.MoveTo 1284, 750
+Alien.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Alien.Show()
+WaitFor Req
+Audie.MoveTo 1216, 749
+Audie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Audie.Show()
+WaitFor Req
+Billg.MoveTo 1130, 708
+Billg.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Billg.Show()
+WaitFor Req
+Birdie.MoveTo 490, 316
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Birdie.Show()
+WaitFor Req
+Blanche.MoveTo 1075, 684
+Blanche.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Blanche.Show
+Set Req = Blanche.Speak("What is X11?")
+WaitFor Req
+Set Req = Audie.Speak("\Map=""X Eleven""=""X11""\is the display server")
+WaitFor Req
+Set Req = Blanche.Speak("OK.")
+WaitFor Req
+Bonzi.MoveTo 1007, 721
+Bonzi.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Bonzi.Show()
+WaitFor Req
+Cami.MoveTo 991, 752
+Cami.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Cami.Show()
+WaitFor Req
+Check.MoveTo 932, 750
+Check.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Check.Show()
+WaitFor Req
+Cupid.MoveTo 124, 1
+Cupid.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Cupid.Show()
+WaitFor Req
+Electra.MoveTo 864, 745
+Electra.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Electra.Show()
+WaitFor Req
+Felini.MoveTo 777, 685
+Felini.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273007}"
+Set Req = Felini.Show()
+WaitFor Req
+Genie.MoveTo 739, 742
+Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Genie.Show()
+WaitFor Req
+Set Req = Birdie.Speak("Genie, you will be staff right now.")
+WaitFor Req
+Set Req = Genie.MoveTo(242, 39)
+WaitFor Req
+Jack.MoveTo 753, 744
+Jack.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Jack.Show()
+WaitFor Req
+James.MoveTo 683, 685
+James.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = James.Show()
+WaitFor Req
+Joe.MoveTo 618, 750
+Joe.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Joe.Show()
+WaitFor Req
+Maria.MoveTo 567, 745
+Maria.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Maria.Show()
+WaitFor Req
+Max.MoveTo 482, 745
+Max.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Max.Show()
+WaitFor Req
+Miku.MoveTo 435, 641
+Miku.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Miku.Show()
+WaitFor Req
+Milton.MoveTo 385, 750
+Milton.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Milton.Show()
+WaitFor Req
+Peedy.MoveTo 312, 744
+Peedy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Peedy.Show()
+WaitFor Req
+Sizlik.MoveTo 19, 686
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Sizlik.Show()
+WaitFor Req
+Spaceman.MoveTo 32, 92
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Spaceman.Show()
+WaitFor Req
+Galaxygirl.MoveTo 185, 756
+Galaxygirl.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Galaxygirl.Show()
+WaitFor Req
+Set Req = Jack.Speak("Where's Genie?")
+WaitFor Req
+Set Req = Joe.Speak("Genie is in the upper left corner.")
+WaitFor Req
+Set Req = Birdie.Speak("Let's start.")
+WaitFor Req
+Set Req = Spaceman.Speak("Hello guys? How are you?")
+WaitFor Req
+Set Req = Sizlik.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Galaxygirl.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Peedy.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Milton.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Miku.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Max.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Maria.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Joe.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = James.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Jack.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Felini.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Electra.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Check.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Cami.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Bonzi.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Blanche.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Billg.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Audie.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Alien.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Al.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Genie.Speak("We are all ready to listen to Birdie as usual.")
+WaitFor Req
+Set Req = Cami.Speak("What is QVSS?")
+WaitFor Req
+Set Req = James.Speak("QVSS is graphics card.")
+WaitFor Req
+Birdie.Speak "Start!"
+Birdie.Speak "He has a game from Loki Games he purchased around the year 2000 that is nearly impossible to run on anything newer than Red Hat 6.x, and it's not open source."
+Birdie.Speak "If you upgrade the kernel, the glibc, or anything else, the game stops working. It's extremely specific and won't work with the next major version up."
+Birdie.Speak "Over the years, it's become harder and harder to get any version of Linux into a compatibility mode that supports the game, until now it's basically impossible."
+Birdie.Speak "He tried to keep an old K6-2 system around as long as he could to run this old version of Red Hat and the game, but the PSU died."
+Birdie.Speak "He's able to get the OS installed and running after swapping out the virtual SATA drive for an IDE one, but there's a slight problem."
+Birdie.Speak "The only video driver that works for XFree86 is the SVGA driver. Neither the VGA16 driver nor fbdev work."
+Birdie.Speak "Also, The problem is that the driver forces a built-in 320x200 resolution which makes X11 very difficult to use because most applications expect at least 640x480."
+Set Req = Birdie.Speak("He really can't use a newer version of Linux for what he wants to do without an insane amount of tweaking and patching that he really doesn't want to deal with.")
+WaitFor Req
+Set Req = Genie.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "Since he know that it's nearly impossible to get SimCity 3000 working on modern Linux distributions, he thought running Red Hat 6.3 would be an ideal solution."
+Birdie.Speak "The only problem is that he didn't anticipate how difficult it would be to get X11 working at anything above 320x200."
+Birdie.Speak "He had to fight with the VGA drivers for hours in order to even get 640x480 in 16 color mode."
+Birdie.Speak "He even went as far as tracking down the source code to XFree86 4.0.2 which has a VESA driver and trying to compile it, but that only resulted in weird error messages when it tried to load libXft and libXaw."
+Birdie.Speak "It very nearly worked, though... He saw a screen for about 2 seconds before it crashed hard."
+Birdie.Speak "Red Hat 7 was also really frustrating. The graphical installer worked, but it didn't give him the option of choosing the VESA driver."
+Birdie.Speak "They just didn't build or include it in the distribution, and then refused to offer the option, even though that version of X11 should have it."
+Birdie.Speak "So none of the drivers would actually work, not even the FB driver... although they all worked when the installer tested it, and whatever was being used during installation worked."
+Birdie.Speak "It's really very frustrating. It's looking like he can't use a version of Linux old enough to work with the game because old versions of Linux won't work with modern hardware or even modern VMs, and he can't use a new version of Linux because the game is just too old and Linux breaks backwards compatibility all the time."
+Birdie.Speak "Next news"
+Birdie.Speak "He's installing SuSE 6.2 on a VirtualBox virtual machine and is stuck at the X11 server configuration."
+Birdie.Speak "In SaX, he tried some fairly generic options, the 'SVGA' server with a 'generic' chipset driver and an 'LCD' monitor with resolutions up to 1600x1200, But SaX isn't able to successfully detect the video card or start the X server."
+Birdie.Speak "The video card it detects is 'Unknown vendor (0x80ee) Unknown chipset (0xbeef) rev 0' and it assumes that there is only 64K of video RAM, even though he has allocated 16 MB in VirtualBox."
+Birdie.Speak "When he try to start the X11 server with this configuration, it discounts all the video modes based on incorrect hsync frequencies or vertical refresh rates, claims that the colour depth is not supported, and then aborts!"
+Birdie.Speak "If he edit the file to change the video RAM from 64 to 8192 or 16384, to expand the range of horizontal sync and vertical refresh rates to what the server expects, and to lower all the bit depths to 8, then he can get the X server to start at 640x480, but the system is pretty useless in this configuration because of 320x240........."
+Birdie.Speak "\Spd=70\The small resolution is scaled in pixels, Cursors is too big, Icons and applications is too big and unclosable, and the texts are big, but very scary font, like jfdiuhdiufynvfifhvuifhne, as Nitrome font."
+Birdie.Speak "\Spd=70\More stories, We don't finish, it is still at 25% completion of News."
+Birdie.Speak "In the new MicroVAX/VAX-Station II simulator, the graphics output on the simulated QVSS framebuffer are hopelessly garbled on his configuration."
+Set Req = Birdie.Speak("He's running OpenSUSE 13.2 RC1 64-bit on a Core 2 Duo E8400 CPU, with a Radeon HD 3870 graphics board and the open source drivers included with his OS.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "Using the latest git sources, X11R1 on Ultrix 2.3 has great difficulties with the mouse."
+Birdie.Speak "In uncaptured input mode the mouse jumps around wildly and is totally unusable. In captured input mode it still jumps around but it can at least be moved within a window, etc."
+Set Req = Birdie.Speak("He is emulating MicroVax 2 with QVSS display.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "Compiling a microvax2 with the QVSS display under Ubuntu on a laptop was successful."
+Birdie.Speak "Booting an image for his VAXStation 3100 with VAX/VMS 5.5-2 with device XQA0 was also successful and it was possible to login at the DECWindows login screen and the usual windows appeared."
+Set Req = Birdie.Speak("Unfortunately, the mouse does not work, although with ctrl-right-shift the mouse releases. He has verified that DECW$DEVICE.COM finds the GCA2: device for the pointer, which is online and has zero error count.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He has a SimH VAX which works fine with set CPU model=MicroVAX"
+Birdie.Speak "It is able to start and run DecWindows with output to a remote XServer."
+Birdie.Speak "However he'd like to try the new QVSS graphics capabilities, so he set CPU model=VAXstation and restarted SimH."
+Set Req = Birdie.Speak("It then puts up the graphics window, and VMS starts OK, right through to where it would be switching from console to graphics screen, then simulation hangs, and the instance gets timed out from the cluster.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "The system works correctly with TCP/IP rather slowly. If he install DECnet, the system panics during startup with:"
+Birdie.Speak "panic: qe: Non existant memory interrupt"
+Set Req = Birdie.Speak(", independent of whether TCP/IP is enabled or not. Just to verify that the distribution kits were OK, he built another system from the same distribution tapes for a vax780 instance (so DEUNA in this case) and everything worked OK. He is able to 'set /host' from an RSX-11M+ system into the Ultrix system.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "On a guest machine running Ultrix DECwindows is unusable, there is no control over the cursor which seems to jump between two positions. The only way to regain control appears to be to restart X."
+Set Req = Birdie.Speak("On a guest machine running VAX/VMS the system seem to behave normally but the simulation crashes shortly after logging in")
+WaitFor Req
+Set Req = Spaceman.Speak("Last story.")
+WaitFor Req
+Birdie.Speak "He's testing the QVSS graphics implementation, and he has found a pair of usability issues."
+Birdie.Speak "He's doing his testing under an Ubuntu 13.04 virtual machine running under VMWare Fusion in a MacBook Pro. The physical keyboard is spanish, and the desktop is also configure to use a spanish keyboard."
+Birdie.Speak "The mouse pointer is too fast, to the extreme it is really unusable. He's using the MacBook Pro touch pad, and even moving his fingers very slowly the pointer jumps from side to side of the virtual screen."
+Birdie.Speak "He can't type any 'Alt Gr' key. He can type those ones, but the software ignores it. That makes it unusable since critical VMS keys like '[' and ']' are Alt-Gr combination keys in spanish keyboards."
+Birdie.Speak "He has tried to configure the desktop in US Keyboard mode, but it makes no difference."
+Set Req = Birdie.Speak("He doesn't know anything about how SDL manages input, but he's guess it uses the 'console' setting instead of the 'X' setting.")
+WaitFor Req
+Set Req = Spaceman.Speak("Exit news?")
+WaitFor Req
+Joe.Speak "Yes."
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

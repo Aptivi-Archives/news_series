@@ -1,0 +1,214 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Wabbit=Wabbit.acs
+Alien=Alien.acs
+Cami=Cami.acs
+Check=Check.acs
+Claude=Claude.acs
+Oscar=Oscar.acs
+Ozzar=Ozzar.acs
+Plany=Plany.acs
+Cupid=Cupid.acs
+Peedy=Peedy.acs
+Woo=Woo.acs
+Reaper=Reaper.acs
+Marge=Marge.acs
+Max=Max.acs
+Spaceman=Spaceman.acs
+Sizlik=Sizlik.acs
+Birdie=Birdie.acs
+
+[LanguageIDs]
+Wabbit=&H409
+Alien=&H409
+Cami=&H409
+Check=&H409
+Claude=&H409
+Oscar=&H409
+Ozzar=&H409
+Plany=&H409
+Cupid=&H409
+Peedy=&H409
+Woo=&H409
+Reaper=&H409
+Marge=&H409
+Max=&H409
+Spaceman=&H409
+Sizlik=&H409
+Birdie=&H409
+
+[Script]
+Wabbit.MoveTo 1283, 682
+Wabbit.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Wabbit.Show()
+WaitFor Req
+Alien.MoveTo 1233, 749
+Alien.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Alien.Show()
+WaitFor Req
+Cami.MoveTo 1170, 749
+Cami.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Cami.Show()
+WaitFor Req
+Check.MoveTo 1103, 748
+Check.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Check.Show()
+WaitFor Req
+Claude.MoveTo 1033, 741
+Claude.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Claude.Show()
+WaitFor Req
+Oscar.MoveTo 991, 751
+Oscar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Oscar.Show()
+WaitFor Req
+Ozzar.MoveTo 927, 744
+Ozzar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Ozzar.Show()
+WaitFor Req
+Plany.MoveTo 848, 786
+Plany.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Plany.Show()
+WaitFor Req
+Cupid.MoveTo 719, 705
+Cupid.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Cupid.Show()
+WaitFor Req
+Peedy.MoveTo 644, 741
+Peedy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Peedy.Show()
+WaitFor Req
+Woo.MoveTo 567, 685
+Woo.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Woo.Show()
+WaitFor Req
+Reaper.MoveTo 495, 686
+Reaper.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273007}"
+Set Req = Reaper.Show()
+WaitFor Req
+Marge.MoveTo 354, 722
+Marge.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Marge.Show()
+WaitFor Req
+Max.MoveTo 260, 749
+Max.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Max.Show()
+WaitFor Req
+Spaceman.MoveTo 164, 783
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Spaceman.Show()
+WaitFor Req
+Sizlik.MoveTo 0, 683
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Sizlik.Show()
+WaitFor Req
+Birdie.MoveTo 803, 222
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Birdie.Show
+Set Req = Birdie.Speak("Hello guys")
+WaitFor Req
+Set Req = Sizlik.Speak("Hello!")
+WaitFor Req
+Set Req = Spaceman.Speak("Hello!")
+WaitFor Req
+Set Req = Max.Speak("Hello!")
+WaitFor Req
+Set Req = Marge.Speak("Hello!")
+WaitFor Req
+Set Req = Reaper.Speak("Hello!")
+WaitFor Req
+Set Req = Woo.Speak("Hello!")
+WaitFor Req
+Set Req = Peedy.Speak("Hello!")
+WaitFor Req
+Set Req = Cupid.Speak("Hello!")
+WaitFor Req
+Set Req = Plany.Speak("Hello!")
+WaitFor Req
+Set Req = Ozzar.Speak("Hello!")
+WaitFor Req
+Set Req = Oscar.Speak("Hello!")
+WaitFor Req
+Set Req = Claude.Speak("Hello!")
+WaitFor Req
+Set Req = Check.Speak("Hello!")
+WaitFor Req
+Set Req = Cami.Speak("Hello!")
+WaitFor Req
+Set Req = Alien.Speak("Hello!")
+WaitFor Req
+Set Req = Wabbit.Speak("Hello!")
+WaitFor Req
+Set Req = Cupid.Speak("Beep?")
+WaitFor Req
+Set Req = Peedy.Speak("Yes")
+WaitFor Req
+Set Req = Spaceman.Speak("All listen to Birdie?")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes")
+WaitFor Req
+Marge.Speak "All yes."
+Marge.Play "Connect"
+Marge.Play "File Nails"
+Marge.Play "File Nails Return"
+Marge.Play "Blink"
+Marge.Play "Blink"
+Marge.Play "Blink"
+Set Req = Marge.Speak("Listening")
+WaitFor Req
+Birdie.Speak "A while ago he has a working computer that use to get blue screens every now and then, but suddenly blue screens started to increase over time."
+Birdie.Speak "He then decided to run memtest on his Corsair 8gb Vengeance memory and it returned errors."
+Birdie.Speak "Also around that time, He noticed that his Corsair tx850 v2 was making a scary ticking noise! By that time he immediately RMAed both PSU and RAM to Corsair to avoid further damage to his older computer."
+Birdie.Speak "His old computer was actually booting."
+Birdie.Speak "So when he got my Corsair PSU and ram back from almost a month long RMA period, he hooked up the PSU and RAM to his older computer, and nothing booted at all."
+Birdie.Speak "The green light on my motherboard's power button would glow green when he hook up the PSU to the wall jack, but when he press that power button to boot, the fans would spin for around one millisecond, then everything shuts down including the fan on the PSU."
+Birdie.Speak "At that time he immediately called Corsair technical support and they told him to maybe try the PSU and RAM on another computer, so he tried it on his brand new computer"
+Birdie.Speak "Before he tried it on the new computer, he tried the paperclip test and it passed only when he linked the green wire with only a few of the black wires on the 24pin connector."
+Birdie.Speak "Some of the black wires wouldn't make the fan spin when he connect them to the green wire and Ironically does the same exact millisecond fan spin followed by a halt."
+Birdie.Speak "That same exact day he got the new parts for his new computer, he tried the PSU and RAM."
+Birdie.Speak "These parts are literally 30 minutes old out of the box and the same thing happened."
+Birdie.Speak "The system wouldn't boot and the fans spin for about a millisecond, then nothing would happen at all."
+Set Req = Birdie.Speak("Most likely the PSU caused permanent damage to both computers.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "His system seems to get a BSOD under a lot of stress. The errors vary, and are usually mostly zeroes in the number but he know a BSOD is a hardware failure."
+Birdie.Speak "He remember one was 'MEMORY_MANAGEMENT'."
+Birdie.Speak "The first thing he did was disable AMD OverDrive for his graphics card because overclocking often causes some sort of instability but he got the same thing."
+Birdie.Speak "Then he left it for 2 days running, no BSOD, so he knows it's only under stress."
+Birdie.Speak "He does however have a hunch that it is related to the graphics card. He sometimes notice 'artifacts' on the image a few minutes before the crash."
+Birdie.Speak "Since the motherboard is made by the manufacturer, Acer, I assume the PSU is too."
+Set Req = Birdie.Speak("He's wondering if his PSU was not powerful enough to deal with a lot of stress.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.MoveTo 673, 55
+Birdie.Speak "He built a PC with the CPU being Intel Core i7-870"
+Birdie.Speak "Built tower, tested, lasted less than 5 minutes and it made a bang!"
+Birdie.Speak "Huge bang that sounded like a .22 pistol went off. Then the computer shut off."
+Birdie.Speak "No smoke, No smell, No tripped breaker, as the build desk light is still on.."
+Birdie.Speak "He tried to press the power button but the computer didn't turn on"
+Birdie.Speak "He checked the back, it's on.. check the surge strip, not tripped."
+Birdie.Speak "He swapped it with a generic old 350watt psu to see if it will post, but it posted and booted up."
+Set Req = Birdie.Speak("He tried to test the affected PSU, but there is no sign of life.")
+WaitFor Req
+Set Req = Spaceman.Speak("Exit news?")
+WaitFor Req
+Set Req = Cupid.Speak("Beep?")
+WaitFor Req
+Set Req = Plany.Speak("Yes")
+WaitFor Req
+Set Req = Marge.Speak("Yes")
+WaitFor Req
+Set Req = Oscar.Play("Surprised")
+WaitFor Req
+Claude.Speak "This news is interesting. So let's exit."
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

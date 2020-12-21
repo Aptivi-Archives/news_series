@@ -1,0 +1,413 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Genie=Genie.acs
+Isabella=Isabella.acs
+Max=Max.acs
+Milton=Milton.acs
+Oscar=Oscar.acs
+Ozzar=Ozzar.acs
+Peedy=Peedy.acs
+Plany=Plany.acs
+Cupid=Cupid.acs
+Reaper=Reaper.acs
+Woo=Woo.acs
+Wartnose=Wartnose.acs
+Wabbit=Wabbit.acs
+Vrgirl=Vrgirl.acs
+Sizlik=Sizlik.acs
+Spaceman=Spaceman.acs
+Check=Check.acs
+Birdie=Birdie.acs
+
+[LanguageIDs]
+Genie=&H409
+Isabella=&H409
+Max=&H409
+Milton=&H409
+Oscar=&H409
+Ozzar=&H409
+Peedy=&H409
+Plany=&H409
+Cupid=&H409
+Reaper=&H409
+Woo=&H409
+Wartnose=&H409
+Wabbit=&H409
+Vrgirl=&H409
+Sizlik=&H409
+Spaceman=&H409
+Check=&H409
+Birdie=&H409
+
+[Script]
+Genie.MoveTo 1320, 736
+Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Genie.Show
+Genie.Speak "\Chr=""Monotone""\\Map=""\Pit=87\\Spd=130\Looking \Pit=62\at \Pit=98\Power \Pit=92\Supply \Pit=73\Explosion,  \Pit=87\Looks \Pit=62\like \Pit=98\Wartnose \Pit=92\in \Pit=73\monster""=""Looking at Power Supply Explosion, Looks like Wartnose in monster.""\"
+Genie.Speak "Good " & GetTimeOfDay() & "!  It is " & GetTime() & " on " & GetDay() & ", " & GetDate() & "."
+Genie.Speak "Good at\Map=""PSU""=""Power Supply""\Explosion Forums."
+Set Req = Genie.Speak("Go!")
+WaitFor Req
+Isabella.MoveTo 1228, 683
+Isabella.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Isabella.Show()
+WaitFor Req
+Max.MoveTo 1191, 746
+Max.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Max.Show()
+WaitFor Req
+Milton.MoveTo 1127, 748
+Milton.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Milton.Show()
+WaitFor Req
+Set Req = Max.Speak("I'm small")
+WaitFor Req
+Set Req = Milton.Speak("Me too.")
+WaitFor Req
+Oscar.MoveTo 1066, 747
+Oscar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Oscar.Show()
+WaitFor Req
+Ozzar.MoveTo 1000, 751
+Ozzar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Ozzar.Show()
+WaitFor Req
+Peedy.MoveTo 913, 750
+Peedy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Peedy.Show()
+WaitFor Req
+Plany.MoveTo 834, 785
+Plany.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Plany.Show()
+WaitFor Req
+Cupid.MoveTo 701, 707
+Cupid.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Cupid.Show
+Set Req = Cupid.Speak("Beep?")
+WaitFor Req
+Set Req = Plany.Speak("Yes.")
+WaitFor Req
+Reaper.MoveTo 624, 690
+Reaper.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273007}"
+Set Req = Reaper.Show()
+WaitFor Req
+Woo.MoveTo 512, 688
+Woo.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Woo.Show()
+WaitFor Req
+Wartnose.MoveTo 476, 746
+Wartnose.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273003}"
+Set Req = Wartnose.Show()
+WaitFor Req
+Wabbit.MoveTo 360, 685
+Wabbit.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Wabbit.Show()
+WaitFor Req
+Vrgirl.MoveTo 320, 750
+Vrgirl.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Vrgirl.Show()
+WaitFor Req
+Sizlik.MoveTo -4, 688
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Sizlik.Show()
+WaitFor Req
+Spaceman.MoveTo 168, 790
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Spaceman.Show()
+WaitFor Req
+Check.MoveTo 264, 748
+Check.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Check.Show()
+WaitFor Req
+Birdie.MoveTo 1241, 24
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Birdie.Show()
+WaitFor Req
+Set Req = Genie.Speak("Welcome to News 21, This new has 8 stories.")
+WaitFor Req
+Set Req = Check.Speak("Looks like an explosion in PSU.")
+WaitFor Req
+Set Req = Spaceman.Speak("Hello Guys?")
+WaitFor Req
+Set Req = Spaceman.Speak("How are you?")
+WaitFor Req
+Set Req = Sizlik.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Check.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Vrgirl.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Wabbit.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Wartnose.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Woo.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Reaper.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Cupid.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Plany.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Peedy.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Ozzar.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Oscar.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Milton.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Max.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Isabella.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Genie.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Birdie.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Spaceman.Speak("All listen to Birdie now?")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes.")
+WaitFor Req
+Set Req = Check.Speak("Me too")
+WaitFor Req
+Set Req = Vrgirl.Speak("Me too")
+WaitFor Req
+Set Req = Wabbit.Speak("Me too")
+WaitFor Req
+Set Req = Wartnose.Speak("Me too")
+WaitFor Req
+Set Req = Woo.Speak("Me too")
+WaitFor Req
+Set Req = Reaper.Speak("Me too")
+WaitFor Req
+Set Req = Cupid.Speak("Me too")
+WaitFor Req
+Set Req = Plany.Speak("Me too")
+WaitFor Req
+Set Req = Peedy.Speak("Me too")
+WaitFor Req
+Set Req = Ozzar.Speak("Me too")
+WaitFor Req
+Set Req = Oscar.Speak("Me too")
+WaitFor Req
+Set Req = Max.Speak("Me too")
+WaitFor Req
+Set Req = Isabella.Speak("Me too")
+WaitFor Req
+Set Req = Genie.Speak("Me too")
+WaitFor Req
+Set Req = Milton.Speak("Me too")
+WaitFor Req
+Birdie.Speak "You can speak anything in 3 minutes then I'll come back and you're quiet after performing this operation and I'll come back to Start News 21."
+Set Req = Birdie.Hide()
+WaitFor Req
+Set Req = Milton.Speak("Why Birdie?")
+WaitFor Req
+Birdie.Show
+Birdie.Speak "Because I'll start News 23 soon."
+Set Req = Birdie.Hide()
+WaitFor Req
+Set Req = Wartnose.Speak("Unexpected ,I have advertisement, So, I advertised you.")
+WaitFor Req
+Set Req = Sizlik.Speak("\Pit=400\\Spd=190\Don't Advertise My Friend")
+WaitFor Req
+Set Req = Vrgirl.Speak("Hey! Wartnose?")
+WaitFor Req
+Spaceman.Speak "What you would do with kids?"
+Set Req = Spaceman.Speak("What you do last earlier in News 2 with kids?")
+WaitFor Req
+Sizlik.Speak "I will take the money from kids if they have money"
+Set Req = Sizlik.Speak("I windows-ized him")
+WaitFor Req
+Genie.MoveTo 1330, 2
+Genie.Speak "We will wait for opening a website"
+Set Req = Genie.Speak("Can I search it?")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes")
+WaitFor Req
+Set Req = Milton.Speak("Only 1 minute left.")
+WaitFor Req
+Set Req = Wartnose.Speak("Relaxing in the kids with me I kill him.")
+WaitFor Req
+Set Req = Plany.Speak("Did you kill Sizlik's kids, Wartnose?")
+WaitFor Req
+Set Req = Wartnose.Speak("No, But I killed them a half of it.")
+WaitFor Req
+Set Req = Sizlik.Speak("Half of it?")
+WaitFor Req
+Set Req = Wartnose.Speak("Yes.")
+WaitFor Req
+Set Req = Cupid.Speak("I beeped at you, Wartnose.")
+WaitFor Req
+Wartnose.Play "Fart"
+Set Req = Wartnose.Play("Surprised")
+WaitFor Req
+Wabbit.Play "DoMagic1"
+Wabbit.Play "DoMagic3"
+Wabbit.Play "Write"
+Set Req = Wabbit.Play("WriteContinued")
+WaitFor Req
+Set Req = Plany.Speak("You'll write.")
+WaitFor Req
+Set Req = Spaceman.Speak("I'll set the timer as 30 seconds then I'll communicate Birdie, If they are still speaking, they'll exit.")
+WaitFor Req
+Set Req = Wartnose.Speak("I want to speak much.")
+WaitFor Req
+Genie.Speak "I'll restore my place as Wabbit's place."
+Genie.MoveTo 384, 586
+Set Req = Genie.Speak("Wabbit, Sit at the first one.")
+WaitFor Req
+Set Req = Wabbit.MoveTo(1298, 686)
+WaitFor Req
+Set Req = Genie.MoveTo(388, 741)
+WaitFor Req
+Set Req = Wartnose.Speak("Why you are changing places, Genie?")
+WaitFor Req
+Woo.Speak "Leave him alone Wartnose."
+Set Req = Woo.Speak("Or you'll get the punishment from Birdie.")
+WaitFor Req
+Set Req = Cupid.Speak("Punishment means say Beep at some people?")
+WaitFor Req
+Set Req = Reaper.Speak("Yes.")
+WaitFor Req
+Spaceman.Speak "Genie?"
+Set Req = Spaceman.Speak("Why you are changing places?")
+WaitFor Req
+Cupid.MoveTo 125, 642
+Cupid.Speak "Beep Spaceman, Punishment, I'll ask Birdie."
+Set Req = Cupid.MoveTo(705, 708)
+WaitFor Req
+Set Req = Spaceman.Speak("No, No, No, Noooo, I'll say bad words, hfiufnsidf.")
+WaitFor Req
+Set Req = Milton.Speak("I'd have Spaceman from the Stargate, Cupid.")
+WaitFor Req
+Cupid.MoveTo 117, 633
+Cupid.Speak "Or you'll get the stargate, This is the last time."
+Set Req = Cupid.MoveTo(700, 707)
+WaitFor Req
+Set Req = Wartnose.Speak("Spaceman Punished or not?")
+WaitFor Req
+Set Req = Cupid.Speak("Yes, But partially, means last time.")
+WaitFor Req
+Set Req = Spaceman.Play("Communicate")
+WaitFor Req
+Birdie.Show
+Set Req = Birdie.MoveTo(150, 666)
+WaitFor Req
+Set Req = Spaceman.Speak("I communicated you, Birdie.")
+WaitFor Req
+Birdie.MoveTo 1259, 22
+Set Req = Birdie.Speak("OK.")
+WaitFor Req
+Set Req = Wabbit.Speak("What's happening on this?")
+WaitFor Req
+Set Req = Birdie.Speak("Wartnose and Spaceman asked Genie and Wabbit question while Genie and Wabbit needs to change places.")
+WaitFor Req
+Wabbit.Speak "I'll write it for you."
+Wabbit.Play "Write"
+Wabbit.Play "WriteContinued"
+Wabbit.Play "WriteReturn"
+Wabbit.MoveTo 1149, -28
+Set Req = Wabbit.Speak("Here are their punishment from you.")
+WaitFor Req
+Birdie.Speak "Your writing are good."
+Birdie.Speak "Let's read it for Wabbit's story guys."
+Set Req = Birdie.Speak("Wabbit say: Cupid and Woo says that the punishment rules, and Genie and Wabbit change their places, While this, Spaceman and Wartnose says them a question.")
+WaitFor Req
+Wabbit.Speak "I'll report you Birdie."
+Set Req = Wabbit.MoveTo(1303, 684)
+WaitFor Req
+Birdie.MoveTo 327, 600
+Set Req = Birdie.Speak("Spaceman, Wartnose?")
+WaitFor Req
+Set Req = Wartnose.Speak("Yes.")
+WaitFor Req
+Set Req = Spaceman.Speak("Yes.")
+WaitFor Req
+Set Req = Birdie.Speak("You have a punishment from Wabbit and Cupid, Completely exit or Stargate.")
+WaitFor Req
+Set Req = Wartnose.Hide()
+WaitFor Req
+Set Req = Spaceman.Play("stargate")
+WaitFor Req
+Birdie.MoveTo 1245, 23
+Set Req = Birdie.Speak("Ready News.")
+WaitFor Req
+Set Req = Cupid.Speak("All ready from this new.")
+WaitFor Req
+Birdie.Speak "Oh my gosh, There are sad."
+Birdie.MoveTo 329, 352
+Birdie.Speak "He turned his computer on and when he got to his Desktop, Mouse and Keyboard not working, Both lights are off but Microphone and Mixamp were still lit up."
+Birdie.Speak "Mouse and Keyboard are plugged into Motherboard's USB.3 ports, Microphone is plugged into Motherboard's USB.2 and Mix Amp is plugged into Front panel USB.2."
+Birdie.Speak "He forgot to check and see if his PS/2 Keyboard was working because He had it tucked away for when he need the BIOS."
+Birdie.MoveTo 323, 121
+Birdie.Speak "He was just playing a game on his 3-year old PC when suddenly, with no reason, sparks flew out of the back of his PSU and the fuse blew."
+Birdie.Speak "First he took out the power cable and he got the flashlight to look for any visual damage on/in his PC and there was absolutely nothing to see."
+Set Req = Birdie.Speak("He now he was writing this message from that PC.")
+WaitFor Req
+Set Req = Cupid.Speak("Nothing at all, But you must have thing or it will explode, Sorrily like you get the Unknown Graphics Card.")
+WaitFor Req
+Set Req = Sizlik.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "He worked a 14 hour day yesterday, and with thunderstorms in the forecast, He decided to unplug his computer before leaving."
+Birdie.Speak "When he got home, He plugged his computer in, powered it up...and nothing."
+Birdie.Speak "No beep, No BIOS, Nothing Nothing..........Swapped cards, tried again, and nothing nothing..........So he walked out of room, and with his back turned, heard a weird kind of popping noise."
+Birdie.Speak "Turned around, and saw that some smoke or dust was coming from his PSU."
+Birdie.MoveTo 452, 263
+Set Req = Birdie.Speak("Realised you that will Ready for Next...................Say it Sizlik.")
+WaitFor Req
+Set Req = Sizlik.Speak("Ready for Next.")
+WaitFor Req
+Birdie.Speak "He booted it for 1st time the screen wouldn't get a signal and he heard some scrapping and grinding noises.......After 20 seconds He heard a really loud pop sound and the computer shut off, The lights in house also off."
+Set Req = Birdie.Speak("he restarted and nothing nothing..........This can be like no electricity like Syria.")
+WaitFor Req
+Set Req = Cupid.Speak("Syria?")
+WaitFor Req
+Set Req = Sizlik.Speak("All live in Syria?")
+WaitFor Req
+Set Req = Reaper.Speak("Yes.")
+WaitFor Req
+Set Req = Milton.Speak("Yes.")
+WaitFor Req
+Set Req = Sizlik.Speak("Ready for then")
+WaitFor Req
+Birdie.MoveTo 413, 291
+Birdie.Speak "He are turning on his computer, and after 20 seconds it shut down.....His PSU exploded."
+Birdie.Speak "After replacing it, His LAN would be nothing nothing......Lan Light which is Orange.........."
+Birdie.Speak "Motherboard is:"
+Birdie.Speak "EMX-IG31-AVL."
+Birdie.Speak "Windows 7 32-bit."
+Set Req = Birdie.MoveTo(332, 340)
+WaitFor Req
+Set Req = Reaper.Speak("Ready for Next.")
+WaitFor Req
+Birdie.Speak "He turned his computer on and when he playing Minecraft (not this, Turn his computer on and nothing), After 15 minutes, His CPU exploded."
+Birdie.Speak "CPU temperature was 80 Degrees at the time."
+Birdie.Speak "He change from 230V to 115V (Like Marlin say) hoping thet the power would lower the performance and the computer went (Boom!)."
+Birdie.MoveTo 338, 47
+Birdie.Speak "Router kept shutting off itself, restarting, etc."
+Birdie.Speak "He called a technician, and guys told him to plug the power cable (router) to the wall outlet, saying that may have been the problem."
+Birdie.Speak "He moved it from first to second outlet."
+Birdie.Speak "Started up the computer, Everything fine."
+Birdie.Speak "Listened the music and Boom!"
+Birdie.Speak "It sounded like the sounds coming from PSU."
+Birdie.Speak "He unplug and replug the PSU, but the computer won't attempt to turn it back on."
+Birdie.Speak "Blue light on the motherboard is coming (power light or something) but the computer is still not turned on."
+Birdie.MoveTo 521, 190
+Birdie.Speak "Plugged in his computer to 220v accidentally!"
+Birdie.Speak "It's 110v."
+Birdie.Speak "Turn his computer on then Boom!"
+Birdie.Speak "He know he can just change the Power Supply Unit."
+Set Req = Birdie.Speak("He won't be able to buy a brand new PSU till July 31, 2011 and be able to test it out.")
+WaitFor Req
+Sizlik.Speak "Exit News."
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

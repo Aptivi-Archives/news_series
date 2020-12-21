@@ -1,0 +1,133 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Al=Al.acs
+Cathie=Cathie.acs
+Charlie=Charlie.acs
+Debbie=Debbie.acs
+Electra=Electra.acs
+Isabella=Isabella.acs
+Max=Max.acs
+Robby=Robby.acs
+Santa=Santa.acs
+Spaceman=Spaceman.acs
+Sizlik=Sizlik.acs
+Birdie=Birdie.acs
+
+[LanguageIDs]
+Al=&H409
+Cathie=&H409
+Charlie=&H409
+Debbie=&H409
+Electra=&H409
+Isabella=&H409
+Max=&H409
+Robby=&H409
+Santa=&H409
+Spaceman=&H409
+Sizlik=&H409
+Birdie=&H409
+
+[Script]
+Al.MoveTo 1296, 742
+Al.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Al.Show()
+WaitFor Req
+Cathie.MoveTo 1179, 677
+Cathie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Cathie.Show()
+WaitFor Req
+Charlie.MoveTo 1057, 704
+Charlie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Charlie.Show()
+WaitFor Req
+Debbie.MoveTo 940, 680
+Debbie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Debbie.Show()
+WaitFor Req
+Electra.MoveTo 863, 739
+Electra.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Electra.Show()
+WaitFor Req
+Isabella.MoveTo 776, 680
+Isabella.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Isabella.Show()
+WaitFor Req
+Max.MoveTo 724, 743
+Max.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Max.Show()
+WaitFor Req
+Robby.MoveTo 636, 740
+Robby.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273006}"
+Set Req = Robby.Show()
+WaitFor Req
+Santa.MoveTo 551, 734
+Santa.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Santa.Show()
+WaitFor Req
+Spaceman.MoveTo 457, 783
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Spaceman.Show()
+WaitFor Req
+Sizlik.MoveTo 269, 683
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Sizlik.Show()
+WaitFor Req
+Birdie.MoveTo 1281, 111
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Birdie.Show()
+WaitFor Req
+Set Req = Al.Speak("I'm the new for your news Birdie.")
+WaitFor Req
+Set Req = Birdie.MoveTo(1273, -5)
+WaitFor Req
+Set Req = Robby.Speak("What new.")
+WaitFor Req
+Set Req = Charlie.Speak("\Pit=367\OK, All Listen to Birdie?")
+WaitFor Req
+Al.MoveTo 1299, 740
+Set Req = Al.Speak("Yes")
+WaitFor Req
+Set Req = Cathie.Speak("\Chr=""Whisper""\Yes")
+WaitFor Req
+Set Req = Debbie.Speak("\Chr=""Whisper""\Yes")
+WaitFor Req
+Set Req = Electra.Speak("Yes")
+WaitFor Req
+Set Req = Isabella.Speak("Yes")
+WaitFor Req
+Set Req = Max.Speak("Yes")
+WaitFor Req
+Set Req = Robby.Speak("Yes")
+WaitFor Req
+Set Req = Santa.Speak("Yes")
+WaitFor Req
+Set Req = Spaceman.Speak("Yes")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes")
+WaitFor Req
+Birdie.Speak "OK, Let me move."
+Birdie.MoveTo 390, 228
+Birdie.Speak "Just a moment ago.. first when he started one PC it wasn't even turning on.. then he changed the power cord .. still nothing then he used another electricity source and the PC finally turned on (He noticed that putting in the power cord was really hard and like it's not in all the way)."
+Birdie.Speak "Then he got the DVI cable and he think dropped it on the top of the case (just where the PSU is, above it)."
+Set Req = Birdie.Speak("Then the electric sparks as big as him started to appear with a terrible sound... is that normal? or is the PSU broken? What if he has touched the case with hand?")
+WaitFor Req
+Set Req = Charlie.Speak("Your news are good")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.MoveTo 412, 312
+Birdie.Speak "Recently he built a PC for a friend of his's. In the beginning everything went well, the computer booted without any problems so we moved it to another room to start installing Windows."
+Set Req = Birdie.Speak("But then (the second boot) PSU exploded.")
+WaitFor Req
+Set Req = Spaceman.Speak("Exit News?")
+WaitFor Req
+Santa.Speak "Yes"
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

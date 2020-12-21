@@ -1,0 +1,378 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Milton=Milton.acs
+Wabbit=Wabbit.acs
+Birdie=Birdie.acs
+Genie=Genie.acs
+Wartnose=Wartnose.acs
+Spaceman=Spaceman.acs
+Sizlik=Sizlik.acs
+Hanz=Hanz.acs
+Max=Max.acs
+Oscar=Oscar.acs
+Ozzar=Ozzar.acs
+Peedy=Peedy.acs
+Plany=Plany.acs
+Marge=Marge.acs
+Check=Check.acs
+Joe=Joe.acs
+Cupid=Cupid.acs
+
+[LanguageIDs]
+Milton=&H409
+Wabbit=&H409
+Birdie=&H409
+Genie=&H409
+Wartnose=&H409
+Spaceman=&H409
+Sizlik=&H409
+Hanz=&H409
+Max=&H409
+Oscar=&H409
+Ozzar=&H409
+Peedy=&H409
+Plany=&H409
+Marge=&H409
+Check=&H409
+Joe=&H409
+Cupid=&H409
+
+[Script]
+Milton.MoveTo 1220, 746
+Milton.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Milton.Show
+Set Req = Milton.Speak("Wabbit's place is the first of Genie's place, But Genie changed.")
+WaitFor Req
+Wabbit.MoveTo 1288, 686
+Wabbit.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Wabbit.Show()
+WaitFor Req
+Set Req = Milton.Speak("Did you report Birdie what I've heard that Wartnose and Spaceman are arguing?")
+WaitFor Req
+Set Req = Wabbit.Speak("I reported him.")
+WaitFor Req
+Set Req = Milton.Speak("Birdie is coming soon.")
+WaitFor Req
+Birdie.MoveTo 1129, 734
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Birdie.Show
+Set Req = Birdie.Speak("Did you report me, Wabbit?")
+WaitFor Req
+Set Req = Wabbit.Speak("Yes.")
+WaitFor Req
+Birdie.MoveTo 1310, -22
+Set Req = Birdie.Speak("I'm alone, But Genie must be here next to Wartnose.")
+WaitFor Req
+Genie.MoveTo 316, 744
+Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Genie.Show()
+WaitFor Req
+Wartnose.MoveTo 391, 745
+Wartnose.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273003}"
+Set Req = Wartnose.Show()
+WaitFor Req
+Spaceman.MoveTo 221, 788
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Spaceman.Show()
+WaitFor Req
+Sizlik.MoveTo 0, 687
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Sizlik.Show()
+WaitFor Req
+Hanz.MoveTo 1134, 790
+Hanz.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Hanz.Show()
+WaitFor Req
+Max.MoveTo 1028, 745
+Max.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Max.Show()
+WaitFor Req
+Oscar.MoveTo 968, 744
+Oscar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Oscar.Show()
+WaitFor Req
+Ozzar.MoveTo 905, 746
+Ozzar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Ozzar.Show()
+WaitFor Req
+Peedy.MoveTo 809, 746
+Peedy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Peedy.Show()
+WaitFor Req
+Plany.MoveTo 736, 784
+Plany.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Plany.Show()
+WaitFor Req
+Marge.MoveTo 582, 730
+Marge.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Marge.Show()
+WaitFor Req
+Check.MoveTo 131, 746
+Check.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Check.Show()
+WaitFor Req
+Joe.MoveTo 469, 752
+Joe.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Joe.Show()
+WaitFor Req
+Set Req = Wartnose.Speak("I make the kids fart.")
+WaitFor Req
+Set Req = Plany.Speak("Bad word, Wartnose?")
+WaitFor Req
+Set Req = Wartnose.Speak("Yes.")
+WaitFor Req
+Set Req = Plany.Speak("Spaceman? Communicate Cupid.")
+WaitFor Req
+Set Req = Spaceman.Play("Communicate")
+WaitFor Req
+Cupid.MoveTo 679, 613
+Cupid.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Cupid.Show
+Set Req = Cupid.Speak("Shrink away.")
+WaitFor Req
+Set Req = Milton.MoveTo(1249, 746)
+WaitFor Req
+Set Req = Hanz.MoveTo(1175, 785)
+WaitFor Req
+Set Req = Max.MoveTo(1103, 745)
+WaitFor Req
+Set Req = Oscar.MoveTo(1045, 746)
+WaitFor Req
+Set Req = Ozzar.MoveTo(980, 743)
+WaitFor Req
+Set Req = Peedy.MoveTo(894, 746)
+WaitFor Req
+Set Req = Plany.MoveTo(824, 784)
+WaitFor Req
+Cupid.MoveTo 696, 707
+Cupid.Speak "Beep Wartnose."
+Set Req = Cupid.Speak("I'll ask Birdie.")
+WaitFor Req
+Set Req = Birdie.Speak("You can speak anything in 3 minutes, and then Spaceman will communicate me, If they are arguing Wartnose or Spaceman, Then I'll take them to Stargate or exit.")
+WaitFor Req
+Set Req = Milton.Speak("Why Birdie?")
+WaitFor Req
+Birdie.Speak "Because they're happy, not arguing."
+Set Req = Birdie.Hide()
+WaitFor Req
+Set Req = Milton.Speak("Only 3 minutes left.")
+WaitFor Req
+Set Req = Wartnose.Speak("After/Before Birdie comes, I'll speak much.")
+WaitFor Req
+Set Req = Cupid.Speak("Beep Wartnose, Second Time.")
+WaitFor Req
+Set Req = Wabbit.Speak("After Birdie comes, I'll ask Birdie What's happening on this with the question mark.")
+WaitFor Req
+Cupid.Play "Flap"
+Cupid.Play "Flap"
+Cupid.Play "Flap"
+Cupid.Play "Flap"
+Cupid.Play "Flap"
+Cupid.Play "Flap"
+Cupid.Play "Flap"
+Cupid.Speak "Beepy Flap."
+Cupid.Play "ShootLeft"
+Set Req = Cupid.Speak("Shoot at you Ozzar.")
+WaitFor Req
+Wartnose.Speak "Spaceman, Argue."
+Set Req = Wartnose.Speak("Wartnose, Argue.")
+WaitFor Req
+Set Req = Cupid.Speak("Beep Wartnose, Last time.")
+WaitFor Req
+Set Req = Spaceman.Speak("Fucusgshdjshdsjdhsjdhsjdhsjdhsjdhsjhdjshd.")
+WaitFor Req
+Set Req = Marge.Speak("I don't understand this Spaceman.")
+WaitFor Req
+Set Req = Cupid.Speak("So Beep Spaceman, First Time.")
+WaitFor Req
+Set Req = Milton.Speak("Only 2 minutes left.")
+WaitFor Req
+Set Req = Wartnose.Speak("Genie, Why you are changing the places, Wabbit, Why you are changing the places? I have Windows XP to be killed.")
+WaitFor Req
+Set Req = Joe.Speak("Leave them alone (Spaceman, Wabbit), You don't have Windows XP to be killed.")
+WaitFor Req
+Set Req = Cupid.Speak("Wartnose Punished, I'll ask Birdie.")
+WaitFor Req
+Set Req = Milton.Speak("Only 1 minute left.")
+WaitFor Req
+Set Req = Spaceman.Speak("Fart, Fart, Fart Wartnose, Wabbit, Sizlik, Cupid, Marge.")
+WaitFor Req
+Set Req = Cupid.Speak("Beep Spaceman, Yellow card with red card, Last time.")
+WaitFor Req
+Set Req = Spaceman.Speak("I'll rip the yellow card and red card.")
+WaitFor Req
+Set Req = Wartnose.Speak("Restourpous City that I made it, I'll damage your PSU.")
+WaitFor Req
+Set Req = Cupid.Speak("Red Card Wartnose.")
+WaitFor Req
+Set Req = Oscar.Speak("Sneezing at Spaceman, Wartnose.")
+WaitFor Req
+Set Req = Ozzar.Speak("Three hundred seventy-five trillion, Seven hundred ninety-nine billion, one hundred eleven million, five hundred thirteen thousand, eighty-three people are arguing.")
+WaitFor Req
+Genie.Speak "Leave me alone, 15 seconds."
+Genie.Speak "14"
+Genie.Speak "13"
+Genie.Speak "12"
+Genie.Speak "11"
+Genie.Speak "10"
+Genie.Speak "9"
+Genie.Speak "8"
+Genie.Speak "7"
+Genie.Speak "6"
+Genie.Speak "5"
+Genie.Speak "4"
+Genie.Speak "3"
+Genie.Speak "2"
+Genie.Speak "1"
+Genie.Speak "Time's Up."
+Set Req = Genie.Speak("Spaceman? Communicate Birdie Now.")
+WaitFor Req
+Set Req = Spaceman.Play("Communicate")
+WaitFor Req
+Birdie.Show
+Set Req = Birdie.MoveTo(1306, -12)
+WaitFor Req
+Wabbit.MoveTo 1282, 691
+Set Req = Wabbit.Speak("What's happening on this?")
+WaitFor Req
+Birdie.MoveTo 1312, -14
+Set Req = Birdie.Speak("I don't know, Write for me.")
+WaitFor Req
+Wabbit.Play "Write"
+Wabbit.MoveTo 1189, -45
+Set Req = Wabbit.Speak("Writing for you.")
+WaitFor Req
+Birdie.Speak "Let's read it."
+Set Req = Birdie.Speak("Wabbit say: Spaceman has yellow card and red card and he want to rip it, Wartnose has been figuring that speaks bad things, ideas or something bad, Their are speaking very much, and when Genie say leave him alone, They don't leave them alone.")
+WaitFor Req
+Wabbit.MoveTo 945, -51
+Set Req = Wabbit.Speak("I want to see again.")
+WaitFor Req
+Set Req = Birdie.Speak("See.")
+WaitFor Req
+Set Req = Milton.Speak("Only 3 minutes left.")
+WaitFor Req
+Set Req = Wartnose.Speak("After/Before Birdie comes, I'll speak much.")
+WaitFor Req
+Set Req = Cupid.Speak("Beep Wartnose, Second Time.")
+WaitFor Req
+Cupid.Play "Flap"
+Cupid.Play "Flap"
+Cupid.Play "Flap"
+Cupid.Play "Flap"
+Cupid.Play "Flap"
+Cupid.Play "Flap"
+Cupid.Play "Flap"
+Cupid.Speak "Beepy Flap."
+Cupid.Play "ShootLeft"
+Set Req = Cupid.Speak("Shoot at you Ozzar.")
+WaitFor Req
+Wartnose.Speak "Spaceman, Argue."
+Set Req = Wartnose.Speak("Wartnose, Argue.")
+WaitFor Req
+Set Req = Cupid.Speak("Beep Wartnose, Last time.")
+WaitFor Req
+Set Req = Spaceman.Speak("Fucusgshdjshdsjdhsjdhsjdhsjdhsjdhsjhdjshd.")
+WaitFor Req
+Set Req = Marge.Speak("I don't understand this Spaceman.")
+WaitFor Req
+Set Req = Cupid.Speak("So Beep Spaceman, First Time.")
+WaitFor Req
+Set Req = Milton.Speak("Only 2 minutes left.")
+WaitFor Req
+Set Req = Wartnose.Speak("Genie, Why you are changing the places, Wabbit, Why you are changing the places? I have Windows XP to be killed.")
+WaitFor Req
+Set Req = Joe.Speak("Leave them alone (Spaceman, Wabbit), You don't have Windows XP to be killed.")
+WaitFor Req
+Set Req = Cupid.Speak("Wartnose Punished, I'll ask Birdie.")
+WaitFor Req
+Set Req = Milton.Speak("Only 1 minute left.")
+WaitFor Req
+Set Req = Spaceman.Speak("Fart, Fart, Fart Wartnose, Wabbit, Sizlik, Cupid, Marge.")
+WaitFor Req
+Set Req = Cupid.Speak("Beep Spaceman, Yellow card with red card, Last time.")
+WaitFor Req
+Set Req = Spaceman.Speak("I'll rip the yellow card and red card.")
+WaitFor Req
+Set Req = Wartnose.Speak("Restourpous City that I made it, I'll damage your PSU.")
+WaitFor Req
+Set Req = Cupid.Speak("Red Card Wartnose.")
+WaitFor Req
+Set Req = Oscar.Speak("Sneezing at Spaceman, Wartnose.")
+WaitFor Req
+Set Req = Ozzar.Speak("Three hundred seventy-five trillion, Seven hundred ninety-nine billion, one hundred eleven million, five hundred thirteen thousand, eighty-three people are arguing.")
+WaitFor Req
+Genie.Speak "Leave me alone, 15 seconds."
+Genie.Speak "14"
+Genie.Speak "13"
+Genie.Speak "12"
+Genie.Speak "11"
+Genie.Speak "10"
+Genie.Speak "9"
+Genie.Speak "8"
+Genie.Speak "7"
+Genie.Speak "6"
+Genie.Speak "5"
+Genie.Speak "4"
+Genie.Speak "3"
+Genie.Speak "2"
+Genie.Speak "1"
+Set Req = Genie.Speak("Time's Up.")
+WaitFor Req
+Wabbit.MoveTo 1183, -27
+Set Req = Wabbit.Speak("I've seen that funny things from Wartnose and Spaceman.")
+WaitFor Req
+Birdie.Speak "So, I'll come to Wartnose and Spaceman."
+Birdie.MoveTo 305, 606
+Set Req = Birdie.Speak("Wartnose, Spaceman?")
+WaitFor Req
+Set Req = Spaceman.Speak("Yes. Yesyeyeyeyesyyyyse.")
+WaitFor Req
+Set Req = Wartnose.Speak("Yes, Sionhsioudfd")
+WaitFor Req
+Set Req = Birdie.Speak("Bad objects, Cupid, You've seen that they are saying Yes, But after Ues, he will say a bad thing.")
+WaitFor Req
+Set Req = Cupid.Speak("Beep Spaceman and Wartnose, Giant Red Card.")
+WaitFor Req
+Set Req = Birdie.Speak("Giant Red Card, Red Card and Yellow Card must be ready for spaceman and wartnose, so I'll take you to exit or stargate.")
+WaitFor Req
+Set Req = Wartnose.Hide()
+WaitFor Req
+Set Req = Spaceman.Play("stargate")
+WaitFor Req
+Set Req = Milton.Speak("Only at Spaceman goes to Stargate.")
+WaitFor Req
+Set Req = Birdie.MoveTo(1301, 18)
+WaitFor Req
+Set Req = Wabbit.MoveTo(1294, 687)
+WaitFor Req
+Set Req = Joe.MoveTo(397, 752)
+WaitFor Req
+Set Req = Marge.MoveTo(534, 724)
+WaitFor Req
+Set Req = Cupid.MoveTo(660, 710)
+WaitFor Req
+Set Req = Plany.MoveTo(794, 787)
+WaitFor Req
+Set Req = Peedy.MoveTo(871, 749)
+WaitFor Req
+Set Req = Ozzar.MoveTo(963, 743)
+WaitFor Req
+Set Req = Oscar.MoveTo(-31, 1)
+WaitFor Req
+Set Req = Max.MoveTo(1039, 743)
+WaitFor Req
+Set Req = Oscar.MoveTo(1093, 745)
+WaitFor Req
+Set Req = Milton.MoveTo(1243, 746)
+WaitFor Req
+Wabbit.MoveTo 1291, 687
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

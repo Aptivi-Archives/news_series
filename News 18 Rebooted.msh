@@ -1,0 +1,1055 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Al=Al.acs
+Alien=Alien.acs
+Audie=Audie.acs
+Billg=Billg.acs
+Birdie=Birdie.acs
+Blanche=Blanche.acs
+Cathie=Cathie.acs
+Debbie=Debbie.acs
+Bonzi=Bonzi.acs
+Cami=Cami.acs
+Claude=Claude.acs
+Eman=Eman.acs
+Ewoman=Ewoman.acs
+Felini=Felini.acs
+Genie=Genie.acs
+Hanz=Hanz.acs
+Cupid=Cupid.acs
+Joe=Joe.acs
+Maria=Maria.acs
+Galaxygirl=Galaxygirl.acs
+Sizlik=Sizlik.acs
+Spaceman=Spaceman.acs
+Vrgirl=Vrgirl.acs
+Wabbit=Wabbit.acs
+Miku=Miku.acs
+Marge=Marge.acs
+Milton=Milton.acs
+Oscar=Oscar.acs
+Ozzar=Ozzar.acs
+Plany=Plany.acs
+Peedy=Peedy.acs
+Robby=Robby.acs
+Merlin=Merlin.acs
+Totem=Totem.acs
+Woo=Woo.acs
+Reaper=Reaper.acs
+Gar=Gar.acs
+James=James.acs
+Wartnose=Wartnose.acs
+Charlie=Charlie.acs
+Check=Check.acs
+Electra=Electra.acs
+Gourdy=Gourdy.acs
+Isabella=Isabella.acs
+Santa=Santa.acs
+
+[LanguageIDs]
+Al=&H409
+Alien=&H409
+Audie=&H409
+Billg=&H409
+Birdie=&H409
+Blanche=&H409
+Cathie=&H409
+Debbie=&H409
+Bonzi=&H409
+Cami=&H409
+Claude=&H409
+Eman=&H409
+Ewoman=&H409
+Felini=&H409
+Genie=&H409
+Hanz=&H409
+Cupid=&H409
+Joe=&H409
+Maria=&H409
+Galaxygirl=&H409
+Sizlik=&H409
+Spaceman=&H409
+Vrgirl=&H409
+Wabbit=&H409
+Miku=&H409
+Marge=&H409
+Milton=&H409
+Oscar=&H409
+Ozzar=&H409
+Plany=&H409
+Peedy=&H409
+Robby=&H409
+Merlin=&H409
+Totem=&H409
+Woo=&H409
+Reaper=&H409
+Gar=&H409
+James=&H409
+Wartnose=&H409
+Charlie=&H409
+Check=&H409
+Electra=&H409
+Gourdy=&H409
+Isabella=&H409
+Santa=&H409
+
+[Script]
+Al.MoveTo 1348, 742
+Al.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Al.Show()
+WaitFor Req
+Alien.MoveTo 1282, 749
+Alien.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Alien.Show()
+WaitFor Req
+Audie.MoveTo 1206, 750
+Audie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Audie.Show()
+WaitFor Req
+Billg.MoveTo 1121, 708
+Billg.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Billg.Show()
+WaitFor Req
+Birdie.MoveTo 716, 340
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Birdie.Show()
+WaitFor Req
+Blanche.MoveTo 1067, 682
+Blanche.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Blanche.Show()
+WaitFor Req
+Cathie.MoveTo 1015, 682
+Cathie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Cathie.Show()
+WaitFor Req
+Debbie.MoveTo 965, 688
+Debbie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Debbie.Show()
+WaitFor Req
+Bonzi.MoveTo 886, 719
+Bonzi.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Bonzi.Show()
+WaitFor Req
+Cami.MoveTo 867, 751
+Cami.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Cami.Show()
+WaitFor Req
+Claude.MoveTo 795, 738
+Claude.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Claude.Show()
+WaitFor Req
+Eman.MoveTo 757, 747
+Eman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Eman.Show
+Ewoman.MoveTo 720, 747
+Ewoman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Ewoman.Show()
+WaitFor Req
+Felini.MoveTo 641, 683
+Felini.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273007}"
+Set Req = Felini.Show()
+WaitFor Req
+Genie.MoveTo 2, 14
+Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Genie.Show()
+WaitFor Req
+Hanz.MoveTo 586, 789
+Hanz.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Hanz.Show()
+WaitFor Req
+Cupid.MoveTo 69, 11
+Cupid.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Cupid.Show()
+WaitFor Req
+Joe.MoveTo 472, 750
+Joe.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Joe.Show()
+WaitFor Req
+Maria.MoveTo 417, 747
+Maria.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Maria.Show()
+WaitFor Req
+Galaxygirl.MoveTo 242, 756
+Galaxygirl.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Galaxygirl.Show()
+WaitFor Req
+Sizlik.MoveTo 76, 688
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Sizlik.Show()
+WaitFor Req
+Spaceman.MoveTo 212, 94
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Spaceman.Show()
+WaitFor Req
+Vrgirl.MoveTo 1, 743
+Vrgirl.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Vrgirl.Show()
+WaitFor Req
+Wabbit.MoveTo 1252, 7
+Wabbit.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Wabbit.Show()
+WaitFor Req
+Miku.MoveTo 1199, 2
+Miku.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Miku.Show()
+WaitFor Req
+Marge.MoveTo 1069, 93
+Marge.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Marge.Show()
+WaitFor Req
+Milton.MoveTo 995, 75
+Milton.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Milton.Show()
+WaitFor Req
+Oscar.MoveTo 938, 114
+Oscar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Oscar.Show()
+WaitFor Req
+Ozzar.MoveTo 880, 116
+Ozzar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Ozzar.Show()
+WaitFor Req
+Plany.MoveTo 1113, 15
+Plany.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Plany.Show()
+WaitFor Req
+Peedy.MoveTo 802, 42
+Peedy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Peedy.Show()
+WaitFor Req
+Robby.MoveTo 741, 44
+Robby.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273006}"
+Set Req = Robby.Show()
+WaitFor Req
+Merlin.MoveTo 668, 51
+Merlin.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Merlin.Show()
+WaitFor Req
+Totem.MoveTo 1250, 152
+Totem.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273003}"
+Set Req = Totem.Show()
+WaitFor Req
+Woo.MoveTo 574, 31
+Woo.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Woo.Show()
+WaitFor Req
+Reaper.MoveTo 503, 36
+Reaper.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273007}"
+Set Req = Reaper.Show()
+WaitFor Req
+Gar.MoveTo 812, 167
+Gar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Gar.Show()
+WaitFor Req
+James.MoveTo 450, 33
+James.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+James.Show
+Set Req = James.Speak("Other news.")
+WaitFor Req
+Set Req = Gar.Speak("It has some Linux stories.")
+WaitFor Req
+Birdie.MoveTo 636, 370
+Birdie.Speak "You can speak anything in 3 minutes, and then Spaceman will communicate me, if any one of you are arguing, then you will exit."
+Set Req = Birdie.Hide()
+WaitFor Req
+Set Req = Milton.Speak("Only 3 minutes left.")
+WaitFor Req
+Set Req = Bonzi.Speak("I killed a quarter of your kids, Sizlik.")
+WaitFor Req
+Set Req = Sizlik.Speak("Quarter of it?")
+WaitFor Req
+Set Req = Bonzi.Speak("Yes.")
+WaitFor Req
+Set Req = Cupid.Speak("I beeped at you, Bonzi.")
+WaitFor Req
+Set Req = Galaxygirl.Speak("dionwodqwnoibfhsdualknc Linux bonzi mjwdadsnhwemwkodmas.")
+WaitFor Req
+Set Req = Cupid.Speak("Beep Spacewoman. Second time.")
+WaitFor Req
+Set Req = Maria.Speak("Only at Spaceman can exit by Stargate")
+WaitFor Req
+Set Req = Cami.Speak("Yes.")
+WaitFor Req
+Set Req = Ozzar.Speak("I object")
+WaitFor Req
+Set Req = Gar.Speak("No")
+WaitFor Req
+Set Req = Ozzar.Speak("Yes")
+WaitFor Req
+Set Req = Gar.Speak("No")
+WaitFor Req
+Set Req = Ozzar.Speak("Yes")
+WaitFor Req
+Set Req = Cupid.Speak("Beep Ozzar and Gar, first time.")
+WaitFor Req
+Set Req = Bonzi.Speak("I made the kids fart and say the same thing named dong, because he booted up Windows on his profile and everything was just fine until he opened Google Chrome and everything froze and Windows crashed, so the PC donged, very donged at the same dong expandation, so beep Cupid.")
+WaitFor Req
+Set Req = Cupid.Speak("Beep Bonzi, last time.")
+WaitFor Req
+Set Req = Galaxygirl.Speak("Only at Bonzi can exit by jungle ways.")
+WaitFor Req
+Set Req = Joe.Speak("Yes.")
+WaitFor Req
+Merlin.Speak "It looks like there is something worse than Wartnose situation."
+Set Req = Merlin.Speak("There is no Wartnose at the start.")
+WaitFor Req
+Wartnose.MoveTo 642, 371
+Wartnose.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273003}"
+Wartnose.Show
+Wartnose.Speak "I'm Birdie. I'm going to tell my story."
+Wartnose.Speak "In the next night, he shut down Windows on his profile and everything was just fatal until he closed Goooooogle Bronze and everything melted and WinExplorer restored."
+Wartnose.Speak "He tried Control + Alt + RestoreFile and there is luck."
+Wartnose.Speak "He reshutted his PC down and there is luck."
+Wartnose.Speak "He reshutted his PC in Unsafe Mode and it didn't work."
+Wartnose.Speak "Everytime he shut down his PC in non-normal mode, after the Shutting down Windows screen there is a black screen that last around 5 hours or so."
+Wartnose.Speak "He deleted his password the spinning wheel and welcome also stay up for quiet a day, and he got away from his deskbottom it seems as everything is shutting down and Steam shuts down and outdating but he's able to press any of the task icons when he attempt to shut down any program, and his cursor stops showing the loading circle and the screen becomes slightly grayer as a Responding program would and another black screen hides down in which Control + Alt + RestoreFile does work so he end up either turning on his PC by holding the power button to hard power on or just reshutting down and attempt to find a way to fix it."
+Set Req = Wartnose.Speak("He would like how to fix this problem and it is possible with re-installing Windows.")
+WaitFor Req
+Set Req = Spaceman.Speak("Wartnose? How did you manage to get in our news? You are banned!")
+WaitFor Req
+Wartnose.Speak "Nooooooooooooooooooooooooooooooooooooooooooo!"
+Set Req = Wartnose.Hide()
+WaitFor Req
+Set Req = Milton.Speak("Only 1 minute left.")
+WaitFor Req
+Set Req = Galaxygirl.Speak("You are to be killed, Bonzi.")
+WaitFor Req
+Set Req = Bonzi.Speak("No.")
+WaitFor Req
+Set Req = Galaxygirl.Speak("Yes")
+WaitFor Req
+Set Req = Bonzi.Speak("No")
+WaitFor Req
+Set Req = Cupid.Speak("Beep Spacewoman, red card with yellow card, last time.")
+WaitFor Req
+Set Req = Galaxygirl.Speak("I'll rip the yellow card and red card and to kill you with my powers, Cupid.")
+WaitFor Req
+Set Req = Cupid.Speak("Don't threaten me and my beepy things, Beep. Beep")
+WaitFor Req
+Wabbit.Speak "After Birdie comes, I'll ask birdie what happens and write for him to report to him."
+Wabbit.Play "Write"
+Wabbit.Play "WriteContinued"
+Set Req = Wabbit.Play("WriteReturn")
+WaitFor Req
+Set Req = Plany.Speak("You're right.")
+WaitFor Req
+Set Req = Peedy.Speak("There will be a 30 second countdown.")
+WaitFor Req
+Set Req = Spaceman.Speak("30")
+WaitFor Req
+Set Req = Galaxygirl.Speak("Noooooooooooooooooooooooooooo.")
+WaitFor Req
+Set Req = Bonzi.Speak("Ha, ha, ha. I will tell my story.")
+WaitFor Req
+Set Req = Cupid.Speak("Beep Bonzi, Punishment, I'll ask Birdie.")
+WaitFor Req
+Wabbit.Play "Write"
+Set Req = Wabbit.Play("WriteReturn")
+WaitFor Req
+Bonzi.MoveTo 588, 342
+Set Req = Bonzi.Speak("He was trying to create the /cte/alone file, and accidentally scrambled its contents. Now, he can't even use 'rude' anymore, and he doesn't know what else is broken.")
+WaitFor Req
+Set Req = Cupid.Speak("Beep Bonzi.")
+WaitFor Req
+Bonzi.MoveTo 890, 718
+Set Req = Bonzi.Speak("No, No, No, Noooo, I'll say bad words, jsdklfdsidf.")
+WaitFor Req
+Set Req = Galaxygirl.Speak("Bonzi punished or not?")
+WaitFor Req
+Set Req = Cupid.Speak("Yes.")
+WaitFor Req
+Robby.Speak "Everyone quiet down."
+Set Req = Robby.Speak("15")
+WaitFor Req
+Set Req = Genie.Speak("14")
+WaitFor Req
+Set Req = Cupid.Speak("13")
+WaitFor Req
+Set Req = Claude.Speak("12")
+WaitFor Req
+Set Req = Felini.Speak("11")
+WaitFor Req
+Set Req = Galaxygirl.Speak("10")
+WaitFor Req
+Set Req = Peedy.Speak("9")
+WaitFor Req
+Set Req = Eman.Speak("8")
+WaitFor Req
+Set Req = Ewoman.Speak("7")
+WaitFor Req
+Set Req = Spaceman.Speak("6")
+WaitFor Req
+Set Req = Sizlik.Speak("5")
+WaitFor Req
+Set Req = Maria.Speak("4")
+WaitFor Req
+Set Req = Woo.Speak("3")
+WaitFor Req
+Set Req = Reaper.Speak("2")
+WaitFor Req
+Set Req = Ozzar.Speak("1")
+WaitFor Req
+Merlin.Speak "0"
+Merlin.Speak "Time's up"
+Merlin.Speak "Spaceman, Communicate Birdie now."
+Set Req = Merlin.Speak("News is about to start.")
+WaitFor Req
+Set Req = Spaceman.Play("Communicate")
+WaitFor Req
+Set Req = Birdie.Show()
+WaitFor Req
+Wabbit.MoveTo 712, 323
+Wabbit.Speak "I reported to you."
+Set Req = Wabbit.Play("Read")
+WaitFor Req
+Set Req = Birdie.Speak("Wabbit say: Bonzi and Galaxy Girl has 3 warnings, and they have been punished while Cupid tries to punish them.")
+WaitFor Req
+Set Req = Wabbit.MoveTo(1262, 22)
+WaitFor Req
+Set Req = Birdie.MoveTo(326, 605)
+WaitFor Req
+Set Req = Bonzi.MoveTo(220, 594)
+WaitFor Req
+Set Req = Birdie.Speak("Bonzi, Galaxy Girl?")
+WaitFor Req
+Set Req = Bonzi.Speak("Yes.")
+WaitFor Req
+Set Req = Galaxygirl.Speak("Yes.")
+WaitFor Req
+Set Req = Birdie.Speak("You have a punishment. Completely exit.")
+WaitFor Req
+Set Req = Bonzi.Hide()
+WaitFor Req
+Set Req = Galaxygirl.Hide()
+WaitFor Req
+Set Req = James.MoveTo(203, 688)
+WaitFor Req
+Set Req = Reaper.MoveTo(248, 688)
+WaitFor Req
+Set Req = Merlin.MoveTo(338, 744)
+WaitFor Req
+Set Req = Oscar.MoveTo(909, 745)
+WaitFor Req
+Set Req = Milton.MoveTo(949, 747)
+WaitFor Req
+Set Req = Ozzar.MoveTo(1003, 71)
+WaitFor Req
+Set Req = Peedy.MoveTo(920, 116)
+WaitFor Req
+Set Req = Gar.MoveTo(940, 19)
+WaitFor Req
+Set Req = Robby.MoveTo(867, 121)
+WaitFor Req
+Set Req = Woo.MoveTo(777, 66)
+WaitFor Req
+Birdie.MoveTo 618, 348
+Set Req = Birdie.Speak("Begin News.")
+WaitFor Req
+Set Req = Spaceman.Speak("Everything is ready to listen.")
+WaitFor Req
+Set Req = Cupid.Speak("All ready for this New.")
+WaitFor Req
+Birdie.Speak "In the next morning, he booted up Windows on his profile and everything was just fine until he opened Google Chrome and everything froze and WinExplorer is crashed."
+Birdie.Speak "He tried Control + Alt + DeleteFile and no luck."
+Birdie.Speak "He restarted his PC and no luck."
+Birdie.Speak "He restarted his PC in Safe Mode and it didn't crash."
+Birdie.Speak "Everytime he start up his PC in normal mode, after the Starting Windows screen there is a black screen that last around 5 minutes or so."
+Birdie.Speak "He enter his password the spinning wheel and welcome also stay up for quiet a while, and he get to his desktop it seems as everything is running and Steam starts up and updating but he's unable to press any of the task icons when he attempt to start any program, and his cursor shows the loading circle and the screen becomes slightly grayer as a Not Responding program would and another black screen shows up in which Control + Alt + DeleteFile doesn't work so he end up either turning off his PC by holding the power button to hard shutdown or just restarting and attempt to find a way to fix it."
+Set Req = Birdie.Speak("He would like how to fix this problem and it is possible with no re-installing Windows.")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Birdie.MoveTo 536, 423
+Birdie.Speak "This has been happening for about a month or so. First, the Task Bar crashing, with the Busy icon spinning forever, no notification of errors, but at least he could still move the cursor over the bar, and after a reboot it was all fine. Also, if he was on his navigator, he could still use it if he disabled Windows Explorer via Task Manager."
+Birdie.Speak "A few weeks later, same issue, but now the Task Bar freezes completely and he can't move the cursor over that zone. And if he has programs opened, none of them responded either. He needed to reboot 3 or 4 times to make it work properly. But at the moment he's navigating using Safe Mode, since it's the only way it doesn't crash again."
+Set Req = Birdie.Speak("This freezing occurs always at a very specific time.")
+WaitFor Req
+Set Req = Reaper.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "He got a problem with his hard drive where it crashes everytime he open it."
+Birdie.Speak "He really need help solving a new issue that occurred earlier today."
+Birdie.Speak "He was recording a game play with Dxtory to a hard drive that is basically empty besides his videos."
+Birdie.Speak "Anyway after he recorded it, he went to open the files to check it was all good and he tried one and watched it and it worked, but when he tried another video... His PC froze!"
+Birdie.Speak "His computer is around 1 year old and this is the first time he's had to turn it off with the power button."
+Birdie.Speak "When he turned it back on it took like 10 minutes on the spinning dot things and then it said 'Scanning and repairing drive E:' and stays that for like another 5 minutes and finally got to his desktop and everything was cool but when he went to open the drive again from 'Computer' there was no bar underneath saying that any space was being used on it."
+Birdie.Speak "He opened it and his computer froze again so he restarted, waited 15 min, and tried again. Same thing."
+Birdie.Speak "Then the third time he left it frozen and half hour later it said something like error in parameters or something."
+Birdie.Speak "The drive is still detected and its not a hardware issue but everytime he start his PC up it takes 15 minutes and he cannot use the drive because it freezes everytime he opens it."
+Set Req = Birdie.Speak("Also, his computer seems a lot slower")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He did a clean install of Windows XP Pro Service Pack 2 and lost the three partitions on the second HD (Hitachi 250 MB)."
+Birdie.Speak "Disk Manager reported it as being unallocated space."
+Birdie.Speak "When he tried to run Partition Magic 8, it gave him an error saying that EZ-drive had been detected."
+Set Req = Birdie.Speak("So he ran CleanTrack0 on the problematic disk... now XP's Disk Manager reports the drive as 'not initialized'!")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He was running counter strike source in the background while watching YouTube."
+Birdie.Speak "Suddenly he heard a loud bang. He's not sure if it's the PSU or his AVR, then his computer restarts."
+Birdie.Speak "This happened yesterday, He has not used his computer after that, he turned it off quickly when it restarts."
+Birdie.Speak "He was running Premiere Pro CS6 and his PSU just blew up."
+Birdie.Speak "It threw a mini flame and it smelled like a melted plastic."
+Set Req = Birdie.Speak("The switch of the electricity closed and he opened the PC to see if there was any damage to the caps of the motherboard or to any other parts.")
+WaitFor Req
+Set Req = Joe.Speak("Next")
+WaitFor Req
+Birdie.Speak "He was just playing Battlefield then he heard a loud pop and the electricity went off in his room."
+Birdie.Speak "He checked the fuse box and it wouldn't turn back on."
+Birdie.Speak "He went to his room again and smelled smoke, and he then realized that his PC was toast."
+Set Req = Birdie.Speak("He unplugged it and then the fuse box went back on, all is good, except his PC is toast.")
+WaitFor Req
+Set Req = James.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "He was playing a game of Player Unknown Battle Grounds after recently cleaning his water cooling from dust, the system seemed to be running much smoother."
+Birdie.Speak "After a game, the computer crashed, the screen went white and after around 10 seconds... there was multiple pops, bangs and sparks coming from his PC!"
+Birdie.Speak "The PSU was toast but it's not really how it happened that he's bothered."
+Birdie.Speak "He bought a new PSU, the same type as it still had the warranty, but the computer starts briefly and then shuts down after half a second or so."
+Set Req = Birdie.Speak("The fans spin as the LEDs come on.")
+WaitFor Req
+Set Req = Hanz.Speak("Are you ready for next?")
+WaitFor Req
+Set Req = Joe.Speak("Yes.")
+WaitFor Req
+Set Req = Milton.Speak("Where's Bonzi?")
+WaitFor Req
+Set Req = Cupid.Speak("He is suspended until News 19 Rebooted.")
+WaitFor Req
+Birdie.Speak "He was just watching a YouTube video then he heard a pop followed shortly by a louder secondary pop and then all power to his computer was gone and would not come back on."
+Set Req = Birdie.Speak("He was curious about what could have caused it, and there wasn't a thunder storm in the area at the time")
+WaitFor Req
+Set Req = Merlin.Speak("Next.")
+WaitFor Req
+Birdie.Speak "His PC booted up and loaded great for a few days and even managed to play Elder Scrolls Online/Ultra Player vs. Entity for a decent half of a day."
+Birdie.Speak "Soon as he entered Player vs. Player, the system rebooted saying ASUS anti-surge protected the system from an unstable power supply."
+Birdie.Speak "Straight away he attempted to go back into Player vs. Player and same story cuts out."
+Birdie.Speak "He noticed it happens when a power hungry fight is being rendered and not when he's just riding around the forest."
+Birdie.Speak "He disabled the Anti-Surge protection which is wrong and it lasted a little longer but still just shut down without a message."
+Birdie.Speak "Assuming now it's the PSU he used it from his main rig which is an Alpine 500w Blue fan the same one he use in relatives systems although it is slightly more expensive."
+Birdie.Speak "Hoping this would work he didn't re-enable the anti-surge and was able to play Rome Total War 2 on highest graphic settings."
+Set Req = Birdie.Speak("He had a few large fights with plenty to render played for a good few hours until he got into another large fight then pop the PSU exploded and is now dead.")
+WaitFor Req
+Set Req = James.Speak("Alpine? Tell me about this.")
+WaitFor Req
+Set Req = Gar.Speak("Let's hear it.")
+WaitFor Req
+Birdie.Speak "So his PSU exploded the other day."
+Birdie.Speak "The brand was Alpine and He has it from Ebay."
+Birdie.Speak "When he research cheap PSUS, He saw warnings about them and decide to stress test his GFX card as he was getting info for new case."
+Birdie.Speak "All of sudden Boom-Boom!! Boom!! three bangs that sounded like Shotgun accompained by a blue flash for each bang."
+Birdie.Speak "He thought This is end of his computer upon further inspection, only the PSU has gone and the rest of the components worked fine (He know how lucky he are)."
+Set Req = Birdie.Speak("So now he know not to give his PC cheap tat from Ebay and always go with premium brands.")
+WaitFor Req
+Set Req = Genie.Speak("What is Tat?")
+WaitFor Req
+Totem.Speak "Nothing."
+Set Req = Totem.Hide()
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "He bought that power supply because his one failed in his PC which was like 8 years old at the time, so he decided to get a new cheap one."
+Birdie.Speak "After it exploded, a lot of small pieces came out of it when he removed it and he's very scared for his motherboard and CPU!"
+Birdie.Speak "He spent half a year saving up for that PC and if it would die like that he would be so upset."
+Set Req = Birdie.Speak("So now he's at the stage when he's able to purchase a new power supply but he's been reading a lot of things on situations like this and people have mixed thoughts on this.")
+WaitFor Req
+Set Req = Maria.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "A couple days ago, he was playing War Thunder and then out of nowhere his PC just shuts off."
+Birdie.Speak "He assumed there was a power outage or something because there was no warning whatsoever."
+Birdie.Speak "His PC would not come back on when he pushed the power button. he assumed the power supply went bad but it turns out it was his graphics card."
+Birdie.Speak "When he was testing another PSU his graphics card quite literally exploded!"
+Set Req = Birdie.Speak("His card was under warranty so he's in the process of getting it replaced but he's a bit nervous to test a new graphics card with a power supply that might fry it.")
+WaitFor Req
+Set Req = Ewoman.Speak("We are ready for next.")
+WaitFor Req
+Birdie.Speak "He live in a country where the voltage is 220v."
+Birdie.Speak "He bought a iBuyPower PC from the United States and therefore he used a voltage converter."
+Birdie.Speak "He recently noticed that the PC had a slider to choose the voltage at the back."
+Birdie.Speak "He swapped the slider to the wrong place, accidently and got rid of the voltage converter."
+Set Req = Birdie.Speak("He turned on the switch and heard an explosion as if his PC had been destroyed.")
+WaitFor Req
+Set Req = Reaper.Speak("Last PSU Explosion stories.")
+WaitFor Req
+Birdie.Speak "He flicked the switch behind PSU to turn on PC and it made a very loud bang!"
+Birdie.Speak "Nothing seems to be broken and he's using the same PC to type this."
+Set Req = Birdie.Speak("He was thinking something inside his PSU exploded.")
+WaitFor Req
+Set Req = Merlin.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "He was reinstalling Windows 7 to reformat the hard drive and he thinks he has deleted the recovery partition by mistake."
+Set Req = Birdie.Speak("When he go to his computer he only see the C: partition where Windows is installed, and when he go to disk manager it shows system reserved and C:.")
+WaitFor Req
+Joe.Speak "Ready for Linux stories."
+Set Req = Joe.Play("Assimilate")
+WaitFor Req
+Set Req = Birdie.Speak("He was trying to modify the /etc/group file, and accidentally cleared its contents. Now, he can't even use sudo anymore, and he doesn't know what else is broken.")
+WaitFor Req
+Set Req = Eman.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "He was trying to change his username and also his home directory (/home/username) and his system started to crash."
+Birdie.Speak "He deleted the passwd file but he had a backup named passwd_bkp."
+Birdie.Speak "He tried to rename this passwd_bkp as passwd and it did not work. No commands were being executed... He was in a terminal window."
+Birdie.Speak "He restarted his system and now he cannot log in. GRUB gives two options: Linux and recovery mode."
+Set Req = Birdie.Speak("He tried to open a sessions as root but it says the filesystem is corrupted. He cannot access his files.")
+WaitFor Req
+Set Req = Felini.Speak("Last one.")
+WaitFor Req
+Birdie.Speak "He was recently making some researches about the passwd file, and out of curiosity he deleted it."
+Birdie.Speak "After he deleted it his computer froze, and after a hard reboot it doesn't boot."
+Birdie.Speak "He found a solution on this site but it had to do with restoring a backup of the deleted file."
+Birdie.Speak "so on his own accord, he ran a live-cd and copied passwd- as the new passwd file, now the computer boots to the login screen but the screen keeps flickering with a black boot screen."
+Birdie.Speak "Hey Peedy, talk about news."
+Set Req = Birdie.Hide()
+WaitFor Req
+Set Req = Peedy.MoveTo(582, 363)
+WaitFor Req
+Set Req = Robby.MoveTo(929, 121)
+WaitFor Req
+Set Req = Woo.MoveTo(837, 66)
+WaitFor Req
+Set Req = Ozzar.Speak("I'm tired.")
+WaitFor Req
+Oscar.Speak "Me too."
+Set Req = Oscar.Hide()
+WaitFor Req
+Set Req = Ozzar.Hide()
+WaitFor Req
+Set Req = Robby.MoveTo(981, 121)
+WaitFor Req
+Set Req = Gar.MoveTo(1016, 20)
+WaitFor Req
+Set Req = Woo.MoveTo(897, 66)
+WaitFor Req
+Set Req = Cami.MoveTo(904, 751)
+WaitFor Req
+Set Req = Claude.MoveTo(842, 738)
+WaitFor Req
+Set Req = Eman.MoveTo(808, 747)
+WaitFor Req
+Set Req = Ewoman.MoveTo(770, 747)
+WaitFor Req
+Set Req = Felini.MoveTo(704, 687)
+WaitFor Req
+Set Req = Hanz.MoveTo(670, 788)
+WaitFor Req
+Set Req = Joe.MoveTo(576, 751)
+WaitFor Req
+Set Req = Maria.MoveTo(530, 747)
+WaitFor Req
+Set Req = Merlin.MoveTo(446, 747)
+WaitFor Req
+Set Req = Reaper.MoveTo(360, 688)
+WaitFor Req
+Set Req = Woo.MoveTo(299, 686)
+WaitFor Req
+Set Req = Gar.MoveTo(267, 751)
+WaitFor Req
+Peedy.Speak "When installing\Map=""X Free Eighty Six""=""XFree86""\ via graphical interface, his mouse pointer jumps all over the screen and clicks buttons even though he is not clicking. He is trying to install Debian 2.2"
+Peedy.Speak "He has tried both Logitech and Microsoft wheel-mice, and get the same behavior. There is no reboots."
+Peedy.Speak "His mouse has a PS/2 type plug so these are the setting he chose:"
+Peedy.Speak "Microsoft, /dev/psaux, and kept all the other defaults"
+Set Req = Peedy.Hide()
+WaitFor Req
+Set Req = Spaceman.Speak("Exit news?")
+WaitFor Req
+Set Req = Gar.Speak("Yes, after something.")
+WaitFor Req
+Set Req = Merlin.Speak("psaux is PS/2 Auxillary Mouse")
+WaitFor Req
+Set Req = Joe.Speak("Let's do News 30.")
+WaitFor Req
+Set Req = Spaceman.Speak("Cupid will say people's involved names, and we are all ready.")
+WaitFor Req
+Genie.MoveTo 0, 36
+Set Req = Genie.Speak("Anyone who isn't involved in News 30 will exit.")
+WaitFor Req
+Cupid.Speak "Anyone who is involved and isn't here will come."
+Cupid.Speak "I will now say a list of people who is involved:"
+Cupid.Speak "Al, Alien, Blanche, Cami, Cathie, Charlie, Check, Debbie, Electra, Felini, Genie, Gourdy, Hanz, Isabella, Merlin, Reaper, Santa, Sizlik, Spaceman, Birdie, Wartnose."
+Cupid.Speak "I am not involved, so I will exit."
+Cupid.Speak "Goodbye."
+Set Req = Cupid.Hide()
+WaitFor Req
+Woo.Speak "3"
+Woo.Speak "2"
+Woo.Speak "1"
+Set Req = Woo.Speak("Go!")
+WaitFor Req
+Reaper.Play "Twirl"
+Set Req = Reaper.Hide()
+WaitFor Req
+Set Req = Woo.Hide()
+WaitFor Req
+Set Req = Gar.Hide()
+WaitFor Req
+Set Req = James.Hide()
+WaitFor Req
+Set Req = Maria.Hide()
+WaitFor Req
+Set Req = Joe.Hide()
+WaitFor Req
+Set Req = Ewoman.Hide()
+WaitFor Req
+Set Req = Eman.Hide()
+WaitFor Req
+Set Req = Claude.Hide()
+WaitFor Req
+Set Req = Milton.Hide()
+WaitFor Req
+Set Req = Billg.Hide()
+WaitFor Req
+Set Req = Audie.Hide()
+WaitFor Req
+Set Req = Wabbit.Hide()
+WaitFor Req
+Set Req = Miku.Hide()
+WaitFor Req
+Set Req = Plany.Hide()
+WaitFor Req
+Set Req = Marge.Hide()
+WaitFor Req
+Set Req = Robby.Hide()
+WaitFor Req
+Set Req = Vrgirl.Hide()
+WaitFor Req
+Set Req = Spaceman.MoveTo(245, 786)
+WaitFor Req
+Set Req = Genie.MoveTo(1209, 746)
+WaitFor Req
+Charlie.MoveTo 546, 709
+Charlie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Charlie.Show()
+WaitFor Req
+Check.MoveTo 794, 745
+Check.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Check.Show()
+WaitFor Req
+Electra.MoveTo 379, 744
+Electra.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Electra.Show()
+WaitFor Req
+Gourdy.MoveTo 1275, 631
+Gourdy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Gourdy.Show()
+WaitFor Req
+Isabella.MoveTo 1128, 684
+Isabella.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Isabella.Show()
+WaitFor Req
+Reaper.Show
+Set Req = Reaper.Speak("Go away.")
+WaitFor Req
+Set Req = Electra.MoveTo(317, 747)
+WaitFor Req
+Santa.MoveTo 918, 614
+Santa.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Santa.Show()
+WaitFor Req
+Wartnose.Show
+Set Req = Wartnose.MoveTo(863, 630)
+WaitFor Req
+Birdie.Show
+Set Req = Birdie.Speak("Go to your places on News 30.")
+WaitFor Req
+Al.MoveTo 2, 10
+Alien.MoveTo 1342, 751
+Blanche.MoveTo 1264, 685
+Cami.MoveTo 1231, 754
+Cathie.MoveTo 1146, 683
+Charlie.MoveTo 1040, 707
+Check.MoveTo 953, 750
+Debbie.MoveTo 879, 687
+Electra.MoveTo 841, 745
+Felini.MoveTo 762, 686
+Genie.MoveTo 727, 743
+Gourdy.MoveTo 657, 737
+Hanz.MoveTo 548, 789
+Isabella.MoveTo 428, 681
+Merlin.MoveTo 394, 746
+Reaper.MoveTo 307, 688
+Santa.MoveTo 235, 735
+Sizlik.MoveTo 14, 686
+Spaceman.MoveTo 169, 791
+Birdie.MoveTo 504, 302
+Wartnose.MoveTo 237, 745
+Set Req = Wartnose.Hide()
+WaitFor Req
+Birdie.Speak "Let's go."
+Al.Speak "Position is wrong!"
+Set Req = Al.Hide()
+WaitFor Req
+Set Req = Blanche.Speak("Battery explosion!")
+WaitFor Req
+Set Req = Cami.Speak("Swill, Will it swill?")
+WaitFor Req
+Set Req = Cathie.Speak("The intro music! The intro music!")
+WaitFor Req
+Set Req = Charlie.Speak("The intro music! The intro music!")
+WaitFor Req
+Set Req = Check.Speak("The intro music! The intro music!")
+WaitFor Req
+Set Req = Debbie.Speak("The intro music! The intro music!")
+WaitFor Req
+Set Req = Electra.Speak("The intro music is not scary.")
+WaitFor Req
+Felini.Speak "The intro music! Begins!"
+Set Req = Felini.Speak("black screen.")
+WaitFor Req
+Set Req = Genie.Speak("Install Windows with no music, then OOBE (Out of box Experience.) with Music!!!")
+WaitFor Req
+Gourdy.Speak "We hate this music!"
+Set Req = Gourdy.Show()
+WaitFor Req
+Set Req = Hanz.Speak("This is the hanziest music ever.")
+WaitFor Req
+Set Req = Isabella.Speak("Username and password.")
+WaitFor Req
+Set Req = Gourdy.Speak("No.")
+WaitFor Req
+Merlin.Speak "Upper. direction, the music!"
+Merlin.MoveTo 423, 388
+Merlin.Speak "Music virus on HTML. Internet Connection"
+Set Req = Merlin.MoveTo(397, 747)
+WaitFor Req
+Set Req = Reaper.Speak("When you install Windows XP, Windows XP makes the music for you!")
+WaitFor Req
+Set Req = Sizlik.Speak("This music is very slizliky.")
+WaitFor Req
+Spaceman.Speak "Username only? We want password."
+Set Req = Spaceman.Speak("Music is gone!")
+WaitFor Req
+Set Req = Sizlik.Speak("Yeahhh!")
+WaitFor Req
+Set Req = Santa.Speak("Yeahhh!")
+WaitFor Req
+Set Req = Reaper.Speak("Yeahhh!")
+WaitFor Req
+Set Req = Merlin.Speak("Yeahhh!")
+WaitFor Req
+Birdie.Speak "I heard the wierd music!"
+Birdie.Speak "Music is gone!"
+Set Req = Birdie.Speak("Hello guys?")
+WaitFor Req
+Set Req = Electra.Speak("All hello.")
+WaitFor Req
+Birdie.Speak "It's recently come to his attention that, for last week or so, his phone will start manufacturing Tons of files inside a hidden folder called .Thumbnails! whenever he plug into charger. screen is on."
+Birdie.Speak "As he type this, there are currently 765MB worth of thumbnails files accumulated from every video file on his phone."
+Set Req = Birdie.Speak("The longer he leave it, the larger it gets!")
+WaitFor Req
+Set Req = Spaceman.Speak("Boldest font of the title of each box, so ready for next.")
+WaitFor Req
+Gourdy.MoveTo 655, 739
+Set Req = Gourdy.Speak("Bold font on each box is unreadeable.")
+WaitFor Req
+Birdie.MoveTo 286, 202
+Birdie.Speak "He wants to flash his new, corrupted ROM."
+Birdie.Speak "Reboot itself to the download mode via Odin!"
+Birdie.Speak "He are downloading ROMs, without games, apps like Google Play via Odin."
+Set Req = Birdie.Speak("His phone is stuck at Dowloading.. Do not turn off Odin!!")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Set Req = Birdie.Speak("He have been issues with battery and used to get 18+ hours (usually go 24-25 hours on a single charge.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Birdie.Speak "His power button held down."
+Set Req = Birdie.Speak("Consontantly restart and ordered, replaced the new part and works fine, Now all he get is the battery doesn't charge.")
+WaitFor Req
+Set Req = Spaceman.Speak("What is tape?")
+WaitFor Req
+Set Req = Reaper.Speak("Tape means floppy disk.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Birdie.MoveTo 317, 273
+Set Req = Birdie.Speak("He have flashed several ROMs and his battery charging is severly reduced, It won't gain more than 1% charge each hour.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Set Req = Debbie.Speak("Minecraft Forums.")
+WaitFor Req
+Birdie.Speak "He can't join the multiplayer."
+Birdie.Speak "it always lags up."
+Set Req = Birdie.Speak("It worked just 2 seconds and then kicked him out.")
+WaitFor Req
+Set Req = Spaceman.Speak("next.")
+WaitFor Req
+Birdie.MoveTo 296, 304
+Birdie.Speak "He started flat world, He build the perfect house, After exiting the game, He fell asleep."
+Birdie.Speak "He woke up and found that the home raised up and turned into lavafalls."
+Birdie.Speak "He got the brand new device, Textures were wrong after a few minutes."
+Birdie.Speak "Made them very scary."
+Set Req = Birdie.Speak("I'll view the pictures next.")
+WaitFor Req
+Set Req = Merlin.Speak("Mojang, Makers of Minecraft.")
+WaitFor Req
+Set Req = Santa.Speak("New Mojang!")
+WaitFor Req
+Set Req = Gourdy.Speak("New Mojang!")
+WaitFor Req
+Set Req = Spaceman.Speak("New Mojang!")
+WaitFor Req
+Sizlik.MoveTo 432, 557
+Sizlik.Speak "Wartnose."
+Set Req = Sizlik.MoveTo(-9, 686)
+WaitFor Req
+Set Req = Al.MoveTo(584, 748)
+WaitFor Req
+Hanz.MoveTo 514, 791
+Set Req = Wartnose.MoveTo(514, 215)
+WaitFor Req
+Set Req = Charlie.MoveTo(1032, 708)
+WaitFor Req
+Set Req = Santa.MoveTo(272, 737)
+WaitFor Req
+Wartnose.MoveTo 237, 745
+Wartnose.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273003}"
+Set Req = Wartnose.Show()
+WaitFor Req
+Set Req = Spaceman.MoveTo(152, 790)
+WaitFor Req
+Birdie.MoveTo 383, 24
+Set Req = Birdie.Speak("Sand like Lava, Red sand like nothing, Sandstones like dirt, Were unknown! Minecarts like normal and rotated, Flower like wrong position, Slabs like TNT, Stairs like TNT, Netherrack like Soul Sand and Glowstone, Unknown like Piston Up Sticky, Bedrock like Obsidian and Bedrock, Ores like next ore and this ore, Last slab like Mushrooms, Eighth slab like the dandelion and red flower, Fifth is whole TNT, Bookshelf, Side cutted bookshelf, Top Stone Cutted into 3, Grass like whole spiderweb, Fifth item act like the web and bookshelf, Fourth stair like TNT, Seventh ladder like Dandelion and Red flower, Eleventh stair like Piston Up Sticky, First stair and second slab like the cobblestone and brick stones, Logs like it's logs and other texture, Fifth stair like TNT Down and bookshelf, Dark Oak Log like Golden, Diamond and Iron Block, Iron Ore like Nether Quartz and Log Birch Sides, and other blocks & items like the other block's texture!")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Set Req = Al.Speak("Mojang.")
+WaitFor Req
+Birdie.Speak "His admin account just vanished his PC Windows 8."
+Set Req = Birdie.Speak("He can't restore his PC.")
+WaitFor Req
+Set Req = Wartnose.Speak("Next. haqa. haqa. haqa. haqa.")
+WaitFor Req
+Birdie.MoveTo 377, 146
+Birdie.Speak "Sometimes on Android 2.3.3 blocks fail to render/weird geometry is rendered."
+Set Req = Birdie.Speak("Most noticeable on high quality graphics settings.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Set Req = Gourdy.Speak("Sometimes on Android 2.3.3 blocks fail to render/weird geometry is rendered. Most noticeable on high quality graphics settings.")
+WaitFor Req
+Birdie.MoveTo 392, 146
+Set Req = Birdie.Speak("Takes a long time.")
+WaitFor Req
+Set Req = Spaceman.Speak("Takes a long time.")
+WaitFor Req
+Set Req = Birdie.Speak("All signposts are blank but when he go really close the text reappears.")
+WaitFor Req
+Set Req = Spaceman.Speak("next")
+WaitFor Req
+Birdie.MoveTo 381, 291
+Birdie.Speak "his game is somewhat large – like 300 MB."
+Birdie.Speak "It seems that about every 1/4 times that he quit, the disk size on his game has been reduced by 1 or 2 MB and various items are missing. This is extremely frustrating when he have been mining for gold and 1/4 of the gold is missing the next time he open the game. It's happened with items in his inventory, items He laid down (power rails, tracks, wood blocks, stone blocks)."
+Birdie.Speak "He have plenty of disk space on his device – over 2 GB and the game doesn't crash."
+Birdie.Speak "He would be more than happy to provide a copy of his saved game."
+Set Req = Birdie.Speak("Either way, He mention these two in the same bug because it seems they may be related (ie: file size reduced and missing items). Also, it's really frustrating b/c He spent a very long time looking for gold ...")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next on Mojang's Minecraft PE Bugs.")
+WaitFor Req
+Birdie.MoveTo 374, 352
+Set Req = Birdie.Speak("Touch and hold screen to mine something (Example cobblestone) and turn device around [Keep finger on But don't move it] (make sure there is autorotation enabled) when game turns around, turn device back [Don't move finger] and then take his finger off. He will notice that game will continue action (mine something) and he don't need to hold it. Found it really useful on Skyblock. It may be only on android, even may only be on Samsung, may only work on his device but he think its can be abused must be dealt with.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Set Req = Birdie.Speak("He slept in a bed with the ceiling too low. When he died the next day, instead of showing a message like in PC, He respawned in bedrock, suffocated, and respawned in a new world. This has happened twice before in different seeds.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Set Req = Birdie.Speak("The burning fuel icon in the furnace will not decrease if a world is closed and reopened. Items will still smelt and the fuel source will expire after the normal time period. he have only noticed this when using a lava bucket as fuel.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "The top texture of clouds is not rendered until all terrain in the player's render distance has been fully generated. This can occur both with fancy and non-fancy graphics."
+Birdie.Speak "He have tested this when flying above the clouds in creative mode with the view distance on the fifth selection (approximately 512 blocks), while near newly generating terrain."
+Set Req = Birdie.Speak("It can also occur on the clouds' bottom texture, seemingly only when the player spawns directly beneath a cloud's edge.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next with longer.")
+WaitFor Req
+Birdie.Speak "*sometimes(when naming the world) the immersive mode will mess up on the start screen covering over the app"
+Birdie.Speak "*When clicking a world to play it, it will sometime(or always) crash the app"
+Birdie.Speak "*(sometimes)when creating a world either after hitting the create button the loading screen of building the world will stop and the loading bar will stop moving or after hitting the create button before the app gets the building world screen the app will complete freeze making it impossible to exit app causing the user to shut down device. Also after the app has a failed attempt of creating a world it will show the world on the start screen with '0 MB' on the right."
+Birdie.Speak "*new stones mined will turn into regular cobblestone"
+Birdie.Speak "*'View Distance' control has a major effect on certain graphics and textures:"
+Birdie.Speak "Such as water turning black, sky turning white, world becoming grey, and mobs having a blue texture(occasionally dropped objects aswell)."
+Birdie.Speak "tall grass will have a lower view distance than most other objects"
+Birdie.Speak "*with certain woods when you try to make planks the result will be a different wood plank.(dark oak wood making acacia planks)"
+Birdie.Speak "*when submerging into the water the sky will darken creating the sky to flicker darker when swimming"
+Birdie.Speak "*wolves will sometimes not be able to be tamed, black collar might show up but the wolf will not follow you."
+Birdie.Speak "*major issues with doors:"
+Birdie.Speak "doors not making closing and opening sounds"
+Birdie.Speak "a half of the door will open and close while the other half stays"
+Birdie.Speak "weird glitch showdow inside open door"
+Birdie.Speak "*major issues with sounds:"
+Birdie.Speak "doors not making sounds(sometimes; might depend of character position)"
+Birdie.Speak "mobs not making sounds(sometimes)"
+Birdie.Speak "baby animal mobs making adult mob noises"
+Birdie.Speak "when you break an item underwater an the ojbect hits the bottom it makes a 'water splash' sounds"
+Birdie.Speak "sometimes no ice breaking sound"
+Birdie.Speak "*villages might not 'fully' render; houses might look unfinished(only one wall of a building will be built or no floor)"
+Birdie.Speak "*ore blocks might spawn on the surface or rarely on a tree"
+Birdie.Speak "*snow texture will show inbetween blocks"
+Birdie.Speak "*(random) clear floor"
+Birdie.Speak "*vines on normal oak trees"
+Birdie.Speak "*snow stays in mid-air when leaves underneath is broken."
+Birdie.Speak "*superflat world will render a square outline"
+Birdie.Speak "*lava touching water:"
+Birdie.Speak "nothing happens or just no obsidian"
+Birdie.Speak "*major tnt exploding issues(sometimes):"
+Birdie.Speak "tnt around melons"
+Birdie.Speak "tnt causing clear floor"
+Birdie.Speak "not being able to blow up other objects(placed dirt)"
+Birdie.Speak "blowing up certain objects(powered rail) causing the app the crash, app freeze to where it is impossible to exit causing user to shut down phone, app will crash and when reopen of the same world will go back to right before the tnt explodes and causing the app to crash again(repeating) making this world impossible to ever be playable again."
+Birdie.Speak "*silver fish get stuck in tall grass"
+Birdie.Speak "*nether reactor issues"
+Birdie.Speak "*REALLY tall grass"
+Birdie.Speak "*enderman flicker invisible or enderman is teleporting in the same spot"
+Birdie.Speak "*red sand will change color when it falls"
+Birdie.Speak "*two doors in one"
+Birdie.Speak "*over spawn of melons, tall grass, saplings"
+Birdie.Speak "*instances of spiders flying straight upward"
+Birdie.Speak "*mushroom growing on fallen tree"
+Birdie.Speak "*not given option to burn wood for charcoal"
+Birdie.Speak "*flying over clouds can make them a bit glitchy"
+Birdie.Speak "*sand doesnt have a random spawn there is a pattern"
+Birdie.Speak "*if spawn point is not set from a bed, then spawn point is the exact moment before death instead of original spawn point when first build of world"
+Birdie.Speak "*mobs dont spawn in caves/underground but will on surface."
+Birdie.Speak "*instances of game 'slowing down' or getting 'laggy'"
+Birdie.Speak "*if standing in lava, in first-person view it will show player on fire. in third-person view player is not on fire"
+Birdie.Speak "*in first-person there is no problem hitting a mob but in third-person hitting mob seems to never happen"
+Birdie.Speak "*in minecraft chat uses the voice recognition crashes the app"
+Birdie.Speak "*holding down on the touch-pad for two seconds the view starts to shake"
+Birdie.Speak "*the particals of breaking a tall grass is normal(green particals) but when you break a supertall grass the particals are grey."
+Birdie.Speak "*plant textures(growing wheat) are a bit 'glitchy' looking"
+Set Req = Birdie.Speak("*placing a block next to cactus will break the entire cactus")
+WaitFor Req
+Set Req = Spaceman.Speak("Next, Perfecto!")
+WaitFor Req
+Set Req = Birdie.Speak("The nether reactor stops working after producing items for a short period of time. The core is completely encased in obsidian and will not reactivate until the machine is rebuilt...")
+WaitFor Req
+Birdie.Speak "the launcher sometimes when he start it froze and takes a lot of time to enable the play button"
+Birdie.Speak "When on an entity's camera, either spider or creeper. Dying after changing into survival will cause us having the filter the mob have after reviving"
+Birdie.Speak "Steps To Reproduce:"
+Birdie.Speak "1. Spawn a spider and some zombie"
+Birdie.Speak "2. /gamemode sp"
+Birdie.Speak "3. View the spider camera"
+Birdie.Speak "4. Change to gamemode survival"
+Birdie.Speak "5. Wait until killed by zombie"
+Birdie.Speak "6. Filter will stay the same"
+Set Req = Birdie.Speak("Reloging won't fix it. Only way to go back is to do the same thing but with another mob which have the normal filter, Pixelated graphics!")
+WaitFor Req
+Set Req = Wartnose.Speak("Next!")
+WaitFor Req
+Set Req = Birdie.Speak("When he open the newest minecraft.exe, it opens a window that says, 'Downloading Runtime, which he know is normal. But it would go for some time, stop, blink a little bit, then it would close, and the launcher would never start. he don't know why it is doing that, and He have tried to redownload minecraft.exe.")
+WaitFor Req
+Genie.Speak "Exit."
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

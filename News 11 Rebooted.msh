@@ -1,0 +1,327 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Al=Al.acs
+Birdie=Birdie.acs
+Cami=Cami.acs
+Check=Check.acs
+Claude=Claude.acs
+Electra=Electra.acs
+Felini=Felini.acs
+Cathie=Cathie.acs
+Debbie=Debbie.acs
+Genie=Genie.acs
+James=James.acs
+Joe=Joe.acs
+Merlin=Merlin.acs
+Milton=Milton.acs
+Oscar=Oscar.acs
+Peedy=Peedy.acs
+Robby=Robby.acs
+Sizlik=Sizlik.acs
+Spaceman=Spaceman.acs
+Vrgirl=Vrgirl.acs
+Wartnose=Wartnose.acs
+
+[LanguageIDs]
+Al=&H409
+Birdie=&H409
+Cami=&H409
+Check=&H409
+Claude=&H409
+Electra=&H409
+Felini=&H409
+Cathie=&H409
+Debbie=&H409
+Genie=&H409
+James=&H409
+Joe=&H409
+Merlin=&H409
+Milton=&H409
+Oscar=&H409
+Peedy=&H409
+Robby=&H409
+Sizlik=&H409
+Spaceman=&H409
+Vrgirl=&H409
+Wartnose=&H409
+
+[Script]
+Al.MoveTo 1345, 747
+Al.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Al.Show()
+WaitFor Req
+Birdie.MoveTo 705, 194
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Birdie.Show()
+WaitFor Req
+Cami.MoveTo 1272, 753
+Cami.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Cami.Show()
+WaitFor Req
+Check.MoveTo 1208, 748
+Check.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Check.Show()
+WaitFor Req
+Claude.MoveTo 1142, 739
+Claude.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Claude.Show()
+WaitFor Req
+Electra.MoveTo 1076, 743
+Electra.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Electra.Show()
+WaitFor Req
+Felini.MoveTo 995, 685
+Felini.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273007}"
+Set Req = Felini.Show()
+WaitFor Req
+Cathie.MoveTo 941, 682
+Cathie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Cathie.Show()
+WaitFor Req
+Debbie.MoveTo 890, 685
+Debbie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Debbie.Show()
+WaitFor Req
+Genie.MoveTo 849, 741
+Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Genie.Show()
+WaitFor Req
+James.MoveTo 785, 687
+James.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = James.Show()
+WaitFor Req
+Joe.MoveTo 711, 752
+Joe.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Joe.Show()
+WaitFor Req
+Merlin.MoveTo 641, 746
+Merlin.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Merlin.Show()
+WaitFor Req
+Milton.MoveTo 576, 747
+Milton.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Milton.Show()
+WaitFor Req
+Oscar.MoveTo 522, 741
+Oscar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Oscar.Show()
+WaitFor Req
+Peedy.MoveTo 455, 747
+Peedy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Peedy.Show()
+WaitFor Req
+Robby.MoveTo 409, 745
+Robby.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273006}"
+Set Req = Robby.Show()
+WaitFor Req
+Sizlik.MoveTo 26, 683
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Sizlik.Show()
+WaitFor Req
+Vrgirl.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Vrgirl.Show
+Set Req = Vrgirl.MoveTo(357, 746)
+WaitFor Req
+Wartnose.MoveTo 314, 742
+Wartnose.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273003}"
+Set Req = Wartnose.Show()
+WaitFor Req
+Set Req = Joe.Speak("PSU explosions")
+WaitFor Req
+Set Req = Birdie.Speak("We're talking about this.")
+WaitFor Req
+Set Req = Joe.Speak("Yes, Yeah!")
+WaitFor Req
+Set Req = Merlin.Speak("If your PSU exploded, there is chances that your components has fried")
+WaitFor Req
+Set Req = Genie.Speak("I would like to say that he compressed his C drive on which he has his Windows XP OS. Now, all he is getting is 'Bootmgr is compressed press Alt+Ctrl+Del to restart'. he can't use his CD ROM on the desktop because it is broken but he did copy and paste the XP OS files from CD on to his external HD using his laptop. After copying the XP files on to his external HD, He have connected the external HD to his affected desktop via USB port and changed the first booting device to USB drive in the BIOS set-up but still getting the same 'Bootmgr is compressed press Alt+Ctrl+Del to restart' message.")
+WaitFor Req
+Set Req = James.Speak("Ym Retupmoc")
+WaitFor Req
+Set Req = Vrgirl.Speak("I remember that Wartnose didn't say the corrupted characters.")
+WaitFor Req
+Wartnose.Speak "Distortion of Text like Retupmoc Dk'dfk koos le solitaimd solarolios d(&%)m."
+Wartnose.Speak "Wow, looks like Pyret Enetr ot too$ ot Ginwods HX Ophsaltig Sy^t#m!."
+Set Req = Wartnose.Speak("Desktop, looks like Ym Retupmoc, Rjckpsr Bni or Hy Gneteofl Panse!.")
+WaitFor Req
+Set Req = Peedy.Speak("There is E-man and E-woman!")
+WaitFor Req
+Set Req = Robby.Speak("They aren't coming until they are finished.")
+WaitFor Req
+Birdie.Play "Blink"
+Birdie.Play "Blink"
+Birdie.Play "Blink"
+Birdie.Play "DoMagic1"
+Birdie.Play "DoMagic2"
+Birdie.Play "Alert"
+Birdie.Speak "I did a magic."
+Set Req = Birdie.Play("AlertReturn")
+WaitFor Req
+Set Req = Sizlik.Speak("Guys, what do Birdie wait?")
+WaitFor Req
+Set Req = Vrgirl.Speak("For Spaceman")
+WaitFor Req
+Spaceman.MoveTo 209, 781
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Spaceman.Show()
+WaitFor Req
+Set Req = Birdie.Speak("Hello, He just installed Ubuntu few months ago and everything was just fine until today.")
+WaitFor Req
+Spaceman.Speak "Hello guys?"
+Set Req = Spaceman.Speak("How are you?")
+WaitFor Req
+Set Req = Sizlik.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Wartnose.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Vrgirl.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Robby.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Peedy.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Oscar.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Milton.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Merlin.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Joe.Speak("Hello, Fine")
+WaitFor Req
+Set Req = James.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Genie.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Debbie.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Cathie.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Felini.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Electra.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Claude.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Check.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Cami.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Al.Speak("Hello, Fine")
+WaitFor Req
+Set Req = Spaceman.Speak("All listen to Birdie?")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes")
+WaitFor Req
+Wartnose.MoveTo 303, 743
+Set Req = Wartnose.Speak("Yes")
+WaitFor Req
+Vrgirl.MoveTo 354, 746
+Set Req = Vrgirl.Speak("Yes")
+WaitFor Req
+Set Req = Robby.Speak("Yes")
+WaitFor Req
+Set Req = Peedy.Speak("Yes")
+WaitFor Req
+Set Req = Oscar.Speak("Yes")
+WaitFor Req
+Set Req = Milton.Speak("Yes")
+WaitFor Req
+Set Req = Merlin.Speak("Yes")
+WaitFor Req
+Set Req = Joe.Speak("Yes")
+WaitFor Req
+Set Req = James.Speak("Yes")
+WaitFor Req
+Set Req = Genie.Speak("Yes")
+WaitFor Req
+Set Req = Debbie.Speak("Yes")
+WaitFor Req
+Set Req = Cathie.Speak("Yes")
+WaitFor Req
+Set Req = Felini.Speak("Yes")
+WaitFor Req
+Set Req = Electra.Speak("Yes")
+WaitFor Req
+Set Req = Claude.Speak("Yes")
+WaitFor Req
+Set Req = Check.Speak("Yes")
+WaitFor Req
+Set Req = Cami.Speak("Yes")
+WaitFor Req
+Set Req = Al.Speak("Yes")
+WaitFor Req
+Set Req = Birdie.Speak("He has somehow managed to write an ISO-9660 image onto his USB drive.")
+WaitFor Req
+Set Req = Joe.Speak("USB drive or hard drive?")
+WaitFor Req
+Set Req = Felini.Speak("USB drive")
+WaitFor Req
+Set Req = Spaceman.Speak("Hard drive")
+WaitFor Req
+Set Req = Joe.Speak("Who said wrong?")
+WaitFor Req
+Birdie.Speak "Spaceman"
+Birdie.Speak "OK, Let's explain guys, suddenly his computer detected his USB flash drive as the CD-ROM and he cannot do anything except viewing a USB flash drive and its contents."
+Birdie.Speak "He has tried various methods of removing this partition, but nothing seems to work."
+Birdie.Speak "He has tried fdisk, which says"
+Birdie.Speak "fdisk -l /dev/sdb"
+Birdie.Speak "Cannot open /dev/sdb"
+Birdie.Speak "parted crashes when he try to use it on this device."
+Birdie.Speak "He has even tried dd if=/dev/zero of=/dev/sdb, but it just hangs with no output. However, when he plugs the USB in, it does mount, and he can view the files on it."
+Birdie.Speak "When he tried to format a flash drive, it says that /dev/sdb is read-only file system!"
+Set Req = Birdie.Speak("He has also tried re-formatting it on Windows, but it gets to the end of the format process and then says 'Couldn't format the drive'.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "He received a USB flash drive that contains a pre-installed ISO 9660 (Joliet) image on it."
+Birdie.Speak "To delete the image and free up space on the drive, he attempted to use sudo rm -rf /Volumes/ISONAME via a Terminal; however, the command failed as the image is a Read-only file system"
+Birdie.MoveTo 476, 336
+Birdie.Speak "Next News."
+Birdie.Speak "He has a 16GB USB flash drive and he made it bootable to install Linux Mint but for some reason, he couldn't install and did an unsafe eject."
+Set Req = Birdie.Speak("Now, he cannot mount the drive, neither on Windows nor Linux.")
+WaitFor Req
+Set Req = Wartnose.Speak("Leenocs Mynt")
+WaitFor Req
+Set Req = Wartnose.Speak("Tahh. Play? Mooo, Ovie! tshh. haqa. nanj.")
+WaitFor Req
+Set Req = Gar.Play("About")
+WaitFor Req
+Set Req = Felini.Speak("Wow!")
+WaitFor Req
+Set Req = Genie.Speak("Don't speak.")
+WaitFor Req
+Set Req = Wartnose.Speak("Tahh. Play? Mooo, Ovie! tshh. haqa. nanj.")
+WaitFor Req
+Set Req = Wartnose.Speak("Tahh. Play? Mooo, Ovie! tshh. haqa. nanj.")
+WaitFor Req
+Set Req = Wartnose.Speak("Tahh. Play? Mooo, Ovie! tshh. haqa. nanj.")
+WaitFor Req
+Set Req = Wartnose.Speak("haqa. haqa. haqa. haqa. haqa. haqa. haqa.")
+WaitFor Req
+Genie.Speak "Don't speak."
+Genie.Speak "Don't speak."
+Set Req = Genie.Speak("Don't speak.")
+WaitFor Req
+Birdie.Speak "He has written an ISO file to a USB drive from Linux using dd if=file.iso of=/dev/sdb1."
+Birdie.Speak "This works fine, he can then read the data on Linux. Automount works, as does mounting manually (filesystem is detected as ISO9660)."
+Set Req = Birdie.Speak("However, Windows won't read the drive. It detects it but only offers to format it.")
+WaitFor Req
+Set Req = Peedy.Speak("Next")
+WaitFor Req
+Set Req = Birdie.Speak("He pulled it out without going to safely remove hardware, and now when he plug it in, Explorer stalls for a while before showing up with a removable drive icon, and when he clicks it, it tells him to insert a disk into the drive. Trying to format the drive doesn't work.")
+WaitFor Req
+Set Req = Joe.Speak("Last story")
+WaitFor Req
+Birdie.Speak "After he safely eject a USB flash drive, after a while, if he plug it back in again it is not recognized."
+Set Req = Birdie.Speak("It seems that he has to re-boot his PC to get it to recognize the USB.")
+WaitFor Req
+Spaceman.Speak "Exit now."
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

@@ -1,0 +1,768 @@
+
+[MASH Script]
+Version=7.5
+
+[Characters]
+Genie=Genie.acs
+Birdie=Birdie.acs
+Cami=Cami.acs
+Spaceman=Spaceman.acs
+Sizlik=Sizlik.acs
+Vrgirl=Vrgirl.acs
+Claude=Claude.acs
+Electra=Electra.acs
+Felini=Felini.acs
+Gar=Gar.acs
+Gourdy=Gourdy.acs
+Hanz=Hanz.acs
+Isabella=Isabella.acs
+James=James.acs
+Milton=Milton.acs
+Peedy=Peedy.acs
+Plany=Plany.acs
+Miku=Miku.acs
+Robby=Robby.acs
+Wabbit=Wabbit.acs
+Wartnose=Wartnose.acs
+Woo=Woo.acs
+
+[LanguageIDs]
+Genie=&H409
+Birdie=&H409
+Cami=&H409
+Spaceman=&H409
+Sizlik=&H409
+Vrgirl=&H409
+Claude=&H409
+Electra=&H409
+Felini=&H409
+Gar=&H409
+Gourdy=&H409
+Hanz=&H409
+Isabella=&H409
+James=&H409
+Milton=&H409
+Peedy=&H409
+Plany=&H409
+Miku=&H409
+Robby=&H409
+Wabbit=&H409
+Wartnose=&H409
+Woo=&H409
+
+[Script]
+Genie.MoveTo 1337, 739
+Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Genie.Show
+Set Req = Genie.Speak("New Update. Additional Stories.")
+WaitFor Req
+Birdie.MoveTo 711, 224
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Birdie.Show
+Birdie.Play "Alert"
+Birdie.Speak "OK, Minecraft is in war!"
+Set Req = Birdie.MoveTo(1261, 4)
+WaitFor Req
+Cami.MoveTo 1266, 753
+Cami.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Cami.Show
+Cami.Speak "I'm scaring!"
+Cami.Speak "from texture!"
+Cami.Speak "on Minecraft!"
+Set Req = Cami.Play("Surprised")
+WaitFor Req
+Spaceman.MoveTo 162, 789
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Spaceman.Show
+Set Req = Spaceman.Speak("This texture is scary!")
+WaitFor Req
+Sizlik.MoveTo 2, 687
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Sizlik.Show
+Sizlik.Speak "What is that texture?"
+Set Req = Sizlik.Speak("I'm scaring!")
+WaitFor Req
+Set Req = Spaceman.Speak("Texture Scare from Corruptions!")
+WaitFor Req
+Set Req = Birdie.Speak("He compressed his C drive on which he has his Windows XP OS. Now, all he is getting is 'BootMGR is compressed, on next line press Control + Alt + DeleteFile to restart'. he can't use his CD ROM on the desktop because it is broken. but he did copy and paste the XP OS files from CD on to his external Hard drive using his laptop. After copying the XP files on to his external hard drive, He have connected the external hard drive to his affected desktop via USB port. Changed the first booting device to USB drive in the BIOS setup. He get the same 'BootMGR is compressed, on next line press Control + Alt + DeleteFile to restart message.")
+WaitFor Req
+Birdie.Play "Angry"
+Set Req = Birdie.Speak("Oh my god... What a mess!")
+WaitFor Req
+Set Req = Spaceman.Speak("Messing Texture!")
+WaitFor Req
+Vrgirl.MoveTo 1203, 745
+Vrgirl.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Vrgirl.Show
+Set Req = Vrgirl.Speak("What about the texture!?")
+WaitFor Req
+Set Req = Cami.Speak("Scare it!")
+WaitFor Req
+Claude.MoveTo 1143, 741
+Claude.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Claude.Show()
+WaitFor Req
+Electra.MoveTo 1084, 742
+Electra.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Electra.Show
+Set Req = Electra.Speak("Nothing scares!")
+WaitFor Req
+Felini.MoveTo 998, 685
+Felini.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273007}"
+Set Req = Felini.Show()
+WaitFor Req
+Gar.MoveTo 945, 743
+Gar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Gar.Show
+Set Req = Gar.Speak("Maybe made from bedrock or so.")
+WaitFor Req
+Gourdy.MoveTo 860, 738
+Gourdy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Gourdy.Show
+Set Req = Gourdy.Speak("What about the messed texture!")
+WaitFor Req
+Set Req = Genie.Speak("He compressed his C drive on which he has his Windows XP OS. Now, all he is getting is 'Bootmgr is compressed press Alt+Ctrl+Del to restart'. he can't use his CD ROM on the desktop because it is broken but he did copy and paste the XP OS files from CD on to his external HD using his laptop. After copying the XP files on to his external HD, He have connected the external HD to his affected desktop via USB port and changed the first booting device to USB drive in the BIOS set-up but still getting the same 'Bootmgr is compressed press Alt+Ctrl+Del to restart' message.")
+WaitFor Req
+Hanz.MoveTo 753, 797
+Hanz.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Hanz.Show
+Set Req = Hanz.Speak("This contained that messing text and texture.")
+WaitFor Req
+Set Req = Gourdy.Speak("Hanz is talking like Sizlik.")
+WaitFor Req
+Isabella.MoveTo 641, 682
+Isabella.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Isabella.Show
+Isabella.Speak "All messed up!"
+Isabella.Play "Kick"
+Set Req = Isabella.Speak("I kicked the messing texture and text so.")
+WaitFor Req
+James.MoveTo 598, 686
+James.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+James.Show
+Birdie.Play "Protest"
+Set Req = James.Speak("I'm ignoring the mess.")
+WaitFor Req
+Milton.MoveTo 545, 746
+Milton.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Milton.Show
+Set Req = Milton.Speak("I don't love that mess.")
+WaitFor Req
+Peedy.MoveTo 460, 747
+Peedy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Peedy.Show
+Set Req = Peedy.Speak("I love this mess.")
+WaitFor Req
+Plany.MoveTo 403, 781
+Plany.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Plany.Show
+Set Req = Plany.Speak("Texture Messed and Miku!")
+WaitFor Req
+Miku.MoveTo 330, 643
+Miku.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Miku.Show
+Set Req = Miku.Speak("Plany?")
+WaitFor Req
+Set Req = Plany.Speak("This mess is Messed, We will attack them by talking about News!")
+WaitFor Req
+Robby.MoveTo 266, 745
+Robby.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273006}"
+Robby.Show
+Set Req = Robby.Speak("What about this mess!")
+WaitFor Req
+Milton.Speak "Messy Minecraft."
+Milton.Speak "OK, please speak Genie."
+Set Req = Milton.Speak("OK, Please News Begin.")
+WaitFor Req
+Set Req = Genie.Speak("He compressed his C drive on which he has his Windows XP OS. Now, all he is getting is 'Bootmgr is compressed press Alt+Ctrl+Del to restart'. he can't use his CD ROM on the desktop because it is broken but he did copy and paste the XP OS files from CD on to his external HD using his laptop. After copying the XP files on to his external HD, He have connected the external HD to his affected desktop via USB port and changed the first booting device to USB drive in the BIOS set-up but still getting the same 'Bootmgr is compressed press Alt+Ctrl+Del to restart' message.")
+WaitFor Req
+Set Req = Gourdy.Speak("What are Birdie to get ready?")
+WaitFor Req
+Set Req = James.Speak("The more stories!")
+WaitFor Req
+Set Req = Miku.Speak("Website was down.")
+WaitFor Req
+Robby.Speak "You can reload this webpage later."
+Robby.Speak "Check your Internet and Restart router."
+Robby.Speak "Check your DNS Settings."
+Robby.Speak "Add GC as the permitted program."
+Set Req = Robby.Speak("Disable network Precition.")
+WaitFor Req
+Set Req = Miku.Speak("I'm joking.")
+WaitFor Req
+Set Req = Birdie.Speak("Ohh, Mess back!")
+WaitFor Req
+Set Req = James.Speak("I have told you that we have more stories to kill the glitch of graphics in Minecraft, So please more stories.")
+WaitFor Req
+Set Req = Peedy.Speak("I'm Peedy.")
+WaitFor Req
+Birdie.MoveTo 370, 403
+Birdie.Speak "Ohh, Just formatted an ASUS M6000 MR6 Laptop that he inherited friend of his's!"
+Birdie.Speak "Reinstalled Windows XP Wrongly with Wrong Keyboard and he will type merrily away."
+Set Req = Birdie.Speak("All of sudden It won't enter text! Each key opens a new window! Escape opens Start Menu! F opens the weird Search box!")
+WaitFor Req
+Spaceman.Speak "Ready for Next."
+Spaceman.Speak "Solved this!"
+Set Req = Spaceman.Speak("Robby? Birdie speak problem and Robby speak solution.")
+WaitFor Req
+Birdie.MoveTo 312, 94
+Birdie.Speak "It acts as if some keys on the keyboard are being held down."
+Birdie.Speak "When he unplug the USB Keyboard, The problem still persists."
+Birdie.Speak "He have found it if he end the larger SvcHost.EXE, The problem stops for a little bit."
+Birdie.Speak "When he run the Script Recorder to see which keys is pressed, It is rather rapid, Looks like someone mashing the number pad."
+Set Req = Birdie.Speak("Like 116 116 116 116 116!")
+WaitFor Req
+Robby.MoveTo 255, 115
+Robby.Speak "I have the solution Birdie."
+Robby.Speak "He will try PREVX.com"
+Robby.Speak "After checking the rootkits, Disconnect all devices from the computer with no Mouse, Keyboard, Internet and Monitor."
+Robby.Speak "If the problem still persists, Disconnect Network."
+Robby.Speak "If the problem still persists, Try a different keyboard."
+Set Req = Robby.Speak("Also he will try to disconnect the USB Keyboard, Uninstall the keyboard drivers, Then plug the keyboard back in, Then it should auto detect and install it.")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for third story.")
+WaitFor Req
+Set Req = Gourdy.Speak("We will talk about PSU! Yeahhhhh!")
+WaitFor Req
+Birdie.Speak "His PSU exploded and his PC is off for 1-2 weeks ago."
+Birdie.Speak "He buy and assembled it."
+Birdie.Speak "Work normally!"
+Birdie.Speak "Working fine normally for few days and today Morning, Switchin on the AC Mains and his UPS Switch Auto Started his PC without him pressing the power button."
+Birdie.Speak "he Pressed the Cabinet's power switch (in PC Off state) repeadtely to remove jams that shorten the Power Button."
+Birdie.Speak "He removed the Front Panel Header's PWR SW Cable, And then to his surprise even without the power switch cable being connected to Front panel header, After he switched on the PSU Switch, PC again Auto Started on it's own."
+Set Req = Birdie.Speak("He have also removed off and reinstalled the 24-pin connector! (PC Work Normally! (After shutdown or reboot, It's just that it auto-starts when AC Mains is switched on first time!))")
+WaitFor Req
+Set Req = Robby.Speak("Check if the BIOS Settings if system is enable to restart on power lost uncheck this one.")
+WaitFor Req
+Birdie.Play "LookDown"
+Set Req = Birdie.Speak("There's the double forum which if PC Won't start if he press Power Switch.")
+WaitFor Req
+Set Req = Spaceman.Speak("Let's Try!")
+WaitFor Req
+Birdie.Speak "He had build his PC for a friend."
+Birdie.Speak "He has build several PC's for friends and himself."
+Birdie.Speak "Everything is connected as it should."
+Birdie.Speak "HDD is connected fine."
+Birdie.Speak "Power Switch connecters ETC on Motherboard."
+Birdie.Speak "He turned it on then Nothing! When he press the Power Button, GPU fan start spinning for a split second, (They move for 2 Centimeters, and also there was no beep code and noises also, The Power LED at the front of his computer is not working except for GPU LED when he press the power button.)"
+Birdie.Speak "When he press the power button, The lights didn't came on, fans not kicked and the computer went (Nothing!)"
+Set Req = Birdie.Speak("When he build his PC, the motherboard is from MSI but it had the Corrupted BIOS.")
+WaitFor Req
+Spaceman.Speak "Elicity of PSU is PSU."
+Set Req = Spaceman.Speak("so Ready for Next.")
+WaitFor Req
+Birdie.Speak "He turned it on then Nothing! PC Didn't post! Fans and everything turn on!"
+Birdie.Speak "Solved the problem by turning off the PSU and pressing the power button for 2-3 times."
+Birdie.Speak "He turned his PSU and Computer on then Successful boot! Tested his monitor and works!"
+Birdie.Speak "Reseat his RAM, Turned on then Nothing."
+Birdie.Speak "Next News."
+Birdie.Speak "OK, Soon he will walk through his world and notice that the Map's background colour is the Pig skin texture, Press Escape and all the texts are Creeper and fire animations."
+Birdie.Speak "and reinstalled Minecraft.jar wrongly and same problem but different results."
+Birdie.Speak "Text if fine."
+Birdie.Speak "Items, Blocks, Skins do the glitch!"
+Set Req = Birdie.Speak("Notice that the downed is not correctly rendered and all of sudden the items as wearings and rockets, Green, Blue and Ore, Also big bedrock, or he forgot.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "Issue was: OpenGL Error and so he upgraded (Java, the Coffee texture from Oracle as the icon) his drivers and reinstall DirectX."
+Birdie.Speak "Minecraft boots up but then the whackyness starts."
+Birdie.Speak "Mojang logo doesn't show and jumps straight to the black screen."
+Set Req = Birdie.Speak("Jumped to Menu and looked like: (He has the Lililff Minfc, Text is idojfgercnecfmejfcckejkhvjkremfkejfkl and the texture and background were messed up.)")
+WaitFor Req
+Set Req = Spaceman.Speak("Multicolored unreadeable, like (Milton Say it.)")
+WaitFor Req
+Set Req = Milton.Speak("Wow, Looks like Fgtklsblader, Mujvspdbmnr, Midgpwwfh Foakds, Yuptdff and Fswd Lpwm!")
+WaitFor Req
+Set Req = Spaceman.Speak("Mojang AB, Do not Distribute like Fucusgshdjshdsjdhsjdhsjdhsjdhsjdhsjhdjshd.")
+WaitFor Req
+Set Req = Robby.Speak("Acer TravelMate 5330 runs Minecraft finely.")
+WaitFor Req
+Set Req = Birdie.Speak("He had to delete his .Minecraft for some reasons, Reinstalled it and got that wierd texture.")
+WaitFor Req
+Set Req = Spaceman.Speak("Additional Forums!")
+WaitFor Req
+Set Req = Genie.Speak("He compressed his C drive on which he has his Windows XP OS. Now, all he is getting is 'Bootmgr is compressed press Alt+Ctrl+Del to restart'. he can't use his CD ROM on the desktop because it is broken but he did copy and paste the XP OS files from CD on to his external HD using his laptop. After copying the XP files on to his external HD, He have connected the external HD to his affected desktop via USB port and changed the first booting device to USB drive in the BIOS set-up but still getting the same 'Bootmgr is compressed press Alt+Ctrl+Del to restart' message.")
+WaitFor Req
+Birdie.MoveTo 370, 283
+Birdie.Speak "His brother's Polaroid S7 tablet is some reason stuck at polaroid screen."
+Set Req = Birdie.Speak("He will think if it's bootloop.")
+WaitFor Req
+Set Req = Sizlik.Speak("I do not understand what's the meaning of word Bootloop")
+WaitFor Req
+Set Req = Spaceman.Speak("Bootloop means the stuck at booting...then restarts...then stuck...then restarts.")
+WaitFor Req
+Birdie.MoveTo 417, 287
+Birdie.MoveTo 423, 80
+Birdie.Speak "He was sitting on the couch watching TV."
+Birdie.Speak "His phone vibrated!"
+Birdie.Speak "He pull out of his pocket to see that is rebooted."
+Birdie.Speak "No stopping restarting."
+Birdie.Speak "Never passed the HTC EVO 4G Screen."
+Birdie.Speak "He can get into bootloader except for Recovery."
+Birdie.Speak "He was pretty sure that He had the Nandroid flash unlocked."
+Birdie.Speak "Locked!"
+Set Req = Birdie.Speak("He had CyanogenMod 6.1.1 when this happened.")
+WaitFor Req
+Set Req = Sizlik.Speak("CyanogenMod! I don't understand?")
+WaitFor Req
+Spaceman.Speak "CyanogenMod means mod! They modding Android, If you flashed, Voided warranty by CyanogenMod."
+Set Req = Spaceman.Speak("Also when you putting USB to your phone, The logo is Cyanogen instead of Android.")
+WaitFor Req
+Birdie.Speak "He tried numerous PC36IMG.ZIP files but corrupted and the first one started but then rebooted shortly."
+Set Req = Birdie.Speak("They all give him that the main version is very old!")
+WaitFor Req
+Set Req = Spaceman.Speak("Next, Android.")
+WaitFor Req
+Set Req = Peedy.Speak("Android.")
+WaitFor Req
+Set Req = Felini.Speak("Android.")
+WaitFor Req
+Set Req = Claude.Speak("Android.")
+WaitFor Req
+Set Req = Gourdy.Speak("We will talk about Android!")
+WaitFor Req
+Birdie.MoveTo 453, 275
+Set Req = Birdie.Speak("He was flashing Apex (.zip file (corrupted, damaged.)) and it's stuck in bootloop.")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for then.")
+WaitFor Req
+Birdie.MoveTo 450, 140
+Birdie.Speak "He in Nexus 10, the bigger tablet, from Google, He was flashing the latest version of Android (current: Android 5.1) AOSP."
+Birdie.Speak "Walked away for 2 hours, came back."
+Birdie.Speak "Found the swirly dots and it's stuck!"
+Birdie.Speak "He get into Bootloader (HTC)."
+Birdie.Speak "He are following these steps from this post."
+Birdie.Speak "No problem solving!"
+Birdie.Speak "He are getting into http://androidforums.com/threads/nexus-10-stuck-in-bootloop-please-help.884469/ which appears to deal with a rooted Nexus 10."
+Set Req = Birdie.Speak("He are not rooted by Kingo Root, Anything.")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next on Android Forums.")
+WaitFor Req
+Birdie.MoveTo 403, 24
+Birdie.Speak "He are not flashing anything, going to his profile this LG and everything was just fine until he open Recover and everything was just fails and LG Phone is crashed."
+Birdie.Speak "He try flashing ROMS and no luck."
+Birdie.Speak "He restarted his LG recovery and no luck."
+Birdie.Speak "He restarted his LG with Android System and it didn't error on."
+Birdie.Speak "Everytime he bootup to recover, After error shows he get stuck at LG Logo."
+Birdie.Speak "He are having actually to remove the battery and removing the back and it worked, and he been customizing the old-fashioned way...He are finally got the phone where he likes it."
+Set Req = Birdie.Speak("He would like how to fix this problem and it's possible with no wiping cache.")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Birdie.MoveTo 435, 198
+Birdie.Speak "He have flashed Hellkat 4.4 and today morning his phone will shutoff in randomized way."
+Birdie.Speak "He turned it on then nothing! He took out his battery! (Placed it back on...)...and the phone auto starts without him pressing the power button."
+Birdie.Speak "Shuts down immediately."
+Birdie.Speak "He are attempting the recovery but shuts down before it loads."
+Birdie.Speak "He put in Download Mode to flash it via Odin."
+Birdie.Speak "No download."
+Birdie.Speak "Does the power button not stuck, but it's very responsive."
+Birdie.Speak "He are plugging the charger in, and it doesn't do anything!"
+Birdie.Speak "He put the battery back in and it doesn't power on and off, nor turn on!"
+Set Req = Birdie.Speak("He are very angry.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Set Req = Birdie.Speak("Error demsbl boot loader for MSM6290 more than downloader v5.43.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next on HTC.")
+WaitFor Req
+Birdie.Speak "HTC!"
+Birdie.Speak "He are removing OS accidentally!"
+Birdie.Speak "He are not able to restore."
+Birdie.Speak "He kept getting the HTC screen!"
+Birdie.Speak "or his bootloader screen!"
+Set Req = Birdie.Speak("He can access his Bootloader but no Recovery.")
+WaitFor Req
+Set Req = Spaceman.Speak("Bootloader, S-On and HTC, Ready for Next for HTC.")
+WaitFor Req
+Birdie.MoveTo 423, 237
+Birdie.Speak "He have the bootloader and S-On and he was playing with his phone, messing, wiping internal storage accidentally."
+Birdie.Speak "He are using AIO Toolkit Version 2.0 and he used the Getvar All command but the phone is rebooted and now he are stuck at the boot screen, His phone (HTC) is not responding when in Bootloader or Recovery."
+Birdie.MoveTo 425, 196
+Birdie.Speak "His phone went to fastboot to which He didn't do anything to trigger this thing to do it, But that's it...Bootloader, Reboot, or Reboot Bootloader doesn't do anything to it......."
+Set Req = Birdie.Speak("It turns off then starts back again to the fast bot menu!")
+WaitFor Req
+Set Req = Spaceman.Speak("HTC, then Minecraft, So ready for Next.")
+WaitFor Req
+Birdie.MoveTo 403, 212
+Birdie.Speak "He received his phone and it was already rooted and had the corrupted ROM on it."
+Birdie.Speak "Finally after a long time he got the balls to try and install a new, corrupted ROM, He was trying to do his corrupted Android Revolution High Definition and now his phone is stuck on Bootloader because of Android Revolution High Definition."
+Set Req = Birdie.Speak("He can get to Recovery and else. else. He don't know if it was the issue but he put the corrupted ROM! He was using on a 2-sided USB that had one side USB 3.0 and then a micro USB connection.")
+WaitFor Req
+Set Req = Cami.Speak("Minecraft, then back to Android. and more stories.")
+WaitFor Req
+Birdie.Speak "These glitches appear on his screen and it really makes the game hard to play."
+Birdie.Speak "it goes away when he changes his render distance."
+Set Req = Birdie.Speak("He will interact the block, then these glitches is back.")
+WaitFor Req
+Set Req = Spaceman.Speak("Takes a long time.")
+WaitFor Req
+Set Req = Miku.Speak("Website was down.")
+WaitFor Req
+Robby.Speak "You can reload this webpage later."
+Robby.Speak "Check your Internet and Restart router."
+Robby.Speak "Check your DNS Settings."
+Robby.Speak "Add GC as the permitted program."
+Set Req = Robby.Speak("Disable network Precition.")
+WaitFor Req
+Miku.Speak "Long time to open.."
+Miku.Speak "Internet issue."
+Set Req = Miku.Speak("I'm joking.")
+WaitFor Req
+Birdie.MoveTo 337, 201
+Set Req = Birdie.Speak("Apps randomly exit to home screen, Keep refreshing browser.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "Lollipop shuts down if he take the picture using flash, Flash goes then turned off!"
+Birdie.Speak "He restarted and Music! as soon as the phone finishes booting."
+Birdie.Speak "Drain battery."
+Birdie.Speak "Also it will massively drains the battery."
+Birdie.Speak "75% to 20% when it happens."
+Birdie.Speak "Is low the battery to be killed completely to 0%?"
+Birdie.Speak "\Spd=103\More News"
+Birdie.Speak "He noticed the message when it boots from now, He don't think it's from Lollipop, To be sure."
+Birdie.Speak "\Spd=70\Red Verizon screen, After it, He get the white box with black text saying that Android is upgrading to 5.1 Starting Apps."
+Birdie.Speak "\Spd=103\Then the phone starts as usual."
+Birdie.Speak "\Spd=103\Your own Story!"
+Birdie.Speak "\Spd=103\More stories"
+Birdie.Speak "When playing Minecraft, He get the screen."
+Birdie.Speak "\Spd=70\Background is all purple, Minecraft Title is fine, But the texture is messed on buttons, The yellow text is on the bottom, but very scary font, like jfdiuhdiufynvfifhvuifhne, as Nitrome Font."
+Birdie.Speak "\Spd=70\More stories, We don't finish, it is still at 75% completion of News."
+Birdie.Speak "The phone runs on Android Gingerbread, which take up a bit of space."
+Birdie.Speak "Yet with almost no apps installed in the internal phone hemory, It's pretty much full, Here's the apps."
+Birdie.Speak "3G Watchdog takes 8.61MB"
+Birdie.Speak "Amazon Kindle takes 11.2 MB"
+Birdie.Speak "ColorDict takes 1.9 MB"
+Birdie.Speak "Docs to Go takes 9.56 MB"
+Birdie.Speak "Docs to Go Key takes 0,19 MB"
+Birdie.Speak "Dropbox takes 20.32 MB"
+Birdie.Speak "FBReader takes 3.25 MB"
+Birdie.Speak "Gmail takes 5.58 MB"
+Birdie.Speak "Google Play Store takes 20.07 MB"
+Birdie.Speak "Google Play Services takes 53,41 MB"
+Birdie.Speak "Messenger takes 17.64 MB"
+Birdie.Speak "Mobile Notes takes 10.13 MB"
+Birdie.Speak "Opera Mini takes 3.02 MB"
+Birdie.Speak "Podkicker takes 9.35 MB"
+Birdie.Speak "Quizlet takes 15.75 MB"
+Birdie.Speak "Misc. takes 7.5 MB"
+Birdie.Speak "Wordfeud takes 7.42 MB"
+Birdie.Speak "and Youtube takes 14.96 MB"
+Birdie.Speak "Added up it's almost 220MB! The phone has the little over 1024MB, so that should leave 780MB for the OS (Android 2.3.3) and various pre-installed apps."
+Birdie.Speak "Storage Truth shows these data"
+Birdie.Speak "/system"
+Birdie.Speak "size: 558668K"
+Birdie.Speak "used: total,"
+Birdie.Speak "free: 398448K"
+Birdie.Speak "/data"
+Birdie.Speak "size: 1178068K"
+Birdie.Speak "used: total,"
+Birdie.Speak "free: 1059612K"
+Birdie.Speak "Device info:"
+Birdie.Speak "Android 2.3.3"
+Birdie.Speak "It used to be enough space just a month ago, and he haven't installed any new app since. If it has some 140 MB of free space, then it's got enough to run everything as it should."
+Birdie.Speak "He have lots of valuable stuff on the phone, like highlights from e-books, that's cumbersome to export, and he don't have all that many options when it comes to buying a new phone, since what he value the most in a phone is the combination of an Android operative system and a slide out QWERTY keyboard, and currently that niche isn't being filled by anyone, and it might not be for a long time. The current phone is *perfect* for his use, if it wasn't for the recent storage issues."
+Birdie.Speak "he have deleted text messages, as she suggested."
+Birdie.Speak "He use the Gmail app, so he guess the emails he receive aren't stored locally as well as in the cloud, although he am not sure."
+Birdie.Speak "Every update that can be deleted, is deleted. Deleting the updates for Facebook worked wonders a while back. he have uninstalled all non-essential apps, and cleared the cache of the built in browser."
+Birdie.Speak "Rooting is an option, if it could free up more space. Deleting Twitter and all the other built in apps he never use..."
+Set Req = Birdie.Speak("There's 7 GB left on the SD card, and he could clear 10 more GB without any issues.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Birdie.Speak "He get an error when he try to install 5.1 (OTA) on his 2012 Nexus 7"
+Birdie.Speak "He tried"
+Birdie.Speak "Wiping cache"
+Birdie.Speak "Connecting Power"
+Birdie.Speak "WiFi enabled and disabled"
+Birdie.Speak "Seting Date manually & from network."
+Birdie.Speak "All failed .."
+Birdie.Speak "The log files contain the following :- {"
+Birdie.Speak "__bionic_open_tzdata: couldn't find any tzdata when looking for localtime!"
+Birdie.Speak "__bionic_open_tzdata: couldn't find any tzdata when looking for GMT!"
+Birdie.Speak "local is [en_GB]"
+Birdie.Speak "stage is []"
+Birdie.Speak "reason is [(null)]"
+Birdie.Speak "can't open /dev/tty0: No such file or directory"
+Birdie.Speak "...}"
+Birdie.Speak "System Information:-"
+Birdie.Speak "FCC:ID MSQME370T"
+Birdie.Speak "IC 3568A-ME370T"
+Birdie.Speak "Model Nexus 7"
+Birdie.Speak "version 5.02"
+Birdie.Speak "Kernal 3.1.10-g6ff7a51"
+Birdie.Speak "Wed Dec 10 19:55:59 utc 2014"
+Birdie.Speak "Build LRX22G"
+Birdie.Speak "NB: Never been rooted & only has apps from the app store"
+Set Req = Birdie.Speak("> 60% free space.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Set Req = Gar.Speak("Nexus 7 2013 Omar Diab.")
+WaitFor Req
+Set Req = Sizlik.Speak("I don't understand what's the meaning of word Nexus")
+WaitFor Req
+Set Req = Gar.Speak("Omar Diab is trying to update the OTA (Nexus 7), and it worked successfully.")
+WaitFor Req
+Set Req = Spaceman.Speak("Omar Diab is trying to update the OTA (Nexus 7), and it worked successfully.")
+WaitFor Req
+Set Req = Robby.Speak("Omar Diab is trying to update the OTA (Nexus 7), and it worked successfully.")
+WaitFor Req
+Birdie.MoveTo 339, 201
+Set Req = Birdie.Speak("Omar Diab is trying to update the OTA (Nexus 7), and it worked successfully.")
+WaitFor Req
+Set Req = Isabella.Speak("Omar Diab is trying to update the OTA (Nexus 7), and it worked successfully.")
+WaitFor Req
+Birdie.MoveTo 407, 201
+Set Req = Birdie.Speak("Money Pack Virus (Malware) on Nexus 7, He are trying to search for removing Virus.")
+WaitFor Req
+Robby.MoveTo 353, 205
+Robby.Speak "He will try Clean Master Security."
+Set Req = Robby.Speak("After installing, Click Scan and clicking Resolve All.")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for Next, on Omar Diab's Story.")
+WaitFor Req
+Birdie.Speak "He are trying to flash Nexus 7 (2013), on Omar Diab's tablet, on Android 5, and it worked successfully."
+Birdie.Speak "His Nexus 7 has not been charging correctly recently, He managed to charge by wrapping the cord around the device."
+Set Req = Birdie.Speak("Last night, it didn't work.")
+WaitFor Req
+Set Req = Spaceman.Speak("next.")
+WaitFor Req
+Set Req = Birdie.MoveTo(452, 281)
+WaitFor Req
+Robby.MoveTo 384, 289
+Set Req = Birdie.Speak("When pulling down, the animation is laggy and jerks / stutters.")
+WaitFor Req
+Robby.Speak "Hardware issue."
+Set Req = Robby.MoveTo(322, 208)
+WaitFor Req
+Birdie.MoveTo 381, 198
+Birdie.Speak "The phone can be sitting there on any screen and the pulldown bar that appears when you pull it down to check your notifications starts blinking off and on and the display across the top of the screen blinks. It will continue this until it locks the screen although sometimes it will allow him to use the screen."
+Set Req = Birdie.Speak("he have tried powering down and it works sometimes. he have pulled the battery and it works for a while but it will again start randomly showing the gray pulldown bar that shows when you do it manually and the screen will lock and nothing on the screen will work and it has to be powered down.")
+WaitFor Req
+Robby.Play "Process"
+Robby.Play "Search"
+Set Req = Robby.Play("Suggest")
+WaitFor Req
+Birdie.Play "Read"
+Birdie.Play "Protest"
+Birdie.Speak "he is new to Samsung Captivate. When my screen is locked he see a series of symbols in the upper right corner. he see the same symbols when he pull down the notification bar, right above where it says 'No Notifications' if he don't have any."
+Set Req = Birdie.Speak("They are @@@^oe@@")
+WaitFor Req
+Set Req = Sizlik.Speak("I don't understand @@@^oe@@")
+WaitFor Req
+Set Req = Spaceman.Speak("@@@^oe@@ is the symbol of @@@^oe@@  @@@^oe@@  @@@^oe@@  @@@^oe@@ @@@^oe@@ @@@^oe@@  @@@^oe@@ @@@^oe@@")
+WaitFor Req
+Birdie.Play "ProtestReturn"
+Set Req = Birdie.Speak("He can't trace back exactly what seems to have caused this to happen on his captivate, but he was on hold and he put my phone on speaker, but he couldn't hear anything when he did that. So he turned speaker off and he could hear the music again. After hanging up the call though, he unable to get any sound out of anything on the phone. It doesn't ring, it doesn't make any notification sounds or anything. he checked his settings and all of the volumes are on. he started a call with another phone to experiment, and after muting the call he was able to get some sound on the phone app, but after hanging up he still get nothing. He restarted the phone, and it makes no sound when turning it on either.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Set Req = Birdie.Speak("His phone shuts off randomly when he playing power hungry apps like games for instance or watching a YouTube video but it does it an in instant on games. When he on the internet it takes a bit but eventually will over time, if he  texting or just on the phone itself without running apps it will not turn off usually. When it turns off it acts as if the battery was pulled out and sometimes when he start it up it instantly turns off on the boot loader then he have to pull the battery out and reinsert it and sometimes it might be at the battery level it was at or be at 2 percent!")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Set Req = Birdie.Speak("He are having problems with his power button lately. For 2 days now he can't use the power button to turn the device on or off or to lock the screen or unlock it. The only time he get the chance to use the phone is if he plug it into the charger or computer, then he get the chance to input his password.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next with jam.")
+WaitFor Req
+Set Req = Birdie.Speak("Without the power button, He seem to be trapped in recovery. He tried jamming on the volume buttons together, but this just reboots the phone again - but back into recovery. The touch sensitive buttons don't work for selections either.")
+WaitFor Req
+Set Req = Spaceman.Speak("Other devices are not having problems.")
+WaitFor Req
+Birdie.Speak "His power button is broken but he are not sure it's the power button because he somewhat opened it there is a stripped screw so the volume side doesn't come off. When he put a battery in it turns on automatically and He even removed the power button from the motherboard little power button and tried pressing that power button"
+Set Req = Birdie.Speak("His power button broke because his phone got wet, so now he can't put his phone in sleep mode or take it out of it.")
+WaitFor Req
+Set Req = Spaceman.Speak("Minecraft.")
+WaitFor Req
+Set Req = Peedy.Speak("Sometimes, When trying to get an HTC Hero, the phone turns on automatically, When it is turned on, It will turn off after getting into games or watching a video, Also when playing Minecraft, The textures stretches for a second then the phone (HTC Hero) is turned off, He tried installing CyanogenMod but no luck.")
+WaitFor Req
+Birdie.Speak "So brand new computer. test running minecraft when it creates a graphics error and shades all blocks around him into dark discolored blocks."
+Set Req = Birdie.MoveTo(1017, 33)
+WaitFor Req
+Set Req = Robby.MoveTo(271, 745)
+WaitFor Req
+Peedy.MoveTo 392, 235
+Peedy.Speak "Recently he had an game running for about an hour when suddenly the graphics went crazy."
+Peedy.Speak "everything started to flick and he couldn't make out anything on the screen."
+Peedy.Speak "He turned off the game only to find the graphics on his desktop."
+Peedy.Speak "and mousepointer to be distorted."
+Peedy.Speak "he tried rebooting the computer but the distorted graphics wouldn't go away."
+Set Req = Peedy.Speak("He even tried to change the resulotion a few times, no luck.")
+WaitFor Req
+Set Req = Genie.Speak("Only birds, Me 1")
+WaitFor Req
+Peedy.Speak "Yes, You can talk."
+Set Req = Peedy.MoveTo(459, 741)
+WaitFor Req
+Set Req = Spaceman.Speak("Genie, Birdie speak problem, You are not having the permissions, Genie.")
+WaitFor Req
+Set Req = Peedy.Speak("Wartnose has been released.")
+WaitFor Req
+Set Req = Cami.MoveTo(1286, 758)
+WaitFor Req
+Set Req = Vrgirl.MoveTo(1235, 746)
+WaitFor Req
+Set Req = Claude.MoveTo(1189, 739)
+WaitFor Req
+Set Req = Electra.MoveTo(1138, 749)
+WaitFor Req
+Set Req = Felini.MoveTo(1065, 686)
+WaitFor Req
+Set Req = Gar.MoveTo(1036, 752)
+WaitFor Req
+Set Req = Gourdy.MoveTo(942, 743)
+WaitFor Req
+Set Req = Hanz.MoveTo(847, 787)
+WaitFor Req
+Set Req = Isabella.MoveTo(763, 683)
+WaitFor Req
+Set Req = James.MoveTo(726, 686)
+WaitFor Req
+Set Req = Milton.MoveTo(683, 749)
+WaitFor Req
+Set Req = Peedy.MoveTo(615, 749)
+WaitFor Req
+Set Req = Plany.MoveTo(566, 784)
+WaitFor Req
+Set Req = Miku.MoveTo(512, 642)
+WaitFor Req
+Robby.MoveTo 465, 746
+Set Req = Robby.Speak("Add more characters.")
+WaitFor Req
+Wabbit.MoveTo 348, 687
+Wabbit.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Wabbit.Show()
+WaitFor Req
+Wartnose.MoveTo 245, 742
+Wartnose.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273003}"
+Set Req = Wartnose.Show()
+WaitFor Req
+Woo.MoveTo 277, 688
+Woo.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Woo.Show()
+WaitFor Req
+Set Req = Genie.MoveTo(449, 315)
+WaitFor Req
+Set Req = Birdie.MoveTo(1340, 736)
+WaitFor Req
+Set Req = Wartnose.Speak("Tahh. Play? Mooo, Ovie! tshh. haqa. nanj.")
+WaitFor Req
+Set Req = Gar.Play("About")
+WaitFor Req
+Set Req = Felini.Speak("Wow!")
+WaitFor Req
+Set Req = Genie.Speak("Don't speak.")
+WaitFor Req
+Set Req = Wartnose.Speak("Tahh. Play? Mooo, Ovie! tshh. haqa. nanj.")
+WaitFor Req
+Set Req = Wartnose.Speak("Tahh. Play? Mooo, Ovie! tshh. haqa. nanj.")
+WaitFor Req
+Set Req = Wartnose.Speak("Tahh. Play? Mooo, Ovie! tshh. haqa. nanj.")
+WaitFor Req
+Set Req = Wartnose.Speak("haqa. haqa. haqa. haqa. haqa. haqa. haqa.")
+WaitFor Req
+Genie.Speak "Don't speak."
+Genie.Speak "Don't speak."
+Genie.Speak "Don't speak."
+Genie.MoveTo 424, 295
+Set Req = Genie.Speak("He compressed his C drive on which he has his Windows XP OS. Now, all he is getting is 'Bootmgr is compressed press Alt+Ctrl+Del to restart'. he can't use his CD ROM on the desktop because it is broken but he did copy and paste the XP OS files from CD on to his external HD using his laptop. After copying the XP files on to his external HD, He have connected the external HD to his affected desktop via USB port and changed the first booting device to USB drive in the BIOS set-up but still getting the same 'Bootmgr is compressed press Alt+Ctrl+Del to restart' message.")
+WaitFor Req
+Set Req = Birdie.MoveTo(591, 150)
+WaitFor Req
+Set Req = Genie.MoveTo(1337, 742)
+WaitFor Req
+Set Req = Birdie.MoveTo(424, 328)
+WaitFor Req
+Set Req = Spaceman.Speak("We are all tired!")
+WaitFor Req
+Set Req = Sizlik.Play("Exit")
+WaitFor Req
+Set Req = Spaceman.Hide()
+WaitFor Req
+Set Req = Sizlik.Play("Intro")
+WaitFor Req
+Set Req = Wartnose.Hide()
+WaitFor Req
+Set Req = Woo.Play("Exit")
+WaitFor Req
+Wabbit.MoveTo 348, 685
+Set Req = Wabbit.Hide()
+WaitFor Req
+Set Req = Miku.Play("Hiding")
+WaitFor Req
+Set Req = Plany.Hide()
+WaitFor Req
+Set Req = Peedy.Hide()
+WaitFor Req
+Set Req = Milton.Hide()
+WaitFor Req
+Set Req = James.Hide()
+WaitFor Req
+Isabella.Play "Copyright"
+Isabella.MoveTo 7, -9
+Set Req = Isabella.Play("Copyright")
+WaitFor Req
+Set Req = Hanz.Hide()
+WaitFor Req
+Set Req = Gourdy.Hide()
+WaitFor Req
+Set Req = Gar.Hide()
+WaitFor Req
+Set Req = Miku.Play("Hiding")
+WaitFor Req
+Set Req = Felini.MoveTo(76, -8)
+WaitFor Req
+Set Req = Electra.Hide()
+WaitFor Req
+Set Req = Claude.Hide()
+WaitFor Req
+Set Req = Vrgirl.Hide()
+WaitFor Req
+Set Req = Cami.Hide()
+WaitFor Req
+Genie.Hide
+Genie.Show
+Set Req = Genie.Play("Search")
+WaitFor Req
+Miku.MoveTo 243, -28
+Set Req = Miku.MoveTo(177, -51)
+WaitFor Req
+Set Req = Robby.MoveTo(1013, 745)
+WaitFor Req
+Set Req = Sizlik.MoveTo(1154, 688)
+WaitFor Req
+Birdie.MoveTo 1084, 592
+Set Req = Birdie.Speak("Minecraft is got now saved.")
+WaitFor Req
+Set Req = Robby.Speak("Yeahhhhh!")
+WaitFor Req
+Set Req = Sizlik.Speak("Yeahhhhh!")
+WaitFor Req
+Set Req = Genie.Speak("Yeahhhhh!")
+WaitFor Req
+Set Req = Isabella.Speak("We are remaining")
+WaitFor Req
+Felini.MoveTo 79, -12
+Set Req = Felini.Speak("We are remaining")
+WaitFor Req
+Miku.MoveTo 182, -56
+Set Req = Miku.Speak("We are remaining")
+WaitFor Req
+Set Req = Robby.Speak("Internet Connections.")
+WaitFor Req
+Birdie.Speak "Forgot to pull the plug during the thunderstorm and Windows XP won't start."
+Birdie.Speak "When trying to fail safe mode, files seems to load as usual."
+Set Req = Birdie.Speak("The computer is halted and the cursor is blinking at the upper left corner. Later we will talk about this.")
+WaitFor Req
+Set Req = Birdie.Speak("Exit Now, Minecraft saved.")
+WaitFor Req
+Set Req = Birdie.Speak("We have saved our world! Coming soon at News 30!")
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

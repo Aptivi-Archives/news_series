@@ -1,0 +1,426 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Al=Al.acs
+Alien=Alien.acs
+Audie=Audie.acs
+Billg=Billg.acs
+Birdie=Birdie.acs
+Blanche=Blanche.acs
+Bonzi=Bonzi.acs
+Cami=Cami.acs
+Cathie=Cathie.acs
+Debbie=Debbie.acs
+Charlie=Charlie.acs
+Electra=Electra.acs
+Felini=Felini.acs
+Galaxygirl=Galaxygirl.acs
+Cupid=Cupid.acs
+Jack=Jack.acs
+Sizlik=Sizlik.acs
+Isabella=Isabella.acs
+Joe=Joe.acs
+James=James.acs
+Milton=Milton.acs
+Miku=Miku.acs
+Marge=Marge.acs
+Oscar=Oscar.acs
+Ozzar=Ozzar.acs
+Plany=Plany.acs
+Santa=Santa.acs
+Spaceman=Spaceman.acs
+Merlin=Merlin.acs
+Robby=Robby.acs
+Peedy=Peedy.acs
+Genie=Genie.acs
+Gourdy=Gourdy.acs
+
+[LanguageIDs]
+Al=&H409
+Alien=&H409
+Audie=&H409
+Billg=&H409
+Birdie=&H409
+Blanche=&H409
+Bonzi=&H409
+Cami=&H409
+Cathie=&H409
+Debbie=&H409
+Charlie=&H409
+Electra=&H409
+Felini=&H409
+Galaxygirl=&H409
+Cupid=&H409
+Jack=&H409
+Sizlik=&H409
+Isabella=&H409
+Joe=&H409
+James=&H409
+Milton=&H409
+Miku=&H409
+Marge=&H409
+Oscar=&H409
+Ozzar=&H409
+Plany=&H409
+Santa=&H409
+Spaceman=&H409
+Merlin=&H409
+Robby=&H409
+Peedy=&H409
+Genie=&H409
+Gourdy=&H409
+
+[Script]
+Al.MoveTo 1348, 747
+Al.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Al.Show
+Al.Speak "Three short stories, and the rest is long stories."
+Set Req = Al.Hide()
+WaitFor Req
+Alien.MoveTo 1344, 753
+Alien.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Alien.Show()
+WaitFor Req
+Audie.MoveTo 1268, 749
+Audie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Audie.Show()
+WaitFor Req
+Billg.MoveTo 1186, 707
+Billg.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Billg.Show()
+WaitFor Req
+Birdie.MoveTo 695, 335
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Birdie.Show()
+WaitFor Req
+Blanche.MoveTo 1130, 684
+Blanche.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Blanche.Show()
+WaitFor Req
+Bonzi.MoveTo 1060, 722
+Bonzi.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Bonzi.Show()
+WaitFor Req
+Cami.MoveTo 1036, 752
+Cami.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Cami.Show()
+WaitFor Req
+Cathie.MoveTo 955, 684
+Cathie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Cathie.Show()
+WaitFor Req
+Debbie.MoveTo 906, 686
+Debbie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Debbie.Show()
+WaitFor Req
+Charlie.MoveTo 820, 709
+Charlie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Charlie.Show()
+WaitFor Req
+Electra.MoveTo 722, 743
+Electra.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Electra.Show()
+WaitFor Req
+Felini.MoveTo 645, 682
+Felini.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273007}"
+Set Req = Felini.Show()
+WaitFor Req
+Galaxygirl.MoveTo 524, 755
+Galaxygirl.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Galaxygirl.Show()
+WaitFor Req
+Cupid.MoveTo 0, 29
+Cupid.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Cupid.Show()
+WaitFor Req
+Jack.MoveTo 601, 645
+Jack.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Jack.Show()
+WaitFor Req
+Sizlik.MoveTo 18, 687
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Sizlik.Show()
+WaitFor Req
+Set Req = Galaxygirl.MoveTo(182, 756)
+WaitFor Req
+Jack.MoveTo 600, 747
+Set Req = Jack.Speak("I was about to tell you to go away, Galaxy Girl.")
+WaitFor Req
+Set Req = Galaxygirl.Speak("OK.")
+WaitFor Req
+Isabella.MoveTo 512, 680
+Isabella.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Isabella.Show()
+WaitFor Req
+Joe.MoveTo 457, 751
+Joe.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Joe.Show()
+WaitFor Req
+James.MoveTo 396, 686
+James.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = James.Show()
+WaitFor Req
+Milton.MoveTo 342, 746
+Milton.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Milton.Show()
+WaitFor Req
+Miku.MoveTo 1315, 3
+Miku.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Miku.Show()
+WaitFor Req
+Marge.MoveTo 1186, 39
+Marge.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Marge.Show()
+WaitFor Req
+Oscar.MoveTo 1092, 57
+Oscar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Oscar.Show()
+WaitFor Req
+Ozzar.MoveTo 1032, 55
+Ozzar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Ozzar.Show()
+WaitFor Req
+Plany.MoveTo 942, 93
+Plany.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Plany.Show()
+WaitFor Req
+Santa.MoveTo 850, 38
+Santa.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Santa.Show()
+WaitFor Req
+Spaceman.MoveTo 137, 113
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Spaceman.Show()
+WaitFor Req
+Merlin.MoveTo 788, 57
+Merlin.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Merlin.Show()
+WaitFor Req
+Robby.MoveTo 728, 55
+Robby.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273006}"
+Set Req = Robby.Show()
+WaitFor Req
+Peedy.MoveTo 638, 57
+Peedy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Peedy.Show()
+WaitFor Req
+Genie.MoveTo 221, 67
+Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Genie.Show()
+WaitFor Req
+Set Req = Birdie.Speak("Merlin is hired as staff for being the earliest to go to News.")
+WaitFor Req
+Set Req = Merlin.MoveTo(296, 68)
+WaitFor Req
+Set Req = Robby.MoveTo(794, 53)
+WaitFor Req
+Set Req = Peedy.MoveTo(712, 53)
+WaitFor Req
+Set Req = Birdie.Speak("You are next, Robby.")
+WaitFor Req
+Set Req = Robby.MoveTo(376, 63)
+WaitFor Req
+Peedy.MoveTo 776, 53
+Set Req = Peedy.Speak("We have currently 6 staffs.")
+WaitFor Req
+Set Req = Bonzi.Speak("Yes.")
+WaitFor Req
+Set Req = Cupid.Speak("Beep?")
+WaitFor Req
+Charlie.Speak "Yes"
+Set Req = Charlie.Speak("\Pit=388\OK, All listen to Birdie?")
+WaitFor Req
+Set Req = Cupid.Speak("All yes.")
+WaitFor Req
+Birdie.Speak "OK, this is my turn to speak"
+Set Req = Birdie.MoveTo(497, 340)
+WaitFor Req
+Set Req = Jack.Speak("We are all ready.")
+WaitFor Req
+Set Req = Bonzi.Speak("start .................... dong.")
+WaitFor Req
+Set Req = Cupid.Speak("Beep Bonzi.")
+WaitFor Req
+Set Req = Miku.Speak("Plany?")
+WaitFor Req
+Set Req = Plany.Speak("Yes.")
+WaitFor Req
+Set Req = Miku.Speak("Is Peedy still the member of behavior and look?")
+WaitFor Req
+Set Req = Plany.Speak("Yes")
+WaitFor Req
+Set Req = Peedy.Speak("I'm a member of behavior and look.")
+WaitFor Req
+Oscar.Speak "I'm sneezing."
+Set Req = Oscar.Play("Idle1_2")
+WaitFor Req
+Set Req = Genie.Speak("For those who are sneezing, we will exit.")
+WaitFor Req
+Set Req = Oscar.Speak("I will not be exit.")
+WaitFor Req
+Milton.MoveTo 1118, 186
+Set Req = Milton.Speak("Shrink away.")
+WaitFor Req
+Set Req = Peedy.MoveTo(710, 53)
+WaitFor Req
+Set Req = Milton.MoveTo(794, 56)
+WaitFor Req
+Set Req = James.MoveTo(309, 687)
+WaitFor Req
+Set Req = Joe.MoveTo(370, 751)
+WaitFor Req
+Gourdy.MoveTo 469, 743
+Gourdy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Gourdy.Show()
+WaitFor Req
+Set Req = Birdie.Speak("Ready News.")
+WaitFor Req
+Set Req = Cupid.Speak("All ready for this new, sorrily we will have a BSOD then PSU explosion story, we will have a thing or it will explode.")
+WaitFor Req
+Birdie.Speak "So he bought his PC to play games. Now, this issue occured at random, but is becoming more and more frequent."
+Birdie.Speak "He is playing a game and suddenly the system will lock up. The sound on his speakers making this groaning electronic noisy like you get when 2 electrical cables that are supposed to be in full contact, and a blue screen appears, with the error code 0x00000001."
+Birdie.Speak "Once the PC has shutdown, the fans will spin, but the PC does nothing. After turning the PC off by holding down the power button, he turn it back on, only to find the fans spin, but nothing happens. (Hard drive, DVD Drive, graphics card, etcetera do not do anything)."
+Birdie.Speak "The confusing part is, if he leaves the PC alone for a few hours, and turn it back on, the BIOS appears, resets everything, and works again, until the next BSOD."
+Birdie.Speak "He highly doubt this is a PSU problem, as he used to have a GTS250 1GB running on it, but that randomly stopped working completely."
+Birdie.Speak "After every incident, his PC performs slower and slower, and takes ages for the login screen to appear."
+Set Req = Birdie.Speak("He has tested his RAM, swapped extension cables, wall sockets, monitor, and switched graphics cards, but the problem still persists.")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Birdie.MoveTo 629, 349
+Birdie.Speak "I am standing in the middle of the screen."
+Birdie.Speak "This past weekend his 2 month old rig went into a BSOD loop just as he was loading a save in Endless Legend, just as the Windows logo appears onscreen, he's greeted with errors like 'page fault in non-paged area', 'memory management', 'irql not less or equal', 'system exception not handled' or a generic error page saying he may have driver issues."
+Birdie.Speak "He did some research in various threads and most of them pointed to faulty RAM or even faulty slots."
+Birdie.Speak "Following their advice, he ran memtest and windows memory diagnostics and none of them showed any errors."
+Birdie.Speak "Just to be on the safe side he bought an additional kit and tested the stability of the PC. It did fine for about half an hour but eventually it went into a BSOD loop again, then he updated his Motherboard BIOS to no avail."
+Birdie.Speak "At this point, he suspected a driver issue but he's not an expert on driver utilities so the easier way for him to discard this would be to wipe the SSD and install Windows again."
+Birdie.Speak "Using a CD the process ran fine up until 49% when it crashed yet again, making it impossible to finish the installation as it booted into the same error message that he had to restart in order to continue."
+Birdie.Speak "He booted into a spare HDD with the same OS, and to his surprise the BSOD loop dissapeared, so he used the pc normally for two hours and it remained perfectly stable."
+Birdie.Speak "Using disk management, he quick-formatted the SDD and installed Windows normally with zero problems."
+Birdie.Speak "He's installed Nvidia and motherboard drivers, Malware Bytes antivirus and updated Windows and apparently the problem was solved... It has a BSOD again! He was greeted by page fault in non-paged area."
+Birdie.Speak "Two hours into browsing the web and he doesn't know what else to do. It seems stable now but the issue is still there."
+Set Req = Birdie.Speak("His elimination process has ruled out RAM, PSU, CPU, GPU and driver issues. He suspects that he either needs to send his motherboard to warranty or his SDD has some issue he's yet to discover.")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for the third story")
+WaitFor Req
+Set Req = Gourdy.Speak("We will talk about PSU!")
+WaitFor Req
+Birdie.Speak "So he had a Molex-to-SATA cable connector that exploded and now looks like it has been burnt and his hard drive now looks like it's burnt."
+Birdie.Speak "He is pretty sure that the problem was the Molex adapter. He had it for a few years, but after it exploded, he learned online that it's a fairly common problem."
+Birdie.Speak "So he replaced the Molex-to-SATA and SATA cables, and he had a spare internal hard drive laying around."
+Birdie.Speak "The spare internal HD had problems before (CrystalDiskInfo gave it a 'Caution' indicator), and he later learned that it was probably because the fan in front of it was too dusty."
+Birdie.Speak "So after removing the drive, he had it sitting on a table for a few weeks. And now, he used it to replace the HD with the black powder underneath it. He immediately tested it in CrystalDiskInfo, which said it was 'Good' now, perhaps because there was no more dust problems."
+Birdie.Speak "After the new internal HD was running in the computer for a few hours, it suddenly blue screened with a\Map=""Kernel Data In Page Error,""=""'KERNEL_DATA_INPAGE_ERROR',""\usually indicating a problem reading from the hard drive. And now he couldn't read it from after testing it on another computer, so it was definitely dead."
+Birdie.Speak "Next news."
+Birdie.Speak "He had his computer run MemTest86 while he was away and when he returned home, his computer was in this state:"
+Birdie.Speak "So he tried to turn off his computer (power button or reset button) but nothing happened so he turned off the PSU."
+Birdie.Speak "While the PSU was off he pressed the power button for a while. Then he turned on the PSU and pressed the power button."
+Birdie.Speak "He heard the 'boom' and saw a spark coming from his PSU!"
+Set Req = Birdie.Speak("The computer never gave any sign of life again (except of the power LED). No fans spinning (case fan just tries to). Not even beeps. The case even shocked him when he touched it while the PSU was on power.")
+WaitFor Req
+Set Req = James.Speak("We are all ready for next news for a very long story.")
+WaitFor Req
+Birdie.Speak "The computer freezes randomly when he browse, watch a movie, program, do simple actions"
+Birdie.Speak "The freezes are random. Also, if there is sound in the background before the freeze, the last sound that was heard continues to repeat. The sound stutters, it loops like one millisecond of the last sound heard."
+Birdie.Speak "He get no BSOD and no error message whatsoever."
+Birdie.Speak "When he press the restart button, the computer does not restart immediately but continues with the frozen screen and looping sound for about 5 seconds then the computer shuts down completely and after 5 seconds it powers on by itself!!!!!!"
+Birdie.Speak "The computer does not only freeze when using an operating system. It freezes during the BIOS as well sometimes, requiring hard restart and restarts the same way."
+Birdie.Speak "Memtest found errors in one stick after 4 hours of testing, but the problem persisted even without that stick."
+Birdie.Speak "He has tested the other stick for 4 hours and it had no errors and also Memtest freezes."
+Birdie.Speak "The time will freeze, the test will stop progressing and the only thing changing is the blinking red plus in the top left corner. Everything else is frozen. This requires a restart."
+Birdie.Speak "About 4 months ago, there was a blackout in his street, and his PSU exploded."
+Birdie.Speak "He doesn't remember the brand but he knows that it was a 500W PSU. The tech from the PC store installed a new Codegen 450W PSU."
+Birdie.Speak "The problems started about 3-4 weeks after that."
+Birdie.Speak "He tried to solve the freezing problem on his own for almost 4 months but he couldn't do it, so he gave his PC to the tech support guys."
+Birdie.Speak "After a week of testing they couldn't figure out the problem (they said they needed more time), but he had to take it back because he has some projects to do until the beginning of June."
+Birdie.Speak "He told the tech guys that he thinks it is a PSU issue, but they told him that there is no way this could be PSU related."
+Set Req = Birdie.Speak("The freezes are completely random. For example, the system can be stable for a whole week, and the next day, he can't even reach the login screen because of the freezes in the BIOS.")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Birdie.MoveTo 739, 345
+Birdie.Speak "So this morning he turned on his computer, but the computer booted by itself."
+Birdie.Speak "He usually have to hit a power button on the computer to start its boot sequence, but whenever he turned on the power strip this morning, the computer automatically booted without him even touching it so he let it boot and he got system power is low."
+Birdie.Speak "He pressed F1 and it booted to the home screen, totally fine."
+Birdie.Speak "Then, he realized his WindowBlinds wouldn't load so he set it back to normal Windows XP theme."
+Birdie.Speak "Then, he looked at the time and it reads 9/13/2003. This obviously means that the computer forgot the time so the 'failing CMOS battery' lit up in his head."
+Birdie.Speak "He already looked for batteries and a conventional 3-V CR2032 coin cell battery came up."
+Birdie.Speak "He also listened to the PSU to make sure nothing had blown. There were no rattles or scent of smoke so that's good."
+Birdie.Speak "So he tried to conserve the most amount of energy as possible by turning off the wireless card just for good measure."
+Set Req = Birdie.Speak("He's running his anti-virus programs. He ran Avira AntiVir this morning, and Malwarebytes right now, then Spybot S&D later.")
+WaitFor Req
+Set Req = Milton.Speak("We are ready for next for actual PSU explosion stories.")
+WaitFor Req
+Birdie.Speak "Just built a new PC... The PSU made a loud bang and a flash of light after running for about 10 seconds!"
+Birdie.Speak "Everything looks OK inside but he's fairly sure it's dead."
+Birdie.Speak "He plugged it in with a paper clip in it and it emitted a weird hissing noise. Now on two of his older power supplies there is a switch in the back which is set to 115v and they work fine."
+Birdie.MoveTo 705, 369
+Birdie.Speak "He added the RAM first, and it worked like a charm."
+Birdie.Speak "Then the video card came the second day and it worked."
+Birdie.Speak "Day 2."
+Birdie.Speak "He turned on his computer and he got a BSOD"
+Birdie.Speak "few of greetings:"
+Birdie.Speak "1. PAGE FAULT IN NONPAGED AREA"
+Birdie.Speak "2. NTFS.sys"
+Birdie.Speak "3. IRQL_NOT_LESS_OR_EQUAL"
+Set Req = Birdie.Speak("He pressed the power button, and it started whirling and it got so loud.")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Birdie.MoveTo 753, 350
+Birdie.Play "LookLeft"
+Birdie.Play "LookRight"
+Birdie.Play "LookLeft"
+Birdie.Play "LookLeftReturn"
+Birdie.Speak "He was replacing a 500W iMicro power supply in his system with a brand new Corsair CX600m that he bought from Tigerdirect. The system was hooked up to a brand new Belkin surge protector also, with no storms present."
+Birdie.Speak "He pressed the power button on the case, nothing happened, then about 5 seconds later, two loud pops come from the Corsair power supply and he saw 2 sparks coming from the fan on it."
+Birdie.Speak "He instantly turned off the power supply, unplugged it, and removed it from his case. To ensure no other parts were lost, he reinstalled the cheap 3-year-old iMicro power supply and everything booted fine."
+Set Req = Birdie.Speak("He double checked that everything was installed correctly before powering on the Corsair, so he is unsure of what happened. The only difference between the PSUs is that the Corsair is more wattage and modular.")
+WaitFor Req
+Set Req = Genie.Speak("Last one.")
+WaitFor Req
+Birdie.Speak "About 4 days ago, he's brought his system to his PC shop because his CPU apperantly died after 10 days, these were new parts and he RMA'd his system and they found out the CPU needed replacement, which they did."
+Birdie.Speak "But they also did cable management and cleaned out his PSU apperantly, with airdusters and they said they removed chunks of dust from it and that it's now clean again, this PSU he's had for about 4 years now, never had issues with it and worked just fine, up until today."
+Birdie.Speak "He was playing a game when suddenly his screen turned off and he heard several pops coming out of his case, about four of them."
+Birdie.Speak "His front case fans were like flicking, sort-of until his fuse in his house blew and everything was powered down."
+Birdie.Speak "When he replaced the fuse, he tried again, re-plugging the PSU and turn the system back on, followed up by another 'pop' sound and the new fuse blew once more."
+Birdie.Speak "He replaced the fuse, but he left the PC unplugged."
+Birdie.Speak "Now, he bought a CPU, motherboard, SSD and RAM about 12 days ago from the web shop he ordered it on, however the PSU, as well as his GPU and HDD are not from there."
+Birdie.Speak "He is really worried that his other components are fried as he think that definately the PSU died for some odd reason on him today, he is not sure if the shop is to blame when they cleaned out his PSU."
+Set Req = Birdie.Speak("There are no burn marks, he doesn't think on the motherboard, he haven't opened the case as he has called the shop and will bring his whole system to them tomorrow so they can figure it out, though the PSU definately needs replacing.")
+WaitFor Req
+Set Req = Joe.Speak("Longer Story?")
+WaitFor Req
+Set Req = Alien.Speak("Yes!")
+WaitFor Req
+Birdie.Speak "His computer began having some odd problems in the last few weeks."
+Birdie.Speak "On startup, the screen would return a useless flicker that would go away upon reset, then during use, the screen would go black, the ethernet card and hard drive would start functioning wildly, and then the system would either go into a low power state (only the CPU and graphics card fans would be running) or reboot."
+Birdie.Speak "This failure used to take 10 to 30 minutes before it would happen, but at the end the system would shut itself down after only 2 or 3. Now it won't start at all."
+Birdie.Speak "Before the total failure, he ran HD and memory check utilities, and received clean results."
+Birdie.Speak "He checked his error logs and found only a few minor errors, mostly related to software and not unusual compared to what was returned on the other systems in his house."
+Birdie.Speak "He had cleaned the registry with CCleaner, but most of the issues were with lost extensions."
+Birdie.Speak "He swapped out his graphics card, but that had no effect (he took the flickering to be a graphics issue at first)."
+Birdie.Speak "He's changed the power plug from his APC power strip to the wall, but no effect."
+Birdie.Speak "Now when he start the system the fans on the power supply, CPU and graphics board are the only signs of life."
+Birdie.Speak "No FDD whirring, no HDD startup, no lights on the CD. Power LEDs on the front bezel, motherboard and ethernet card are lit."
+Birdie.Speak "Using a multimeter, he checked the voltages to the drives and got the 12 and 5 V he expected. He pulled the MB connector and got readings on two pins (5 and 3.3)."
+Birdie.Speak "He stripped the system of its ethernet, sound and memory chips and tried to startup, but same result."
+Birdie.Speak "He thought it was a heat issue at first because the problem escalated the longer the computer was on, so he had the door off for the final few days and the room's ambient temperature was 58°\Map=""Fahrenheit.""=""F""\"
+Birdie.Speak "Dust was blown out of all the nooks and crannies. He even pulled the Motherboard battery to test that it was delivering the correct voltage."
+Birdie.Speak "He's either guessing this is either a motherboard that's fried, or there's a voltage issue from the PSU that's not apparent until the system starts to boot."
+Birdie.Speak "If he had the equipment to benchtest the motherboard in another system, he'd do that (same with the PSU), but it just might be time to stop throwing money at an old system."
+Birdie.Speak "Specs: SuperMicro 370SSE, Pentium 3, 516MB in a relatively new Allied case (AL-c400 ATX PSU)."
+Birdie.Speak "The computer was built using parts cobbled together from a few older systems and some parts from online sources, and has been completely stable for at least two years."
+Birdie.Speak "He was running Windows XP Home, and since it was his 10 year old daughter's computer, it didn't handle anything more strenuous than The Sims and Webkinz World."
+Birdie.Speak "Oddly enough the motherboard's speaker connector is not compatible with the case's connection, so he doesn't have that valuable piece of information available. He never got hung up when booting up."
+Birdie.Speak "The system finally died for the last time when he started it in Safe Mode."
+Birdie.Speak "He started Windows in Safe Mode and everything worked fine until few minutes later it crashed and couldn't power on again."
+Birdie.Speak "Exit now."
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

@@ -1,0 +1,114 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Gar=Gar.acs
+Genie=Genie.acs
+James=James.acs
+Santa=Santa.acs
+Sizlik=Sizlik.acs
+Spaceman=Spaceman.acs
+Birdie=Birdie.acs
+
+[LanguageIDs]
+Gar=&H409
+Genie=&H409
+James=&H409
+Santa=&H409
+Sizlik=&H409
+Spaceman=&H409
+Birdie=&H409
+
+[Script]
+Gar.MoveTo 629, 745
+Gar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Gar.Show()
+WaitFor Req
+Genie.MoveTo 1261, 92
+Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Genie.Show()
+WaitFor Req
+James.MoveTo 364, 682
+James.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = James.Show()
+WaitFor Req
+Santa.MoveTo 1318, 723
+Santa.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Santa.Show()
+WaitFor Req
+Sizlik.MoveTo 1046, 680
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Sizlik.Show()
+WaitFor Req
+Spaceman.MoveTo 923, 778
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Spaceman.Show()
+WaitFor Req
+Set Req = Genie.Speak("Other news")
+WaitFor Req
+Set Req = James.Speak("Computer Explosions")
+WaitFor Req
+Set Req = Gar.Speak("On Tom's Hardware")
+WaitFor Req
+Set Req = Spaceman.Speak("What is?")
+WaitFor Req
+Set Req = James.Speak("Tom's hardware is the website that indicated that users has Windows Problems, will post?")
+WaitFor Req
+Set Req = Sizlik.Speak("Yeah!! Yes")
+WaitFor Req
+Set Req = Santa.Speak("I advertised you")
+WaitFor Req
+Sizlik.Play "Angry"
+Set Req = Sizlik.Speak("\Pit=354\\Spd=190\Don't Advertise My Friend")
+WaitFor Req
+Set Req = Gar.Speak("Hey!!")
+WaitFor Req
+Set Req = Spaceman.Speak("What you would do with kids?")
+WaitFor Req
+Set Req = Sizlik.Speak("Windows-ize him")
+WaitFor Req
+Genie.Speak "We will wait for opening the website"
+Set Req = Genie.Speak("Can I search it?")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes")
+WaitFor Req
+Birdie.MoveTo 418, 349
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Birdie.Show
+Birdie.Speak "So his PSU exploded the other day."
+Birdie.Speak "The brand was Alpine and He has it from Ebay."
+Set Req = Birdie.Speak("When he research cheap PSUS, He saw warnings about them and decide to stress test his GFX card as he was getting info for new case.")
+WaitFor Req
+Set Req = Genie.Speak("Page 2, Birdie")
+WaitFor Req
+Set Req = Sizlik.Speak("What is Boom-Boom!! Boom!!")
+WaitFor Req
+Set Req = James.Speak("Shotgun")
+WaitFor Req
+Birdie.Speak "All of sudden Boom-Boom!! Boom!! three bangs that sounded like Shotgun accompained by a blue flash for each bang."
+Birdie.Speak "He thought This is end of his computer upon further inspection, only the PSU has gone and the rest of the components worked fine (He know how lucky he are)."
+Set Req = Birdie.Speak("So now he know not to give his PC cheap tat from Ebay and always go with premium brands.")
+WaitFor Req
+Set Req = Gar.Speak("What is Tat?")
+WaitFor Req
+Santa.Speak "Nothing"
+Set Req = Santa.Hide()
+WaitFor Req
+Birdie.MoveTo 393, 229
+Set Req = Birdie.Speak("His power supply exploded for unknown reason, other components worked fine...from what he guess from the photo, it look like a fuse exploded for him, can he send for warranty to be replaced?")
+WaitFor Req
+Set Req = Sizlik.Speak("I know that is yes")
+WaitFor Req
+Birdie.MoveTo 394, 320
+Set Req = Birdie.Speak("OK.")
+WaitFor Req
+Set Req = Spaceman.Speak("Exit News?")
+WaitFor Req
+Genie.Speak "Yes"
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

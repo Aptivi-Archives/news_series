@@ -1,0 +1,267 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Genie=Genie.acs
+Hanz=Hanz.acs
+Max=Max.acs
+James=James.acs
+Joe=Joe.acs
+Milton=Milton.acs
+Marge=Marge.acs
+Oscar=Oscar.acs
+Ozzar=Ozzar.acs
+Cami=Cami.acs
+Debbie=Debbie.acs
+Peedy=Peedy.acs
+Plany=Plany.acs
+Robby=Robby.acs
+Sizlik=Sizlik.acs
+Spaceman=Spaceman.acs
+Birdie=Birdie.acs
+
+[LanguageIDs]
+Genie=&H409
+Hanz=&H409
+Max=&H409
+James=&H409
+Joe=&H409
+Milton=&H409
+Marge=&H409
+Oscar=&H409
+Ozzar=&H409
+Cami=&H409
+Debbie=&H409
+Peedy=&H409
+Plany=&H409
+Robby=&H409
+Sizlik=&H409
+Spaceman=&H409
+Birdie=&H409
+
+[Script]
+Genie.MoveTo 1319, 737
+Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Genie.Show
+Genie.Speak "News 19, Hello."
+Genie.Speak "I love so many of these stories."
+Genie.Speak "Plus the PSU Exploded."
+Genie.Speak "Do we need to dodge it?"
+Genie.Speak "Scramble it?"
+Genie.Speak "Melt it?"
+Genie.Speak "Eat it?"
+Genie.Speak "Play it?"
+Genie.Speak "Charge it?"
+Genie.Speak "or play with the computer?"
+Genie.Speak "Where's many people?"
+Genie.Speak "I'm alone."
+Set Req = Genie.Speak("So, This remaining story is speaking Birdie.")
+WaitFor Req
+Hanz.MoveTo 1237, 783
+Hanz.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Hanz.Show()
+WaitFor Req
+Max.MoveTo 1128, 743
+Max.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Max.Show
+Max.Speak "Not even this story is less long."
+Set Req = Max.Speak("Loud bang?")
+WaitFor Req
+Set Req = Hanz.Speak("Yes.")
+WaitFor Req
+James.MoveTo 1050, 686
+James.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+James.Show
+Set Req = James.Speak("Flow!")
+WaitFor Req
+Set Req = Genie.Speak("Go! Go!!")
+WaitFor Req
+Joe.MoveTo 969, 753
+Joe.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Joe.Show()
+WaitFor Req
+Milton.MoveTo 910, 750
+Milton.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Milton.Show()
+WaitFor Req
+Marge.MoveTo 792, 721
+Marge.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Marge.Show()
+WaitFor Req
+Oscar.MoveTo 695, 742
+Oscar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Oscar.Show()
+WaitFor Req
+Ozzar.MoveTo 636, 743
+Ozzar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Ozzar.Show()
+WaitFor Req
+Cami.MoveTo 565, 754
+Cami.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Cami.Show()
+WaitFor Req
+Debbie.MoveTo 466, 682
+Debbie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Debbie.Show()
+WaitFor Req
+Peedy.MoveTo 407, 749
+Peedy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Peedy.Show()
+WaitFor Req
+Plany.MoveTo 369, 777
+Plany.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Plany.Show()
+WaitFor Req
+Robby.MoveTo 280, 743
+Robby.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273006}"
+Set Req = Robby.Show()
+WaitFor Req
+Sizlik.MoveTo 0, 687
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Sizlik.Show()
+WaitFor Req
+Spaceman.MoveTo 176, 780
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Spaceman.Show()
+WaitFor Req
+Birdie.MoveTo 1180, 37
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Birdie.Show
+Birdie.Speak "That's it... Genie."
+Birdie.MoveTo 358, 233
+Birdie.MoveTo 353, 177
+Set Req = Birdie.Speak("Hi guys!?")
+WaitFor Req
+Spaceman.Speak "Hello guys?"
+Set Req = Spaceman.Speak("How are you?")
+WaitFor Req
+Set Req = Sizlik.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Robby.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Plany.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Peedy.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Debbie.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Cami.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Ozzar.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Oscar.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Marge.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Milton.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Joe.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = James.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Max.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Hanz.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Genie.Speak("Hello, Fine.")
+WaitFor Req
+Set Req = Spaceman.Speak("Listen to Birdie?")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes.")
+WaitFor Req
+Set Req = Robby.Speak("Me too.")
+WaitFor Req
+Set Req = Plany.Speak("Me too.")
+WaitFor Req
+Set Req = Peedy.Speak("Me too.")
+WaitFor Req
+Set Req = Debbie.Speak("Me too.")
+WaitFor Req
+Set Req = Cami.Speak("Me too.")
+WaitFor Req
+Set Req = Ozzar.Speak("Me too.")
+WaitFor Req
+Set Req = Oscar.Speak("Me too.")
+WaitFor Req
+Set Req = Marge.Speak("Me too.")
+WaitFor Req
+Set Req = Joe.Speak("Me too.")
+WaitFor Req
+Set Req = James.Speak("Me too.")
+WaitFor Req
+Set Req = Max.Speak("Me too.")
+WaitFor Req
+Set Req = Hanz.Speak("Me too.")
+WaitFor Req
+Set Req = Genie.Speak("Me too.")
+WaitFor Req
+Set Req = Milton.Speak("Me too.")
+WaitFor Req
+Birdie.Speak "Start!!"
+Birdie.Speak "After a couple days in September 2013 of playing his computer, after turning his computer off, it blew up about half of hour whilst turned off."
+Birdie.Speak "He got the brand new PSU sent out and never put it in my case until March 2014."
+Birdie.Speak "He was using an Antec 1200 with an 850w PSU because he thought since his new PSU blew up, He will buy a new case to put the new AX1200i in it. Which brings him to March 2014 with his 750D."
+Birdie.Speak "For two weeks has been great, cool temperatures and performance flowing."
+Birdie.Speak "Started playing Titanfall and really enjoying it."
+Set Req = Birdie.Speak("Turned off his computer to watch television for a bit and then a loud band coming from his PSU (after 20 minutes of being off), and new PSU has exploded.")
+WaitFor Req
+Genie.Speak "Ginwods?"
+Set Req = Genie.Speak("Tell me you said it after say Birdie This thing happens in safe mode. again.")
+WaitFor Req
+Set Req = Milton.Speak("Wow, looks like Pyret Enetr ot too$ ot Ginwods HX Ophsaltig Sy^t#m!.")
+WaitFor Req
+Set Req = Ozzar.Speak("Yes.")
+WaitFor Req
+Set Req = James.Speak("Desktop, looks like Ym Retupmoc, Rjckpsr Bni or Hy Gneteofl Panse!.")
+WaitFor Req
+Oscar.Speak "Yes"
+Oscar.Play "Surprised"
+Set Req = Oscar.Play("SurprisedReturn")
+WaitFor Req
+Birdie.MoveTo 340, 314
+Birdie.Speak "His family has a laptop that BSOD after a decade of use [multimedia, World of Warcraft]."
+Birdie.Speak "It came with indication lights and documentation claimed it was a RAM issue."
+Birdie.Speak "We tried refitted the RAM, and also the video card but to no avail."
+Set Req = Birdie.Speak("Relatives sent us appopriate RAM upgrades, but still no progress.")
+WaitFor Req
+Set Req = Debbie.Speak("Relatives is the vocabulary word from 2nd graders. (I think it is Grade 2).")
+WaitFor Req
+Birdie.Speak "Bought a new PC that following Christmas, leaving this to gather dust."
+Birdie.Speak "He grow into Tech and started toying and learning more [optimizing windows XP, Vista, 7] about the laptops, and PCs we have sitting around."
+Birdie.Speak "Upon further inspection of the Dell he found 2 blown capacitors near the CPU."
+Birdie.Speak "They have a Pinky-finger nail measurement of corrosion - or otherwise orange gunk built up on top of them."
+Birdie.Speak "He started the game or any game, it crashed the computer, No error / no freezing / etc."
+Birdie.Speak "Before all this, it was able to run any and all the games smoothly, He could play Skyrim set to high, with a couple of things turned down, like occlusion, water effects turned down some and the draw distance reduced to medium."
+Set Req = Birdie.Speak("Last 3-4 months, His computer seems the performance of his computer are reducing to a state where even loading into any game's menu is capable of causing a crash.")
+WaitFor Req
+Set Req = Robby.Speak("Statue of News 13 is Sphinx.")
+WaitFor Req
+Set Req = Plany.Speak("What is sphinx?")
+WaitFor Req
+Set Req = Spaceman.Speak("Sphinx means the statue of Luxor.")
+WaitFor Req
+Set Req = Sizlik.Speak("What is the meaning of the word Luxor?")
+WaitFor Req
+Set Req = Peedy.Speak("Luxor means it's game of the computer.")
+WaitFor Req
+Set Req = Oscar.Speak("We don't love Luxor, We don't love Luxor!")
+WaitFor Req
+Set Req = Marge.Speak("Luxority of this News and News 10.")
+WaitFor Req
+Milton.Speak "and also News 15 and 5."
+Set Req = Milton.Speak("Exit.")
+WaitFor Req
+Set Req = Spaceman.Speak("Exit News?")
+WaitFor Req
+Peedy.Speak "Yes."
+Set Req = Peedy.Play("Confused")
+WaitFor Req
+Milton.Speak "This news is interesting."
+Milton.Speak "So let's exit."
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

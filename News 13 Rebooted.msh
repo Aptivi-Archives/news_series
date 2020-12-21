@@ -1,0 +1,486 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Al=Al.acs
+Alien=Alien.acs
+Birdie=Birdie.acs
+Cami=Cami.acs
+Check=Check.acs
+Claude=Claude.acs
+Electra=Electra.acs
+Gar=Gar.acs
+Genie=Genie.acs
+Gourdy=Gourdy.acs
+Joe=Joe.acs
+Oscar=Oscar.acs
+Ozzar=Ozzar.acs
+Plany=Plany.acs
+Peedy=Peedy.acs
+Robby=Robby.acs
+Sizlik=Sizlik.acs
+Spaceman=Spaceman.acs
+Totem=Totem.acs
+Wartnose=Wartnose.acs
+James=James.acs
+Merlin=Merlin.acs
+
+[LanguageIDs]
+Al=&H409
+Alien=&H409
+Birdie=&H409
+Cami=&H409
+Check=&H409
+Claude=&H409
+Electra=&H409
+Gar=&H409
+Genie=&H409
+Gourdy=&H409
+Joe=&H409
+Oscar=&H409
+Ozzar=&H409
+Plany=&H409
+Peedy=&H409
+Robby=&H409
+Sizlik=&H409
+Spaceman=&H409
+Totem=&H409
+Wartnose=&H409
+James=&H409
+Merlin=&H409
+
+[Script]
+Al.MoveTo 1344, 747
+Al.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Al.Show()
+WaitFor Req
+Alien.MoveTo 1256, 752
+Alien.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Alien.Show()
+WaitFor Req
+Birdie.MoveTo 675, 194
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Birdie.Show
+Set Req = Birdie.Speak("A new character will come after this News.")
+WaitFor Req
+Set Req = Alien.Speak("Who is it?")
+WaitFor Req
+Set Req = Birdie.Speak("You will see by yourself.")
+WaitFor Req
+Cami.MoveTo 1197, 753
+Cami.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Cami.Show
+Set Req = Cami.Speak("I just heard there's a new character.")
+WaitFor Req
+Set Req = Birdie.Speak("Yes, but next News.")
+WaitFor Req
+Set Req = Alien.MoveTo(1281, 752)
+WaitFor Req
+Cami.MoveTo 1227, 753
+Set Req = Cami.Speak("OK.")
+WaitFor Req
+Check.MoveTo 1162, 745
+Check.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Check.Show()
+WaitFor Req
+Claude.MoveTo 1091, 739
+Claude.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Claude.Show()
+WaitFor Req
+Electra.MoveTo 1037, 746
+Electra.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Electra.Show()
+WaitFor Req
+Set Req = Claude.Speak("What about E-man and E-woman?")
+WaitFor Req
+Birdie.Speak "They can't come now."
+Set Req = Birdie.Speak("They are busy")
+WaitFor Req
+Set Req = Claude.Speak("OK.")
+WaitFor Req
+Gar.MoveTo 975, 751
+Gar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Gar.Show()
+WaitFor Req
+Genie.MoveTo 911, 742
+Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Genie.Show()
+WaitFor Req
+Gourdy.MoveTo 831, 742
+Gourdy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Gourdy.Show()
+WaitFor Req
+Joe.MoveTo 718, 747
+Joe.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Joe.Show()
+WaitFor Req
+Oscar.MoveTo 663, 745
+Oscar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Oscar.Show()
+WaitFor Req
+Ozzar.MoveTo 606, 744
+Ozzar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Ozzar.Show()
+WaitFor Req
+Plany.MoveTo 540, 784
+Plany.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Plany.Show()
+WaitFor Req
+Peedy.MoveTo 450, 745
+Peedy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Peedy.Show()
+WaitFor Req
+Robby.MoveTo 408, 745
+Robby.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273006}"
+Set Req = Robby.Show()
+WaitFor Req
+Sizlik.MoveTo 19, 684
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Sizlik.Show()
+WaitFor Req
+Spaceman.MoveTo 185, 787
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Spaceman.Show()
+WaitFor Req
+Totem.MoveTo 301, 734
+Totem.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273003}"
+Set Req = Totem.Show()
+WaitFor Req
+Wartnose.MoveTo 266, 745
+Wartnose.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273003}"
+Set Req = Wartnose.Show()
+WaitFor Req
+Set Req = Birdie.Speak("If you haven't noticed, you will notice that we will have a new character.")
+WaitFor Req
+Set Req = Al.Play("Clap")
+WaitFor Req
+Set Req = Alien.Play("COOL")
+WaitFor Req
+Set Req = Cami.Play("Congratulate")
+WaitFor Req
+Set Req = Claude.Play("Congratulate")
+WaitFor Req
+Set Req = Electra.Play("Congratulate")
+WaitFor Req
+Gar.Play "Congratulate"
+Set Req = Gar.Play("CongratulateReturn")
+WaitFor Req
+Set Req = Genie.Play("Congratulate")
+WaitFor Req
+Set Req = Oscar.Play("Congratulate")
+WaitFor Req
+Set Req = Ozzar.Play("Congratulate")
+WaitFor Req
+Set Req = Plany.Play("Congratulate")
+WaitFor Req
+Set Req = Peedy.Play("Congratulate")
+WaitFor Req
+Set Req = Robby.Play("Congratulate")
+WaitFor Req
+Set Req = Wartnose.Play("Fart")
+WaitFor Req
+Set Req = Spaceman.Play("Taxi")
+WaitFor Req
+Set Req = Al.Speak("Congratulations to your new character Birdie!")
+WaitFor Req
+Set Req = Alien.Speak("Congratulations to your new character Birdie!")
+WaitFor Req
+Set Req = Cami.Speak("Congratulations to your new character Birdie!")
+WaitFor Req
+Set Req = Check.Speak("Congratulations to your new character Birdie!")
+WaitFor Req
+Set Req = Claude.Speak("Congratulations to your new character Birdie!")
+WaitFor Req
+Set Req = Electra.Speak("Congratulations to your new character Birdie!")
+WaitFor Req
+Set Req = Gar.Speak("Congratulations to your new character Birdie!")
+WaitFor Req
+Set Req = Genie.Speak("Congratulations to your new character Birdie!")
+WaitFor Req
+Set Req = Gourdy.Speak("Congratulations to your new character Birdie!")
+WaitFor Req
+Set Req = Joe.Speak("Congratulations to your new character Birdie!")
+WaitFor Req
+Set Req = Oscar.Speak("Congratulations to your new character Birdie!")
+WaitFor Req
+Set Req = Ozzar.Speak("Congratulations to your new character Birdie!")
+WaitFor Req
+Set Req = Plany.Speak("Congratulations to your new character Birdie!")
+WaitFor Req
+Set Req = Peedy.Speak("Congratulations to your new character Birdie!")
+WaitFor Req
+Set Req = Robby.Speak("Congratulations to your new character Birdie!")
+WaitFor Req
+Set Req = Totem.Speak("Congratulations to your new character Birdie!")
+WaitFor Req
+Set Req = Spaceman.Speak("Congratulations to your new character Birdie!")
+WaitFor Req
+Set Req = Sizlik.Speak("Congratulations to your new character Birdie!")
+WaitFor Req
+Set Req = Wartnose.Speak("Discongratulations to your new character Birdie!")
+WaitFor Req
+Set Req = Spaceman.Speak("Who congratulated wrong?")
+WaitFor Req
+Set Req = Ozzar.Speak("Monster")
+WaitFor Req
+Set Req = Peedy.Speak("Monster")
+WaitFor Req
+Set Req = Spaceman.Speak("OK, We will exit Wartnose.")
+WaitFor Req
+Set Req = Wartnose.Hide()
+WaitFor Req
+James.MoveTo 255, 686
+James.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+James.Show
+Set Req = James.Speak("Hello, Spaceman")
+WaitFor Req
+Set Req = Spaceman.Speak("Hello")
+WaitFor Req
+Birdie.Speak "Thanks to everyone!"
+Birdie.Speak "Let's talk about News."
+Birdie.MoveTo 452, 332
+Birdie.Speak "He recently purchased a new power-supply for his gaming PC. If he plays a match of Battlefield 3 or any other game his PSU starts to make loud cycle sounds and the temps feel a little too hot."
+Set Req = Birdie.Speak("For example, he can play Battlefield 3 on Medium Settings and can get 60-80+ FPS, but he can definitely hear a loud motor sound from either his PSU or CPU.")
+WaitFor Req
+Set Req = James.Speak("Ready for next")
+WaitFor Req
+Birdie.Speak "Last night, his computer made an explosion clap, almost like when a PSU blows. It had a blue flash but strangely enough no smoke. His UPS kicked in and everything went off."
+Set Req = Birdie.Speak("This morning he turned on the UPS and the Computer and everything turned on perfectly. He did full diagnostic on all the components and even benched the PC to see if there was damage, but it's fast and stable.")
+WaitFor Req
+Set Req = Ozzar.Speak("Next")
+WaitFor Req
+Birdie.Speak "He's getting a periodic electronic buzzing sound, lasting less than a second and occurring usually about every 5-8 seconds with his month old custom build."
+Birdie.Speak "It does not sound mechanical, it is not very loud, and everything seems to be running properly as far as voltages and temps go."
+Set Req = Birdie.Speak("He's been running Skyrim and Diablo 3 with no problem, but it is little distracting.")
+WaitFor Req
+Set Req = James.Speak("Next")
+WaitFor Req
+Birdie.Speak "He recently bought the Cooler Master Silent Pro M2 720W PSU. This power supply is advertised to come with 4x 6+2 PCI-E connectors. His two Radeon HD 6950 GPUs takes two 6 pins each, requiring him to connect all four PCI-E connectors that came with the PSU."
+Set Req = Birdie.Speak("However, it appears that he instead got two 6+2 connectors and two 8 pin connectors. The 8 pin connector doesn't appear to be a 6+2, only a solid 8 pin, which does not fit into his graphics cards.")
+WaitFor Req
+Set Req = Claude.Speak("Ready for next")
+WaitFor Req
+Birdie.Speak "He's having problems with his graphics card. Whenever he runs something in 3D mode, the computer freezes and the display says 'no signal detected'. It happens in all types of games, even the ones that ran before extremely smoothly and are not much demanding."
+Birdie.Speak "He started with checking all the other components in diagnostics software and had no problems until selected 3D Graphics option. Then he changed the thermal paste and vacuumed everything. Nothing changed."
+Birdie.Speak "Running the cooler on max speed doesn't change anything either."
+Set Req = Birdie.Speak("He has cleaned all drivers and installed the newest ones. He also has installed a new Win Vista x64 to be sure. Doesn't work.")
+WaitFor Req
+Set Req = Sizlik.Speak("Next")
+WaitFor Req
+Birdie.Speak "After playing Battlefield for 30 min, his computer shuts down and won't start up again."
+Birdie.Speak "He systematically checked his components and found that when he disconnected his GPU from the PSU (6 pin) his computer starts but without the graphics."
+Birdie.Speak "He puts the GPU in his friend's computer with a 750W PSU and his computer wouldn't start either. so he knows that his Gigabyte Radeon HD 6850 is broken."
+Set Req = Birdie.Speak("He built the computer brand new a day ago and the same day it breaks.")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "He started to upgrade his desktop, He has an ATI radeon 4650 which he replaced with a GTX 560 Ti and everything was running just fine when just yesterday he finally received his phenom II x4 black edition which he upgraded from a Athlon II x2."
+Set Req = Birdie.Speak("He started up his PC got on BF3 and about 40 mins there is sparks!")
+WaitFor Req
+Set Req = Plany.Speak("Ready for next")
+WaitFor Req
+Birdie.Speak "Recently he bought XFX ATI Radeon HD 6950 2GB. After finding out that he needed another 6 pin from the PSU he went and got an adapter with female and male molex connections."
+Birdie.Speak "He connected up both molex from different wires and started up his PC and played max payne for a while on max to test it out."
+Birdie.Speak "After about 10 mins of playing it got quite hot and before he could do anything about it, it popped twice really loudly and cut out!"
+Set Req = Birdie.Speak("He examined everything and found that the PSU had blown just from the smell it gave off.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Set Req = Birdie.Speak("His PSU 1200W is exploded, maybe not exploded like in big boom and nothing left, but when he turned it on there was a loud spark sound and some fire out of the back from it.")
+WaitFor Req
+Set Req = Totem.Speak("Ready for next")
+WaitFor Req
+Birdie.Speak "He has a problem with a computer that has important information stored on the hard drive, but not backed up on any other hard drive so he would really like to get it working."
+Birdie.Speak "He cannot get it to boot up. When he hits the power switch, the motherboard lights flash on and the fans start to spin for about a split second like it's trying to boot, then they go off and everything goes silent."
+Birdie.Speak "There are no POST beeps, the keyboard and mouse don't power on. It's like the system is dead."
+Birdie.Speak "All this happened after he replaced his old power supply today which had been showing signs of dying the last couple weeks, and now his computer no longer powers on with either the new or old power supply."
+Birdie.Speak "At first he thought the problem was a broken power switch, but he tried manually powering on the computer by shorting the positive and negative power switch pins on the motherboard and the result is the same as pressing the power switch button."
+Set Req = Birdie.Speak("He then thought maybe the new power supply, a Rosewill RD500, was incompatible with the motherboard, an Abit KN9 since the motherboard was designed years before the new power supply. To test that out, he puts the old power supply back and tried to boot up, but still nothing happened.")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "He put his rig together being careful to protect against ESD etc."
+Birdie.Speak "Upon hitting the power button the only thing he get is a flash from one of his LED case fans and then nothing. If he hit the power button after this initial flash nothing happens at all."
+Birdie.Speak "If he unplug the power cable from PSU (or flip the breaker on his surge protector), plug it back in, and hit the button again he will get the same flash of light from his fan. Same deal as before."
+Set Req = Birdie.Speak("He has checked and rechecked his cables and connections to no avail.")
+WaitFor Req
+Set Req = Peedy.Speak("Next.")
+WaitFor Req
+Set Req = Birdie.Speak("Shrink for Marlin.")
+WaitFor Req
+Set Req = Al.MoveTo(1353, 746)
+WaitFor Req
+Set Req = Alien.MoveTo(1296, 753)
+WaitFor Req
+Set Req = Cami.MoveTo(1245, 751)
+WaitFor Req
+Set Req = Check.MoveTo(1191, 745)
+WaitFor Req
+Set Req = Claude.MoveTo(1148, 742)
+WaitFor Req
+Set Req = Electra.MoveTo(1093, 745)
+WaitFor Req
+Set Req = Gar.MoveTo(1041, 755)
+WaitFor Req
+Set Req = Genie.MoveTo(977, 741)
+WaitFor Req
+Set Req = Gourdy.MoveTo(903, 745)
+WaitFor Req
+Set Req = Joe.MoveTo(798, 754)
+WaitFor Req
+Set Req = Oscar.MoveTo(750, 749)
+WaitFor Req
+Set Req = Ozzar.MoveTo(704, 744)
+WaitFor Req
+Set Req = Plany.MoveTo(651, 785)
+WaitFor Req
+Merlin.MoveTo 529, 747
+Merlin.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Merlin.Show()
+WaitFor Req
+Set Req = Wartnose.Show()
+WaitFor Req
+Set Req = Spaceman.Speak("Go away or I'll kill you")
+WaitFor Req
+Set Req = Wartnose.Hide()
+WaitFor Req
+Set Req = Merlin.MoveTo(560, 747)
+WaitFor Req
+Set Req = Peedy.MoveTo(476, 744)
+WaitFor Req
+Set Req = Robby.MoveTo(425, 745)
+WaitFor Req
+Birdie.Speak "He just finished his very first build the other night. He used the Seasonic x750 gold PSU."
+Birdie.Speak "He first assembled it out of the case to test everything and it all worked like a charm."
+Birdie.Speak "Then, he assembled everything into the case and got to the final step of plugging the PSU back in and powering it on."
+Birdie.Speak "He plugged the PSU in then when he flipped the PSU from off to on it sparked, crackled, and threw some smoke."
+Set Req = Birdie.Speak("He has it a few minutes and decided to try to just power the whole rig and it booted up like a charm and it is still running fine.")
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "He's having a problem with the home-built computer he put together today."
+Birdie.Speak "He plugged in the machine and hit the power button, and nothing happened."
+Birdie.Speak "The only way he can even tell that his computer is actually assembled is because the motherboard LEDs light up when power is flowing to it and when he hit the power button on the computer, it shows a split-second light-up on the power LED then goes back to off."
+Set Req = Birdie.Speak("The power supply fan never moves, nor does it light up. He read some articles on troubleshooting this, and they said basically that either the plugs aren't in all the way or that the power supply is dead, so he re-plugged everything in......... and nothing changed.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "Recently his computer started locking up at various points."
+Birdie.Speak "During games, random windows fails, on boot-up."
+Birdie.Speak "He noticed that his power supply felt really warm."
+Set Req = Birdie.Speak("Just trying something random, he unplugged his secondary hard drive thinking that if it had too much power drawn from the power supply that could be causing it to fail. Now his computer works great and the power supply runs cool.")
+WaitFor Req
+Set Req = Merlin.Speak("We are all ready for the next story.")
+WaitFor Req
+Birdie.Speak "In the last week he has had two power supplies burn out!"
+Birdie.Speak "The first one was a Topower TOP-650PM which he purchased in August. He assumed that because the PSU was not good quality to begin with that this was normal, so he plugged in his Ultra V Series ULT-350P......... and it lasted for only a week before it also burned out!"
+Birdie.Speak "Each time he plugged one of the power supplies in, they made an electric buzzing noise that increased in sound when more RAM was being used!"
+Birdie.Speak "The first power supply did this for about two months, but it eventually stopped making noise until it burned out four months later!"
+Set Req = Birdie.Speak("The second power supply made the same noise, and he thought nothing of it since the last one did the same thing. However, after only a week, and no change to the sound, the first power supply unit burned out!")
+WaitFor Req
+Set Req = Spaceman.Speak("Next.")
+WaitFor Req
+Birdie.Speak "He recently built a Custom Built PC for a family member, this PC has been working fine since April which was when he built the machine, the PC is just used for basic stuff like surfing the web, watching films etc."
+Birdie.Speak "However today they contacted him saying that the PC had Just randomly shut down/powered off during watching a movie and he found it odd that the PSU had just shut down during watching a movie."
+Birdie.Speak "At this moment, he is trying to fix this machine and the PSU will just not power the computer on!"
+Birdie.Speak "The PSU is a pretty decent brand of Enlight has 26Amps total: 12v (1)15Amps 12v(2) 11Amps & also 350w PSU should have been more than enough for a system with a Pentium G620 & integrated Graphics."
+Set Req = Birdie.Speak("He has tried to power up the system with a spare cheap PSU and the machine powers up fine but he doesn't want to use that PSU as it is pretty rubbish.")
+WaitFor Req
+Set Req = James.Speak("Next")
+WaitFor Req
+Birdie.Speak "He ordered some new computer hardware to update his system a few weeks ago. After receiving everything, he hooked it all up and attempt to power it on. Nothing happened."
+Birdie.Speak "He checked everything over and made sure it was all hooked up correctly. He tested the board on the box it came in outside the case. Slowly removed parts to see if that was the issue. Still nothing (no LEDs, beeps, fans)."
+Birdie.Speak "Basically the only thing he pulled over from his old PC is the power supply and graphics card. Power supply was working days before he pulled it all apart in preparation for the new parts."
+Birdie.Speak "He figured he just received a DOA board and he sent the motherboard and CPU back to Newegg to use their RMA."
+Birdie.Speak "They sent the new items back to him and he hooked everything up for a second time and it's the same issue."
+Birdie.Speak "He doesn't really think its possible that they could have sent him two mobo's that are DOA."
+Birdie.Speak "Then, he started thinking that it is the power supply. He has researched ways to check the PSU and he used the paper clip test."
+Birdie.Speak "It passes the test but the fan does not seem to spin strongly and it is not moving much air."
+Set Req = Birdie.Speak("His old mobo was a 4 pin connector and the new one is an 8 pin.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "His computer is unstable when running any 3D applications. He has narrowed this problem down to the power supply. He tested each memory module individually, and they all appear to work without any issue. Everything is fine."
+Birdie.Speak "He plugged his old Enlight 300W Power Supply into his new motherboard, powering only the CD-RW drive, the motherboard, the graphics card, and two hard drives."
+Birdie.Speak "It ran the 3DMARK2001 benchmark 8 times in a row without a hitch. However, when he plugged his Antec TRU430 back in, with all components, it began to crash again in 3D apps."
+Birdie.Speak "Hey Peedy, talk about news."
+Set Req = Birdie.Hide()
+WaitFor Req
+Set Req = Peedy.MoveTo(455, 336)
+WaitFor Req
+Set Req = Robby.MoveTo(479, 744)
+WaitFor Req
+Set Req = Totem.MoveTo(342, 732)
+WaitFor Req
+Set Req = James.MoveTo(291, 687)
+WaitFor Req
+Wartnose.Show
+Set Req = Wartnose.Speak("Go away or I will kill you")
+WaitFor Req
+Set Req = Peedy.Speak("Wartnose? You are causing trouble.")
+WaitFor Req
+Wartnose.MoveTo 264, 745
+Wartnose.Speak "That's it. I am going to tell my story."
+Wartnose.MoveTo 469, 330
+Set Req = Wartnose.Speak("Go away")
+WaitFor Req
+Set Req = Peedy.Speak("No")
+WaitFor Req
+Set Req = Wartnose.Speak("That's it. I'm going to kill you.")
+WaitFor Req
+Spaceman.MoveTo 368, 358
+Spaceman.Play "Fire"
+Set Req = Spaceman.Speak("You're fired. You'll never come back after News 14 Rebooted.")
+WaitFor Req
+Wartnose.Speak "Nooooooooooooooooooooooooooooooooooooooooooo!"
+Set Req = Wartnose.Hide()
+WaitFor Req
+Set Req = Spaceman.MoveTo(198, 788)
+WaitFor Req
+James.MoveTo 281, 686
+Set Req = James.Speak("Wartnose is gone.")
+WaitFor Req
+Set Req = Spaceman.Speak("He is gone and will never come back after News 14 Rebooted.")
+WaitFor Req
+Set Req = Peedy.Speak("Good, because he is about to kill everyone.")
+WaitFor Req
+Set Req = Spaceman.Speak("OK. Tell your story.")
+WaitFor Req
+Peedy.Speak "He's currently in the process of building a new computer. Today he received his power supply, and now it's not working."
+Peedy.Speak "He hasn't got his memory or CPU yet, but he wanted to test the power supply, just to make sure it worked like they said."
+Peedy.Speak "He did the paperclip trick by shorting the green wire to the black wire. Powered up just fine. However, when he tried it a second time, he accidentally touched the green wire to the blue wire. Now, he's getting no response."
+Set Req = Peedy.Speak("When he tries to power it on, it takes about 10 seconds to start, flickers on for a second, then......... He can see the LEDs on the fan fade!")
+WaitFor Req
+Set Req = Genie.Speak("Only birds, me 1.")
+WaitFor Req
+Set Req = Peedy.Speak("Yes, you can talk.")
+WaitFor Req
+Genie.Speak "Yeahhh!"
+Set Req = Genie.MoveTo(406, 333)
+WaitFor Req
+Set Req = Peedy.MoveTo(962, 746)
+WaitFor Req
+Genie.Speak "He was getting 'SCSI Command Aborted' and 'Power Calibration Error' messages in Nero when trying to burn DVD or CD on one of his two drives."
+Genie.Speak "Built-in XP burning software reported errors as well."
+Genie.Speak "Someone suggested that his power supply wasn't robust enough and that he should unplug a peripheral."
+Genie.Speak "Sure enough, if he unplug his CD-RW he can get the DVD+R to burn just fine."
+Genie.Speak "Plug the CD-RW back in and the problem returns."
+Genie.Speak "He was also getting the burning error messges when I had only one cooling fan running (before installation of the two auxillary fans)."
+Set Req = Genie.Hide()
+WaitFor Req
+Merlin.MoveTo 411, 350
+Merlin.Speak "If he tried to connect one or both of his two auxilary fans directly to the motherboard with those 3-pin connectors, he cannot get power to the motherboard."
+Merlin.Speak "He hits the switch and the power comes on and quickly shuts down."
+Merlin.Speak "If, however, he connect the fan to a 4-pin connector directly to the power supply and not to the motherboard itself, the fans work fine and he can get power to the motherboard."
+Set Req = Merlin.MoveTo(556, 748)
+WaitFor Req
+Birdie.Show
+Birdie.Speak "After making the upgrade to the E8400 he has had problems booting to BIOS on several occasions. Most of the time the BIOS settings won't recognize the bus speed at 340 MHz (x9) and will set it at 133 MHz. When he changes it back to the default, everything runs smoothly. Later we will talk about this."
+Birdie.Speak "Exit now."
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

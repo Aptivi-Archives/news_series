@@ -1,0 +1,128 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Ben=Ben.acs
+Billg=Billg.acs
+Imp=Imp.acs
+Joe=Joe.acs
+Rebecca=Rebecca.acs
+Sam=Sam.acs
+Sizlik=Sizlik.acs
+Spaceman=Spaceman.acs
+Gourdy=Gourdy.acs
+Genie=Genie.acs
+Merlin=Merlin.acs
+
+[LanguageIDs]
+Ben=&H409
+Billg=&H409
+Imp=&H409
+Joe=&H409
+Rebecca=&H409
+Sam=&H409
+Sizlik=&H409
+Spaceman=&H409
+Gourdy=&H409
+Genie=&H409
+Merlin=&H409
+
+[Script]
+Ben.MoveTo 625, 705
+Ben.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Ben.Show()
+WaitFor Req
+Billg.MoveTo 857, 704
+Billg.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Billg.Show()
+WaitFor Req
+Imp.MoveTo 730, 746
+Imp.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Imp.Show()
+WaitFor Req
+Joe.MoveTo 798, 749
+Joe.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Joe.Show()
+WaitFor Req
+Rebecca.MoveTo 588, 743
+Rebecca.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Rebecca.Show()
+WaitFor Req
+Sam.MoveTo 503, 746
+Sam.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Sam.Show()
+WaitFor Req
+Sizlik.MoveTo 370, 684
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Sizlik.Show()
+WaitFor Req
+Spaceman.MoveTo 238, 787
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Spaceman.Show()
+WaitFor Req
+Gourdy.MoveTo 961, 741
+Gourdy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Gourdy.Show()
+WaitFor Req
+Genie.MoveTo 1274, 55
+Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Genie.Show
+Set Req = Genie.Speak("Other news.")
+WaitFor Req
+Set Req = Ben.Speak("Welcome to News 22!")
+WaitFor Req
+Set Req = Joe.Speak("Can you find Tom's Hardware, Genie?")
+WaitFor Req
+Genie.Speak "Yes."
+Genie.Speak "Go!"
+Set Req = Genie.Speak("We will arrive Google.com")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes, Yeah!")
+WaitFor Req
+Set Req = Ben.Speak("There is something wrong with Linux.")
+WaitFor Req
+Genie.Speak "Searched, now problems."
+Set Req = Genie.MoveTo(1046, 744)
+WaitFor Req
+Merlin.MoveTo 643, 329
+Merlin.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Merlin.Show
+Merlin.Play "Explain"
+Merlin.Speak "His PSU Exploded due to a power surge, but the strange thing was that the PC was connected to a power surge protector."
+Set Req = Merlin.Speak("He was just wondering if there is any way to test if any of his PC components are fried.")
+WaitFor Req
+Set Req = Joe.Speak("Wow, your news very good!")
+WaitFor Req
+Set Req = Rebecca.Speak("Wow, your news very good!")
+WaitFor Req
+Set Req = Spaceman.Speak("Wow, your news very good!")
+WaitFor Req
+Merlin.Speak "He had a corsair cx500m for 8 months and it blew up. He ordered a new EVGA G2 550 PSU and connected everything, checked the cpu 4 pin was connected etc."
+Merlin.Speak "When he powered on the PSU, the motherboard light is working fine, but if he press the case power button, he gets a blue flash for a split second and then nothing. Fans doesn't start or anything."
+Set Req = Merlin.Speak("He's tried just booting with 1 stick of RAM snd just the motherboard, CPU and GPU, but still nothing. He's tried reseating everything")
+WaitFor Req
+Set Req = Joe.Speak("Next!")
+WaitFor Req
+Merlin.Speak "He was running a game, and his computer turned off and he heard a tasing noise coming from the back of the computer/outlet area. A burnt smell and smoke was around the outlet, and his computer didn't turn on."
+Merlin.Speak "As soon as he plugged the PC into the wall, he could hear 2 clicking noises from the PSU until taking it out/back into the wall."
+Set Req = Merlin.Speak("After taking out the graphics card, his PC could boot and he could run integrated graphics. 2 Monitors and his PC were plugged into a power surge protected brick and all outlets still work.")
+WaitFor Req
+Set Req = Gourdy.Speak("Last one")
+WaitFor Req
+Merlin.MoveTo 641, 333
+Merlin.Speak "He bought a used stick of RAM and installed it today, which seemed fine at first."
+Merlin.Speak "Then, his Firefox began crashing. When he tried downloading and installing a game, the installation bugged and kept repeating over and over after reaching 100%."
+Merlin.Speak "It eventually failed the installation but he tried again as he troubleshoot the issue. Eventually, during the middle of another repeated installation cycle, he got a BSOD."
+Merlin.Speak "PFN_LIST_CORRUPT"
+Merlin.Speak "Assuming it was his RAM, he did a diagnostic and removed the faulty stick."
+Merlin.Speak "He now have his original healthy 8gb and everything seems to be fine, but he's worried about any possible damage the strange repeating installations did along with the BSOD."
+Set Req = Merlin.Speak("One strange thing that happened afterwards was his headset audio drivers stopped working correctly, but could be unrelated.")
+WaitFor Req
+Sam.Speak "Goodbye news."
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

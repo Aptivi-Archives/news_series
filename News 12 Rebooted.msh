@@ -1,0 +1,239 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Alien=Alien.acs
+Blanche=Blanche.acs
+Cathie=Cathie.acs
+Debbie=Debbie.acs
+Cupid=Cupid.acs
+Eman=Eman.acs
+Ewoman=Ewoman.acs
+Gar=Gar.acs
+Genie=Genie.acs
+Isabella=Isabella.acs
+James=James.acs
+Joe=Joe.acs
+Marge=Marge.acs
+Miku=Miku.acs
+Oscar=Oscar.acs
+Sizlik=Sizlik.acs
+Spaceman=Spaceman.acs
+Wartnose=Wartnose.acs
+Santa=Santa.acs
+Birdie=Birdie.acs
+
+[LanguageIDs]
+Alien=&H409
+Blanche=&H409
+Cathie=&H409
+Debbie=&H409
+Cupid=&H409
+Eman=&H409
+Ewoman=&H409
+Gar=&H409
+Genie=&H409
+Isabella=&H409
+James=&H409
+Joe=&H409
+Marge=&H409
+Miku=&H409
+Oscar=&H409
+Sizlik=&H409
+Spaceman=&H409
+Wartnose=&H409
+Santa=&H409
+Birdie=&H409
+
+[Script]
+Alien.MoveTo 1341, 751
+Alien.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Alien.Show()
+WaitFor Req
+Blanche.MoveTo 1247, 683
+Blanche.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Blanche.Show()
+WaitFor Req
+Cathie.MoveTo 1193, 683
+Cathie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Cathie.Show()
+WaitFor Req
+Debbie.MoveTo 1141, 685
+Debbie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Debbie.Show()
+WaitFor Req
+Cupid.MoveTo 1053, 705
+Cupid.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Cupid.Show()
+WaitFor Req
+Eman.MoveTo 993, 742
+Eman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Eman.Show
+Ewoman.MoveTo 938, 740
+Ewoman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Ewoman.Show()
+WaitFor Req
+Gar.MoveTo 881, 752
+Gar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Gar.Show()
+WaitFor Req
+Genie.MoveTo 813, 745
+Genie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Genie.Show()
+WaitFor Req
+Isabella.MoveTo 724, 681
+Isabella.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Isabella.Show()
+WaitFor Req
+James.MoveTo 690, 686
+James.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = James.Show()
+WaitFor Req
+Joe.MoveTo 614, 752
+Joe.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Joe.Show()
+WaitFor Req
+Marge.MoveTo 488, 726
+Marge.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Marge.Show()
+WaitFor Req
+Miku.MoveTo 406, 642
+Miku.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Miku.Show()
+WaitFor Req
+Oscar.MoveTo 358, 749
+Oscar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Oscar.Show()
+WaitFor Req
+Sizlik.MoveTo 22, 686
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Sizlik.Show()
+WaitFor Req
+Spaceman.MoveTo 187, 787
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Spaceman.Show()
+WaitFor Req
+Wartnose.MoveTo 276, 740
+Wartnose.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273003}"
+Set Req = Wartnose.Show()
+WaitFor Req
+Santa.MoveTo 313, 731
+Santa.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Santa.Show()
+WaitFor Req
+Set Req = Wartnose.Speak("Shrink away or I will kill you")
+WaitFor Req
+Set Req = Oscar.MoveTo(368, 747)
+WaitFor Req
+Set Req = Miku.MoveTo(412, 641)
+WaitFor Req
+Set Req = Marge.MoveTo(499, 726)
+WaitFor Req
+Set Req = Miku.MoveTo(422, 641)
+WaitFor Req
+Set Req = Oscar.MoveTo(379, 747)
+WaitFor Req
+Set Req = Santa.MoveTo(323, 731)
+WaitFor Req
+Set Req = Wartnose.MoveTo(274, 745)
+WaitFor Req
+Birdie.MoveTo 652, 195
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Birdie.Show()
+WaitFor Req
+Set Req = Birdie.Speak("Hello guys")
+WaitFor Req
+Set Req = Sizlik.Speak("Hello")
+WaitFor Req
+Set Req = Santa.Speak("All hello")
+WaitFor Req
+Set Req = Birdie.Speak("He has Ubuntu 12.10 set to dual-boot with Windows XP.")
+WaitFor Req
+Set Req = Spaceman.Speak("All listen to Birdie?")
+WaitFor Req
+Set Req = Sizlik.Speak("Yes")
+WaitFor Req
+Set Req = Wartnose.Speak("Yes")
+WaitFor Req
+Set Req = Santa.Speak("Yes")
+WaitFor Req
+Set Req = Oscar.Speak("Yes")
+WaitFor Req
+Set Req = Miku.Speak("Yes")
+WaitFor Req
+Set Req = Marge.Speak("Yes")
+WaitFor Req
+Set Req = Joe.Speak("Yes")
+WaitFor Req
+Set Req = James.Speak("Yes")
+WaitFor Req
+Set Req = Isabella.Speak("Yes")
+WaitFor Req
+Set Req = Genie.Speak("Yes")
+WaitFor Req
+Set Req = Gar.Speak("Yes")
+WaitFor Req
+Set Req = Ewoman.Speak("Yes")
+WaitFor Req
+Set Req = Eman.Speak("Yes")
+WaitFor Req
+Set Req = Cupid.Speak("Yes")
+WaitFor Req
+Set Req = Debbie.Speak("Yes")
+WaitFor Req
+Set Req = Cathie.Speak("Yes")
+WaitFor Req
+Set Req = Blanche.Speak("Yes")
+WaitFor Req
+Alien.Speak "Yes"
+Set Req = Alien.Play("ANGEL")
+WaitFor Req
+Birdie.Speak "This morning, Ubuntu hung badly. He could move the mouse, but he couldn't do anything else. He had Google Chrome up when it hung; He couldn't click on his other tabs, he couldn't click on anything on the dash; it just didn't respond, it froze up."
+Birdie.Speak "This has happened to him twice before; the first time, he waited nearly half an hour, and it didn't unfreeze. So, he had to do a hard reboot, which worked both times."
+Birdie.Speak "So he hard rebooted again and when he turned it back on, it didn't even get to the login screen. When he tries to log into Ubuntu, it flashes an underscore cursor on a command line of sorts for a while, and then the screen goes completely dead."
+Birdie.Speak "It's possible he has a virus, but it could also be some process that broke the computer when it hard rebooted."
+Set Req = Birdie.Speak("He can still go to Windows")
+WaitFor Req
+Set Req = Ewoman.Speak("Ready for next")
+WaitFor Req
+Birdie.Speak "His PSU went bang and sparked! There is no smoky smell."
+Birdie.Speak "He has removed it and can't see anything."
+Birdie.Speak "the problem is the other fan in the middle of the PC was smoking and hot the week before. He cleaned it and it worked fine then the PSU exploded."
+Set Req = Birdie.Speak("He think it was dust build up and the volt switch at the back was changed by mistake.")
+WaitFor Req
+Marge.Speak "Next"
+Set Req = Marge.Play("Connect")
+WaitFor Req
+Birdie.Speak "He's building a new PC. He installed CPU and RAM, mounted the motherboard into the case, installed GFX card and drives and finally fitted PSU which was the stock no-name PSU labeled 400W."
+Birdie.Speak "After he checks all connections and cables, he connects the power cord to the socket and pressed the power button...... Nothing happened and just take a look inside the case he noticed the CPU fan spins for a second stops."
+Birdie.Speak "So he disconnected PC and checked connections to make sure everything is OK. He accidentally changed the PSU voltage switch from and powered on the computer again just to hear a loud bang followed by a smoke coming out of the PSU!"
+Birdie.Speak "He removed power cable from the socket and took out the PSU which was smells like burnt wood."
+Set Req = Birdie.Speak("He checked the motherboard and there is no visible damage that he can see.")
+WaitFor Req
+Set Req = Spaceman.Speak("Next")
+WaitFor Req
+Birdie.Speak "So after his first boot of his build... After 5 seconds his XFX 750W PSU makes a pop noise and smoke comes out! And everything shut off automatically."
+Set Req = Birdie.Speak("He checked the PSU and everything is fine with it. He turns back on the computer and it has been running for 3+ hours now and everything is normal.")
+WaitFor Req
+Set Req = Santa.Speak("Last one")
+WaitFor Req
+Birdie.Speak "He's had his hardware for about two years now. Everything has been running fine without a hitch when last evening, he started to smell burning plastic and he grew concerned."
+Birdie.Speak "He turned his PC off, opened it up and started blasting any dust with pressured air from all the obvious places. Being something of a computer enthusiast, his PC is relevatly clean. Still concerned, he leaves his PC off for about half an hour before turning it back on."
+Birdie.Speak "About thirty minutes later, his PC turns off. There was no pop or flash. Just a faint crackle and then off."
+Birdie.Speak "Power button does nothing. Next day, he pops over to PC World and get the GS700. He plugs that in and everything is working fine."
+Set Req = Birdie.Speak("About 5 hours later, a pop, case lights up from what he assumes is a capacitor exploding and the PC turns off.")
+WaitFor Req
+Set Req = Joe.Speak("News 12 Rebooted is end.")
+WaitFor Req
+Set Req = Spaceman.Speak("So, exit news?")
+WaitFor Req
+Set Req = Oscar.Speak("Yes")
+WaitFor Req
+Gar.Speak "Yes"
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True

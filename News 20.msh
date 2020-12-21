@@ -1,0 +1,232 @@
+[MASH Script]
+Version=7.5
+
+[Characters]
+Al=Al.acs
+Cupid=Cupid.acs
+Alien=Alien.acs
+Birdie=Birdie.acs
+Cami=Cami.acs
+Cathie=Cathie.acs
+Debbie=Debbie.acs
+Felini=Felini.acs
+Electra=Electra.acs
+Gourdy=Gourdy.acs
+Hanz=Hanz.acs
+Isabella=Isabella.acs
+Merlin=Merlin.acs
+Ozzar=Ozzar.acs
+Oscar=Oscar.acs
+Santa=Santa.acs
+Sizlik=Sizlik.acs
+Spaceman=Spaceman.acs
+Milton=Milton.acs
+James=James.acs
+
+[LanguageIDs]
+Al=&H409
+Cupid=&H409
+Alien=&H409
+Birdie=&H409
+Cami=&H409
+Cathie=&H409
+Debbie=&H409
+Felini=&H409
+Electra=&H409
+Gourdy=&H409
+Hanz=&H409
+Isabella=&H409
+Merlin=&H409
+Ozzar=&H409
+Oscar=&H409
+Santa=&H409
+Sizlik=&H409
+Spaceman=&H409
+Milton=&H409
+James=&H409
+
+[Script]
+Al.MoveTo 1315, 745
+Al.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Al.Show
+Al.Speak "Navratil System Software Information was tested by me, But it beeped whern I see the warning."
+Set Req = Al.Speak("Beep like Police Beep.")
+WaitFor Req
+Cupid.MoveTo 1178, 703
+Cupid.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Cupid.Show
+Set Req = Cupid.Speak("Beep? Navratil Software System Information Beeps?")
+WaitFor Req
+Set Req = Al.Speak("Yes. it beeps.")
+WaitFor Req
+Alien.MoveTo 1106, 754
+Alien.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Alien.Show
+Set Req = Alien.Speak("You'll beep Cupid.")
+WaitFor Req
+Cupid.Speak "I love beeps."
+Set Req = Cupid.Speak("Beep? Beep? Beeep? Beeeeeeeep?")
+WaitFor Req
+Set Req = Al.Speak("Beeeeeeeeeeeeeeeeeeeeeeeeeep, yes Claim is that X-Formula is downloaded.")
+WaitFor Req
+Set Req = Alien.Speak("X-Formula?")
+WaitFor Req
+Cupid.Speak "Yes, You can play."
+Set Req = Cupid.Speak("But beep?")
+WaitFor Req
+Set Req = Alien.Speak("Yes.")
+WaitFor Req
+Birdie.MoveTo 1041, 526
+Birdie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = Birdie.Show()
+WaitFor Req
+Cami.MoveTo 1040, 753
+Cami.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Cami.Show()
+WaitFor Req
+Cathie.MoveTo 952, 684
+Cathie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Set Req = Cathie.Show()
+WaitFor Req
+Debbie.MoveTo 891, 690
+Debbie.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273009}"
+Set Req = Debbie.Show()
+WaitFor Req
+Felini.MoveTo 819, 688
+Felini.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273007}"
+Felini.Show
+Set Req = Felini.Speak("Beep?")
+WaitFor Req
+Set Req = Cupid.Speak("Beep?")
+WaitFor Req
+Set Req = Alien.Speak("Yes.")
+WaitFor Req
+Electra.MoveTo 773, 746
+Electra.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Electra.Show()
+WaitFor Req
+Gourdy.MoveTo 698, 742
+Gourdy.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Gourdy.Show
+Set Req = Gourdy.Speak("Jack-o-Lantern.")
+WaitFor Req
+Hanz.MoveTo 594, 783
+Hanz.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Hanz.Show()
+WaitFor Req
+Isabella.MoveTo 467, 685
+Isabella.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273008}"
+Isabella.Show
+Isabella.Speak "Isabella the Kicker."
+Isabella.Play "Kick"
+Isabella.Play "Kick"
+Set Req = Isabella.Play("Kick")
+WaitFor Req
+Merlin.MoveTo 417, 749
+Merlin.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Merlin.Show()
+WaitFor Req
+Ozzar.MoveTo 337, 744
+Ozzar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Ozzar.Show()
+WaitFor Req
+Oscar.MoveTo 269, 748
+Oscar.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Oscar.Show()
+WaitFor Req
+Santa.MoveTo 203, 732
+Santa.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273002}"
+Set Req = Santa.Show()
+WaitFor Req
+Sizlik.MoveTo -6, 685
+Sizlik.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273004}"
+Set Req = Sizlik.Show()
+WaitFor Req
+Spaceman.MoveTo 140, 793
+Spaceman.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273001}"
+Set Req = Spaceman.Show()
+WaitFor Req
+Isabella.Play "Kick"
+Isabella.Speak "I kicked so."
+Set Req = Isabella.Play("Angry")
+WaitFor Req
+Birdie.Speak "No matter that your PC can explode."
+Birdie.MoveTo 468, 228
+Birdie.Speak "When he was sleeping when his computer made a loud crack."
+Birdie.Speak "Loud enough that it woke him up and scared the hell out of him."
+Birdie.Speak "It sounded like someone threw a huge rock at my window."
+Birdie.Speak "In the morning, His monitor gave him No Signal message and his computer wouldn't turn off."
+Birdie.Speak "No smoke when he turn it on now, The HDD light flickers like it's accessing the hard drive but his monitor says no signal."
+Birdie.Speak "He are going to try another video card and hope that whatever exploded was on the card but the computer is so silent when it's booting up."
+Set Req = Birdie.MoveTo(473, 116)
+WaitFor Req
+Set Req = Cupid.Speak("Unexpected Beep?")
+WaitFor Req
+Set Req = Alien.Speak("Yes, But Speak News Birdie, It is News 20.")
+WaitFor Req
+Birdie.Speak "He was playing the new copy of Halo 2 on his PC."
+Birdie.Speak "Everything is just fine until today."
+Birdie.Speak "He plug in a wired 360 controller that has problems and within the minute, His PC suddenly shuts down unexpectedly and there's a huge spark from thew back that almost gave him a heart attack, then smoke appears."
+Birdie.Speak "He turned it on then nothing! He then pry open his computer and look for signs of damage."
+Birdie.Speak "Nothing looks smoldered, cracked or burnt."
+Birdie.MoveTo 421, 320
+Birdie.Speak "His cursor jumps to random places or activates links while he are typing."
+Birdie.Speak "This happens no matter what the program He are in."
+Birdie.Speak "He had Acer Aspire 5315 and has never had this problem until withing the last month."
+Set Req = Birdie.MoveTo(365, 328)
+WaitFor Req
+Set Req = Spaceman.Speak("Ready for next.")
+WaitFor Req
+Birdie.Speak "He had a keyboard that typing wrong letters."
+Birdie.Speak "He already changed to a new keyboard - It doesn't do this all the time - but is getting more and more often that it does."
+Birdie.Speak "It is a Microsoft Keyboard - The system is Windows XP - There hasn't been spilling water on it."
+Set Req = Birdie.MoveTo(597, 254)
+WaitFor Req
+Set Req = Gourdy.Speak("What is?")
+WaitFor Req
+Set Req = Felini.Speak("Where's Milton?")
+WaitFor Req
+James.MoveTo 1346, -6
+James.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Set Req = James.Show()
+WaitFor Req
+Milton.MoveTo 1299, 55
+Milton.TTSModeID = "{CA141FD0-AC7F-11D1-97A3-006008273000}"
+Milton.Show
+Set Req = Milton.Speak("I'm stuck on the right of screen, Now it's funny.")
+WaitFor Req
+Birdie.Speak "The right half of his laptop keyboard types numbers and characters instead of letters."
+Set Req = Birdie.Speak("When he had hold the Function key, It types correctly.")
+WaitFor Req
+Cupid.Speak "News 20 is end."
+Set Req = Cupid.Play("Angry")
+WaitFor Req
+Set Req = Spaceman.Speak("Exit News?")
+WaitFor Req
+Set Req = Milton.Speak("Yes.")
+WaitFor Req
+Set Req = James.MoveTo(1226, -17)
+WaitFor Req
+Set Req = Milton.Speak("Wow, looks like Pyret Enetr ot too$ ot Ginwods HX Ophsaltig Sy^t#m!.")
+WaitFor Req
+Set Req = Ozzar.Speak("Yes.")
+WaitFor Req
+Set Req = James.Speak("Desktop, looks like Ym Retupmoc, Rjckpsr Bni or Hy Gneteofl Panse!.")
+WaitFor Req
+Set Req = Electra.Speak("Yes")
+WaitFor Req
+Oscar.Speak "Yes"
+Set Req = Oscar.Play("Surprised")
+WaitFor Req
+Set Req = Al.Speak("Can we see the image part of Windows Crazy Characters, if so, Move to me Sizlik.")
+WaitFor Req
+Set Req = Sizlik.MoveTo(1233, 537)
+WaitFor Req
+James.Speak "There's no image."
+
+[Commands]
+MenuName=MASH Menu
+ACO=Advanced Character Options|~|Advanced Character Options
+
+[CommandScript:ACO]
+AgentControl.PropertySheet.Visible = True
